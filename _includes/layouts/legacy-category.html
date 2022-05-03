@@ -1,0 +1,40 @@
+---
+layout: layouts/legacy-default
+---
+
+<div class="subnav banner">
+    <div class="container">
+        <nav class="topic-subnav" role="navigation">
+          <ul id="menu-{{ layout.slug }}" class="nav navbar-nav">
+          {% for menuitem in layout.subnav_menuitems %}
+          {% if menuitem.children %}
+            <li class="dropdown menu-{{ menuitem.slug }}">
+              <a class="dropdown-toggle" data-toggle="dropdown" data-target="#" href="#" data-proofer-ignore>{{ menuitem.name }} <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                {% for child in menuitem.children %}
+                <li class="menu-{{ child.slug }}"><a href="{% unless child.external %}{{ site.baseurl }}{% endunless %}{{ child.url }}" class="local-link">{{ child.name }}</a></li>
+                {% endfor %}
+              </ul>
+            </li>
+          {% else %}
+          <li class="menu-{{ menuitem.slug }}"><a href="{% unless menuitem.external %}{{ site.baseurl }}{% endunless %}{{ menuitem.url }}" class="local-link">{{ menuitem.name }}</a></li>
+          {% endif %}
+          {% endfor %}
+          </ul>
+        </nav>
+    </div>
+</div>
+
+<!-- adding parameter to url which passes the term slug for the cross site navigation-->
+<script type="text/javascript">
+    jQuery(function ($) {
+        var comm = '#topic={{ layout.slug }}_navigation';
+
+        $('#main a[href*="catalog.data.gov"]').add('#main a[href*="fe-data.reisys.com"]').not('#main a[href*="#topic"]').each(function () {
+          var newHref = $(this).attr('href') + comm;
+            $(this).attr('href', newHref);
+        });
+    });
+</script>
+
+{{ content }}

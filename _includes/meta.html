@@ -1,0 +1,42 @@
+{% comment %}
+You shouldn't have to edit this page very often. But if you want
+to modify some of the meta-data for the site, this is the place to do it.
+{% endcomment %}
+
+<head>
+  <!-- Basic Page Needs
+    ================================================== -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <!-- Mobile Specific Metas
+    ================================================== -->
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="320" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Title and meta description
+    ================================================== -->
+  <title>{{page.title}} - Data.gov</title>
+  <meta name="description" content="{{page.description}}" />
+  <link rel="canonical" href="{{ page.url }}" />
+  
+	<meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="{{page.title}} - Data.gov" />
+  <meta property="og:description" content="{{page.description}}" />
+  <meta property="og:url" content="{{ page.url }}" />
+  <meta property="og:site_name" content="{{ site.title }}"/>
+  {% comment %} TODO: Figure out how to add article: modified_time {% endcomment %}
+  {% comment %} TODO: Do we need a schema.json file?  {% endcomment %}
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:site" content="@{{site.twitter}}" />
+  <meta name="twitter:title" content="{{page.title}}" />
+  <meta name="twitter:description" content="{{page.description}}" />
+
+  <!-- CSS
+    ================================================== -->
+    <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
+    <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+    <link rel="stylesheet" href="{{ assetPaths['main.min.css'] }}" type="text/css" />
+</head>

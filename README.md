@@ -89,6 +89,44 @@ TODO
 
 TODO
 
+## Netlify CMS
+
+
+
+### Config
+
+The Netlify CMS can be configured in [`/admin/config.yml`](./admin/config.yml) and you will update the
+`repo` key to be your Github organization and repository name.
+
+```yml
+backend:
+  name: github
+  repo: <your-github-org>/<your-repository-name>
+  base_url: https://federalistapp.18f.gov
+  auth_endpoint: external/auth/github
+  preview_context: federalist/build
+  branch: master
+  use_graphql: true
+```
+
+### Running Locally
+
+You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
+We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
+
+> *Note: Make sure to not commit and push the config with the `backend` set for local develop to Github or
+else you will break your production site's Netlify CMS.
+
+```yml
+# Local development backend
+backend:
+  name: git-gateway
+local_backend: true
+```
+
+Once you [`/admin/config.yml`](./admin/config.yml) is set to local development, you run `npm run dev:cms` to
+serve as a development authentication server.
+
 ## How To
 
 ### Adding Collections
@@ -98,6 +136,16 @@ TODO
 ### Adding Static Data
 
 TODO
+
+### Creating links
+
+For preview links generated on the platform, we automatically set the `pathPrefix` in the [`.eleventy.js`](/.eleventy.js) file base on the `BASEURL` environment variable. We use the built-in 11ty filter for `url` to properly append the prefix path for the linked page.  When adding new links, use the following syntax:
+
+```liquid
+<a href="{{ '/myDir/' | url }}">Link to My Dir</a>
+```
+
+See the [11ty docs](https://www.11ty.dev/docs/filters/url/)
 
 ### Referencing Images
 
