@@ -1,9 +1,7 @@
 ---
-acf: []
 author: admin
 categories:
 - meta
-comment_status: open
 date: '2013-02-21T11:37:53'
 date_gmt: '2013-02-21T16:37:53'
 excerpt: '<p>While Data.gov lists its holdings at almost 400,000 datasets, the fact
@@ -12,26 +10,17 @@ excerpt: '<p>While Data.gov lists its holdings at almost 400,000 datasets, the f
   host to tools, &hellip; <a aria-describedby="post-title-42221" href="https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=42221
 id: 42221
-layout: layouts/legacy-post
 link: https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions
-meta: []
 modified: '2014-04-14T17:18:41'
 modified_gmt: '2014-04-14T21:18:41'
 permalink: /blog/one-click-and-we%E2%80%99ll-give-you-millions/
-ping_status: open
 redirect_from:
 - /meta/one-click-and-we%E2%80%99ll-give-you-millions/
 slug: uncategorized__blog__one-click-and-well-give-you-millions
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: "One Click and We\u2019ll Give You Millions"
-type: post
 ---
 ![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/IMAGE%20FINAL%2022113%20BLOG.PNG)
 

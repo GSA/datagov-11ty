@@ -1,9 +1,7 @@
 ---
-acf: []
 author: admin
 categories:
 - maritime
-comment_status: open
 date: '2016-10-19T16:00:12'
 date_gmt: '2016-10-19T20:00:12'
 excerpt: '<p>Author: Marin Kress, Research Scientist, Engineer Research and Development
@@ -12,25 +10,16 @@ excerpt: '<p>Author: Marin Kress, Research Scientist, Engineer Research and Deve
   traveling to ports in five &hellip; <a aria-describedby="post-title-23817691" href="https://www.data.gov/maritime/harvesting-grain-data/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=23817691
 id: 23817691
-layout: layouts/legacy-post
 link: https://www.data.gov/maritime/harvesting-grain-data/
-meta: []
 modified: '2016-11-29T20:14:50'
 modified_gmt: '2016-11-30T01:14:50'
 permalink: /maritime/harvesting-grain-data/
-ping_status: open
 redirect_from: []
 slug: harvesting-grain-data
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Harvesting Grain Data
-type: post
 ---
 **Author:** Marin Kress, Research Scientist, Engineer Research and Development Center, USACE
 

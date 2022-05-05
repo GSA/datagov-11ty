@@ -1,5 +1,4 @@
 ---
-acf: []
 author: anaprivette
 categories:
 - arctic
@@ -11,7 +10,6 @@ categories:
 - transportation
 - tribal-nations
 - water
-comment_status: open
 date: '2015-03-12T16:26:53'
 date_gmt: '2015-03-12T20:26:53'
 excerpt: '<p>In a continued effort to provide key datasets that support the process
@@ -21,17 +19,12 @@ excerpt: '<p>In a continued effort to provide key datasets that support the proc
   href="https://www.data.gov/climate/watertheme-adds-eight-datasets/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=16794482
 id: 16794482
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/watertheme-adds-eight-datasets/
-meta: []
 modified: '2018-10-10T11:44:39'
 modified_gmt: '2018-10-10T15:44:39'
 permalink: /climate/watertheme-adds-eight-datasets/
-ping_status: open
 redirect_from:
 - /arctic/watertheme-adds-eight-datasets/
 - /climate/arctic/watertheme-adds-eight-datasets/
@@ -50,12 +43,8 @@ redirect_from:
 - /tribal-nations/watertheme-adds-eight-datasets/
 - /water/watertheme-adds-eight-datasets/
 slug: water-theme-adds-eight-datasets
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Water Theme Adds Eight New Datasets
-type: post
 ---
 ###### 
 

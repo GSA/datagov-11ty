@@ -1,0 +1,15 @@
+{
+  "acf": [],
+  "comment_status": "open",
+  "featured_media": 0,
+  "format": "standard",
+  "layout": "layouts/post.html",
+
+  "meta": [],
+  "status": "publish",
+  "sticky": false,
+  "tags": ["posts"],
+  "template": "",
+
+  "type": "post"
+}

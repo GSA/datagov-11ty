@@ -1,8 +1,6 @@
 ---
-acf: []
 categories:
 - meta
-comment_status: open
 date: '2013-04-16T00:00:00'
 date_gmt: '2013-04-16T04:00:00'
 excerpt: "<p>By Sarah Gearen From shopping for an airline ticket to choosing a college\
@@ -11,26 +9,17 @@ excerpt: "<p>By Sarah Gearen From shopping for an airline ticket to choosing a c
   \ leaves many Americans in the &hellip; <a aria-describedby=\"post-title-42822\"\
   \ href=\"https://www.data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions\"\
   >Continued</a></p>\n"
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=42822
 id: 42822
-layout: layouts/legacy-post
 link: https://www.data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions
-meta: []
 modified: '2014-03-18T21:44:19'
 modified_gmt: '2014-03-19T01:44:19'
 permalink: /blog/innovators-using-federal-data-help-consumers-make-informed-decisions/
-ping_status: open
 redirect_from:
 - /meta/innovators-using-federal-data-help-consumers-make-informed-decisions/
 slug: uncategorized__blog__innovators-using-federal-data-help-consumers-make-informed-decisions
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Innovators Using Federal Data to Help Consumers Make Informed Decisions
-type: post
 ---
 By Sarah Gearen
 

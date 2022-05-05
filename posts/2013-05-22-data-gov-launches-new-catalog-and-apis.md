@@ -1,9 +1,7 @@
 ---
-acf: []
 author: admin
 categories:
 - meta
-comment_status: open
 date: '2013-05-22T23:24:23'
 date_gmt: '2013-05-23T03:24:23'
 excerpt: '<p>Data.gov is launching two innovations today to mark both the anniversary
@@ -13,26 +11,17 @@ excerpt: '<p>Data.gov is launching two innovations today to mark both the annive
   href="https://www.data.gov/blog/datagov-launches-new-catalog-and-apis">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=51651
 id: 51651
-layout: layouts/legacy-post
 link: https://www.data.gov/blog/datagov-launches-new-catalog-and-apis
-meta: []
 modified: '2018-10-25T11:48:35'
 modified_gmt: '2018-10-25T15:48:35'
 permalink: /blog/datagov-launches-new-catalog-and-apis/
-ping_status: open
 redirect_from:
 - /meta/datagov-launches-new-catalog-and-apis/
 slug: uncategorized__blog__datagov-launches-new-catalog-and-apis
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Data.gov Launches New Catalog and APIs
-type: post
 ---
 Data.gov is launching two innovations today to mark both the anniversary of the Digital Government Strategy and the fourth anniversary of Data.gov. First is a comprehensive listing of the [application programming interfaces](http://www.data.gov/developers/page/developer-resources) (APIs) that were released from across the federal government as part of the Digital Government Strategy. These APIs will fuel the development of new apps on everything from health, public safety, education, consumer protection, and many more topics of interest to Americans. Developers can find all the government’s APIs in one place, with links to API documentation and other resources.
 

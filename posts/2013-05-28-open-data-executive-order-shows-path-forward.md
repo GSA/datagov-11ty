@@ -1,8 +1,6 @@
 ---
-acf: []
 categories:
 - meta
-comment_status: open
 date: '2013-05-28T17:05:32'
 date_gmt: '2013-05-28T21:05:32'
 excerpt: '<p>Today, the White House is issuing a new Executive Order on Open Data&nbsp;&#8211;
@@ -11,26 +9,18 @@ excerpt: '<p>Today, the White House is issuing a new Executive Order on Open Dat
   of agency data, &hellip; <a aria-describedby="post-title-116131" href="https://www.data.gov/announcements/open-data-executive-order-shows-path-forward">Continued</a></p>
 
   '
-featured_media: 0
 format: link
 guid: http://www.data.gov/?p=116131
 id: 116131
-layout: layouts/legacy-post
 link: https://www.data.gov/announcements/open-data-executive-order-shows-path-forward
-meta: []
 modified: '2014-03-18T21:44:15'
 modified_gmt: '2014-03-19T01:44:15'
 permalink: /announcements/open-data-executive-order-shows-path-forward/
-ping_status: open
 redirect_from:
 - /meta/open-data-executive-order-shows-path-forward/
 slug: uncategorized__announcements__open-data-executive-order-shows-path-forward
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Open Data Executive Order Shows Path Forward
-type: post
 ---
 Today, the White House is issuing a new Executive Order on [Open Data](http://www.whitehouse.gov/the-press-office/2013/05/09/executive-order-making-open-and-machine-readable-new-default-government-) – one that is significantly different from the open data policies that have come before it — reflecting Sunlight’s [persistent call](https://docs.google.com/document/d/1tzv4dGic7CKXeUBuSiPBSXWpDiLhQhdC9kaq8L8WxKY/edit?usp=sharing) for stronger public listings of agency data, and demonstrating a new path forward for governments committing to open data.
 

@@ -1,5 +1,4 @@
 ---
-acf: []
 author: anaprivette
 categories:
 - arctic
@@ -12,7 +11,6 @@ categories:
 - transportation
 - tribal-nations
 - water
-comment_status: open
 date: '2015-07-28T10:10:59'
 date_gmt: '2015-07-28T14:10:59'
 excerpt: "<p>WASHINGTON,\_July 27,\_2015\_&#8211;\_The U.S. Department of Agriculture\
@@ -21,17 +19,12 @@ excerpt: "<p>WASHINGTON,\_July 27,\_2015\_&#8211;\_The U.S. Department of Agricu
   \ and consumers explore how climate change will affect their food systems. The Innovation\
   \ Challenge &hellip; <a aria-describedby=\"post-title-18174062\" href=\"https://www.data.gov/climate/microsoft-launches-innovation-challenge-around-food-resilience/\"\
   >Continued</a></p>\n"
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=18174062
 id: 18174062
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/microsoft-launches-innovation-challenge-around-food-resilience/
-meta: []
 modified: '2016-05-19T18:11:12'
 modified_gmt: '2016-05-19T22:11:12'
 permalink: /climate/microsoft-launches-innovation-challenge-around-food-resilience/
-ping_status: open
 redirect_from:
 - /arctic/microsoft-launches-innovation-challenge-around-food-resilience/
 - /climate/arctic/microsoft-launches-innovation-challenge-around-food-resilience/
@@ -52,12 +45,8 @@ redirect_from:
 - /tribal-nations/microsoft-launches-innovation-challenge-around-food-resilience/
 - /water/microsoft-launches-innovation-challenge-around-food-resilience/
 slug: microsoft-launches-innovation-challenge-around-food-resilience
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: "Microsoft Launches  \u201CInnovation Challenge\u201D around Food Resilience"
-type: post
 ---
 **WASHINGTON, July 27, 2015** – The U.S. Department of Agriculture is partnering with Microsoft to launch the “Innovation Challenge,” a competition to develop software applications that help farmers, agriculture businesses, and consumers explore how climate change will affect their food systems.
 

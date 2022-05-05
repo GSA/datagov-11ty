@@ -1,5 +1,4 @@
 ---
-acf: []
 author: anaprivette
 categories:
 - arctic
@@ -12,7 +11,6 @@ categories:
 - transportation
 - tribal-nations
 - water
-comment_status: open
 date: '2015-06-25T07:43:45'
 date_gmt: '2015-06-25T11:43:45'
 excerpt: '<p>To help communities, governments, businesses, and research institutions
@@ -22,17 +20,12 @@ excerpt: '<p>To help communities, governments, businesses, and research institut
   href="https://www.data.gov/climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=16679252
 id: 16679252
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/
-meta: []
 modified: '2016-05-19T18:11:12'
 modified_gmt: '2016-05-19T22:11:12'
 permalink: /climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/
-ping_status: open
 redirect_from:
 - /arctic/launch-energy-infrastructure-resilience-theme-climate-data-gov/
 - /climate/arctic/launch-energy-infrastructure-resilience-theme-climate-data-gov/
@@ -53,12 +46,8 @@ redirect_from:
 - /tribal-nations/launch-energy-infrastructure-resilience-theme-climate-data-gov/
 - /water/launch-energy-infrastructure-resilience-theme-climate-data-gov/
 slug: launch-energy-infrastructure-resilience-theme-climate-data-gov
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Launch of Energy &#038; Infrastructure Resilience theme of Climate.Data.Gov
-type: post
 ---
 To help communities, governments, businesses, and research institutions better understand and plan for the risks of storms, floods, and other climate-change-related impacts, the U.S. Government is enhancing accessibility and releasing today a collection of datasets containing scientific and technical information that may help inform the current and potential future effects of climate change on energy and infrastructure.
 

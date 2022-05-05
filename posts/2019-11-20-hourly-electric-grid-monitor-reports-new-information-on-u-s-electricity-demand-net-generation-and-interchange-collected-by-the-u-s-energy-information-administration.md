@@ -1,10 +1,8 @@
 ---
-acf: []
 author: crystal-cartergsa-gov
 categories:
 - energy
 - meta
-comment_status: open
 date: '2019-11-20T15:20:58'
 date_gmt: '2019-11-20T20:20:58'
 excerpt: "<p>To a federal statistical agency like the U.S. Energy Information Administration\
@@ -14,26 +12,18 @@ excerpt: "<p>To a federal statistical agency like the U.S. Energy Information Ad
   post-title-22933412\" href=\"https://www.data.gov/energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/\"\
   >Continued</a></p>\n"
 featured_media: 26088743
-format: standard
 guid: https://www.data.gov/?p=22933412
 id: 22933412
-layout: layouts/legacy-post
 link: https://www.data.gov/energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
-meta: []
 modified: '2019-11-21T10:20:36'
 modified_gmt: '2019-11-21T15:20:36'
 permalink: /energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
-ping_status: open
 redirect_from:
 - /meta/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
 slug: hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Hourly Electric Grid Monitor reports new information on U.S. electricity demand,
   net generation, and interchange collected by the U.S. Energy Information Administration
-type: post
 ---
 To a federal statistical agency like the U.S. Energy Information Administration (EIA), there’s nothing more satisfying than providing needed information that can facilitate more informed analysis and policy decisions on a national and regional level. EIA recently launched its new *[Hourly Electric Grid Monitor](https://www.eia.gov/beta/electricity/gridmonitor/?src=email)*, a redesigned and enhanced version of EIA’s existing *[U.S. Electric System Operating Data](https://www.eia.gov/realtime_grid/)* website.  The data for the *[Hourly Electric Grid Monitor](https://www.eia.gov/beta/electricity/gridmonitor/?src=email)* come from the Form EIA-930, *Hourly and Daily Balancing Authority Operations Report*, which collects hourly electricity demand, forecast demand, net generation, and interchange data from the 65 electricity balancing authorities that operate the electric grid in the Lower 48 states.  The *[Hourly Electric Grid Monitor](https://www.eia.gov/beta/electricity/gridmonitor/?src=email)* incorporates two new data elements: hourly electricity generation by energy source and hourly subregional demand. The new website also provides new and more flexible options for visualizing the data and allows users to create custom dashboards that can be saved and shared.
 

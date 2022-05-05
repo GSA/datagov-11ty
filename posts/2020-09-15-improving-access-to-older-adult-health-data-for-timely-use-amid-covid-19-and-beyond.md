@@ -1,9 +1,7 @@
 ---
-acf: []
 author: crystal-cartergsa-gov
 categories:
 - meta
-comment_status: open
 date: '2020-09-15T13:00:00'
 date_gmt: '2020-09-15T17:00:00'
 excerpt: "<p>Today marks the launch of the Older Adults Health Data Collection \u2013\
@@ -12,26 +10,18 @@ excerpt: "<p>Today marks the launch of the Older Adults Health Data Collection \
   \ experts from academia, industry, &hellip; <a aria-describedby=\"post-title-26452516\"\
   \ href=\"https://www.data.gov/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/\"\
   >Continued</a></p>\n"
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=26452516
 id: 26452516
-layout: layouts/legacy-post
 link: https://www.data.gov/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/
-meta: []
 modified: '2020-09-15T12:42:54'
 modified_gmt: '2020-09-15T16:42:54'
 permalink: /meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/
-ping_status: open
 redirect_from: []
 slug: data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults
-status: publish
 sticky: true
-tags: []
-template: ''
+
 title: Improving Access to Older Adult Health Data for Timely Use Amid COVID-19 and
   Beyond
-type: post
 ---
 Today marks the launch of the [*Older Adults Health Data Collection*](https://catalog.data.gov/group/older-adults-health-data) – a new resource cataloging over 200 Federal datasets previously available on Data.gov related to the health of older Americans. This centralized location will assist experts from academia, industry, government, civil society, and the public in accessing datasets from various Federal agencies and across a range of health-related issues (e.g. health status, health risks and behaviors, and health care) to advance our collective knowledge and understanding of the health of older adults.
 

@@ -1,9 +1,7 @@
 ---
-acf: []
 author: crystal-cartergsa-gov
 categories:
 - meta
-comment_status: open
 date: '2020-12-14T16:14:45'
 date_gmt: '2020-12-14T21:14:45'
 excerpt: '<p>This post was originally published on the&nbsp;Healthdata.gov blog&nbsp;by
@@ -13,27 +11,19 @@ excerpt: '<p>This post was originally published on the&nbsp;Healthdata.gov blog&
   href="https://www.data.gov/meta/covid-19-is-complex-as-is-covid-19-open-data/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=26648756
 id: 26648756
-layout: layouts/legacy-post
 link: https://www.data.gov/meta/covid-19-is-complex-as-is-covid-19-open-data/
-meta: []
 modified: '2020-12-15T13:31:31'
 modified_gmt: '2020-12-15T18:31:31'
 permalink: /meta/covid-19-is-complex-as-is-covid-19-open-data/
-ping_status: open
 redirect_from: []
 slug: covid-19-is-complex-as-is-covid-19-open-data
-status: publish
 sticky: true
 tags:
 - covid-19
 - data
-template: ''
 title: COVID-19 is Complex, as is COVID-19 Open Data
-type: post
 ---
 **This post was originally published on the [Healthdata.gov blog](https://healthdata.gov/hhs-publishes-covid-19-hospital-facility-level-data) by Kristen Honey, Chief Data Scientist and Senior Advisor to Assistant Secretary for Health (ASH), HHS; Amy Gleason, Data Strategy and Execution Workgroup Lead, U.S. Digital Service; and Kevin Duvall, Deputy Chief Data Officer (CDO), Office of the CDO, HHS**
 

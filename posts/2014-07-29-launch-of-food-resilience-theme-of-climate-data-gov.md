@@ -1,5 +1,4 @@
 ---
-acf: []
 author: anaprivette
 categories:
 - arctic
@@ -12,7 +11,6 @@ categories:
 - transportation
 - tribal-nations
 - water
-comment_status: open
 date: '2014-07-29T00:02:18'
 date_gmt: '2014-07-29T04:02:18'
 excerpt: '<p>To help communities and individuals plan for the risks of drought, floods,
@@ -22,17 +20,12 @@ excerpt: '<p>To help communities and individuals plan for the risks of drought, 
   href="https://www.data.gov/climate/launch-food-resilience-theme-climate-data-gov/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=2048341
 id: 2048341
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/launch-food-resilience-theme-climate-data-gov/
-meta: []
 modified: '2016-05-19T18:12:16'
 modified_gmt: '2016-05-19T22:12:16'
 permalink: /climate/launch-food-resilience-theme-climate-data-gov/
-ping_status: open
 redirect_from:
 - /arctic/launch-food-resilience-theme-climate-data-gov/
 - /climate/arctic/launch-food-resilience-theme-climate-data-gov/
@@ -53,12 +46,8 @@ redirect_from:
 - /tribal-nations/launch-food-resilience-theme-climate-data-gov/
 - /water/launch-food-resilience-theme-climate-data-gov/
 slug: launch-food-resilience-theme-climate-data-gov
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Launch of Food Resilience theme of Climate.Data.Gov
-type: post
 ---
 To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the U.S. Government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system.
 

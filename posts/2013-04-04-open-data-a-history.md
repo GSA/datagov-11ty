@@ -1,9 +1,7 @@
 ---
-acf: []
 author: admin
 categories:
 - meta
-comment_status: open
 date: '2013-04-04T18:00:14'
 date_gmt: '2013-04-04T22:00:14'
 excerpt: "<p>This term \u201Copen data\u201D is becoming increasingly commonplace.\
@@ -11,26 +9,17 @@ excerpt: "<p>This term \u201Copen data\u201D is becoming increasingly commonplac
   \ the Paris Tech Review offers a snapshot of how open data was born, its evolving\
   \ purpose, and &hellip; <a aria-describedby=\"post-title-42642\" href=\"https://www.data.gov/blog/open-data-history\"\
   >Continued</a></p>\n"
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=42642
 id: 42642
-layout: layouts/legacy-post
 link: https://www.data.gov/blog/open-data-history
-meta: []
 modified: '2017-10-02T18:18:24'
 modified_gmt: '2017-10-02T22:18:24'
 permalink: /blog/open-data-history/
-ping_status: open
 redirect_from:
 - /meta/open-data-history/
 slug: uncategorized__blog__open-data-history
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: 'Open Data: A History'
-type: post
 ---
 This term “open data” is becoming increasingly commonplace. That’s what Data.gov is all about. But what is open data? A new article in the *Paris Tech Review* offers a snapshot of how open data was born, its evolving purpose, and how it can make a difference in all our lives. “Open data” did not come out of thin air, and it’s interesting to discover its rich context.
 

@@ -1,8 +1,6 @@
 ---
-acf: []
 categories:
 - meta
-comment_status: open
 date: '2013-01-28T13:09:31'
 date_gmt: '2013-01-28T18:09:31'
 excerpt: "<p>&nbsp;Recently, we marked another milestone in Data.gov\u2019s evolution.\
@@ -10,26 +8,17 @@ excerpt: "<p>&nbsp;Recently, we marked another milestone in Data.gov\u2019s evol
   \ team and Federal Agencies to discuss the next iteration of Data.gov. &nbsp;Within\
   \ months, Data.gov will see major enhancements around &hellip; <a aria-describedby=\"\
   post-title-41651\" href=\"https://www.data.gov/blog/ckan-horizon-datagov-20\">Continued</a></p>\n"
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=41651
 id: 41651
-layout: layouts/legacy-post
 link: https://www.data.gov/blog/ckan-horizon-datagov-20
-meta: []
 modified: '2014-03-18T21:44:20'
 modified_gmt: '2014-03-19T01:44:20'
 permalink: /blog/ckan-horizon-datagov-20/
-ping_status: open
 redirect_from:
 - /meta/ckan-horizon-datagov-20/
 slug: uncategorized__blog__ckan-horizon-datagov-20
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: 'CKAN: the Horizon for Data.gov 2.0'
-type: post
 ---
  Recently, we marked another milestone in Data.gov’s evolution. Members of the Open Knowledge Foundation met in Washington, D.C., with the Data.gov team and Federal Agencies to discuss the next iteration of Data.gov.
 

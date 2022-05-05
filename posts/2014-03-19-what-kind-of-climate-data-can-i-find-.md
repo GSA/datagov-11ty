@@ -1,5 +1,4 @@
 ---
-acf: []
 author: anaprivette
 categories:
 - arctic
@@ -11,7 +10,6 @@ categories:
 - humanhealth
 - transportation
 - water
-comment_status: open
 date: '2014-03-19T00:03:41'
 date_gmt: '2014-03-19T04:03:41'
 excerpt: '<p>In this emerging climate data resource, you can find datasets and web
@@ -20,17 +18,12 @@ excerpt: '<p>In this emerging climate data resource, you can find datasets and w
   <a aria-describedby="post-title-136721" href="https://www.data.gov/climate/types-climate-datasets/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=136721
 id: 136721
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/types-climate-datasets/
-meta: []
 modified: '2016-05-19T18:12:18'
 modified_gmt: '2016-05-19T22:12:18'
 permalink: /climate/types-climate-datasets/
-ping_status: open
 redirect_from:
 - /arctic/types-climate-datasets/
 - /climate/arctic/types-climate-datasets/
@@ -49,12 +42,8 @@ redirect_from:
 - /transportation/types-climate-datasets/
 - /water/types-climate-datasets/
 slug: types-climate-datasets
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: What Kind of Climate Data Can I Find?
-type: post
 ---
 In this emerging climate data resource, you can find datasets and web services, as well as tools, related to coastal flooding and sea level rise. We are featuring key resources to help you get started building data layers and tools on this area of climate impact at the [resources](https://www.data.gov/climate/climate-resources) section.
 

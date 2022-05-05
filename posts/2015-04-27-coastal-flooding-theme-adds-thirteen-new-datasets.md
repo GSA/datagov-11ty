@@ -1,5 +1,4 @@
 ---
-acf: []
 author: kaylin-m-bugbeenasa-gov
 categories:
 - arctic
@@ -11,7 +10,6 @@ categories:
 - transportation
 - tribal-nations
 - water
-comment_status: open
 date: '2015-04-27T16:44:43'
 date_gmt: '2015-04-27T20:44:43'
 excerpt: '<p>In a continued effort to provide key datasets that support the process
@@ -20,17 +18,12 @@ excerpt: '<p>In a continued effort to provide key datasets that support the proc
   Record (CDR) of Sea Surface &hellip; <a aria-describedby="post-title-17383072" href="https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=17383072
 id: 17383072
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/
-meta: []
 modified: '2015-12-22T11:47:11'
 modified_gmt: '2015-12-22T16:47:11'
 permalink: /climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/
-ping_status: open
 redirect_from:
 - /arctic/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /climate/arctic/coastal-flooding-theme-adds-thirteen-new-datasets/
@@ -51,12 +44,8 @@ redirect_from:
 - /tribal-nations/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /water/coastal-flooding-theme-adds-thirteen-new-datasets/
 slug: coastal-flooding-theme-adds-thirteen-new-datasets
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Coastal Flooding Theme Adds Thirteen New Datasets
-type: post
 ---
 In a continued effort to provide key datasets that support the process of developing resilience to climate change, thirteen additional datasets are now available in the Coastal Flooding theme.
 

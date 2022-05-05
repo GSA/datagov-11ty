@@ -1,9 +1,7 @@
 ---
-acf: []
 author: crystal-cartergsa-gov
 categories:
 - energy
-comment_status: open
 date: '2020-03-05T12:32:27'
 date_gmt: '2020-03-05T17:32:27'
 excerpt: '<p>The U.S. Energy Information Administration (EIA) has redesigned its International
@@ -13,27 +11,18 @@ excerpt: '<p>The U.S. Energy Information Administration (EIA) has redesigned its
   href="https://www.data.gov/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=26220633
 id: 26220633
-layout: layouts/legacy-post
 link: https://www.data.gov/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/
-meta: []
 modified: '2020-03-05T16:01:08'
 modified_gmt: '2020-03-05T21:01:08'
 permalink: /energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/
-ping_status: open
 redirect_from: []
 slug: introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal
-status: publish
-sticky: false
 tags:
 - energy
-template: ''
 title: Introducing the U.S. Energy Information Administration (EIA) redesigned International
   Energy Portal
-type: post
 ---
 The U.S. Energy Information Administration (EIA) has redesigned its International Energy Portal to streamline navigation, simplify data presentation, and implement responsive design use. EIA based many of the redesigned aspects on customer feedback about the earlier beta release of the portal.
 

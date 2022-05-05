@@ -1,8 +1,6 @@
 ---
-acf: []
 categories:
 - meta
-comment_status: open
 date: '2012-06-11T09:53:33'
 date_gmt: '2012-06-11T13:53:33'
 excerpt: '<p>Data.gov is pleased to announce the launch of a new data catalog on an
@@ -11,26 +9,18 @@ excerpt: '<p>Data.gov is pleased to announce the launch of a new data catalog on
   aria-describedby="post-title-35" href="https://www.data.gov/announcements/datagov-ckan-catalog">Continued</a></p>
 
   '
-featured_media: 0
 format: link
 guid: http://www.data.gov/?p=35
 id: 35
-layout: layouts/legacy-post
 link: https://www.data.gov/announcements/datagov-ckan-catalog
-meta: []
 modified: '2014-03-18T21:44:35'
 modified_gmt: '2014-03-19T01:44:35'
 permalink: /announcements/datagov-ckan-catalog/
-ping_status: open
 redirect_from:
 - /meta/datagov-ckan-catalog/
 slug: uncategorized__announcements__datagov-ckan-catalog
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Data.gov CKAN Catalog
-type: post
 ---
 Data.gov is pleased to announce the launch of a [new data catalog](http://catalog.data.gov/) on an open source data management system called [CKAN](http://ckan.org/) used by the data portals of the U.K., Germany, Brazil, and a number of other governments around the world.
 

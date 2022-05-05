@@ -1,5 +1,4 @@
 ---
-acf: []
 author: anaprivette
 categories:
 - arctic
@@ -11,7 +10,6 @@ categories:
 - humanhealth
 - transportation
 - water
-comment_status: open
 date: '2014-03-06T13:38:47'
 date_gmt: '2014-03-06T18:38:47'
 excerpt: '<p>Want to solve an innovation challenge to address climate change? The
@@ -21,17 +19,12 @@ excerpt: '<p>Want to solve an innovation challenge to address climate change? Th
   <a aria-describedby="post-title-143271" href="https://www.data.gov/climate/space-apps-challenge-2/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=143271
 id: 143271
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/space-apps-challenge-2/
-meta: []
 modified: '2020-09-17T15:31:21'
 modified_gmt: '2020-09-17T19:31:21'
 permalink: /climate/space-apps-challenge-2/
-ping_status: open
 redirect_from:
 - /arctic/space-apps-challenge-2/
 - /climate/arctic/space-apps-challenge-2/
@@ -50,12 +43,8 @@ redirect_from:
 - /transportation/space-apps-challenge-2/
 - /water/space-apps-challenge-2/
 slug: space-apps-challenge-2
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: NASA and NOAA Launch Coastal Flooding Innovation Challenge
-type: post
 ---
 Want to solve an innovation challenge to address climate change? The [International Space Apps Challenge](http://2014.spaceappschallenge.org) is an international mass collaboration offering four climate-related challenges, including…
 

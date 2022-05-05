@@ -1,8 +1,6 @@
 ---
-acf: []
 categories:
 - meta
-comment_status: open
 date: '2013-04-29T15:54:50'
 date_gmt: '2013-04-29T19:54:50'
 excerpt: '<p>Posted by&nbsp;Dr. Catherine Woteki, USDA&#8217;s Chief Scientist and
@@ -12,26 +10,17 @@ excerpt: '<p>Posted by&nbsp;Dr. Catherine Woteki, USDA&#8217;s Chief Scientist a
   href="https://www.data.gov/blog/open-data-agriculture-offers-lift-global-food-security">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=48042
 id: 48042
-layout: layouts/legacy-post
 link: https://www.data.gov/blog/open-data-agriculture-offers-lift-global-food-security
-meta: []
 modified: '2014-03-18T21:44:18'
 modified_gmt: '2014-03-19T01:44:18'
 permalink: /blog/open-data-agriculture-offers-lift-global-food-security/
-ping_status: open
 redirect_from:
 - /meta/open-data-agriculture-offers-lift-global-food-security/
 slug: uncategorized__blog__open-data-agriculture-offers-lift-global-food-security
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Open Data for Agriculture Offers Lift-Off for Global Food Security
-type: post
 ---
 ![8692511675_b8789218a8.jpg](https://farm9.staticflickr.com/8124/8692511675_b8789218a8.jpg)
 

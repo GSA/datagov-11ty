@@ -1,5 +1,4 @@
 ---
-acf: []
 author: aaron-bordengsa-gov
 categories:
 - arctic
@@ -12,7 +11,6 @@ categories:
 - transportation
 - tribal-nations
 - water
-comment_status: open
 date: '2014-12-08T17:38:37'
 date_gmt: '2014-12-08T22:38:37'
 excerpt: '<p>In a continued effort to provide key resources that are aimed at developing
@@ -22,17 +20,12 @@ excerpt: '<p>In a continued effort to provide key resources that are aimed at de
   href="https://www.data.gov/climate/water-theme-adds-new-content/">Continued</a></p>
 
   '
-featured_media: 0
-format: standard
 guid: http://www.data.gov/?p=15785832
 id: 15785832
-layout: layouts/legacy-post
 link: https://www.data.gov/climate/water-theme-adds-new-content/
-meta: []
 modified: '2015-11-05T12:09:06'
 modified_gmt: '2015-11-05T17:09:06'
 permalink: /climate/water-theme-adds-new-content/
-ping_status: open
 redirect_from:
 - /arctic/water-theme-adds-new-content/
 - /climate/arctic/water-theme-adds-new-content/
@@ -53,12 +46,8 @@ redirect_from:
 - /tribal-nations/water-theme-adds-new-content/
 - /water/water-theme-adds-new-content/
 slug: water-theme-adds-new-content
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Water Theme Adds New Content
-type: post
 ---
 In a continued effort to provide key resources that are aimed at developing water resources resilience to climate change, five additional items are now available in the Water theme.
 

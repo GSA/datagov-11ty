@@ -1,9 +1,7 @@
 ---
-acf: []
 author: idris-odunewugsa-gov
 categories:
 - food
-comment_status: open
 date: '2017-06-08T15:27:34'
 date_gmt: '2017-06-08T19:27:34'
 excerpt: "<p>Every day, people around the world use data to make decisions.\_ When\
@@ -11,25 +9,16 @@ excerpt: "<p>Every day, people around the world use data to make decisions.\_ Wh
   \ in the world before packing our bags.\_ However, when we travel to far-flung &hellip;\
   \ <a aria-describedby=\"post-title-24615516\" href=\"https://www.data.gov/food/open-data-revolution-fight-global-hunger/\"\
   >Continued</a></p>\n"
-featured_media: 0
-format: standard
 guid: https://www.data.gov/?p=24615516
 id: 24615516
-layout: layouts/legacy-post
 link: https://www.data.gov/food/open-data-revolution-fight-global-hunger/
-meta: []
 modified: '2017-06-08T15:35:14'
 modified_gmt: '2017-06-08T19:35:14'
 permalink: /food/open-data-revolution-fight-global-hunger/
-ping_status: open
 redirect_from: []
 slug: open-data-revolution-fight-global-hunger
-status: publish
-sticky: false
-tags: []
-template: ''
+
 title: Open Data Revolution to Fight Global Hunger
-type: post
 ---
 ![carrillo-app-blog-060217](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2017/06/carrillo-app-blog-060217.jpg)*USDA-NRCS rangeland scientist Emilio Carrillo uses an open data mobile app called LandPKS for sustainable land use management.*
 Every day, people around the world use data to make decisions.  When heading out of town, most of us use weather apps to check the forecast anywhere in the world before packing our bags.  However, when we travel to far-flung places, we may find ourselves packing food from home because we don’t know what may be available when we arrive.  We have a global, comprehensive, open data set that enables weather forecasting, but not something similar for food and agriculture?
