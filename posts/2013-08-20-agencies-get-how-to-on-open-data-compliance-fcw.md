@@ -6,9 +6,7 @@ date_gmt: '2013-08-20T15:37:33'
 excerpt: '<p>Agencies are expected to deliver on several elements of President Barack
   Obama&#8217;s executive order on open data by Nov. 1, including creation and publication
   of a list of data assets. To steer these efforts, the Office of Management and Budget
-  &hellip; <a aria-describedby="post-title-121741" href="https://www.data.gov/announcements/agencies-get-how-open-data-compliance-fcw">Continued</a></p>
-
-  '
+  &hellip; <a aria-describedby="post-title-121741" href="https://www.data.gov/announcements/agencies-get-how-open-data-compliance-fcw">Continued</a></p>'
 format: link
 guid: http://www.data.gov/?p=121741
 id: 121741
@@ -22,6 +20,6 @@ slug: uncategorized__announcements__agencies-get-how-open-data-compliance-fcw
 
 title: Agencies get how-to on open data compliance | FCW
 ---
-Agencies are expected to deliver on several elements of President Barack Obama’s executive order on open data by Nov. 1, including creation and publication of a list of data assets. To steer these efforts, the Office of Management and Budget and the Office of Science and Technology Policy released guidance that gets into the weeds about how agencies can fulfill the directives and incorporate open data policy into everyday activities.
 
+Agencies are expected to deliver on several elements of President Barack Obama’s executive order on open data by Nov. 1, including creation and publication of a list of data assets. To steer these efforts, the Office of Management and Budget and the Office of Science and Technology Policy released guidance that gets into the weeds about how agencies can fulfill the directives and incorporate open data policy into everyday activities.
 

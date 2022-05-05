@@ -17,9 +17,7 @@ excerpt: '<p>To help communities and individuals plan for the risks of climate-c
   impacts on water resources, the U.S. Government is releasing today a collection
   of datasets containing information relevant to this important issue. Select data
   are also being made available via &hellip; <a aria-describedby="post-title-9206242"
-  href="https://www.data.gov/climate/launch-water-theme-climate-data-gov/">Continued</a></p>
-
-  '
+  href="https://www.data.gov/climate/launch-water-theme-climate-data-gov/">Continued</a></p>'
 guid: https://www.data.gov/?p=9206242
 id: 9206242
 link: https://www.data.gov/climate/launch-water-theme-climate-data-gov/
@@ -49,11 +47,9 @@ slug: launch-water-theme-climate-data-gov
 
 title: Launch of Water theme of Climate.Data.Gov
 ---
-To help communities and individuals plan for the risks of climate-change-related impacts on water resources, the U.S. Government is releasing today a collection of datasets containing information relevant to this important issue. Select data are also being made available via mapping services on Geoplatform.gov. The resources provided here can be used to help answer a number of relevant questions, such as:
 
+To help communities and individuals plan for the risks of climate-change-related impacts on water resources, the U.S. Government is releasing today a collection of datasets containing information relevant to this important issue. Select data are also being made available via mapping services on Geoplatform.gov. The resources provided here can be used to help answer a number of relevant questions, such as:
 
 * How are human and natural components of the hydrologic cycle changing?
 * How can communities and water managers plan for uncertain future conditions?
 * How will changing water resources affect food, energy, ecosystems, and human health?
-
-

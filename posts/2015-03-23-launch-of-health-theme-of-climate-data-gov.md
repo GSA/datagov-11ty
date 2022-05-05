@@ -47,14 +47,9 @@ slug: launch-health-theme-climate-data-gov
 
 title: Launch of Health theme of Climate.Data.Gov
 ---
-###### 
 
-
-(April 7th 2015) The U.S. Government has released a collection of datasets to help individuals and communities plan for the impacts of climate change on the public’s health. These resources can help answer a number of relevant questions, including:
-
+(April 7th 2015)The U.S. Government has released a collection of datasets to help individuals and communities plan for the impacts of climate change on the public’s health. These resources can help answer a number of relevant questions, including:
 
 * In what ways does the changing climate affect public health where I live?
 * What risk factors make individuals or communities more vulnerable to climate-related health effects?
 * How can public health agencies, communities, and individuals plan for uncertain future conditions?
-
-

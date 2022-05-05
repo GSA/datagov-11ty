@@ -17,9 +17,7 @@ excerpt: '<p>To help communities and citizens plan for the risks of coastal floo
   and other climate-change-related impacts, the Department of Homeland Security, the
   Department of Defense, the National Geospatial-Intelligence Agency, and the U.S.
   Geological Survey have released new non-sensitive datasets containing &hellip; <a
-  aria-describedby="post-title-2042721" href="https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/">Continued</a></p>
-
-  '
+  aria-describedby="post-title-2042721" href="https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/">Continued</a></p>'
 guid: https://www.data.gov/?p=2042721
 id: 2042721
 link: https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/
@@ -49,6 +47,5 @@ slug: infrastructure-geographic-map-data-climate-preparedness
 
 title: Infrastructure and Geographic Map Data for Climate-Preparedness
 ---
+
 To help communities and citizens plan for the risks of coastal flooding and other climate-change-related impacts, the Department of Homeland Security, the Department of Defense, the National Geospatial-Intelligence Agency, and the U.S. Geological Survey have released new non-sensitive datasets containing mapping information on hundreds of thousands of the Nation’s infrastructure units and geographical features. [These data](http://hsip.geoplatform.gov/arcgis/rest/services/HSIP_Public) are being made available via user-friendly mapping services on [Geoplatform.gov](http://www.geoplatform.gov/) and [Climate.data.gov](/climate).
-
-

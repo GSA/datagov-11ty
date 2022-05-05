@@ -1,4 +1,5 @@
 ---
+
 author: sophie-rasemantreasury-gov
 categories:
 - consumer
@@ -21,6 +22,5 @@ slug: energy-tweet
 
 title: Energy Tweet
 ---
+
 .[@ENERGY](https://twitter.com/ENERGY) has announced the winners of Contest #1 in the American Energy Data Challenge. Check out the great ideas: [http://energychallenge.energy.gov](http://t.co/mHYKOabByE "http://energychallenge.energy.gov")
-
-

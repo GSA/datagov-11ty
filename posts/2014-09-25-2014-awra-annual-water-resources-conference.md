@@ -9,9 +9,7 @@ excerpt: '<p>2014 AWRA Annual Water Resources Conference Open Water Data Initiat
   &#8211; Unifying Water Data for the Nation Call For Lightening Talks (Deadline:
   October 27, 2014) In coordination with The White House Climate Data Initiative,
   the Federal Geographic Data Committee, and &hellip; <a aria-describedby="post-title-6838822"
-  href="https://www.data.gov/climate/2014-awra-annual-water-resources-conference/">Continued</a></p>
-
-  '
+  href="https://www.data.gov/climate/2014-awra-annual-water-resources-conference/">Continued</a></p>'
 guid: https://www.data.gov/?p=6838822
 id: 6838822
 link: https://www.data.gov/climate/2014-awra-annual-water-resources-conference/
@@ -25,22 +23,19 @@ slug: 2014-awra-annual-water-resources-conference
 
 title: 2014 AWRA Annual Water Resources Conference
 ---
- **2014 AWRA Annual Water Resources Conference  
 
-Open Water Data Initiative – Unifying Water Data for the Nation  
+**2014 AWRA Annual Water Resources Conference
+
+Open Water Data Initiative – Unifying Water Data for the Nation
 
 Call For Lightening Talks (Deadline: October 27, 2014)**
 
+In coordination with The White House Climate Data Initiative,
 
-In coordination with The White House Climate Data Initiative,  
+the Federal Geographic Data Committee, and the National Food Interoperability Experiment,
 
-the Federal Geographic Data Committee, and the National Food Interoperability Experiment,  
-
-the AWRA Technology Committee is supporting a national discussion titled  
+the AWRA Technology Committee is supporting a national discussion titled
 
 “The Open Water Data Initiative – Unifying Water Data for the Nation.”
 
-
 For more information visit <http://awra.org/meetings/Annual2014/lightning.html>
-
-

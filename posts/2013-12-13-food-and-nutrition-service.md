@@ -5,9 +5,7 @@ categories:
 date: '2013-12-13T19:07:35'
 date_gmt: '2013-12-13T19:07:35'
 excerpt: '<p>SNAP Retailer Locator API provides location, details and directions for
-  retailers that welcome SNAP Electronic Benefit Transfer (EBT) customers.</p>
-
-  '
+  retailers that welcome SNAP Electronic Benefit Transfer (EBT) customers.</p>'
 format: image
 guid: http://www.data.gov/?p=129257
 id: 129257
@@ -20,6 +18,5 @@ slug: food-and-nutrition-service
 
 title: Food and Nutrition Service
 ---
+
 [SNAP Retailer Locator API](http://snap-load-balancer-244858692.us-east-1.elb.amazonaws.com/ArcGIS/rest/services/retailer/MapServer) provides location, details and directions for retailers that welcome SNAP Electronic Benefit Transfer (EBT) customers.
-
-

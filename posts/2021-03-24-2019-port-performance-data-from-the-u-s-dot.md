@@ -27,12 +27,11 @@ tags:
 - vessel-dwelltime
 title: 2019 Port Performance Data from the U.S. DOT
 ---
-The U.S. Department of Transportation’s Port Performance Freight Statistics Program: Annual Reports to Congress provide summary statistics and detailed analysis for the Nation’s largest container, tonnage, and dry bulk ports. Results from calendar year 2019 are now available online.  
 
-Individual port statistics can be viewed through the “Port Profile” link on the main Port Performance website at: https://www.bts.gov/ports.  
+The U.S. Department of Transportation’s Port Performance Freight Statistics Program: Annual Reports to Congress provide summary statistics and detailed analysis for the Nation’s largest container, tonnage, and dry bulk ports. Results from calendar year 2019 are now available online.
 
-Historic reports from multiple years are available from the National Transportation Library at https://rosap.ntl.bts.gov/welcome  
+Individual port statistics can be viewed through the “Port Profile” link on the main Port Performance website at: https://www.bts.gov/ports.
+
+Historic reports from multiple years are available from the National Transportation Library at https://rosap.ntl.bts.gov/welcome
 
 These are great resources for anyone interested in port activity, port performance, maritime topics, or transportation infrastructure in general.
-
-

@@ -15,9 +15,7 @@ date_gmt: '2015-04-27T20:44:43'
 excerpt: '<p>In a continued effort to provide key datasets that support the process
   of developing resilience to climate change, thirteen additional datasets are now
   available in the Coastal Flooding theme. These datasets include: NOAA Climate Data
-  Record (CDR) of Sea Surface &hellip; <a aria-describedby="post-title-17383072" href="https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/">Continued</a></p>
-
-  '
+  Record (CDR) of Sea Surface &hellip; <a aria-describedby="post-title-17383072" href="https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/">Continued</a></p>'
 guid: http://www.data.gov/?p=17383072
 id: 17383072
 link: https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/
@@ -47,11 +45,10 @@ slug: coastal-flooding-theme-adds-thirteen-new-datasets
 
 title: Coastal Flooding Theme Adds Thirteen New Datasets
 ---
+
 In a continued effort to provide key datasets that support the process of developing resilience to climate change, thirteen additional datasets are now available in the Coastal Flooding theme.
 
-
 These datasets include:
-
 
 * [NOAA Climate Data Record (CDR) of Sea Surface Temperature -WHOI, Version 1.0](https://catalog.data.gov/dataset/noaa-climate-data-record-cdr-of-sea-surface-temperature-whoi-version-1-0)
 * [U.S. Monthly Extremes](https://catalog.data.gov/dataset/u-s-monthly-extremes)
@@ -66,5 +63,3 @@ These datasets include:
 * [International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank – Stage 3 Monthly](https://catalog.data.gov/dataset/international-surface-temperature-initiative-isti-global-land-surface-temperature-databank-staa1620)
 * [International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank – Stage 1 Daily](https://catalog.data.gov/dataset/international-surface-temperature-initiative-isti-global-land-surface-temperature-databank-sta1c63d)
 * [International Surface Temperature Initiative (ISTI) Global Land Surface Temperature Databank – Stage 2 Daily](https://catalog.data.gov/dataset/international-surface-temperature-initiative-isti-global-land-surface-temperature-databank-sta3f4f9)
-
-

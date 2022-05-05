@@ -45,6 +45,5 @@ slug: nasa-launches-earth-science-challenges
 
 title: NASA launches Earth Science Challenges
 ---
+
 Through the Open NASA Earth Exchange, NASA is challenging innovators to use data from Earth’s satellites in new and creative ways, including for applications that help people understand climate change. [Learn more](https://nex.nasa.gov/OpenNEX).
-
-

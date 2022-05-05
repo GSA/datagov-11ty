@@ -15,9 +15,7 @@ date_gmt: '2014-03-06T19:34:03'
 excerpt: '<p>These post-Superstorm Sandy maps for New York City and New Jersey and
   New York states show how the floodplain will change under different scenarios of
   sea level rise. Surging Seas uses government data to project sea level rise scenarios
-  for &hellip; <a aria-describedby="post-title-146071" href="https://www.data.gov/climate/climate-data-action/">Continued</a></p>
-
-  '
+  for &hellip; <a aria-describedby="post-title-146071" href="https://www.data.gov/climate/climate-data-action/">Continued</a></p>'
 featured_media: 149591
 guid: https://www.data.gov/?p=146071
 id: 146071
@@ -46,9 +44,7 @@ slug: climate-data-action
 
 title: Climate Data in Action
 ---
+
 These post-Superstorm Sandy maps for [New York City](http://geoplatform.maps.arcgis.com/home/item.html?id=bc90ddc4984a45538c1de5b4ddf91381) and [New Jersey and New York](http://geoplatform.maps.arcgis.com/home/item.html?id=2960f1e066544582ae0f0d988ccb3d27) states show how the floodplain will change under different scenarios of sea level rise.
 
-
 [Surging Seas](http://sealevel.climatecentral.org/) uses government data to project sea level rise scenarios for the coastal United States.
-
-

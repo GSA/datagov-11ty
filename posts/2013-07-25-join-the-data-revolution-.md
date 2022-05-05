@@ -18,4 +18,5 @@ slug: join-the-data-revolution
 
 title: "Join the \u2018Data Revolution\u2019"
 ---
+
 USDA Blog: Join the ‘Data Revolution’, Help Lay the Groundwork for Sustainable Ag [http://ow.ly/mppYn](http://t.co/F9PrxrzkzB "http://ow.ly/mppYn")  ~~#~~**OpenData** ~~#~~****OpenAgData****
