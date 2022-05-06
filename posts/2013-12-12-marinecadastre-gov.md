@@ -4,11 +4,11 @@ categories:
 - ocean
 date: '2013-12-12T00:40:38'
 date_gmt: '2013-12-12T00:40:38'
-excerpt: '<p>MarineCadastre.gov is a joint Bureau of Ocean Energy Management (BOEM)
+excerpt: |-
+  MarineCadastre.gov is a joint Bureau of Ocean Energy Management (BOEM)
   and National Oceanic and Atmospheric Administration (NOAA) initiative that provides
   authoritative data to meet the needs of the offshore energy and marine planning
-  communities. The website provides access to authoritative &hellip; <a aria-describedby="post-title-128946"
-  href="https://www.data.gov/ocean/marinecadastre-gov/">Continued</a></p>'
+  communities. The website provides access to authoritative…
 featured_media: 130215
 format: image
 guid: http://www.data.gov/?p=128946

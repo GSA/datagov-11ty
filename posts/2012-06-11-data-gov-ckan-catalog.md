@@ -3,10 +3,10 @@ categories:
 - meta
 date: '2012-06-11T09:53:33'
 date_gmt: '2012-06-11T13:53:33'
-excerpt: '<p>Data.gov is pleased to announce the launch of a new data catalog on an
+excerpt: |-
+  Data.gov is pleased to announce the launch of a new data catalog on an
   open source data management system called CKAN used by the data portals of the U.K.,
-  Germany, Brazil, and a number of other governments around the world. &hellip; <a
-  aria-describedby="post-title-35" href="https://www.data.gov/announcements/datagov-ckan-catalog">Continued</a></p>'
+  Germany, Brazil, and a number of other governments around the world.…
 format: link
 guid: http://www.data.gov/?p=35
 id: 35

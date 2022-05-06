@@ -3,10 +3,11 @@ categories:
 - meta
 date: '2013-05-28T16:20:18'
 date_gmt: '2013-05-28T20:20:18'
-excerpt: '<p>By guest author Irina Bolychevsky, Product Owner of CKAN, Open Knowledge
+excerpt: |-
+  By guest author Irina Bolychevsky, Product Owner of CKAN, Open Knowledge
   Foundation A huge milestone was reached yesterday with the relaunch of the U.S.
   government data portal on a single, open source platform. A joint collaboration
-  between a small UK &hellip; <a aria-describedby="post-title-116062" href="https://www.data.gov/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog">Continued</a></p>'
+  between a small UK…
 format: link
 guid: http://www.data.gov/?p=116062
 id: 116062

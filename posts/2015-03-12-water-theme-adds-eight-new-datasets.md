@@ -12,11 +12,11 @@ categories:
 - water
 date: '2015-03-12T16:26:53'
 date_gmt: '2015-03-12T20:26:53'
-excerpt: '<p>In a continued effort to provide key datasets that support the process
+excerpt: |-
+  In a continued effort to provide key datasets that support the process
   of developing resilience to climate change, eight additional datasets are now available
   in the Water theme. Those include: NOAA Next Generation Radar (NEXRAD) Products
-  Severe Weather Data Inventory &hellip; <a aria-describedby="post-title-16794482"
-  href="https://www.data.gov/climate/watertheme-adds-eight-datasets/">Continued</a></p>'
+  Severe Weather Data Inventory…
 guid: http://www.data.gov/?p=16794482
 id: 16794482
 link: https://www.data.gov/climate/watertheme-adds-eight-datasets/

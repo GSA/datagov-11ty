@@ -13,11 +13,11 @@ categories:
 - water
 date: '2014-07-16T11:32:14'
 date_gmt: '2014-07-16T15:32:14'
-excerpt: '<p>To help communities and citizens plan for the risks of coastal flooding
+excerpt: |-
+  To help communities and citizens plan for the risks of coastal flooding
   and other climate-change-related impacts, the Department of Homeland Security, the
   Department of Defense, the National Geospatial-Intelligence Agency, and the U.S.
-  Geological Survey have released new non-sensitive datasets containing &hellip; <a
-  aria-describedby="post-title-2042721" href="https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/">Continued</a></p>'
+  Geological Survey have released new non-sensitive datasets containing…
 guid: https://www.data.gov/?p=2042721
 id: 2042721
 link: https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/

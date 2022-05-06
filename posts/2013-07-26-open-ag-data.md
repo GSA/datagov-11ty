@@ -3,8 +3,9 @@ categories:
 - food
 date: '2013-07-26T12:29:45'
 date_gmt: '2013-07-26T12:29:45'
-excerpt: '<p>Miss the #OpenAgData conference this week? Want a recap of announcements?
-  Check out our summary page http://go.usa.gov/TPUT</p>'
+excerpt: |-
+  Miss the #OpenAgData conference this week? Want a recap of announcements?
+  Check out our summary page http://go.usa.gov/TPUT
 format: status
 guid: http://www.data.gov/?p=791
 id: 791

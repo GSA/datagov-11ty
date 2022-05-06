@@ -3,12 +3,8 @@ categories:
 - meta
 date: '2013-05-28T13:40:35'
 date_gmt: '2013-05-28T17:40:35'
-excerpt: "<p>AFTER a Soviet missile shot down a South Korean airliner that strayed\
-  \ into Russian airspace in 1983, President Ronald Reagan made America\u2019s military\
-  \ satellite-navigation system, GPS, available to the world. Entrepreneurs pounced.\
-  \ Car-navigation, precision farming and 3m American jobs now &hellip; <a aria-describedby=\"\
-  post-title-115971\" href=\"https://www.data.gov/announcements/open-data-new-goldmine-economist\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  AFTER a Soviet missile shot down a South Korean airliner that strayed into Russian airspace in 1983, President Ronald Reagan made America's military satellite-navigation system, GPS, available to the world. Entrepreneurs pounced. Car-navigation, precision farming and 3m American jobs now …
 format: link
 guid: http://www.data.gov/?p=115971
 id: 115971

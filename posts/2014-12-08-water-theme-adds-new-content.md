@@ -13,11 +13,11 @@ categories:
 - water
 date: '2014-12-08T17:38:37'
 date_gmt: '2014-12-08T22:38:37'
-excerpt: '<p>In a continued effort to provide key resources that are aimed at developing
+excerpt: |-
+  In a continued effort to provide key resources that are aimed at developing
   water resources resilience to climate change, five additional items are now available
   in the Water theme. Those include: Global Lake Temperature Collaboration Forced
-  Evaporation from Water Surface &hellip; <a aria-describedby="post-title-15785832"
-  href="https://www.data.gov/climate/water-theme-adds-new-content/">Continued</a></p>'
+  Evaporation from Water Surface…
 guid: http://www.data.gov/?p=15785832
 id: 15785832
 link: https://www.data.gov/climate/water-theme-adds-new-content/

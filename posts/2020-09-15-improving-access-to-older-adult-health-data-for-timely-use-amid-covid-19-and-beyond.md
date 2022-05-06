@@ -4,12 +4,8 @@ categories:
 - meta
 date: '2020-09-15T13:00:00'
 date_gmt: '2020-09-15T17:00:00'
-excerpt: "<p>Today marks the launch of the Older Adults Health Data Collection \u2013\
-  \ a new resource cataloging over 200 Federal datasets previously available on Data.gov\
-  \ related to the health of older Americans. This centralized location will assist\
-  \ experts from academia, industry, &hellip; <a aria-describedby=\"post-title-26452516\"\
-  \ href=\"https://www.data.gov/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  Today marks the launch of the Older Adults Health Data Collection – a new resource cataloging over 200 Federal datasets previously available on Data.gov related to the health of older Americans. This centralized location will assist experts from academia, industry,…
 guid: https://www.data.gov/?p=26452516
 id: 26452516
 link: https://www.data.gov/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/

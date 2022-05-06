@@ -4,10 +4,11 @@ categories:
 - ocean
 date: '2014-06-09T08:42:59'
 date_gmt: '2014-06-09T12:42:59'
-excerpt: '<p>NOAA collects and uses active acoustic (or sonar) data for a variety
+excerpt: |-
+  NOAA collects and uses active acoustic (or sonar) data for a variety
   of mapping requirements. As the national archive for multibeam bathymetric data,
   NGDC manages over 15 million nautical miles of ship trackline data from sources
-  worldwide. In 2011, NGDC, &hellip; <a aria-describedby="post-title-185161" href="https://www.data.gov/ocean/water-column-sonar-data-collection/">Continued</a></p>'
+  worldwide. In 2011, NGDC,…
 featured_media: 185171
 format: image
 guid: https://www.data.gov/?p=185161

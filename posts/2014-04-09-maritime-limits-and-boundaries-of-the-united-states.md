@@ -4,10 +4,11 @@ categories:
 - ocean
 date: '2014-04-09T13:40:03'
 date_gmt: '2014-04-09T17:40:03'
-excerpt: '<p>NOAA is responsible for depicting on its nautical charts the limits of
+excerpt: |-
+  NOAA is responsible for depicting on its nautical charts the limits of
   the 12 nautical mile Territorial Sea, 24 nautical mile Contiguous Zone, and 200
   nautical mile Exclusive Economic Zone (EEZ). The outer limit of each of these zones
-  is &hellip; <a aria-describedby="post-title-161421" href="https://www.data.gov/ocean/maritime-limits-boundaries-united-states/">Continued</a></p>'
+  is…
 featured_media: 161431
 format: image
 guid: https://www.data.gov/?p=161421

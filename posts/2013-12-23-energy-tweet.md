@@ -6,9 +6,8 @@ categories:
 - energy
 date: '2013-12-23T16:36:29'
 date_gmt: '2013-12-23T21:36:29'
-excerpt: "<p>.@ENERGY has announced the winners of Contest #1 in the American Energy\
-  \ Data Challenge. Check out the great ideas: http://energychallenge.energy.gov\_\
-  </p>\n"
+excerpt: |-
+  .@ENERGY has announced the winners of Contest #1 in the American Energy Data Challenge. Check out the great ideas: http://energychallenge.energy.gov
 format: status
 guid: http://www.data.gov/?p=129936
 id: 129936

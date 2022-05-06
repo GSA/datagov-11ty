@@ -12,10 +12,11 @@ categories:
 - water
 date: '2015-04-27T16:44:43'
 date_gmt: '2015-04-27T20:44:43'
-excerpt: '<p>In a continued effort to provide key datasets that support the process
+excerpt: |-
+  In a continued effort to provide key datasets that support the process
   of developing resilience to climate change, thirteen additional datasets are now
   available in the Coastal Flooding theme. These datasets include: NOAA Climate Data
-  Record (CDR) of Sea Surface &hellip; <a aria-describedby="post-title-17383072" href="https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/">Continued</a></p>'
+  Record (CDR) of Sea Surface…
 guid: http://www.data.gov/?p=17383072
 id: 17383072
 link: https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/

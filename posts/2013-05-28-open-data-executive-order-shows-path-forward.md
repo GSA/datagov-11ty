@@ -3,10 +3,8 @@ categories:
 - meta
 date: '2013-05-28T17:05:32'
 date_gmt: '2013-05-28T21:05:32'
-excerpt: '<p>Today, the White House is issuing a new Executive Order on Open Data&nbsp;&#8211;
-  one that is significantly different from the open data policies that have come before
-  it &#8212; reflecting Sunlight&#8217;s persistent call for stronger public listings
-  of agency data, &hellip; <a aria-describedby="post-title-116131" href="https://www.data.gov/announcements/open-data-executive-order-shows-path-forward">Continued</a></p>'
+excerpt: |-
+  Today, the White House is issuing a new Executive Order on Open Data – one that is significantly different from the open data policies that have come before it — reflecting Sunlight’s persistent call for stronger public listings of agency data,…
 format: link
 guid: http://www.data.gov/?p=116131
 id: 116131

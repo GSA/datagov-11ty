@@ -12,11 +12,11 @@ categories:
 - water
 date: '2014-03-06T13:38:47'
 date_gmt: '2014-03-06T18:38:47'
-excerpt: '<p>Want to solve an innovation challenge to address climate change? The
+excerpt: |-
+  Want to solve an innovation challenge to address climate change? The
   International Space Apps Challenge is an international mass collaboration offering
   four climate-related challenges, including&#8230; Coastal Inundation in Your Community
-  Coastal communities are becoming increasingly vulnerable to the risk of &hellip;
-  <a aria-describedby="post-title-143271" href="https://www.data.gov/climate/space-apps-challenge-2/">Continued</a></p>'
+  Coastal communities are becoming increasingly vulnerable to the risk of…
 guid: https://www.data.gov/?p=143271
 id: 143271
 link: https://www.data.gov/climate/space-apps-challenge-2/

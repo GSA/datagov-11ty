@@ -3,9 +3,10 @@ categories:
 - meta
 date: '2013-05-28T16:27:39'
 date_gmt: '2013-05-28T20:27:39'
-excerpt: '<p>This week marks the one-year anniversary of the Digital Government Strategy,
+excerpt: |-
+  This week marks the one-year anniversary of the Digital Government Strategy,
   and we want to take a moment to reflect on a recent White House Executive Order
-  about open data. This Executive Order and accompanying</p>'
+  about open data. This Executive Order and accompanying
 format: link
 guid: http://www.data.gov/?p=116082
 id: 116082

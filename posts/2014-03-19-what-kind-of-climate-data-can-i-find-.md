@@ -12,10 +12,10 @@ categories:
 - water
 date: '2014-03-19T00:03:41'
 date_gmt: '2014-03-19T04:03:41'
-excerpt: '<p>In this emerging climate data resource, you can find datasets and web
+excerpt: |-
+  In this emerging climate data resource, you can find datasets and web
   services, as well as tools, related to coastal flooding and sea level rise. We are
-  featuring key resources to help you get started building data layers and tools &hellip;
-  <a aria-describedby="post-title-136721" href="https://www.data.gov/climate/types-climate-datasets/">Continued</a></p>'
+  featuring key resources to help you get started building data layers and tools…
 guid: https://www.data.gov/?p=136721
 id: 136721
 link: https://www.data.gov/climate/types-climate-datasets/

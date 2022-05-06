@@ -13,11 +13,8 @@ categories:
 - water
 date: '2015-03-23T13:19:28'
 date_gmt: '2015-03-23T17:19:28'
-excerpt: "<p>(April 7th 2015)\_The U.S. Government has released a collection of datasets\
-  \ to help individuals and communities plan for the impacts of climate change on\
-  \ the public\u2019s health. These resources can help answer a number of relevant\
-  \ questions, including: In what &hellip; <a aria-describedby=\"post-title-16949642\"\
-  \ href=\"https://www.data.gov/climate/launch-health-theme-climate-data-gov/\">Continued</a></p>\n"
+excerpt: |-
+  (April 7th 2015) The U.S. Government has released a collection of datasets to help individuals and communities plan for the impacts of climate change on the public's health. These resources can help answer a number of relevant questions, including: In what…
 guid: http://www.data.gov/?p=16949642
 id: 16949642
 link: https://www.data.gov/climate/launch-health-theme-climate-data-gov/

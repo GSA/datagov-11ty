@@ -4,8 +4,8 @@ categories:
 - food
 date: '2013-07-25T22:08:55'
 date_gmt: '2013-07-25T22:08:55'
-excerpt: "<p>USDA Blog: Join the \u2018Data Revolution\u2019, Help Lay the Groundwork\
-  \ for Sustainable Ag http://ow.ly/mppYn #OpenData #OpenAgData</p>\n"
+excerpt: |-
+  USDA Blog: Join the "Data Revolution", Help Lay the Groundwork for Sustainable Ag http://ow.ly/mppYn #OpenData #OpenAgData
 format: status
 guid: http://www.data.gov/?p=757
 id: 757

@@ -5,12 +5,8 @@ categories:
 - meta
 date: '2019-11-20T15:20:58'
 date_gmt: '2019-11-20T20:20:58'
-excerpt: "<p>To a federal statistical agency like the U.S. Energy Information Administration\
-  \ (EIA), there\u2019s nothing more satisfying than providing needed information\
-  \ that can facilitate more informed analysis and policy decisions on a national\
-  \ and regional level. EIA recently launched its new&nbsp;Hourly &hellip; <a aria-describedby=\"\
-  post-title-22933412\" href=\"https://www.data.gov/energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  To a federal statistical agency like the U.S. Energy Information Administration (EIA), there's nothing more satisfying than providing needed information that can facilitate more informed analysis and policy decisions on a national and regional level. EIA recently launched its new Hourly…;
 featured_media: 26088743
 guid: https://www.data.gov/?p=22933412
 id: 22933412

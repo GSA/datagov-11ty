@@ -6,12 +6,8 @@ categories:
 - foodresilience
 date: '2015-05-19T11:16:06'
 date_gmt: '2015-05-19T15:16:06'
-excerpt: "<p>Useful to Usable\_(u2u) offers a suite of online tools created to help\
-  \ farmers and agricultural advisers manage increasingly variable weather and climate\
-  \ conditions across the Corn Belt. They provide historical climate data that help\
-  \ inform purchasing, marketing and activity planning &hellip; <a aria-describedby=\"\
-  post-title-17568732\" href=\"https://www.data.gov/climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  Useful to Usable (u2u) offers a suite of online tools created to help farmers and agricultural advisers manage increasingly variable weather and climate conditions across the Corn Belt. They provide historical climate data that help inform purchasing, marketing and activity planning …
 guid: http://www.data.gov/?p=17568732
 id: 17568732
 link: https://www.data.gov/climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/

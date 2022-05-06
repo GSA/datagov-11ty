@@ -4,10 +4,11 @@ categories:
 - food
 date: '2013-12-13T14:27:26'
 date_gmt: '2013-12-13T14:27:26'
-excerpt: '<p>Increased productivity is the main contributor to growth in U.S. agriculture.
+excerpt: |-
+  Increased productivity is the main contributor to growth in U.S. agriculture.
   This data set provides estimates of productivity growth in the U.S. farm sector
   over the period 1948-2008, and estimates of the growth and relative levels of productivity
-  across the &hellip; <a aria-describedby="post-title-128682" href="https://www.data.gov/food/agricultural-productivity-in-the-united-states/">Continued</a></p>'
+  across the…
 format: image
 guid: http://www.data.gov/?p=128682
 id: 128682

@@ -4,11 +4,11 @@ categories:
 - energy
 date: '2020-03-05T12:32:27'
 date_gmt: '2020-03-05T17:32:27'
-excerpt: '<p>The U.S. Energy Information Administration (EIA) has redesigned its International
+excerpt: |-
+  The U.S. Energy Information Administration (EIA) has redesigned its International
   Energy Portal to streamline navigation, simplify data presentation, and implement
   responsive design use. EIA based many of the redesigned aspects on customer feedback
-  about the earlier beta release of the &hellip; <a aria-describedby="post-title-26220633"
-  href="https://www.data.gov/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/">Continued</a></p>'
+  about the earlier beta release of the…
 guid: https://www.data.gov/?p=26220633
 id: 26220633
 link: https://www.data.gov/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/

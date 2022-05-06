@@ -4,10 +4,8 @@ categories:
 - energy
 date: '2013-06-18T21:02:05'
 date_gmt: '2013-06-18T21:02:05'
-excerpt: '<p>The Energy Information Administration collects statistics on energy generation,
-  distribution and consumption in the United States. Their new APIs provide developers
-  easy access to EIA&#8217;s extensive data on electricity, petroleum, natural gas,
-  and more.</p>'
+excerpt: |-
+  The Energy Information Administration collects statistics on energy generation, distribution and consumption in the United States. Their new APIs provide developers easy access to EIA’s extensive data on electricity, petroleum, natural gas, and more.
 format: image
 guid: http://54.225.112.145/?p=384
 id: 384

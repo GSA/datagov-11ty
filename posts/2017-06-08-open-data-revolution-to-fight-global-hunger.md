@@ -4,11 +4,8 @@ categories:
 - food
 date: '2017-06-08T15:27:34'
 date_gmt: '2017-06-08T19:27:34'
-excerpt: "<p>Every day, people around the world use data to make decisions.\_ When\
-  \ heading out of town, most of us use weather apps to check the forecast anywhere\
-  \ in the world before packing our bags.\_ However, when we travel to far-flung &hellip;\
-  \ <a aria-describedby=\"post-title-24615516\" href=\"https://www.data.gov/food/open-data-revolution-fight-global-hunger/\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  Every day, people around the world use data to make decisions. When heading out of town, most of us use weather apps to check the forecast anywhere in the world before packing our bags. However, when we travel to far-flung…
 guid: https://www.data.gov/?p=24615516
 id: 24615516
 link: https://www.data.gov/food/open-data-revolution-fight-global-hunger/

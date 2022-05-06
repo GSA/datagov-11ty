@@ -3,12 +3,8 @@ categories:
 - meta
 date: '2013-04-16T00:00:00'
 date_gmt: '2013-04-16T04:00:00'
-excerpt: "<p>By Sarah Gearen From shopping for an airline ticket to choosing a college\
-  \ or purchasing a home, consumers face increasingly complex choices in today\u2019\
-  s marketplace. Too often, the effort required to make informed financial decisions\
-  \ leaves many Americans in the &hellip; <a aria-describedby=\"post-title-42822\"\
-  \ href=\"https://www.data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  By Sarah Gearen From shopping for an airline ticket to choosing a college or purchasing a home, consumers face increasingly complex choices in today's marketplace. Too often, the effort required to make informed financial decisions leaves many Americans in the…
 guid: http://www.data.gov/?p=42822
 id: 42822
 link: https://www.data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions

@@ -4,10 +4,11 @@ categories:
 - maritime
 date: '2016-10-19T15:39:17'
 date_gmt: '2016-10-19T19:39:17'
-excerpt: '<p>The U.S. Coast Guard is responsible for investigating accidents on coastal
+excerpt: |-
+  The U.S. Coast Guard is responsible for investigating accidents on coastal
   and inland waters and compiling the associated accident statistics. The USCG Boating
   Safety Resource Center has an online query tool for users to search and filter recreational
-  boating accident &hellip; <a aria-describedby="post-title-23817761" href="https://www.data.gov/maritime/trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool/">Continued</a></p>'
+  boating accident…
 guid: https://www.data.gov/?p=23817761
 id: 23817761
 link: https://www.data.gov/maritime/trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool/

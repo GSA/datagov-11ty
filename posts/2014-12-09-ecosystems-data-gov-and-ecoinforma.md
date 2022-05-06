@@ -13,11 +13,11 @@ categories:
 - water
 date: '2014-12-09T09:02:03'
 date_gmt: '2014-12-09T14:02:03'
-excerpt: '<p>A new Data.gov community (Ecosystems.data.gov) has been launched to serve
+excerpt: |-
+  A new Data.gov community (Ecosystems.data.gov) has been launched to serve
   as an entry point for access to the U.S. Ecoinformatics-based Open Resources and
   Machine Accessibility (EcoINFORMA) initiative, including the EcoINFORMA data resource
-  hubs (Biodiversity, Ecosystem Services, and Land Cover Dynamics), &hellip; <a aria-describedby="post-title-15756362"
-  href="https://www.data.gov/climate/ecosystems-data-gov-ecoinforma-3/">Continued</a></p>'
+  hubs (Biodiversity, Ecosystem Services, and Land Cover Dynamics),…
 guid: http://www.data.gov/?p=15756362
 id: 15756362
 link: https://www.data.gov/climate/ecosystems-data-gov-ecoinforma-3/

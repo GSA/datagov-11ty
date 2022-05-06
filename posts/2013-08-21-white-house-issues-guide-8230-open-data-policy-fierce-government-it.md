@@ -3,11 +3,8 @@ categories:
 - meta
 date: '2013-08-21T19:09:44'
 date_gmt: '2013-08-21T23:09:44'
-excerpt: '<p>A&nbsp;supplemental guide&nbsp;to the White House&#8217;s Open Data Policy
-  has been released providing additional clarification and detailed requirements to
-  assist agencies in carrying out the objectives laid out in a May 9&nbsp;memo and
-  executive order. The administration&#8217;s document, posted on the &hellip; <a
-  aria-describedby="post-title-121751" href="https://www.data.gov/announcements/white-house-issues-guide-open-data-policy-fierce-government-it">Continued</a></p>'
+excerpt: |-
+  A supplemental guide to the White House’s Open Data Policy has been released providing additional clarification and detailed to assist agencies in carrying out the objectives laid out in a May 9 memo and executive order. The administration’s document, posted on the…
 format: link
 guid: http://www.data.gov/?p=121751
 id: 121751

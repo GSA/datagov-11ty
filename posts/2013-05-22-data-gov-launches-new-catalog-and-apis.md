@@ -4,11 +4,11 @@ categories:
 - meta
 date: '2013-05-22T23:24:23'
 date_gmt: '2013-05-23T03:24:23'
-excerpt: '<p>Data.gov is launching two innovations today to mark both the anniversary
+excerpt: |-
+  Data.gov is launching two innovations today to mark both the anniversary
   of the Digital Government Strategy and the fourth anniversary of Data.gov. First
   is a comprehensive listing of the application programming interfaces (APIs) that
-  were released from across the federal &hellip; <a aria-describedby="post-title-51651"
-  href="https://www.data.gov/blog/datagov-launches-new-catalog-and-apis">Continued</a></p>'
+  were released from across the federal…
 guid: http://www.data.gov/?p=51651
 id: 51651
 link: https://www.data.gov/blog/datagov-launches-new-catalog-and-apis

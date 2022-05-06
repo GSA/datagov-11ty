@@ -13,11 +13,11 @@ categories:
 - water
 date: '2014-10-27T14:02:57'
 date_gmt: '2014-10-27T18:02:57'
-excerpt: '<p>To help communities and individuals plan for the risks of climate-change-related
+excerpt: |-
+  To help communities and individuals plan for the risks of climate-change-related
   impacts on water resources, the U.S. Government is releasing today a collection
   of datasets containing information relevant to this important issue. Select data
-  are also being made available via &hellip; <a aria-describedby="post-title-9206242"
-  href="https://www.data.gov/climate/launch-water-theme-climate-data-gov/">Continued</a></p>'
+  are also being made available via…
 guid: https://www.data.gov/?p=9206242
 id: 9206242
 link: https://www.data.gov/climate/launch-water-theme-climate-data-gov/

@@ -3,11 +3,8 @@ categories:
 - meta
 date: '2013-04-29T15:54:50'
 date_gmt: '2013-04-29T19:54:50'
-excerpt: '<p>Posted by&nbsp;Dr. Catherine Woteki, USDA&#8217;s Chief Scientist and
-  Under Secretary for Research, Education and Economics, on April 29, 2013 at 2:45
-  PM. The opening day of the&nbsp;G-8 International Conference on Open Data for Agriculture&nbsp;was
-  action-packed and inspiring. From the moment &hellip; <a aria-describedby="post-title-48042"
-  href="https://www.data.gov/blog/open-data-agriculture-offers-lift-global-food-security">Continued</a></p>'
+excerpt: |-
+  Posted by Dr. Catherine Woteki, USDA’s Chief Scientist and Under Secretary for Research, Education and Economics, on April 29, 2013 at 2:45 PM. The opening day of the G-8 International Conference on Open Data for Agriculture was action-packed and inspiring. From the moment…
 guid: http://www.data.gov/?p=48042
 id: 48042
 link: https://www.data.gov/blog/open-data-agriculture-offers-lift-global-food-security

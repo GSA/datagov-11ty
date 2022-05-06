@@ -4,8 +4,9 @@ categories:
 - food
 date: '2013-12-13T19:07:35'
 date_gmt: '2013-12-13T19:07:35'
-excerpt: '<p>SNAP Retailer Locator API provides location, details and directions for
-  retailers that welcome SNAP Electronic Benefit Transfer (EBT) customers.</p>'
+excerpt: |-
+  SNAP Retailer Locator API provides location, details and directions for
+  retailers that welcome SNAP Electronic Benefit Transfer (EBT) customers.
 format: image
 guid: http://www.data.gov/?p=129257
 id: 129257

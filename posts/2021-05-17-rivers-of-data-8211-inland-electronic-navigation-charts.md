@@ -7,11 +7,8 @@ categories:
 comment_status: closed
 date: '2021-05-17T15:00:00'
 date_gmt: '2021-05-17T19:00:00'
-excerpt: '<p>Nautical charts provide critical information to mariners in support of
-  safe navigation. Historically these charts have been printed and distributed on
-  paper, but modern communications systems allow for electronic charts that are able
-  to be updated as new information becomes &hellip; <a aria-describedby="post-title-25601282"
-  href="https://www.data.gov/maritime/rivers-of-data-inland-electronic-navigation-charts/">Continued</a></p>'
+excerpt: |-
+  Nautical charts provide critical information to mariners in support of safe navigation. Historically these charts have been printed and distributed on paper, but modern communications systems allow for electronic charts that are able to be updated as new information becomes…
 featured_media: 26085520
 guid: https://www.data.gov/?p=25601282
 id: 25601282
@@ -33,7 +30,7 @@ tags:
 - navigation-chart
 - u-s-army-corps-of-engineers
 - usace
-title: Rivers of Data &#8211; Inland Electronic Navigation Charts
+title: Rivers of Data – Inland Electronic Navigation Charts
 ---
 
 Nautical charts provide critical information to mariners in support of safe navigation. Historically these charts have been printed and distributed on paper, but modern communications systems allow for electronic charts that are able to be updated as new information becomes available. The National Oceanic and Atmospheric Administration (NOAA) Office of Coast Survey produces charts for coastal and Great Lakes areas, and the U.S. Army Corps of Engineers produces charts for America’s inland rivers through the Inland Electronic Navigation Chart program. The Inland Electronic Navigation Chart (IENC) program covers thousands of miles of navigable waterways. America’s inland waterways move millions of tons of commodities every year, and the work of surveying, charting, and dredging sediment is continually ongoing due to the dynamic conditions and constant change happening along any given river.

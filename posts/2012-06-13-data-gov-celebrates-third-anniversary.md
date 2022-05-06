@@ -3,11 +3,8 @@ categories:
 - meta
 date: '2012-06-13T09:53:33'
 date_gmt: '2012-06-13T13:53:33'
-excerpt: "<p>May 21, 2012 marks the third anniversary of the U.S. government\u2019\
-  s open data site, Data.gov. The first national open data site, Data.gov led the\
-  \ way in opening government data around the world. Now 30 countries host open data\
-  \ sites and &hellip; <a aria-describedby=\"post-title-38\" href=\"https://www.data.gov/announcements/datagov-celebrates-third-anniversary\"\
-  >Continued</a></p>\n"
+excerpt: |-
+  May 21, 2012 marks the third anniversary of the U.S. government's open data site, Data.gov. The first national open data site, Data.gov led the way in opening government data around the world. Now 30 countries host open data sites and…
 format: link
 guid: http://www.data.gov/?p=38
 id: 38

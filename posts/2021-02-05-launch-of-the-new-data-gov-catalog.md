@@ -4,10 +4,11 @@ categories:
 - meta
 date: '2021-02-05T16:13:00'
 date_gmt: '2021-02-05T21:13:00'
-excerpt: '<p>On February 5, 2021 we will be launching a new version of the Data.gov
+excerpt: |-
+  On February 5, 2021 we will be launching a new version of the Data.gov
   catalog. The new catalog is the culmination of many months of work in updating the
   behind-the-scenes functioning of the Data.gov catalog, which automatically harvests
-  over 1000 &hellip; <a aria-describedby="post-title-26726182" href="https://www.data.gov/meta/launch-of-the-new-data-gov-catalog/">Continued</a></p>'
+  over 1000…
 guid: https://www.data.gov/?p=26726182
 id: 26726182
 link: https://www.data.gov/meta/launch-of-the-new-data-gov-catalog/

@@ -3,11 +3,8 @@ categories:
 - meta
 date: '2013-01-28T13:09:31'
 date_gmt: '2013-01-28T18:09:31'
-excerpt: "<p>&nbsp;Recently, we marked another milestone in Data.gov\u2019s evolution.\
-  \ Members of the Open Knowledge Foundation met in Washington, D.C., with the Data.gov\
-  \ team and Federal Agencies to discuss the next iteration of Data.gov. &nbsp;Within\
-  \ months, Data.gov will see major enhancements around &hellip; <a aria-describedby=\"\
-  post-title-41651\" href=\"https://www.data.gov/blog/ckan-horizon-datagov-20\">Continued</a></p>\n"
+excerpt: |-
+  Recently, we marked another milestone in Data.gov's evolution. Members of the Open Knowledge Foundation met in Washington, D.C., with the Data.gov team and Federal Agencies to discuss the next iteration of Data.gov. Within months, Data.gov will see major enhancements around…
 guid: http://www.data.gov/?p=41651
 id: 41651
 link: https://www.data.gov/blog/ckan-horizon-datagov-20

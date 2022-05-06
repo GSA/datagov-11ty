@@ -4,10 +4,11 @@ categories:
 - meta
 date: '2013-02-21T11:37:53'
 date_gmt: '2013-02-21T16:37:53'
-excerpt: '<p>While Data.gov lists its holdings at almost 400,000 datasets, the fact
+excerpt: |-
+  While Data.gov lists its holdings at almost 400,000 datasets, the fact
   is, Data.gov is the link to millions of public datasets. Many Federal agencies post
   their data collections on Data.gov as single entities. In addition, Data.gov is
-  host to tools, &hellip; <a aria-describedby="post-title-42221" href="https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions">Continued</a></p>'
+  host to tools,…
 guid: http://www.data.gov/?p=42221
 id: 42221
 link: https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions

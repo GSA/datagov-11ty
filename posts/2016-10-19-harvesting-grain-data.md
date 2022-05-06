@@ -4,10 +4,11 @@ categories:
 - maritime
 date: '2016-10-19T16:00:12'
 date_gmt: '2016-10-19T20:00:12'
-excerpt: '<p>Author: Marin Kress, Research Scientist, Engineer Research and Development
+excerpt: |-
+  Author: Marin Kress, Research Scientist, Engineer Research and Development
   Center, USACE This Grain Transportation Report: Rail Deliveries to Port dataset
   from the USDA provides the total number of rail carloads used in weekly grain shipments
-  traveling to ports in five &hellip; <a aria-describedby="post-title-23817691" href="https://www.data.gov/maritime/harvesting-grain-data/">Continued</a></p>'
+  traveling to ports in five…
 guid: https://www.data.gov/?p=23817691
 id: 23817691
 link: https://www.data.gov/maritime/harvesting-grain-data/

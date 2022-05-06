@@ -12,10 +12,11 @@ categories:
 - water
 date: '2014-03-06T14:34:03'
 date_gmt: '2014-03-06T19:34:03'
-excerpt: '<p>These post-Superstorm Sandy maps for New York City and New Jersey and
+excerpt: |-
+  These post-Superstorm Sandy maps for New York City and New Jersey and
   New York states show how the floodplain will change under different scenarios of
   sea level rise. Surging Seas uses government data to project sea level rise scenarios
-  for &hellip; <a aria-describedby="post-title-146071" href="https://www.data.gov/climate/climate-data-action/">Continued</a></p>'
+  for…
 featured_media: 149591
 guid: https://www.data.gov/?p=146071
 id: 146071

@@ -13,11 +13,11 @@ categories:
 - water
 date: '2015-06-25T07:43:45'
 date_gmt: '2015-06-25T11:43:45'
-excerpt: '<p>To help communities, governments, businesses, and research institutions
+excerpt: |-
+  To help communities, governments, businesses, and research institutions
   better understand and plan for the risks of storms, floods, and other climate-change-related
   impacts, the U.S. Government is enhancing accessibility and releasing today a collection
-  of datasets containing scientific and technical information &hellip; <a aria-describedby="post-title-16679252"
-  href="https://www.data.gov/climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/">Continued</a></p>'
+  of datasets containing scientific and technical information…
 guid: http://www.data.gov/?p=16679252
 id: 16679252
 link: https://www.data.gov/climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/
