@@ -7,7 +7,11 @@
     <header>
       {% comment %} TODO add category and link to category? {% endcomment %}
       <div class="category category-header">Category</div>
-      <h3 class="entry-title">{{ post.data.title }}</h3>
+      <h3 class="entry-title">
+        <a href="{{ post.data.permalink }}" class="usa-link">
+          {{ post.data.title }}
+        </a>
+      </h3>
       <div class="entry-meta">
         <time datetime="{{ post.data.date_gmt }}">
           {{ post.data.date_gmt | date: "%B %e, %Y" }}
@@ -21,7 +25,10 @@
       </div>
     </header>
     <div class="entry-summary">
-      {{ post.data.excerpt }}
+      <p>
+        {{ post.data.excerpt }}
+        <a href="{{ post.data.permalink }}" aria-describedby="{{ post.data.title }}" class="usa-link">Continued</a>
+      </p>
     </div>
   </article>
 {% endfor %}
