@@ -36,4 +36,4 @@ Using the Bureau of Labor Statistics’ Occupational Employment Statistics, **Ge
 
 By combining data with technology, these companies are able to offer data analytics tools that are customized to address the goals and financial needs of individual consumers. If your company or organization has a story to share about how you are using data to empower consumers, tweet us [@USTreasury](https://twitter.com/USTreasury).
 
-*Sarah Gearen is a Senior Policy Advisor in theOffice of Consumer Policy at the U.S. Department of the Treasury.*
+*Sarah Gearen is a Senior Policy Advisor in the Office of Consumer Policy at the U.S. Department of the Treasury.*
