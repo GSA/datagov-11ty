@@ -16,10 +16,8 @@
         <time datetime="{{ post.data.date_gmt }}">
           {{ post.data.date_gmt | date: "%B %e, %Y" }}
           {% if post.data.author %}
-            {% comment %}
-              TODO pull author information to display
-            {% endcomment %}
-            <em>By {{ post.data.author | join: "; " }}</em>
+            {% comment %} blogposts currently only have one author per blog {% endcomment %}
+            <em>By {{ authors[post.data.author].name }}</em>
           {% endif %}
         </time>
       </div>

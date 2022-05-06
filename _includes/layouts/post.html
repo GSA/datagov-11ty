@@ -3,11 +3,11 @@ layout: layouts/default
 ---
 
 {% comment %}
-For default frontmatter of individual posts, please see posts/posts.json
-{% endcomment %}
+  This layout is used for individual posts / updates.
 
-{% comment %}
-This is used with blogposts. Include a list of them with the partial updates.html
+  Default front matter is set in posts/posts.json. Individual
+  front matter and overrides of default values are available
+  in the front matter of specific posts in the posts directory.
 {% endcomment %}
 
 <div class="usa-layout-docs usa-section">
@@ -17,7 +17,10 @@ This is used with blogposts. Include a list of them with the partial updates.htm
         <h1 class="title">{{title}}</h1>
         <div class="text-base margin-bottom-2">
           <div class="margin-top-neg-105">
-            By <span class="text-bold">{{ author }}</span> · {{ date | date: '%B %d, %Y' }}
+            {% if author %}
+              By <span class="text-bold">{{ authors[author].name }}</span> ·
+            {% endif %}
+            {{ date | date: '%B %d, %Y' }}
           </div>
         </div>
         {{ content }}
