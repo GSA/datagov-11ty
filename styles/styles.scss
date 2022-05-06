@@ -47,6 +47,12 @@ i.e.
 ----------------------------------------
 */
 
+// TODO MOVE THIS TO PROJECT SCSS WHEN READY
+
+article.update {
+  display: block;
+}
+
 // default mode hide banner
 .usa-banner__content {
   display: hidden;
@@ -88,4 +94,4 @@ i.e.
   width: 200px;
   display: block;
   background-size: cover;
-}  
+}
