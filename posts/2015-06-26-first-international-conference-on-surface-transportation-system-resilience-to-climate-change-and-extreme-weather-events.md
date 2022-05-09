@@ -13,7 +13,6 @@ modified: '2016-05-19T18:11:12'
 modified_gmt: '2016-05-19T22:11:12'
 permalink: /climate/transportation/first-international-conference-on-surface-transportation-system-resilience-to-climate-change-and-extreme-weather-events/
 redirect_from:
-- /climate/transportation/first-international-conference-on-surface-transportation-system-resilience-to-climate-change-and-extreme-weather-events/
 - /transportation/first-international-conference-on-surface-transportation-system-resilience-to-climate-change-and-extreme-weather-events/
 slug: first-international-conference-on-surface-transportation-system-resilience-to-climate-change-and-extreme-weather-events
 

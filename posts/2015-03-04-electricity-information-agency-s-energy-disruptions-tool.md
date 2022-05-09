@@ -13,7 +13,6 @@ modified: '2020-09-17T15:29:18'
 modified_gmt: '2020-09-17T19:29:18'
 permalink: /climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 redirect_from:
-- /climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 - /energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 slug: electricity-information-agencys-energy-disruptions-tool
 

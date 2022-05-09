@@ -33,7 +33,6 @@ redirect_from:
 - /climate/humanhealth/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /climate/transportation/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /climate/tribal-nations/coastal-flooding-theme-adds-thirteen-new-datasets/
-- /climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /coastalflooding/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /ecosystem-vulnerability/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /energy-infrastructure/coastal-flooding-theme-adds-thirteen-new-datasets/
