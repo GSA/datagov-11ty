@@ -8,13 +8,14 @@ excerpt: |-
   is, Data.gov is the link to millions of public datasets. Many Federal agencies post
   their data collections on Data.gov as single entities. In addition, Data.gov is
   host to tools,…
-link: https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions
+link: https://www.data.gov/blog/one-click-and-we%27ll-give-you-millions
 modified: '2014-04-14T17:18:41'
-permalink: /blog/one-click-and-we%E2%80%99ll-give-you-millions/
+permalink: /blog/one-click-and-we%27ll-give-you-millions/
 redirect_from:
 - /meta/one-click-and-we%E2%80%99ll-give-you-millions/
+- /blog/one-click-and-we%E2%80%99ll-give-you-millions/
 slug: uncategorized__blog__one-click-and-well-give-you-millions
-title: "One Click and We\u2019ll Give You Millions"
+title: "One Click and We'll Give You Millions"
 ---
 
 ![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/IMAGE%20FINAL%2022113%20BLOG.PNG)
