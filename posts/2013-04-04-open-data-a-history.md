@@ -3,14 +3,10 @@ author: admin
 categories:
 - meta
 date: '2013-04-04T18:00:14'
-date_gmt: '2013-04-04T22:00:14'
 excerpt: |-
   This term "open data" is becoming increasingly commonplace. That's what Data.gov is all about. But what is open data? A new article in the Paris Tech Review offers a snapshot of how open data was born, its evolving purpose, and…
-guid: http://www.data.gov/?p=42642
-id: 42642
 link: https://www.data.gov/blog/open-data-history
 modified: '2017-10-02T18:18:24'
-modified_gmt: '2017-10-02T22:18:24'
 permalink: /blog/open-data-history/
 redirect_from:
 - /meta/open-data-history/

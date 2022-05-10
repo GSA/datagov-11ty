@@ -12,17 +12,13 @@ categories:
 - tribal-nations
 - water
 date: '2014-07-29T00:02:18'
-date_gmt: '2014-07-29T04:02:18'
 excerpt: |-
   To help communities and individuals plan for the risks of drought, floods,
   and other climate-change-related impacts, the U.S. Government is releasing today
   a collection of datasets containing information relevant to the effects of climate
   change on the food system. These…
-guid: https://www.data.gov/?p=2048341
-id: 2048341
 link: https://www.data.gov/climate/launch-food-resilience-theme-climate-data-gov/
 modified: '2016-05-19T18:12:16'
-modified_gmt: '2016-05-19T22:12:16'
 permalink: /climate/launch-food-resilience-theme-climate-data-gov/
 redirect_from:
 - /arctic/launch-food-resilience-theme-climate-data-gov/

@@ -3,20 +3,14 @@ author: admin
 categories:
 - meta
 date: '2016-08-08T11:21:48'
-date_gmt: '2016-08-08T15:21:48'
 excerpt: |-
   Open government data enables us to create tools that deliver insights
   on topics ranging from education and health to entrepreneurship and foreign aid.
   Families reviewing college options can compare tuition, graduation rates, and potential
   post-graduation salaries, using the College Scorecard–…
-featured_media: 22972562
-guid: https://www.data.gov/?p=22972542
-id: 22972542
 link: https://www.data.gov/meta/your-open-data-story/
 modified: '2016-08-08T11:21:48'
-modified_gmt: '2016-08-08T15:21:48'
 permalink: /meta/your-open-data-story/
-redirect_from: []
 slug: your-open-data-story
 
 title: Your Open Data Story

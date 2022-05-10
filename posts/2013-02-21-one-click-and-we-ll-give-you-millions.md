@@ -3,22 +3,17 @@ author: admin
 categories:
 - meta
 date: '2013-02-21T11:37:53'
-date_gmt: '2013-02-21T16:37:53'
 excerpt: |-
   While Data.gov lists its holdings at almost 400,000 datasets, the fact
   is, Data.gov is the link to millions of public datasets. Many Federal agencies post
   their data collections on Data.gov as single entities. In addition, Data.gov is
   host to tools,…
-guid: http://www.data.gov/?p=42221
-id: 42221
 link: https://www.data.gov/blog/one-click-and-we%E2%80%99ll-give-you-millions
 modified: '2014-04-14T17:18:41'
-modified_gmt: '2014-04-14T21:18:41'
 permalink: /blog/one-click-and-we%E2%80%99ll-give-you-millions/
 redirect_from:
 - /meta/one-click-and-we%E2%80%99ll-give-you-millions/
 slug: uncategorized__blog__one-click-and-well-give-you-millions
-
 title: "One Click and We\u2019ll Give You Millions"
 ---
 

@@ -12,17 +12,13 @@ categories:
 - tribal-nations
 - water
 date: '2014-07-16T11:32:14'
-date_gmt: '2014-07-16T15:32:14'
 excerpt: |-
   To help communities and citizens plan for the risks of coastal flooding
   and other climate-change-related impacts, the Department of Homeland Security, the
   Department of Defense, the National Geospatial-Intelligence Agency, and the U.S.
   Geological Survey have released new non-sensitive datasets containing…
-guid: https://www.data.gov/?p=2042721
-id: 2042721
 link: https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/
 modified: '2016-05-19T18:12:17'
-modified_gmt: '2016-05-19T22:12:17'
 permalink: /climate/infrastructure-geographic-map-data-climate-preparedness/
 redirect_from:
 - /arctic/infrastructure-geographic-map-data-climate-preparedness/

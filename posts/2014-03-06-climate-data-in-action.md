@@ -11,18 +11,13 @@ categories:
 - transportation
 - water
 date: '2014-03-06T14:34:03'
-date_gmt: '2014-03-06T19:34:03'
 excerpt: |-
   These post-Superstorm Sandy maps for New York City and New Jersey and
   New York states show how the floodplain will change under different scenarios of
   sea level rise. Surging Seas uses government data to project sea level rise scenarios
   for…
-featured_media: 149591
-guid: https://www.data.gov/?p=146071
-id: 146071
 link: https://www.data.gov/climate/climate-data-action/
 modified: '2016-05-19T18:12:19'
-modified_gmt: '2016-05-19T22:12:19'
 permalink: /climate/climate-data-action/
 redirect_from:
 - /arctic/climate-data-action/

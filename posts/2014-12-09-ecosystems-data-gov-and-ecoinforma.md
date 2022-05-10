@@ -12,17 +12,13 @@ categories:
 - tribal-nations
 - water
 date: '2014-12-09T09:02:03'
-date_gmt: '2014-12-09T14:02:03'
 excerpt: |-
   A new Data.gov community (Ecosystems.data.gov) has been launched to serve
   as an entry point for access to the U.S. Ecoinformatics-based Open Resources and
   Machine Accessibility (EcoINFORMA) initiative, including the EcoINFORMA data resource
   hubs (Biodiversity, Ecosystem Services, and Land Cover Dynamics),…
-guid: http://www.data.gov/?p=15756362
-id: 15756362
 link: https://www.data.gov/climate/ecosystems-data-gov-ecoinforma-3/
 modified: '2016-05-19T18:11:16'
-modified_gmt: '2016-05-19T22:11:16'
 permalink: /climate/ecosystems-data-gov-ecoinforma-3/
 redirect_from:
 - /arctic/ecosystems-data-gov-ecoinforma-3/

@@ -12,14 +12,10 @@ categories:
 - tribal-nations
 - water
 date: '2015-07-28T10:10:59'
-date_gmt: '2015-07-28T14:10:59'
 excerpt: |-
   WASHINGTON, July 27, – The U.S. Department of Agriculture is partnering with Microsoft to launch the "Innovation Challenge," a competition to develop software applications that help farmers, agriculture businesses, and consumers explore how climate change will affect their food systems. The Innovation Challenge…
-guid: http://www.data.gov/?p=18174062
-id: 18174062
 link: https://www.data.gov/climate/microsoft-launches-innovation-challenge-around-food-resilience/
 modified: '2016-05-19T18:11:12'
-modified_gmt: '2016-05-19T22:11:12'
 permalink: /climate/microsoft-launches-innovation-challenge-around-food-resilience/
 redirect_from:
 - /arctic/microsoft-launches-innovation-challenge-around-food-resilience/

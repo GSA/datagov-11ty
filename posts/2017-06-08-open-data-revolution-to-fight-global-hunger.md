@@ -3,16 +3,11 @@ author: idris-odunewugsa-gov
 categories:
 - food
 date: '2017-06-08T15:27:34'
-date_gmt: '2017-06-08T19:27:34'
 excerpt: |-
   Every day, people around the world use data to make decisions. When heading out of town, most of us use weather apps to check the forecast anywhere in the world before packing our bags. However, when we travel to far-flung…
-guid: https://www.data.gov/?p=24615516
-id: 24615516
 link: https://www.data.gov/food/open-data-revolution-fight-global-hunger/
 modified: '2017-06-08T15:35:14'
-modified_gmt: '2017-06-08T19:35:14'
 permalink: /food/open-data-revolution-fight-global-hunger/
-redirect_from: []
 slug: open-data-revolution-fight-global-hunger
 
 title: Open Data Revolution to Fight Global Hunger

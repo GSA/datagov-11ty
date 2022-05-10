@@ -3,20 +3,14 @@ author: admin
 categories:
 - food
 date: '2013-12-13T19:09:12'
-date_gmt: '2013-12-13T19:09:12'
 excerpt: |-
   Official aggregate estimates related to U.S. agricultural production.
   National Agriculture Statistics Service (NASS) develops these estimates from data
   collected through hundreds of sample surveys conducted each year covering virtually
   every aspect of U.S. agriculture and the Census of Agriculture conducted…
-format: image
-guid: http://www.data.gov/?p=129259
-id: 129259
 link: https://www.data.gov/food/nass-quickstats/
 modified: '2014-04-03T11:45:11'
-modified_gmt: '2014-04-03T15:45:11'
 permalink: /food/nass-quickstats/
-redirect_from: []
 slug: nass-quickstats
 
 title: National Agriculture Statistics Service QuickStats

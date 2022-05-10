@@ -2,14 +2,10 @@
 categories:
 - meta
 date: '2013-01-28T13:09:31'
-date_gmt: '2013-01-28T18:09:31'
 excerpt: |-
   Recently, we marked another milestone in Data.gov's evolution. Members of the Open Knowledge Foundation met in Washington, D.C., with the Data.gov team and Federal Agencies to discuss the next iteration of Data.gov. Within months, Data.gov will see major enhancements around…
-guid: http://www.data.gov/?p=41651
-id: 41651
 link: https://www.data.gov/blog/ckan-horizon-datagov-20
 modified: '2014-03-18T21:44:20'
-modified_gmt: '2014-03-19T01:44:20'
 permalink: /blog/ckan-horizon-datagov-20/
 redirect_from:
 - /meta/ckan-horizon-datagov-20/

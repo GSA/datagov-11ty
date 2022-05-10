@@ -3,21 +3,13 @@ author: crystal-cartergsa-gov
 categories:
 - meta
 date: '2020-12-14T16:14:45'
-date_gmt: '2020-12-14T21:14:45'
 excerpt: |-
   This post was originally published on the Healthdata.gov blog by Kristen Honey, Chief Data Scientist and Senior Advisor to Assistant Secretary for  Health (ASH), HHS; Amy Gleason, Data Strategy and Execution Workgroup Lead, U.S. Digital Service; and Kevin Duvall, Deputy Chief Data…
-guid: https://www.data.gov/?p=26648756
-id: 26648756
 link: https://www.data.gov/meta/covid-19-is-complex-as-is-covid-19-open-data/
 modified: '2020-12-15T13:31:31'
-modified_gmt: '2020-12-15T18:31:31'
 permalink: /meta/covid-19-is-complex-as-is-covid-19-open-data/
-redirect_from: []
 slug: covid-19-is-complex-as-is-covid-19-open-data
 sticky: true
-tags:
-- covid-19
-- data
 title: COVID-19 is Complex, as is COVID-19 Open Data
 ---
 

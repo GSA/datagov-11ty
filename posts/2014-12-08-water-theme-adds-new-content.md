@@ -12,17 +12,13 @@ categories:
 - tribal-nations
 - water
 date: '2014-12-08T17:38:37'
-date_gmt: '2014-12-08T22:38:37'
 excerpt: |-
   In a continued effort to provide key resources that are aimed at developing
   water resources resilience to climate change, five additional items are now available
   in the Water theme. Those include: Global Lake Temperature Collaboration Forced
   Evaporation from Water Surface…
-guid: http://www.data.gov/?p=15785832
-id: 15785832
 link: https://www.data.gov/climate/water-theme-adds-new-content/
 modified: '2015-11-05T12:09:06'
-modified_gmt: '2015-11-05T17:09:06'
 permalink: /climate/water-theme-adds-new-content/
 redirect_from:
 - /arctic/water-theme-adds-new-content/

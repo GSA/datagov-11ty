@@ -2,14 +2,10 @@
 categories:
 - meta
 date: '2013-06-20T11:42:25'
-date_gmt: '2013-06-20T15:42:25'
 excerpt: |-
   As you know, last month Data.gov launched its new open-source Data.gov 2.0 catalog (catalog.data.gov). Based on CKAN, a data management platform used by many open-data catalogs around the world, Data.gov's new catalog has received nothing but kudos from users. For…
-guid: http://www.data.gov/?p=117221
-id: 117221
 link: https://www.data.gov/blog/tour-datagov-20
 modified: '2014-03-18T21:44:12'
-modified_gmt: '2014-03-19T01:44:12'
 permalink: /blog/tour-datagov-20/
 redirect_from:
 - /meta/tour-datagov-20/

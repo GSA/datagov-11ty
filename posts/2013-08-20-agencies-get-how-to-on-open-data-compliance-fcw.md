@@ -2,15 +2,10 @@
 categories:
 - meta
 date: '2013-08-20T11:37:33'
-date_gmt: '2013-08-20T15:37:33'
 excerpt: |-
   Agencies are expected to deliver on several elements of President Barack Obama's executive order on open data by Nov. 1, including creation and publication of a list of data assets. To steer these efforts, the Office of Management and Budget…
-format: link
-guid: http://www.data.gov/?p=121741
-id: 121741
 link: https://www.data.gov/announcements/agencies-get-how-open-data-compliance-fcw
 modified: '2014-03-18T21:44:05'
-modified_gmt: '2014-03-19T01:44:05'
 permalink: /announcements/agencies-get-how-open-data-compliance-fcw/
 redirect_from:
 - /meta/agencies-get-how-open-data-compliance-fcw/

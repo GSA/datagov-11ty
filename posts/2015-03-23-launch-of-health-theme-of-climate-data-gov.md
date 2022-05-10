@@ -12,14 +12,10 @@ categories:
 - tribal-nations
 - water
 date: '2015-03-23T13:19:28'
-date_gmt: '2015-03-23T17:19:28'
 excerpt: |-
   (April 7th 2015) The U.S. Government has released a collection of datasets to help individuals and communities plan for the impacts of climate change on the public's health. These resources can help answer a number of relevant questions, including: In what…
-guid: http://www.data.gov/?p=16949642
-id: 16949642
 link: https://www.data.gov/climate/launch-health-theme-climate-data-gov/
 modified: '2016-05-19T18:11:14'
-modified_gmt: '2016-05-19T22:11:14'
 permalink: /climate/launch-health-theme-climate-data-gov/
 redirect_from:
 - /arctic/launch-health-theme-climate-data-gov/

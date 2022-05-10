@@ -11,16 +11,12 @@ categories:
 - transportation
 - water
 date: '2014-03-19T00:03:41'
-date_gmt: '2014-03-19T04:03:41'
 excerpt: |-
   In this emerging climate data resource, you can find datasets and web
   services, as well as tools, related to coastal flooding and sea level rise. We are
   featuring key resources to help you get started building data layers and tools…
-guid: https://www.data.gov/?p=136721
-id: 136721
 link: https://www.data.gov/climate/types-climate-datasets/
 modified: '2016-05-19T18:12:18'
-modified_gmt: '2016-05-19T22:12:18'
 permalink: /climate/types-climate-datasets/
 redirect_from:
 - /arctic/types-climate-datasets/

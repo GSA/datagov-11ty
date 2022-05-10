@@ -12,17 +12,13 @@ categories:
 - tribal-nations
 - water
 date: '2015-04-14T15:01:41'
-date_gmt: '2015-04-14T19:01:41'
 excerpt: |-
   In a continued effort to provide key datasets that support the process
   of developing resilience to climate change, eleven additional datasets are now available
   in the Coastal Flooding theme. These datasets include: NOAA Optimum Interpolation
   1/4 Degree Daily Sea Surface…
-guid: http://www.data.gov/?p=17239352
-id: 17239352
 link: https://www.data.gov/climate/coastal-flooding-theme-adds-eleven-new-datasets/
 modified: '2015-11-05T12:09:02'
-modified_gmt: '2015-11-05T17:09:02'
 permalink: /climate/coastal-flooding-theme-adds-eleven-new-datasets/
 redirect_from:
 - /arctic/coastal-flooding-theme-adds-eleven-new-datasets/

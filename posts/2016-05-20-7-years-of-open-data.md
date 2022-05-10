@@ -3,16 +3,11 @@ author: admin
 categories:
 - meta
 date: '2016-05-20T11:01:09'
-date_gmt: '2016-05-20T15:01:09'
 excerpt: |-
   In its seventh year as home to the U.S. Government's open data, Data.gov continues to serve millions of people worldwide, from researchers and civic hackers, to businesses and citizens. These users have created apps, launched new products and services, and…
-guid: https://www.data.gov/?p=21984272
-id: 21984272
 link: https://www.data.gov/meta/7-years-of-open-data/
 modified: '2017-05-16T13:47:25'
-modified_gmt: '2017-05-16T17:47:25'
 permalink: /meta/7-years-of-open-data/
-redirect_from: []
 slug: 7-years-of-open-data
 title: 7 Years of Open Data
 ---

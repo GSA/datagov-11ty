@@ -6,30 +6,16 @@ categories:
 - transportation
 comment_status: closed
 date: '2021-05-17T15:00:00'
-date_gmt: '2021-05-17T19:00:00'
 excerpt: |-
   Nautical charts provide critical information to mariners in support of safe navigation. Historically these charts have been printed and distributed on paper, but modern communications systems allow for electronic charts that are able to be updated as new information becomes…
-featured_media: 26085520
-guid: https://www.data.gov/?p=25601282
-id: 25601282
 link: https://www.data.gov/maritime/rivers-of-data-inland-electronic-navigation-charts/
 modified: '2021-03-24T17:35:54'
-modified_gmt: '2021-03-24T21:35:54'
 permalink: /maritime/rivers-of-data-inland-electronic-navigation-charts/
 redirect_from:
 - /climate/transportation/rivers-of-data-inland-electronic-navigation-charts/
 - /geospatial/rivers-of-data-inland-electronic-navigation-charts/
 - /transportation/rivers-of-data-inland-electronic-navigation-charts/
 slug: rivers-of-data-inland-electronic-navigation-charts
-tags:
-- ienc
-- inland-navigation
-- map
-- marine-transportation
-- maritime
-- navigation-chart
-- u-s-army-corps-of-engineers
-- usace
 title: Rivers of Data – Inland Electronic Navigation Charts
 ---
 

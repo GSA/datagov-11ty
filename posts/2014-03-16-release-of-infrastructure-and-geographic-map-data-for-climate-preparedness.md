@@ -11,14 +11,10 @@ categories:
 - transportation
 - water
 date: '2014-03-16T16:43:38'
-date_gmt: '2014-03-16T20:43:38'
 excerpt: |-
   To help communities and citizens plan for the risks of coastal flooding and other climate-change-related impacts, the Department of Homeland Security, the Department of Defense, the National Geospatial-Intelligence Agency, and the U.S. Geological Survey are releasing today a collection of non-sensitive…
-guid: https://www.data.gov/?p=150501
-id: 150501
 link: https://www.data.gov/climate/release-infrastructure-geographic-map-data-climate-preparedness/
 modified: '2016-05-19T18:12:19'
-modified_gmt: '2016-05-19T22:12:19'
 permalink: /climate/release-infrastructure-geographic-map-data-climate-preparedness/
 redirect_from:
 - /arctic/release-infrastructure-geographic-map-data-climate-preparedness/

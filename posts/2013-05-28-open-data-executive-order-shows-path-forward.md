@@ -2,15 +2,10 @@
 categories:
 - meta
 date: '2013-05-28T17:05:32'
-date_gmt: '2013-05-28T21:05:32'
 excerpt: |-
   Today, the White House is issuing a new Executive Order on Open Data – one that is significantly different from the open data policies that have come before it — reflecting Sunlight’s persistent call for stronger public listings of agency data,…
-format: link
-guid: http://www.data.gov/?p=116131
-id: 116131
 link: https://www.data.gov/announcements/open-data-executive-order-shows-path-forward
 modified: '2014-03-18T21:44:15'
-modified_gmt: '2014-03-19T01:44:15'
 permalink: /announcements/open-data-executive-order-shows-path-forward/
 redirect_from:
 - /meta/open-data-executive-order-shows-path-forward/

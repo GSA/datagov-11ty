@@ -10,17 +10,13 @@ categories:
 - transportation
 - water
 date: '2014-12-09T09:00:44'
-date_gmt: '2014-12-09T14:00:44'
 excerpt: |-
   The Water theme, one of several themes of climate.data.gov, was recently
   launched. The Water theme provides data and resources to facilitate the understanding
   of climate change impacts on water resources and to help communities and governments
   develop plans and policies…
-guid: http://www.data.gov/?p=12924992
-id: 12924992
 link: https://www.data.gov/climate/water-resources-resilience/
 modified: '2020-09-17T15:29:49'
-modified_gmt: '2020-09-17T19:29:49'
 permalink: /climate/water-resources-resilience/
 redirect_from:
 - /climate/coastalflooding/water-resources-resilience/

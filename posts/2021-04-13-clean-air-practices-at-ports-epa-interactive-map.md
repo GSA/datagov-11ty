@@ -3,28 +3,15 @@ author: marin-m-kressusace-army-mil
 categories:
 - maritime
 date: '2021-04-13T14:00:00'
-date_gmt: '2021-04-13T18:00:00'
 excerpt: |-
   The U.S. Environmental Protection Agency (EPA) Ports Initiative works
   in collaboration with the port industry, communities, and all levels of government
   to improve environmental performance and increase economic prosperity. This effort
   helps people living and working near ports across the…
-guid: https://www.data.gov/?p=26847317
-id: 26847317
 link: https://www.data.gov/maritime/clean-air-practices-at-ports-epa-interactive-map/
 modified: '2021-03-24T17:31:44'
-modified_gmt: '2021-03-24T21:31:44'
 permalink: /maritime/clean-air-practices-at-ports-epa-interactive-map/
-redirect_from: []
 slug: clean-air-practices-at-ports-epa-interactive-map
-tags:
-- air-quality
-- emissions
-- epa
-- maritime
-- mobile-source-emissions
-- port-performance
-- ports
 title: "Clean Air Practices at Ports \u2013 EPA Interactive Map"
 ---
 

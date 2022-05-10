@@ -3,20 +3,14 @@ author: admin
 categories:
 - meta
 date: '2016-05-13T15:57:44'
-date_gmt: '2016-05-13T19:57:44'
 excerpt: |-
   Much has been written about open government data and its contribution
   to developing consumer applications such as Zoc Doc and Spot Crime. The data resources
   on Data.gov can also help researchers, policymakers, and planners make better informed
   decisions through the…
-featured_media: 21891272
-guid: http://www.data.gov/?p=21891242
-id: 21891242
 link: https://www.data.gov/meta/data-usa-visualizing-government-data/
 modified: '2016-05-13T15:57:44'
-modified_gmt: '2016-05-13T19:57:44'
 permalink: /meta/data-usa-visualizing-government-data/
-redirect_from: []
 slug: data-usa-visualizing-government-data
 
 title: 'Data USA: Visualizing Government Data'

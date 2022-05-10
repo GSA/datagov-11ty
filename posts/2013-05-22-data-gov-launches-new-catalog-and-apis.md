@@ -3,17 +3,13 @@ author: admin
 categories:
 - meta
 date: '2013-05-22T23:24:23'
-date_gmt: '2013-05-23T03:24:23'
 excerpt: |-
   Data.gov is launching two innovations today to mark both the anniversary
   of the Digital Government Strategy and the fourth anniversary of Data.gov. First
   is a comprehensive listing of the application programming interfaces (APIs) that
   were released from across the federal…
-guid: http://www.data.gov/?p=51651
-id: 51651
 link: https://www.data.gov/blog/datagov-launches-new-catalog-and-apis
 modified: '2018-10-25T11:48:35'
-modified_gmt: '2018-10-25T15:48:35'
 permalink: /blog/datagov-launches-new-catalog-and-apis/
 redirect_from:
 - /meta/datagov-launches-new-catalog-and-apis/

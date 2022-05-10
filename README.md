@@ -145,17 +145,12 @@ categories:
   - meta
   - or multiple
 date: 'YYYY-MM-DDThh:mm:ss'
-date_gmt: 'YYYY-MM-DDThh:mm:ss'
 excerpt: |-
   You can type multilined text here. You may even include HTML
   if you are interested in adding <em>flair</em>. This is used to preview the list and typically ends with …
-guid:
-id:
 link: https://www.data.gov/path/with-slug
-modified:
-modified_gmt:
+modified: 'YYYY-MM-DDThh:mm:ss'
 permalink: /path/with-slug
-redirect_from: []
 slug: with-slug
 ---
 ```

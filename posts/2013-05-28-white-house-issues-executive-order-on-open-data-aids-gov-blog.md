@@ -2,17 +2,12 @@
 categories:
 - meta
 date: '2013-05-28T16:27:39'
-date_gmt: '2013-05-28T20:27:39'
 excerpt: |-
   This week marks the one-year anniversary of the Digital Government Strategy,
   and we want to take a moment to reflect on a recent White House Executive Order
   about open data. This Executive Order and accompanying
-format: link
-guid: http://www.data.gov/?p=116082
-id: 116082
 link: https://www.data.gov/announcements/white-house-issues-executive-order-open-data-aidsgov-blog
 modified: '2014-03-18T21:44:16'
-modified_gmt: '2014-03-19T01:44:16'
 permalink: /announcements/white-house-issues-executive-order-open-data-aidsgov-blog/
 redirect_from:
 - /meta/white-house-issues-executive-order-open-data-aidsgov-blog/

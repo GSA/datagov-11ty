@@ -2,18 +2,13 @@
 categories:
 - meta
 date: '2013-05-28T16:20:18'
-date_gmt: '2013-05-28T20:20:18'
 excerpt: |-
   By guest author Irina Bolychevsky, Product Owner of CKAN, Open Knowledge
   Foundation A huge milestone was reached yesterday with the relaunch of the U.S.
   government data portal on a single, open source platform. A joint collaboration
   between a small UK…
-format: link
-guid: http://www.data.gov/?p=116062
-id: 116062
 link: https://www.data.gov/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog
 modified: '2014-03-18T21:44:16'
-modified_gmt: '2014-03-19T01:44:16'
 permalink: /announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog/
 redirect_from:
 - /meta/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog/

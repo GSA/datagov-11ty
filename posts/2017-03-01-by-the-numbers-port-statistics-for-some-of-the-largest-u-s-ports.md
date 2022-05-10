@@ -3,24 +3,12 @@ author: marin-m-kressusace-army-mil
 categories:
 - maritime
 date: '2017-03-01T10:00:15'
-date_gmt: '2017-03-01T15:00:15'
 excerpt: |-
   As intermodal connectors for domestic and international freight, our nation's ports serve a critical role in numerous supply chains and the national economy. In recognition of this importance, the Fixing America's Surface Transportation (FAST) Act (P.L. 114-94; Dec. 4, 2015;…
-guid: https://www.data.gov/?p=24529331
-id: 24529331
 link: https://www.data.gov/maritime/p24529331/
 modified: '2017-02-15T14:56:27'
-modified_gmt: '2017-02-15T19:56:27'
 permalink: /maritime/p24529331/
-redirect_from: []
 slug: p24529331
-tags:
-- freight
-- maritime
-- ports
-- terminal
-- usdot
-- volpe
 title: 'By the numbers: port statistics for some of the largest U.S. ports'
 ---
 

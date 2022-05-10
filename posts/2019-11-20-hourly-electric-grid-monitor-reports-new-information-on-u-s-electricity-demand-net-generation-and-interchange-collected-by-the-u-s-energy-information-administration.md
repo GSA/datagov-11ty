@@ -4,15 +4,10 @@ categories:
 - energy
 - meta
 date: '2019-11-20T15:20:58'
-date_gmt: '2019-11-20T20:20:58'
 excerpt: |-
   To a federal statistical agency like the U.S. Energy Information Administration (EIA), there's nothing more satisfying than providing needed information that can facilitate more informed analysis and policy decisions on a national and regional level. EIA recently launched its new Hourly…;
-featured_media: 26088743
-guid: https://www.data.gov/?p=22933412
-id: 22933412
 link: https://www.data.gov/energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
 modified: '2019-11-21T10:20:36'
-modified_gmt: '2019-11-21T15:20:36'
 permalink: /energy/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
 redirect_from:
 - /meta/hourly-information-on-u-s-electricity-supply-demand-and-flows-now-available-from-the-u-s-energy-information-administration/
