@@ -89,6 +89,12 @@ TODO
 
 TODO
 
+### Run tests
+
+`npm run test`
+
+This will run `pa11y-ci` across the site using paths found in `sitemap.xml`
+
 ## Netlify CMS
 
 
