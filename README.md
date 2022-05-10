@@ -18,7 +18,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 ## Key Functionality
 This repository contains the following examples and functionality:
 
-✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `blog/index.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
+✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `_includes/updates.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
 
 ✅ Publish single one-off pages. Instead of creating lots of folders throughout the root directory, you should put single pages in `pages` folder and change the `permalink` at the top of each page. Use sub-folders only when you really need to.
 
@@ -128,6 +128,34 @@ Once you [`/admin/config.yml`](./admin/config.yml) is set to local development, 
 serve as a development authentication server.
 
 ## How To
+
+### Add an update / blogpost
+
+Create a new file in `posts` using the format `YYYY-MM-DD-hyphenated-title.md` for the filename. The file will have two parts: front matter and content.
+
+#### Front matter
+
+Use `---` to begin and end your front matter, then fill out the below information for your update:
+
+```yaml
+---
+author: author-hyphenated, found in `_data/authors.json`
+title: The Full Title of Your Update
+categories:
+  - meta
+  - or multiple
+date: 'YYYY-MM-DDThh:mm:ss'
+excerpt: |-
+  You can type multilined text here. You may even include HTML
+  if you are interested in adding <em>flair</em>. This is used to preview the list and typically ends with …
+link: https://www.data.gov/path/with-slug
+modified: 'YYYY-MM-DDThh:mm:ss'
+permalink: /path/with-slug
+slug: with-slug
+---
+```
+
+Under the bottom `---` of the front matter, you can start writing the content of your update using markdown syntax. That is, write like you normally would with paragraph breaks, but look up markdown if you need links, lists, headings, images, or bold / italics.
 
 ### Adding Collections
 

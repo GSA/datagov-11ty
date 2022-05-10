@@ -31,8 +31,6 @@ $theme-image-path: "img";
 
 @import "uswds/src/stylesheets/packages/uswds-components";
 @import "uswds/src/stylesheets/packages/uswds-utilities";
-@import "datagovtheme";
-@import "main.min";
 
 /*
 ----------------------------------------
@@ -48,6 +46,12 @@ i.e.
 @include u-padding-right('05');
 ----------------------------------------
 */
+
+// TODO MOVE THIS TO PROJECT SCSS WHEN READY
+
+article.update {
+  display: block;
+}
 
 // default mode hide banner
 .usa-banner__content {
@@ -90,4 +94,4 @@ i.e.
   width: 200px;
   display: block;
   background-size: cover;
-}  
+}
