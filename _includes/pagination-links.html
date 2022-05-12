@@ -10,7 +10,7 @@
 {% assign last_page_diff = total_pages | minus: current_page_number %}
 
 {% if total_pages > 1 %}
-<nav aria-label="Pagination" class="usa-pagination padding-top-2">
+<nav aria-label="Pagination" class="usa-pagination padding-top-2 flex-justify-start">
   <ul class="usa-pagination__list">
     {% if pagination.href.previous %}
     <li class="usa-pagination__item usa-pagination__arrow">

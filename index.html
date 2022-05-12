@@ -15,16 +15,15 @@ tagline: The home of the U.S. Government's open data
   </div>
 </section>
 
-<section class="usa-section">
-  <div class="grid-container">
-    <div class="grid-row grid-gap">
-    </div>
-  </div>
-</section>
-
 <section class="usa-section updates">
   <div class="grid-container">
-    <h2>Updates</h2>
-    {% include "updates.html" %}
+    <h2>Recent updates</h2>
+    <a href="updates">Browse all updates</a>
+
+    {% for post in collections.post reversed limit: 3 %}
+      {% include "update.html", post: post %}
+    {% endfor %}
+
+    <a href="updates">Browse all updates</a>
   </div>
 </section>

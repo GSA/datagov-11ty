@@ -22,7 +22,7 @@
     "pa11y-ci:gh": "npx start-server-and-test start 8080 pa11y-ci",
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
-    "test": "npm run woke; npm run pa11y-ci:sitemap",
+    "test": "npm run woke; npm run pa11y-ci",
     "woke": "woke"
   },
   "author": "",

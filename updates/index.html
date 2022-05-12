@@ -1,0 +1,20 @@
+---
+permalink: "/updates/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
+layout: layouts/update-index
+title: Updates
+pagination:
+  data: collections.post
+  size: 10
+  alias: posts
+  reverse: true
+---
+
+<h2>Browse recent updates</h2>
+
+{% include "pagination-links.html" %}
+
+{% for post in posts %}
+  {% include "update.html", post: post %}
+{% endfor %}
+
+{% include "pagination-links.html" %}
