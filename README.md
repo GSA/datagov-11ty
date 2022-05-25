@@ -89,6 +89,21 @@ TODO
 
 TODO
 
+### Run tests
+
+`npm run test`
+
+This will run the following:
+- accessibility: `pa11y-ci` on localhost using paths found in `sitemap.xml`
+- inclusivity: `woke` scans files for non-inclusive language
+
+#### Setting up your environment to test
+
+Follow instructions on individual repos to install `pa11y-ci` and `woke`:
+
+- [pa11y-ci](https://github.com/pa11y/pa11y-ci)
+- [woke](https://github.com/get-woke/woke)
+
 ## Netlify CMS
 
 
