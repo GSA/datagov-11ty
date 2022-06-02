@@ -1,0 +1,31 @@
+{% comment %}
+  An individual preview entry for an update (blog).
+
+  This partial expects a post from the collections.post
+  object to be passed to it.
+{% endcomment %}
+
+<article class="update display-block">
+  <header>
+    <h3 class="entry-title">
+      <a href="{{ post.data.permalink }}" class="usa-link">
+        {{ post.data.title }}
+      </a>
+    </h3>
+    <div class="entry-meta">
+      <time datetime="{{ post.data.date }}">
+        {{ post.data.date | date: "%B %e, %Y" }}
+      </time>
+      {% if post.data.author %}
+        {% comment %} blogposts currently only have one author per blog {% endcomment %}
+        <em>By {{ authors[post.data.author].name }}</em>
+      {% endif %}
+    </div>
+  </header>
+  <div class="entry-summary">
+    <p>
+      {{ post.data.excerpt }}
+      <a href="{{ post.data.permalink }}" aria-describedby="{{ post.data.title }}" class="usa-link">Continued</a>
+    </p>
+  </div>
+</article>
