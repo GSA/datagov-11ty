@@ -18,7 +18,7 @@
       </time>
       {% if post.data.author %}
         {% comment %} blogposts currently only have one author per blog {% endcomment %}
-        <em>By {{ authors[post.data.author].name }}</em>
+        <em>By <span rel="author">{{ authors[post.data.author].name }}</span></em>
       {% endif %}
     </div>
   </header>

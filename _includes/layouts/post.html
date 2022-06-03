@@ -18,9 +18,9 @@ layout: layouts/default
         <div class="text-base margin-bottom-2">
           <div class="margin-top-neg-105">
             {% if author %}
-              By <span class="text-bold">{{ authors[author].name }}</span> ·
+              By <span class="text-bold" rel="author">{{ authors[author].name }}</span> ·
             {% endif %}
-            {{ date | date: '%B %d, %Y' }}
+            <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%B %d, %Y' }}</time>
           </div>
         </div>
         {{ content }}
