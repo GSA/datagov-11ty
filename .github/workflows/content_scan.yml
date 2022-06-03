@@ -1,0 +1,29 @@
+name: Content scan
+
+on:
+  - pull_request
+
+jobs:
+  build:
+    name: cypress
+    runs-on: ubuntu-latest
+    env:
+      LANG: en_US.UTF-8
+      LANGUAGE: en_US
+      LC_ALL: en_US.UTF-8
+
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v2
+
+      - name: Install node.js.
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Install NPM dependencies
+        shell: bash
+        run: npm install
+
+      - name: Build eleventy and run cypress
+        run: npm run cypress:gh
