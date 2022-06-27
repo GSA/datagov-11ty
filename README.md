@@ -94,6 +94,7 @@ TODO
 `npm run test`
 
 This will run the following:
+- content: `cypress` checks the generated HTML
 - accessibility: `pa11y-ci` on localhost using paths found in `sitemap.xml`
 - inclusivity: `woke` scans files for non-inclusive language
 
@@ -101,8 +102,13 @@ This will run the following:
 
 Follow instructions on individual repos to install `pa11y-ci` and `woke`:
 
+- [cypress](https://docs.cypress.io/guides/overview/why-cypress)
 - [pa11y-ci](https://github.com/pa11y/pa11y-ci)
 - [woke](https://github.com/get-woke/woke)
+
+Cypress tests live in `cypress/integration`. Currently, the tests do not use fixtures or plugins.
+
+Although you may be tempted to change the `pa11y-ci` concurrency higher than 1 for speed, note that you may receive "Failed to run" errors on multiple URLs when doing so.
 
 ## Netlify CMS
 
