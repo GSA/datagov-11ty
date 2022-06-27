@@ -1,4 +1,7 @@
 @import url(//fonts.googleapis.com/css?family=Lato);
+body {
+  color: red !important;
+}
 .clearfix {
     *zoom: 1;
 }
@@ -97,7 +100,7 @@ a {
 }
 .btn-primary {
     color: white !important;
-    /*background: #284a7a !important;*/:w
+    /*background: #284a7a !important;*/
 
 }
 .btn-primary:hover {

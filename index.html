@@ -5,8 +5,13 @@ title: Data.gov Home
 tagline: The home of the U.S. Government's open data
 
 ---
-<section class="usa-section">
+<section class="site-banner">
   <div class="grid-container">
+    <p>Data.gov users! We welcome your suggestions for improving Data.gov and federal open data.</p>
+   </div>
+</section>
+<section class="usa-section bg-primary">
+  <div class="grid-container jumbotron">
     <div class="grid-row grid-gap">
       <h1>{{tagline}}</h1>
       <p>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and <a href="https://data.gov/about/">more</a>.</p>
@@ -15,9 +20,27 @@ tagline: The home of the U.S. Government's open data
   </div>
 </section>
 
-<section class="usa-section">
+<section class="usa-section bg-base-lightest">
   <div class="grid-container">
     <div class="grid-row grid-gap">
+        <div class="grid-col-12 text-center">
+            <h2><label for="search-header">Get Started<br>
+                    <small>Search over <a href="metrics.html">335,221 datasets</a>
+                    </small>
+                    <br/><i class="fa fa-caret-down"></i></label></h2>
+        </div>
+        <div class="grid-col-12">
+          <form role="search" method="get" class="usa-search usa-search--big display-flex flex-justify-center" action="https://catalog.data.gov/dataset">
+            <input  class="usa-input" type="search" id="search-header" title="Example searches: Monthly House Price Indexes, Health Care Provider Charge Data, Credit Card Complaints, Manufacturing &amp; Trade Inventories &amp; Sales, Federal Student Loan Program Data"
+                  data-strings='{"targets":["Monthly House Price Indexes","Health Care Provider Charge Data","Credit Card Complaints","Manufacturing &amp; Trade Inventories &amp; Sales","Federal Student Loan Program Data"]}' value="" name="q" class="search-field form-control"
+                  placeholder="Search Data.gov" />
+            <input type="hidden" name="sort" value="score desc, name asc" />
+            <span class="input-group-btn">
+              <button type="submit" class="usa-button">
+              {% image_with_class "./node_modules/uswds/src/img/usa-icons-bg/search--white.svg" "usa-search__submit-icon" "Search" %}
+              </button>
+            </span>
+          <input type="hidden" name="as_sfid" value="AAAAAAXSVS-VDjXNbMFAAG6kfnoYvjq0j2r9CBdNVLxiM3iBLoHN5WkOXXitsEuB0uDB-MmWJ8u-nLkv0hgoXX9CxJsJcnZGjxzobsNzqbSWo1BFaM28PyiR3W1tkMfj19Wlwlo=" /><input type="hidden" name="as_fid" value="5d5b0264d62542279a8dfdbea8da3175f8b05434" /></form>
+        </div>
     </div>
-  </div>
 </section>

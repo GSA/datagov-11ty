@@ -31,8 +31,8 @@ $theme-image-path: "img";
 
 @import "uswds/src/stylesheets/packages/uswds-components";
 @import "uswds/src/stylesheets/packages/uswds-utilities";
-@import "datagovtheme";
-@import "main.min";
+// @import "datagovtheme";
+// @import "main-minified";
 
 /*
 ----------------------------------------
@@ -91,3 +91,15 @@ i.e.
   display: block;
   background-size: cover;
 }  
+
+.jumbotron {
+  color: white;
+}
+
+.site-banner {
+  @include u-bg($theme-color-accent-warm-light); 
+  p {
+    @include u-margin(0);
+    @include u-padding(2);
+  }
+}
