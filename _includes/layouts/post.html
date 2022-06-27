@@ -3,7 +3,11 @@ layout: layouts/default
 ---
 
 {% comment %}
-This is used in blog posts. The index page can be found at blog/index.html
+  This layout is used for individual posts / updates.
+
+  Default front matter is set in posts/posts.json. Individual
+  front matter and overrides of default values are available
+  in the front matter of specific posts in the posts directory.
 {% endcomment %}
 
 <div class="usa-layout-docs usa-section">
@@ -13,7 +17,10 @@ This is used in blog posts. The index page can be found at blog/index.html
         <h1 class="title">{{title}}</h1>
         <div class="text-base margin-bottom-2">
           <div class="margin-top-neg-105">
-            By <span class="text-bold">{{ author }}</span> · {{ date | date: '%B %d, %Y' }}
+            {% if author %}
+              By <span class="text-bold" rel="author">{{ authors[author].name }}</span> ·
+            {% endif %}
+            <time datetime="{{ date | date: '%Y-%m-%d' }}">{{ date | date: '%B %d, %Y' }}</time>
           </div>
         </div>
         {{ content }}

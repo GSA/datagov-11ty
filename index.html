@@ -44,3 +44,15 @@ tagline: The home of the U.S. Government's open data
         </div>
     </div>
 </section>
+<section class="usa-section updates">
+  <div class="grid-container">
+    <h2>Recent updates</h2>
+    <a class="updates-link" href="updates">Browse all updates</a>
+
+    {% for post in collections.post reversed limit: 3 %}
+      {% include "update.html", post: post %}
+    {% endfor %}
+
+    <a class="updates-link" href="updates">Browse all updates</a>
+  </div>
+</section>

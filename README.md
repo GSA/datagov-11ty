@@ -18,7 +18,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 ## Key Functionality
 This repository contains the following examples and functionality:
 
-✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `blog/index.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
+✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `_includes/updates.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
 
 ✅ Publish single one-off pages. Instead of creating lots of folders throughout the root directory, you should put single pages in `pages` folder and change the `permalink` at the top of each page. Use sub-folders only when you really need to.
 
@@ -89,6 +89,27 @@ TODO
 
 TODO
 
+### Run tests
+
+`npm run test`
+
+This will run the following:
+- content: `cypress` checks the generated HTML
+- accessibility: `pa11y-ci` on localhost using paths found in `sitemap.xml`
+- inclusivity: `woke` scans files for non-inclusive language
+
+#### Setting up your environment to test
+
+Follow instructions on individual repos to install `pa11y-ci` and `woke`:
+
+- [cypress](https://docs.cypress.io/guides/overview/why-cypress)
+- [pa11y-ci](https://github.com/pa11y/pa11y-ci)
+- [woke](https://github.com/get-woke/woke)
+
+Cypress tests live in `cypress/integration`. Currently, the tests do not use fixtures or plugins.
+
+Although you may be tempted to change the `pa11y-ci` concurrency higher than 1 for speed, note that you may receive "Failed to run" errors on multiple URLs when doing so.
+
 ## Netlify CMS
 
 
@@ -128,6 +149,34 @@ Once you [`/admin/config.yml`](./admin/config.yml) is set to local development, 
 serve as a development authentication server.
 
 ## How To
+
+### Add an update / blogpost
+
+Create a new file in `posts` using the format `YYYY-MM-DD-hyphenated-title.md` for the filename. The file will have two parts: front matter and content.
+
+#### Front matter
+
+Use `---` to begin and end your front matter, then fill out the below information for your update:
+
+```yaml
+---
+author: author-hyphenated, found in `_data/authors.json`
+title: The Full Title of Your Update
+categories:
+  - meta
+  - or multiple
+date: 'YYYY-MM-DDThh:mm:ss'
+excerpt: |-
+  You can type multilined text here. You may even include HTML
+  if you are interested in adding <em>flair</em>. This is used to preview the list and typically ends with …
+link: https://www.data.gov/path/with-slug
+modified: 'YYYY-MM-DDThh:mm:ss'
+permalink: /path/with-slug
+slug: with-slug
+---
+```
+
+Under the bottom `---` of the front matter, you can start writing the content of your update using markdown syntax. That is, write like you normally would with paragraph breaks, but look up markdown if you need links, lists, headings, images, or bold / italics.
 
 ### Adding Collections
 
