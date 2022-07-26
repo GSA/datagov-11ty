@@ -11,6 +11,8 @@ title: About Data.gov
 layout: layouts/page.html
 ---
 
+<div id="top"></div>
+
 [About data.gov](#about)
 
 - [Who developed Data.gov?](#who)
