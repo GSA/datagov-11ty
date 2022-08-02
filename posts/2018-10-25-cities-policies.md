@@ -33,4 +33,4 @@ The data on Cities.Data.gov is brought together from many official government si
 *   [Seattle](https://Data.seattle.gov) provides an open [data policy](https://data.seattle.gov/stories/s/Data-Policy/6ukr-wvup/) and [developer resources](https://dev.socrata.com/).
 *   [Somerville](https://Data.somervillema.gov) provides an open [data policy](https://docs.digital.mass.gov/) and [developer resources](https://support.socrata.com/home).
 
-Want to add your city?  Tweet us at @usdatagov or [contact us](../../request/)  
+Want to add your city?  Tweet us at @usdatagov or [contact us](https://www.data.gov/contact)  
