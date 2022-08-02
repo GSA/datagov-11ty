@@ -9,7 +9,7 @@ modified: '2018-10-25T16:20:27'
 permalink: /cities/cities-policies/
 redirect_from:
 - /cities/page/cities-policies/
-slug: Cities – Policies
+slug: cities–policies
 
 title: Cities – Policies
 ---
