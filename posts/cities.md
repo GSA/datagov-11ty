@@ -12,5 +12,5 @@ title: Cities
 
 Open data is powering a new civic movement that is changing the way citizens experience our nation’s cities. Discover data and [apps](../../cities/city-apps) that are creating new ways to explore cities, services, and information.
 
-If you don’t find your city here, [let us know](../../contact-us.html) and we’ll send the message to your city official.
+If you don’t find your city here, [let us know](http://www.data.gov/contact) and we’ll send the message to your city official.
 
