@@ -1,0 +1,16 @@
+---
+categories:
+- cities
+link: https://www.data.gov/cities/
+permalink: /cities/
+redirect_from:
+- /cities/community/cities/
+slug: cities
+
+title: Cities 
+---
+
+Open data is powering a new civic movement that is changing the way citizens experience our nation’s cities. Discover data and [apps](../../cities/city-apps) that are creating new ways to explore cities, services, and information.
+
+If you don’t find your city here, [let us know](http://www.data.gov/contact) and we’ll send the message to your city official.
+
