@@ -19,6 +19,7 @@ modified: '2017-10-02T22:21:49'
 permalink: /climate/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 redirect_from:
 - /arctic/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /climate/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /climate/arctic/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /climate/coastalflooding/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /ecosystem-vulnerability/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
