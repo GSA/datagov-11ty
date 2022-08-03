@@ -16,6 +16,7 @@ redirect_from:
 - /ecosystem-vulnerability/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 - /foodresilience/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 slug: a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers
+tags: climate
 
 title: A multi-university initiative makes global climate information more accesible
   to farmers

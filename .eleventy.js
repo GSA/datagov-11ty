@@ -14,6 +14,7 @@ module.exports = function (config) {
 
   // Copy the `admin` folders to the output
   config.addPassthroughCopy('admin');
+  config.addPassthroughCopy("img");
 
   // Add plugins
   config.addPlugin(pluginRss);
@@ -133,6 +134,7 @@ module.exports = function (config) {
     // Control which files Eleventy will process
     // e.g.: *.md, *.njk, *.html, *.liquid
     templateFormats: ['md', 'njk', 'html', 'liquid'],
+    passthroughFileCopy: true,
 
     // Pre-process *.md files with: (default: `liquid`)
     // Other template engines are available
