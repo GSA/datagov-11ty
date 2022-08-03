@@ -9,7 +9,7 @@ link: https://www.data.gov/climate/arctic/0.html
 
 pagination:
   data: collections.arctic
-  size: 2
+  size: 5
   alias: posts
 permalink: "/climate/arctic/{{ pagination.pageNumber }}.html"
 
