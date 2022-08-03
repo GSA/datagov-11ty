@@ -3,24 +3,48 @@ author: admin
 categories:
 - arctic
 - climate
+- coastalflooding
+- ecosystem-vulnerability
+- energy-infrastructure
+- foodresilience
+- humanhealth
+- transportation
+- tribal-nations
+- water
 excerpt: |-
-  Main Page for Climate Arctic updates
-link: https://www.data.gov/climate/arctic/page/0.html
+  Main Page for Climate updates
+link: https://www.data.gov/climate/
 
 pagination:
-  data: collections.arctic
-  size: 5
+  data: collections.climate
+  size: 2
   alias: posts
   reverse: true
-permalink: "/climate/arctic/page/{{ pagination.pageNumber }}.html"
+permalink: "/climate/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
 
 redirect_from:
 - /arctic/
-- /climate/arctic
+- /climate/arctic/
+- /climate/coastalflooding/
+- /climate/ecosystem-vulnerability/
+- /climate/energy-infrastructure/
+- /climate/foodresilience/
+- /climate/humanhealth/
+- /climate/transportation/
+- /climate/tribal-nations/
+- /climate/water/
+- /coastalflooding/
+- /ecosystem-vulnerability/
+- /energy-infrastructure/
+- /foodresilience/
+- /humanhealth/
+- /transportation/
+- /tribal-nations/
+- /water/
 
-slug: climate-arctic
+slug: climate
 
-title: Climate — Arctic
+title: Climate
 ---
 
 {%- for post in posts %}
