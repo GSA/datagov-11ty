@@ -40,6 +40,7 @@ redirect_from:
 - /tribal-nations/coastal-flooding-theme-adds-eleven-new-datasets/
 - /water/coastal-flooding-theme-adds-eleven-new-datasets/
 slug: coastal-flooding-theme-adds-eleven-new-datasets
+tags: arctic
 
 title: Coastal Flooding Theme Adds Eleven New Datasets
 ---
