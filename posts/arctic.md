@@ -5,13 +5,14 @@ categories:
 - climate
 excerpt: |-
   Main Page for Climate Arctic updates
-link: https://www.data.gov/climate/arctic/0.html
+link: https://www.data.gov/climate/arctic/page/0.html
 
 pagination:
   data: collections.arctic
   size: 5
   alias: posts
-permalink: "/climate/arctic/{{ pagination.pageNumber }}.html"
+  reverse: true
+permalink: "/climate/arctic/page/{{ pagination.pageNumber }}.html"
 
 redirect_from:
 - /arctic/
