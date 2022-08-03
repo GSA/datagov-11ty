@@ -22,6 +22,12 @@ redirect_from:
 - /climate/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /climate/arctic/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /climate/coastalflooding/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /climate/energy-infrastructure/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /climate/foodresilience/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /climate/humanhealth/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /climate/transportation/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /climate/water/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+- /coastalflooding/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /ecosystem-vulnerability/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /energy-infrastructure/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /foodresilience/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
