@@ -37,6 +37,7 @@ redirect_from:
 - /tribal-nations/microsoft-launches-innovation-challenge-around-food-resilience/
 - /water/microsoft-launches-innovation-challenge-around-food-resilience/
 slug: microsoft-launches-innovation-challenge-around-food-resilience
+tags: arctic
 
 title: "Microsoft Launches  \u201CInnovation Challenge\u201D around Food Resilience"
 ---
