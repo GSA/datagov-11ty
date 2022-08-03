@@ -36,6 +36,7 @@ redirect_from:
 - /tribal-nations/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /water/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 slug: nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge
+tags: climate
 
 title: NASA Invites Citizens to Collaborate on Coastal Flooding Challenge
 ---

@@ -40,6 +40,7 @@ redirect_from:
 - /tribal-nations/ecosystems-data-gov-ecoinforma-3/
 - /water/ecosystems-data-gov-ecoinforma-3/
 slug: ecosystems-data-gov-ecoinforma-3
+tags: climate
 
 title: Ecosystems.data.gov and EcoINFORMA
 ---

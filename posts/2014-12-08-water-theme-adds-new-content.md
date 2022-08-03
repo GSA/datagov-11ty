@@ -40,6 +40,7 @@ redirect_from:
 - /tribal-nations/water-theme-adds-new-content/
 - /water/water-theme-adds-new-content/
 slug: water-theme-adds-new-content
+tags: climate
 
 title: Water Theme Adds New Content
 ---

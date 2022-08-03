@@ -34,6 +34,7 @@ redirect_from:
 - /transportation/water-resources-resilience/
 - /water/water-resources-resilience/
 slug: water-resources-resilience
+tags: climate
 
 title: Water Resources Resilience
 ---

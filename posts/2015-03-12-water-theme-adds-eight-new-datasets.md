@@ -37,6 +37,7 @@ redirect_from:
 - /tribal-nations/watertheme-adds-eight-datasets/
 - /water/watertheme-adds-eight-datasets/
 slug: water-theme-adds-eight-datasets
+tags: climate
 
 title: Water Theme Adds Eight New Datasets
 ---

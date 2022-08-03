@@ -39,6 +39,7 @@ redirect_from:
 - /water/food-resilience-theme-adds-seven-datasets/
 
 slug: food-resilience-theme-adds-seven-datasets
+tags: climate
 
 title: Food Resilience Theme Adds Seven Datasets
 ---

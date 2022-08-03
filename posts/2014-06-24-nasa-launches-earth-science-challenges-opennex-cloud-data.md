@@ -28,6 +28,7 @@ redirect_from:
 - /water/nasa-launches-earth-science-challenges-opennex-cloud-data/
 
 slug: nasa-launches-earth-science-challenges-with-opennex-cloud-data
+tags: climate
 
 title: NASA Launches Earth Science Challenges with OpenNEX Cloud Data
 ---
