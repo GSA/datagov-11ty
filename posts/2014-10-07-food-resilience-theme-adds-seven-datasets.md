@@ -19,6 +19,7 @@ modified: '2015-11-05T17:09:07'
 permalink: /climate/arctic/food-resilience-theme-adds-seven-datasets/
 redirect_from:
 - /arctic/food-resilience-theme-adds-seven-datasets/
+- /climate/arctic/food-resilience-theme-adds-seven-datasets/
 - /climate/coastalflooding/food-resilience-theme-adds-seven-datasets/
 - /climate/ecosystem-vulnerability/food-resilience-theme-adds-seven-datasets/
 - /climate/energy-infrastructure/food-resilience-theme-adds-seven-datasets/
