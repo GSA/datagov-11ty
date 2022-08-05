@@ -1,8 +1,6 @@
 ---
-title: Contact
-scripts:
-  - src: https://touchpoints.app.cloud.gov/touchpoints/1327b00b.js
-excerpt: '<p>Thank you for your feedback. To protect your privacy, please do not include
+layout: layouts/post
+excerpt: 'Thank you for your feedback. To protect your privacy, please do not include
   personal information (such as a social security number), other than your email address.'
 link: https://www.data.gov/contact
 permalink: /contact/
@@ -37,11 +35,10 @@ redirect_from:
 - /water/feedback/
 
 slug: contact
-
-Title: Contact Data.gov
 ---
 
 {% comment %}
 Update the touchpoints form at https://touchpoints.app.cloud.gov/admin/forms/1327b00b
 {% endcomment %}
 <div id="touchpoint-form"></div>
+<script type="text/javascript" src="https://touchpoints.app.cloud.gov/touchpoints/1327b00b.js"></script>
