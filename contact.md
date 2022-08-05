@@ -1,20 +1,13 @@
 ---
-categories:
-- arctic
-- climate
-- coastalflooding
-- ecosystem-vulnerability
-- energy-infrastructure
-- foodresilience
-- humanhealth
-- transportation
-- tribal-nations
-- water
+title: Contact
+scripts:
+  - src: https://touchpoints.app.cloud.gov/touchpoints/1327b00b.js
 excerpt: '<p>Thank you for your feedback. To protect your privacy, please do not include
   personal information (such as a social security number), other than your email address.'
-link: https://www.data.gov/feedback/
-permalink: /feedback/
+link: https://www.data.gov/contact
+permalink: /contact/
 redirect_from: 
+- /feedback/
 - /climate/arctic/feedback/
 - /climate/coastalflooding/lfeedback/
 - /climate/ecosystem-vulnerability/lfeedback/
@@ -35,14 +28,10 @@ redirect_from:
 - /transportation/lfeedback/
 - /tribal-nations/lfeedback/
 - /water/lfeedback/
-slug: feedback
-
-title: Feedback
+slug: contact
 ---
 
-Thank you for your feedback. To [protect your privacy,](http://www.data.gov/privacy-policy) please do not include personal information (such as a social security number), other than your email address.
-
-
-[customcontact form=5]
-
-
+{% comment %}
+Update the touchpoints form at https://touchpoints.app.cloud.gov/admin/forms/1327b00b
+{% endcomment %}
+<div id="touchpoint-form"></div>
