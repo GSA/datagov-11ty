@@ -14,7 +14,6 @@ redirect_from:
 - /arctic/launch-food-resilience-theme/
 - /climate/arctic/launch-food-resilience-theme/
 - /climate/foodresilience/launch-food-resilience-theme/
-- /climate/launch-food-resilience-theme/
 - /foodresilience/launch-food-resilience-theme/
 
 slug: launch-of-food-resilience-theme
