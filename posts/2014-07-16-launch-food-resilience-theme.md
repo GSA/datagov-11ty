@@ -14,6 +14,7 @@ redirect_from:
 - /arctic/launch-food-resilience-theme/
 - /climate/arctic/launch-food-resilience-theme/
 - /climate/foodresilience/launch-food-resilience-theme/
+- /climate/launch-food-resilience-theme/
 - /foodresilience/launch-food-resilience-theme/
 
 slug: launch-of-food-resilience-theme
@@ -21,11 +22,4 @@ slug: launch-of-food-resilience-theme
 title: Launch of Food Resilience Theme
 ---
 
-July 16, 2014  _By Ana Pinheiro Privette_
-
 To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the US government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system. [Learn more](../../foodresilience/).
-
-
-
-
-
