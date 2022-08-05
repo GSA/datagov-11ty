@@ -39,6 +39,7 @@ redirect_from:
 - /water/welcome-climate-data-gov/
 
 slug: welcome-to-climate.data.gov!
+tags: climate
 
 title: Welcome to Climate.Data.gov!
 ---
