@@ -4,6 +4,7 @@ categories:
 - arctic
 - climate
 - foodresilience
+tags: climate
 date: '2014-07-16T15:16:14'
 excerpt: |-
   To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the US government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system.…
