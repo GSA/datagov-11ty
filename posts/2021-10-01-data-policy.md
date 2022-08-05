@@ -28,7 +28,7 @@ title: Privacy and Website Policies
 * **[Moderation of Comments and Posts](#moderation-of-comments-and-posts)**
 * **[Site Security](#site-security)**
 * **[External Links](#external-links)**
-* **[Children’s Privacy](#childrens-privacy)**
+* **[Children’s Privacy](#children's-privacy)**
 * **[Prohibitions](#prohibitions)**
 * **[Changes to this Policy](#changes-to-this-policy)**
 
@@ -36,7 +36,7 @@ title: Privacy and Website Policies
 **[Data Policy](#data-policy)**
 
 
-* **[Linking to Data.gov](#linking-to-datagov)**
+* **[Linking to Data.gov](#linking-to-data.gov)**
 * **[Licensing](#licensing)**
 * **[Use of Logo](#use-of-logo)**
 * **[Public Information](#public-information)**
