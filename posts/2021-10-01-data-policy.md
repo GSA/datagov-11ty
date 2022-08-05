@@ -15,6 +15,9 @@ redirect_from:
 slug: privacy-policy
 title: Privacy and Website Policies
 ---
+
+<div id="top"></div>
+
 **[Privacy Policy](#privacy-policy)**
 
 
