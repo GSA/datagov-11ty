@@ -1,6 +1,7 @@
 ---
 categories:
 - climate
+tags: climate
 date: '2014-02-20T09:43:43'
 excerpt: '<p>Data and innovation challenges issued by public, private, nonprofit,
   and other organizations can help catalyze new, data-driven solutions that help communities
