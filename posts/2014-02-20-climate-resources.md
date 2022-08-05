@@ -1,6 +1,7 @@
 ---
 categories:
 - climate
+tags: climate
 date: '2014-02-20T09:44:40'
 excerpt: '<p>Coastal communities are becoming increasingly vulnerable to the risk
   of damage from coastal inundation. In the northeast, Hurricane Sandy was a stark
