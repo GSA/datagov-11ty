@@ -40,8 +40,8 @@ In addition, [scenarios.globalchange.gov](https://scenarios.globalchange.gov) pr
 
 
 
-Links
-=====
+References
+==========
 
 #### Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections
     Sponsor:
