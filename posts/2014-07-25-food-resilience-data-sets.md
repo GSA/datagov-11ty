@@ -2,6 +2,7 @@
 author: admin
 categories:
 - foodresilience
+tags: climate
 date: '2014-07-25T11:05:29'
 excerpt: '<p>The U.S. Government and its partners have been collecting data relevant
   to the vulnerability of the food system to climate change for over a century. Useful
