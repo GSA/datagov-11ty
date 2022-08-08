@@ -2,6 +2,7 @@
 author: admin
 categories:
 - coastalflooding
+tags: climate
 date: '2014-02-25T22:55:47'
 excerpt: '<p>Here are mapping tools and data layers to help you analyze and assess
   vulnerabilities in your or other coastal communities to the combination of sea level
