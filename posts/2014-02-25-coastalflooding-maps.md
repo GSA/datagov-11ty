@@ -30,4 +30,4 @@ Here are mapping tools and data layers to help you analyze and assess vulnerabil
 [FEMA's National Flood Hazard Layer (Official)](http://fema.maps.arcgis.com/home/item.html?id=cbe088e7c8704464aa0fc34eb99e7f30)
 [FEMA’s Hazus Average Annualized Loss Viewer](http://fema.maps.arcgis.com/home/item.html?id=cb8228309e9d405ca6b4db6027df36d9)
 [FEMA MOTF-Hurricane Sandy Impact Analysis](https://www.arcgis.com/home/item.html?id=3a5c59699d86453a89f590171a10e9b5)
-[Coastal Change Hazards Portal](http://marine.usgs.gov/coastalchangehazardsportal/)Coastal Change Hazards Portal
+[Coastal Change Hazards Portal](http://marine.usgs.gov/coastalchangehazardsportal/)
