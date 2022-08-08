@@ -16,26 +16,26 @@ excerpt: |-
   of developing resilience to climate change, eight additional datasets are now available
   in the Water theme. Those include: NOAA Next Generation Radar (NEXRAD) Products
   Severe Weather Data Inventory…
-link: https://www.data.gov/climate/watertheme-adds-eight-datasets/
+link: https://www.data.gov/climate/water-theme-adds-eight-datasets/
 modified: '2018-10-10T11:44:39'
-permalink: /climate/watertheme-adds-eight-datasets/
+permalink: /climate/water-theme-adds-eight-datasets/
 redirect_from:
-- /arctic/watertheme-adds-eight-datasets/
-- /climate/arctic/watertheme-adds-eight-datasets/
-- /climate/ecosystem-vulnerability/watertheme-adds-eight-datasets/
-- /climate/energy-infrastructure/watertheme-adds-eight-datasets/
-- /climate/foodresilience/watertheme-adds-eight-datasets/
-- /climate/humanhealth/watertheme-adds-eight-datasets/
-- /climate/transportation/watertheme-adds-eight-datasets/
-- /climate/tribal-nations/watertheme-adds-eight-datasets/
-- /climate/water/watertheme-adds-eight-datasets/
-- /ecosystem-vulnerability/watertheme-adds-eight-datasets/
-- /energy-infrastructure/watertheme-adds-eight-datasets/
-- /foodresilience/watertheme-adds-eight-datasets/
-- /humanhealth/watertheme-adds-eight-datasets/
-- /transportation/watertheme-adds-eight-datasets/
-- /tribal-nations/watertheme-adds-eight-datasets/
-- /water/watertheme-adds-eight-datasets/
+- /arctic/water-theme-adds-eight-datasets/
+- /climate/arctic/water-theme-adds-eight-datasets/
+- /climate/ecosystem-vulnerability/water-theme-adds-eight-datasets/
+- /climate/energy-infrastructure/water-theme-adds-eight-datasets/
+- /climate/foodresilience/water-theme-adds-eight-datasets/
+- /climate/humanhealth/water-theme-adds-eight-datasets/
+- /climate/transportation/water-theme-adds-eight-datasets/
+- /climate/tribal-nations/water-theme-adds-eight-datasets/
+- /climate/water/water-theme-adds-eight-datasets/
+- /ecosystem-vulnerability/water-theme-adds-eight-datasets/
+- /energy-infrastructure/water-theme-adds-eight-datasets/
+- /foodresilience/water-theme-adds-eight-datasets/
+- /humanhealth/water-theme-adds-eight-datasets/
+- /transportation/water-theme-adds-eight-datasets/
+- /tribal-nations/water-theme-adds-eight-datasets/
+- /water/water-theme-adds-eight-datasets/
 slug: water-theme-adds-eight-datasets
 tags: climate
 
