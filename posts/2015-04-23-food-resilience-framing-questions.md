@@ -2,6 +2,7 @@
 author: admin
 categories:
 - foodresilience
+tags: climate
 date: '2015-04-23T15:40:35'
 excerpt: '<p>Food Resilience FOOD PRODUCTION How will crop yield and production of
   other food products be affected by changes in climate? What types of food and locations
