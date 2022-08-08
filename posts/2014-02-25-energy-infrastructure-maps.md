@@ -2,6 +2,7 @@
 author: admin
 categories:
 - energy-infrastructure
+tags: climate
 date: '2014-02-25T22:57:06'
 excerpt: "<p>Here are several examples of the available map resources on data.gov\_\
   that illustrate the geographic distribution of energy resources, energy supply &amp;\
