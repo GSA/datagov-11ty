@@ -12,6 +12,15 @@ excerpt: '<p>Data and innovation challenges issued by public, private, nonprofit
 link: https://www.data.gov/climate/climate-challenges/
 modified: '2014-03-18T22:56:50'
 permalink: /climate/climate-challenges/
+redirect_from:
+- /climate/coastalflooding/coastalflooding-challenges/
+- /climate/ecosystem-vulnerability/ecosystem-vulnerability-challenges/i
+- /climate/ecosystem-vulnerability/energy-infrastructure-challenges/
+- /climate/foodresilience/foodresilience-challenges/
+- /climate/humanhealth/humanhealth-challenges/
+- /climate/transportation/transportation-challenges/
+- /climate/tribal-nationstribal-nations-challenges/
+- /climate/water/water-challenges/
 slug: climate-challenges
 title: Climate Challenges
 ---
