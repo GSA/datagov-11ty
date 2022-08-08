@@ -14,7 +14,7 @@ modified: '2014-03-18T22:56:50'
 permalink: /climate/climate-challenges/
 redirect_from:
 - /climate/coastalflooding/coastalflooding-challenges/
-- /climate/ecosystem-vulnerability/ecosystem-vulnerability-challenges/i
+- /climate/ecosystem-vulnerability/ecosystem-vulnerability-challenges/
 - /climate/ecosystem-vulnerability/energy-infrastructure-challenges/
 - /climate/foodresilience/foodresilience-challenges/
 - /climate/humanhealth/humanhealth-challenges/
