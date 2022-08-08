@@ -2,6 +2,7 @@
 author: admin
 categories:
 - energy-infrastructure
+tags: climate
 date: '2015-06-19T11:13:24'
 excerpt: '<p>Energy 1) How are fundamental energy resources impacted by climate? 2)
   How might changes in climate and natural resource availability impact energy conversion
