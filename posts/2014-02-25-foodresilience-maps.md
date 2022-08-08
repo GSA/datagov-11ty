@@ -2,6 +2,7 @@
 author: admin
 categories:
 - foodresilience
+tags: climate
 date: '2014-02-25T22:56:50'
 excerpt: '<p>Here are a few examples of the many maps available on the internet that
   illustrate the vulnerability of food production, distribution, food safety, and
