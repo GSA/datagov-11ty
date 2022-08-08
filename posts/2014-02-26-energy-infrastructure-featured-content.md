@@ -2,6 +2,7 @@
 author: admin
 categories:
 - energy-infrastructure
+tags: climate
 date: '2014-02-26T13:41:48'
 excerpt: '<p>Here users will find relevant content&nbsp;from U.S. government agencies
   that help inform how climate variability and/or global climate change may potentially
