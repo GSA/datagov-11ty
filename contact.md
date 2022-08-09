@@ -35,7 +35,7 @@ redirect_from:
 - /water/feedback/
 
 slug: contact
-title: For all your Data.gov needs...
+title: For all your Open Data needs...
 ---
 
 {% comment %}
