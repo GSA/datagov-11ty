@@ -70,8 +70,8 @@ collections:
     editor:
       preview: false
     fields:
-      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/topic'}
-      - {label: 'Tags', name: 'tags', widget: 'hidden', default: ['topic']}
+      - {label: 'Layout', name: 'layout', widget: 'hidden', default: 'layouts/update-index'}
+      - {label: 'Tags', name: 'tags', widget: 'hidden', default: ['topics']}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Author", name: "author", widget: "string"}
       - {
