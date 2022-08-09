@@ -4,7 +4,7 @@ categories:
 tags: climate
 date: '2015-06-08T23:39:01'
 excerpt: |-
-  The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
+  Transportation How will climate trends affect transportation systems and their future design? What parts of the transportation system will be most vulnerable to climate change?…
 link: https://www.data.gov/climate/transportation/framing-questions-transportation/
 modified: '2015-06-16T20:33:48'
 permalink: /climate/transportation/framing-questions-transportation/
@@ -13,7 +13,7 @@ slug: framing-questions-transportation
 title: Transportation Framing Questions
 ---
 
-### ![toolkit_transportation](/img/toolkit_transportation-150x150.jpg) Transportation
+### ![toolkit_transportation](/img/toolkit_transportation-150x150.jpg)
 
 *   How will climate trends affect transportation systems and their future design?
 *   What parts of the transportation system will be most vulnerable to climate change?
