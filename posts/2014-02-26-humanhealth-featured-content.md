@@ -4,7 +4,7 @@ categories:
 tags: climate
 date: '2014-02-26T18:41:33'
 excerpt: |-
-  The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
+  The 2018 US National Climate Assessment’s Human Health chapter provides a comprehensive overview of the latest scientific information on the impacts of climate change on public health…
 link: https://www.data.gov/climate/humanhealth/humanhealth-featured-content/
 modified: '2019-05-06T17:44:11'
 permalink: /climate/humanhealth/humanhealth-featured-content/
