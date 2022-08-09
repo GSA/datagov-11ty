@@ -1,12 +1,11 @@
 ---
-categories:
-- uncategorized
 date: '2020-07-10T14:36:24'
 date_gmt: '2020-07-10T18:36:24'
 excerpt: |-
   Who developed Data.gov? With what technology is Data.gov built? What standards were used to develop the metadata displayed on Data.gov? How are the datasets on Data.gov collected? …
 link: https://www.data.gov/about
-slug: uncategorized__about
+permalink: /about/
+slug: about
 title: About Data.gov
 layout: layouts/page.html
 ---
