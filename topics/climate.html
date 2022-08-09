@@ -1,0 +1,89 @@
+---
+author: admin
+categories:
+- arctic
+- climate
+- coastalflooding
+- ecosystem-vulnerability
+- energy-infrastructure
+- foodresilience
+- humanhealth
+- transportation
+- tribal-nations
+- water
+excerpt: |-
+  Main Page for Climate updates
+link: https://www.data.gov/climate/
+layout: layouts/update-index
+
+pagination:
+  data: collections.climate
+  size: 10
+  alias: posts
+  reverse: true
+permalink: "/climate/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
+
+redirect_from:
+- /arctic/
+- /climate/arctic/
+- /climate/coastalflooding/
+- /climate/ecosystem-vulnerability/
+- /climate/energy-infrastructure/
+- /climate/foodresilience/
+- /climate/humanhealth/
+- /climate/transportation/
+- /climate/tribal-nations/
+- /climate/water/
+- /coastalflooding/
+- /ecosystem-vulnerability/
+- /energy-infrastructure/
+- /foodresilience/
+- /humanhealth/
+- /transportation/
+- /tribal-nations/
+- /water/
+
+slug: climate
+
+title: Climate
+---
+
+{% include "pagination-links.html" %}
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_coastal-300x300.jpg" alt="Coastal Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/coastal-flood-risk">Coastal Flooding Risk</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_eco-300x300.jpg" alt="Ecosystem Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/ecosystem-vulnerability">Ecosystem Vulnerability</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_energy-300x300.jpg" alt="Energy Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/energy-supply-and-use">Energy Infrastructure</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_food-300x300.jpg" alt="Food Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/food-resilience">Food Resilience</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_health-300x300.jpg" alt="Health Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/human-health">Human Health</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_transportation-300x300.jpg" alt="Transportation Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/transportation-and-supply-chain">Transportation</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/tribal_icon_alt.png" alt="Tribal Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/tribal-nations">Tribal Nations</a>.</p>
+<br/>
+
+<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_water-300x300.jpg" alt="Water Toolkit"/>
+<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/water-resources">Water Resources</a>.</p>
+<br/>
+
+{%- for post in posts %}
+  {% include "update.html", post: post %}
+{%- endfor %}
+
+{% include "pagination-links.html" %}
