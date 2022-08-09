@@ -1,5 +1,4 @@
 ---
-author: debra-peters
 categories:
 - climate
 tags: climate
