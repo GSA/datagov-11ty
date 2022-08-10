@@ -25,4 +25,6 @@ slug: climate-challenges
 title: Climate Challenges
 ---
 
+[Back to Climate Homepage](/climate/)
+
 Data and innovation challenges issued by public, private, nonprofit, and other organizations can help catalyze new, data-driven solutions that help communities understand and build resilience to climate change. Is your organization hosting an innovation challenge for entrepreneurs and developers to help increase awareness of and preparedness for climate change impacts? [Let us know](http://www.data.gov/contact).

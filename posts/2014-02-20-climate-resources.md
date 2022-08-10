@@ -17,6 +17,8 @@ slug: climate-resources
 title: Resources
 ---
 
+[Back to Climate Homepage](/climate/)
+
 Coastal communities are becoming increasingly vulnerable to the risk of damage from coastal inundation. In the northeast, Hurricane Sandy was a stark reminder of the potential damage a single storm can cause. These additional resources listed below will allow you to create tools and provide information to help communities prepare for coastal inundation. Through the use of data, visualizations, and simulations, you can help people understand their exposure to coastal inundation hazards and their increased vulnerability due to population increase and sea level rise.
 
 

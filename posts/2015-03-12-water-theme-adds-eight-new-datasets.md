@@ -42,6 +42,8 @@ tags: climate
 title: Water Theme Adds Eight New Datasets
 ---
 
+[Back to Climate Homepage](/climate/)
+
 In a continued effort to provide key datasets that support the process of developing resilience to climate change, eight additional datasets are now available in the Water theme.
 
 Those include:

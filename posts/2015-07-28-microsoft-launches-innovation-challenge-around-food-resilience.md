@@ -42,6 +42,8 @@ tags: climate
 title: "Microsoft Launches  \u201CInnovation Challenge\u201D around Food Resilience"
 ---
 
+[Back to Climate Homepage](/climate/)
+
 **WASHINGTON,July 27,2015**–The U.S. Department of Agriculture is partnering with Microsoft to launch the “Innovation Challenge,” a competition to develop software applications that help farmers, agriculture businesses, and consumers explore how climate change will affect their food systems.
 
 The Innovation Challenge wasformally launched on July 27that a conference of the Agricultural & Applied EconomicsAssociation in San Francisco. Challenge participants have 3 months to create their applications, with a top prize of $25,000 going to the most creative application that best exploits USDA data sets that are now being hosted on Microsoft Azure, Microsoft’s cloud computing platform.
