@@ -22,4 +22,6 @@ slug: launch-of-food-resilience-theme
 title: Launch of Food Resilience Theme
 ---
 
+[Back to Climate Homepage](/climate/)
+
 To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the US government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system. [Learn more](../../foodresilience/).

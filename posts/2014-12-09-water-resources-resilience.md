@@ -39,4 +39,6 @@ tags: climate
 title: Water Resources Resilience
 ---
 
+[Back to Climate Homepage](/climate/)
+
 The Water theme, one of several themes of climate.data.gov, was recently launched. The Water theme provides data and resources to facilitate the understanding of climate change impacts on water resources and to help communities and governments develop plans and policies to ensure the provisioning of water resources in the face of a changing climate.
