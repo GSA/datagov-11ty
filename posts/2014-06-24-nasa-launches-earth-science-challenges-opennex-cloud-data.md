@@ -33,8 +33,6 @@ tags: climate
 title: NASA Launches Earth Science Challenges with OpenNEX Cloud Data
 ---
 
-[Back to Climate Homepage](/climate/)
-
 NASA is launching two challenges to give the public an opportunity to create innovative ways to use data from the agency’s Earth science satellites.
 
 The challenges will use the Open NASA Earth Exchange. OpenNEX is a data, supercomputing and knowledge platform where users can share modeling and analysis codes, scientific results, knowledge and expertise to solve big data challenges in the Earth sciences. A component of the NASA Earth Exchange, OpenNEX provides users a large collection of climate and Earth science satellite data sets, including global land surface images, vegetation conditions, climate observations and climate projections.
