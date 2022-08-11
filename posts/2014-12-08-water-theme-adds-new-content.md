@@ -45,8 +45,6 @@ tags: climate
 title: Water Theme Adds New Content
 ---
 
-[Back to Climate Homepage](/climate/)
-
 In a continued effort to provide key resources that are aimed at developing water resources resilience to climate change, five additional items are now available in the Water theme.
 
 Those include:

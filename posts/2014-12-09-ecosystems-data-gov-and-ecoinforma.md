@@ -45,6 +45,4 @@ tags: climate
 title: Ecosystems.data.gov and EcoINFORMA
 ---
 
-[Back to Climate Homepage](/climate/)
-
 A new Data.gov community (Ecosystems.data.gov) has been launched to serve as an entry point for access to the U.S. Ecoinformatics-based Open Resources and Machine Accessibility (EcoINFORMA) initiative, including the EcoINFORMA data resource hubs (Biodiversity, Ecosystem Services, and Land Cover Dynamics), the EcoINFORMA map viewer for visualizing and integrating geospatial data, and access to additional biodiversity, ecosystems, ecosystem services and environmental data resources for use by researchers, decision-makers and the public. EcoINFORMA is an initiative that responds to recommendations from the President’s Council of Advisors on Science and Technology (PCAST) 2011 report on “Sustaining Environmental Capital: Protecting Society and the Economy”.
