@@ -4,18 +4,18 @@ categories:
 - energy-infrastructure
 tags: climate
 date: '2014-02-25T22:57:06'
-excerpt: "<p>Here are several examples of the available map resources on data.gov\_\
+excerpt: "Here are several examples of the available map resources on data.gov\_\
   that illustrate the geographic distribution of energy resources, energy supply &amp;\
   \ demand, and infrastructure in the United States. About U.S. Natural Gas Pipelines\
-  \ Accelerating Offshore Wind Development Concentrating Solar Power &hellip; <a aria-describedby=\"\
-  post-title-139901\" href=\"https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-maps\"\
-  >Continued</a></p>\n"
+  \ Accelerating Offshore Wind Development Concentrating Solar Power &hellip;
+  "
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-maps/
 modified: '2017-05-25T14:40:15'
 permalink: /climate/energy-infrastructure/energy-infrastructure-maps/
 slug: energy-infrastructure-maps
 title: Energy Infrastructure Maps
 ---
+
 Here are several examples of the available map resources on data.gov that illustrate the geographic distribution of energy resources, energy supply & demand, and infrastructure in the United States.
 
 [About U.S. Natural Gas Pipelines](http://www.eia.gov/pub/oil_gas/natural_gas/analysis_publications/ngpipeline/ngpipeline_maps.html "About U.S. Natural Gas Pipelines")
