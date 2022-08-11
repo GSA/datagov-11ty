@@ -13,7 +13,6 @@ slug: transportation-featured-content
 title: Transportation Featured Content
 ---
 
-
 Over the past five years, there has been a large body of literature developed on climate impacts on transportation and transportation adaptation. This work includes:
 
 *   Pilot studies and case studies of particular locations;
@@ -53,8 +52,3 @@ The listing below includes a representative selection from these categories, mos
 *   **[The Potential Impacts of Global Sea Level Rise on Transportation Infrastructure (2008)](https://www.transportation.gov/sites/dot.gov/files/docs/sea-level-rise-entire-report.pdf)** The study uses multiple data sources to identify the potential impact of sea level rise on land and transportation infrastructure along the Atlantic coast, from Florida to New York. The study (1) creates maps of land and transportation infrastructure that, without protection, could be inundated regularly by the ocean or be at risk of periodic inundation due to storm surge under a range of sea level rise scenarios; and, (2) provides statistics to demonstrate the potential extent of land areas and transportation infrastructure affected.
 
 *   **[Regional Climate Change Effects: Useful Information for Transportation Agencies (2010)](https://www.fhwa.dot.gov/environment/climate_change/adaptation/publications_and_tools/climate_effects/climate_effects.pdf "Regional Climate Change Effects: Useful Information for Transportation Agencies (2010)")** This document provides basic information on projected future climate change effects (changes in temperature, precipitation, storm activity and sea level rise) over the near term, mid-century and end-of-century. The report includes two appendices: maps for some of the climate change effects, and a “typology” of projected climate change information gleaned from recent reports.
-
-
-
-
-slug: -class="no-js"-dir="ltr"-lang="en-us">-<head>-<meta-charset="utf-8">-<meta'
