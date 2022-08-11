@@ -29,8 +29,6 @@ Scenarios
 In addition, [scenarios.globalchange.gov](https://scenarios.globalchange.gov) provides scenarios: quantitative and narrative descriptions of plausible future conditions that provide assumptions for analyses of potential impacts and responses to climate change. Scenarios are ways to help understand what future conditions might be, with each scenario an example of what might happen under different assumptions. Scenarios generally blend both model output and other information, such as observed trends. They are not predictions or forecasts, and no probabilities are associated with them. Instead, they provide a range of future conditions to bound uncertainty. The scenarios accessed through scenarios.globalchange.gov include climate change, sea level change, and land use and population change. They are based on peer-reviewed, published sources and were used in the development of the National Climate Assessment, which provides scientific findings about climate change and its impacts on U.S. regions and key socioeconomic sectors.
 
 
-
-
 ### Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections
 **Sponsor:** Multiple Fed/Univ/NGO
 **Name:** Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections
