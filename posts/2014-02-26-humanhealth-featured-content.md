@@ -12,8 +12,6 @@ slug: humanhealth-featured-content
 title: Human Health Featured Content
 ---
 
-[Back to Climate Homepage](/climate/)
-
 The [2018 US National Climate Assessment’s Human Health](https://nca2018.globalchange.gov/chapter/14/) chapter provides a comprehensive overview of the latest scientific information on the impacts of climate change on public health. Exploring the following resources should provide a greater understanding of the vulnerability to climate change and other stressors.
 
 The [National Air Quality Forecast System](https://www.weather.gov/sti/stimodeling_airquality) provides the US with ozone, particulate matter and other pollutant forecasts with enough accuracy and advance notice to take action to prevent or reduce adverse effects.
