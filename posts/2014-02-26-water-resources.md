@@ -1,4 +1,5 @@
 ---
+author: admin
 categories:
 - climate
 tags: climate
