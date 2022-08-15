@@ -1,4 +1,5 @@
 ---
+author: admin
 categories:
 - climate
 tags: climate
@@ -8,7 +9,7 @@ excerpt: |-
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-tools/
 modified: '2017-05-25T14:53:44'
 permalink: /climate/tribal-nations/tribal-nations-tools/
-slug: 
+slug: tribal-nations-tools
 title: Tribal Nations Tools
 ---
 
