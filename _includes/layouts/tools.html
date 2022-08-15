@@ -9,6 +9,12 @@ layout: layouts/default
   front matter and overrides of default values are available
   in the front matter of specific posts in the posts directory.
 {% endcomment %}
+<!-- FOR MODAL FUNCTIONALITY - JavaScript Bundle with Popper -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<!-- FOR MODAL FUNCTIONALITY - JavaScript Bundle with Popper -->
 
 <div class="usa-layout-docs usa-section">
   <div class="grid-container">
@@ -26,12 +32,56 @@ layout: layouts/default
         {{content}}
         <ul>
         {%- for summary in mainlinks -%}
-        {%- if summary.group -%}
-        </ul>
-        <h2 class="subject">{{summary.group}}</h2>
-        <ul>
-        {%- endif -%}
-        <li><a href="{{item.data.url}}">{{summary.title}}</a>: {{summary.description}}</li>
+          {%- if summary.group -%}
+          </ul>
+          <h2 class="subject">{{summary.group}}</h2>
+          <ul>
+          {%- endif -%}
+
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{summary.link}}">
+            {{summary.title}}
+          </button>
+          <p>{{summary.description}}</p>
+          <!-- Modal -->
+          <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  {%- if summary.sponsor -%}
+                    <p><b>Sponsor:</b> {{summary.sponsor}}</p>
+                  {%- endif -%}
+                  {%- if summary.name -%}
+                    <p><b>Name:</b> {{summary.name}}</p>
+                  {%- endif -%}
+                  {%- if summary.url -%}
+                    <p><b>URL:</b> {{summary.url}}</p>
+                  {%- endif -%}
+                  {%- if summary.summary -%}
+                    <p><b>Summary:</b> {{summary.summary}}</p>
+                  {%- endif -%}
+                  {%- if summary.howitworks -%}
+                    <p><b>How it works:</b> {{summary.howitworks}}</p>
+                  {%- endif -%}
+                  {%- if summary.application -%}
+                    <p><b>Application:</b> {{summary.application}}</p>
+                  {%- endif -%}
+                  {%- if summary.preview -%}
+                    <p><b>Preview:</b></p>
+                    <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
+                  {%- endif -%}
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
         {%- endfor -%}
       </div>
     </div>
