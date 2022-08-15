@@ -1,4 +1,5 @@
 ---
+author: admin
 categories:
 - climate
 tags: climate
@@ -18,7 +19,7 @@ All items listed in the [Resources > Tools](../tribal-nations-tools/) section of
 
 [General Resources](#general-resources) | [Tribal Nations Resources for Alaska Natives/Arctic](#tribal-nations-resources-for-alaska-nativesarctic) | [Tribal Nations Resources for Assessment & Planning](#tribal-nations-resources-for-assessment-and-planning) | [Tribal Nations Resources for Adaptation](#tribal-nations-resources-for-adaptation) | [Tribal Nations Resources for Mitigation](#tribal-nations-resources-for-mitigation) | [Tribal Nations Resources for Disaster Risk Reduction](#tribal-nations-resources-for-disaster-risk-reduction) | [Tribal Nations Resources for Relocation](#tribal-nations-resources-for-relocation) | [Tribal Nations Resources for Capacity Building](#tribal-nations-resources-for-capacity-building)
 
-#### **General Resources**
+## **General Resources**
 
 *   [BIA Climate Change Funding and Resources:](https://www.indianaffairs.gov/WhoWeAre/BIA/climatechange/index.htm) Climate change brings severe challenges to Indian Country and Alaska Native Villages. The [President’s Climate Action Plan](https://www.whitehouse.gov/sites/default/files/image/president27sclimateactionplan.pdf) identified the Bureau of Indian Affairs (BIA) as the lead agency to support federally recognized tribes as they address this challenge. Therefore, BIA is providing expanded climate funding, training, technical assistance, and coordinated government and intertribal resources to Tribal Nations to assist them to build climate resilience.
 *   [Tribal Climate Change Guide:](https://tribalclimateguide.uoregon.edu/) The Tribal Climate Change Guide provides exhaustive resource listings by Funding, Climate Adaptation Plans, and Related Programs and Resources that may assist tribes in addressing climate change impacts. New tabs link to Climate Scientists, Publications, and Events as new resource topics continue to be added regularly.
@@ -31,41 +32,41 @@ All items listed in the [Resources > Tools](../tribal-nations-tools/) section of
 *   [ATNI Tribal Leaders Summit on Climate Change:](https://www.atnitribes.org/atni-tribal-leaders-summit-climate-change-2015) ATNI Tribal Leaders Summit on Climate Change brought together Tribal Councils, Policy Leaders, Tribal Staff, and federal agency representatives. Tribal Climate presentations describing many of the cases and tools in the toolkit are linked here.
 *   [Tribal Climate Videos:](https://tribalclimate.wikia.com/wiki/Special:Videos?sort=recent&cb=9394) Ongoing efforts seek to compile Tribal Climate Videos from around the county into a single, on-demand access location. Many of the videos are also highlighted in the Tribal Nations topic, subtopics, tools, and cases in the U.S. Climate Resilience Toolkit.
 
-#### **Tribal Nations Resources for Alaska Natives/Arctic**
+## **Tribal Nations Resources for Alaska Natives/Arctic**
 
 *   [Administration for Native Americans:](https://www.acf.hhs.gov/programs/ana) Administration for Native Americans provides financial assistance and capacity building, gathering and sharing data, and advocating for improved policies within human health services and across the federal government for Tribal Nations facing increasing climate impacts.
 *   [Alaska Ocean Observing System:](https://www.aoos.org/) The Alaska Ocean Observing System (AOOS) systems supports participating Alaska Native groups and individuals with coastal hazards mitigation, ecosystem and climate trends analysis, water quality monitoring, data access, regional information, special projects, and training.
 *   [USACE Tribal Nations Program:](https://www.usace.army.mil/Missions/CivilWorks/TribalNations.aspx) USACE Regional Tribal Liaisons assist tribes to consult on climate change adaptation projects such as coastal erosion controls and water supply projects. It includes a Tribal Nations Community of Practice among staff to address tribal issues.
 
-#### **Tribal Nations Resources for Assessment & Planning**
+## **Tribal Nations Resources for Assessment & Planning**
 
 *   [EPA State and Local Climate and Energy Program:](https://www3.epa.gov/statelocalclimate/) EPA’s State and Local Climate and Energy Program provides technical assistance, analytical tools, and outreach support to [Tribal Nations](https://www3.epa.gov/statelocalclimate/tribal/) including identification, evaluation, outreach, and exchange assistance including a [Tribal Greenhouse Gas Inventory Tool.](https://www3.epa.gov/statelocalclimate/resources/tribal-GHG-inventory-tool.html)
 
-#### **Tribal Nations Resources for Adaptation**
+## **Tribal Nations Resources for Adaptation**
 
 *   [USDA Climate Hubs:](https://www.climatehubs.oce.usda.gov/) The USDA Regional Climate Hubs assist tribes to address forestry, natural resources conservation, and other land management concerns related to a changing climate.  Online resources include Climate Variability Resources and USDA program listings that provide Adaptation Assistance.
 *   [USFS Climate Change Response Framework:](https://forestadaptation.org/) The U.S. Forest Service Climate Response Framework is a collaborative, cross-boundary approach among scientists, managers, Tribal Nations and other landowners to incorporate climate change considerations into natural resource management. It provides an integrated set of tools, partnerships, and actions to support climate-informed conservation and forest management.
 *   [Sustainable Climate Risk Management (SCRiM):](https://scrimhub.org/) SCRiM links a transdisciplinary team of scholars at 19 universities and 5 research institutions, including tribal colleges, across 6 nations to answer the question, “What are sustainable, scientifically sound, technologically feasible, economically efficient, and ethically defensible climate risk management strategies?”
 *   [EPA Tribal Portal:](https://www2.epa.gov/tribal) The U.S. Environmental Protection Agency Tribal Portal provides access to climate and environment consultation services, the Indian General Assistance Program (IGAP) funding, the Tribal Science Council (TSC), the Tribal ecoAmbassadors program, and resources by region and topic to support tribes address climate, environmental degradation, and related social justice issues.
 
-#### **Tribal Nations Resources for Mitigation**
+## **Tribal Nations Resources for Mitigation**
 
 *   [EPA Clean Power Plan:](https://www2.epa.gov/cleanpowerplan) Tribal Nations can learn how carbon pollution from power plants causes climate change and actions they can use to address carbon pollution through policies and community actions.
 *   [DOE Tribal Energy Programs:](https://www.energy.gov/indianenergy/office-indian-energy-policy-and-programs) The Department of Energy Tribal Energy Program provides technical assistance, project funding, training, and a variety of resources to support renewable energy and energy efficiency projects.
 *   [Office of Indian Energy Policy and Programs (IEED) Assistance Tribal Toolbox:](https://www.bia.gov/WhoWeAre/AS-IA/IEED/DEMD/TT/index.htm) Through technical assistance, grants, and private data from tribal lands about energy, minerals, and environmental concerns, IEED helps Tribal Nations successfully develop and manage their energy and mineral resources.
 
-#### **Tribal Nations Resources for Disaster Risk Reduction**
+## **Tribal Nations Resources for Disaster Risk Reduction**
 
 *   [Indian Health Service (IHS):](https://www.ihs.gov/sustainability/) The Indian Health Service (IHS) is responsible for providing federal health services to American Indians and Alaska Natives. One of its roles is assisting in development of Health Assessments and Environmental Sustainability Plans and supporting tribal health programs to do the same, which may include a climate component.
 *   [USACE Tribal Nations Program:](https://www.usace.army.mil/Missions/CivilWorks/TribalNations.aspx) USACE Regional Tribal Liaisons assist tribes to consult on climate change adaptation projects such as coastal erosion controls and water supply projects. It includes a Tribal Nations Community of Practice among staff to address tribal issues.
 
-#### **Tribal Nations Resources for Relocation**
+## **Tribal Nations Resources for Relocation**
 
 *   [Administration for Native Americans:](https://www.acf.hhs.gov/programs/ana) Administration for Native Americans provides financial assistance and capacity building, gathering and sharing data, and advocating for improved policies within human health services and across the federal government for Tribal Nations facing increasing climate impacts.
 *   [Alaska Ocean Observing System:](https://www.aoos.org/) The Alaska Ocean Observing System (AOOS) systems supports participating Alaska Native groups and individuals with coastal hazards mitigation, ecosystem and climate trends analysis, water quality monitoring, data access, regional information, special projects, and training.
 *   [USACE Tribal Nations Program:](https://www.usace.army.mil/Missions/CivilWorks/TribalNations.aspx) USACE Regional Tribal Liaisons assist tribes to consult on climate change adaptation projects such as coastal erosion controls and water supply projects. It includes a Tribal Nations Community of Practice among staff to address tribal issues.
 
-#### **Tribal Nations Resources for Capacity Building**
+## **Tribal Nations Resources for Capacity Building**
 
 *   [DOI Climate Science Centers:](https://nccwsc.usgs.gov/tribal-indigenous) Through BIA tribal liaisons and other tribal staff and programs, Dept. of Interior Climate Science Centers provide training and assistance to Tribal Nations and help coordinate their inclusion in regional and national efforts to create relevant climate science data and analysis to support their needs.  The [Advisory Committee on Climate Change and Natural Resource Science (ACCCNRS)](https://nccwsc.usgs.gov/acccnrs) that advises the program includes tribal representation.  The ACCCNRS 2015 Report includes a [Guidebook for Traditional Knowledges, and a Primer for Climate Change and Indigenous Peoples](https://nccwsc.usgs.gov/sites/default/files/files/ACCCNRS_IndigenousPeoplesPrimer_%26_TK.pdf).
 *   [Landscape Conservation Cooperatives (LCCs):](https://lccnetwork.org/) LCCs assist Tribal Nations that participate to better integrate science and management to address climate change and other landscape scale issues. By building a network that is holistic, collaborative, adaptive, and grounded in science, LCCs are working to ensure the sustainability of regional economy, land, water, wildlife, and cultural resources. LCCs may help tribes implement the [National Fish, Wildlife and Plants Climate Adaptation Strategy](https://www.wildlifeadaptationstrategy.gov/) at larger-scales to improve long-term resilience of reserved rights on ceded lands to hunt, fish, and gather beyond reservation boundaries.
