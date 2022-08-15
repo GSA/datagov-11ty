@@ -46,10 +46,12 @@ html > body > footer > div > div > div > div > ul > li > a { color: #0061c9 }
           <ul>
           {%- endif -%}
 
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#{{summary.link}}">
-            {{summary.title}}
-          </button>
-          <p>{{summary.description}}</p>
+          <li><p>
+            <a data-toggle="modal" data-target="#{{summary.link}}" href="#{{summary.link}}">
+              {{summary.title}}
+            </a> 
+            : {{summary.description}}
+          </p></li>
           <!-- Modal -->
           <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
             <div class="modal-dialog" role="document">
