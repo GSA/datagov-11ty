@@ -60,47 +60,6 @@ html > body > footer > div > div > div > div > ul > li > a { color: #0061c9 }
                   </a> 
                   : {{summary.description}}
                 </li></p>
-
-                <!-- Modal -->
-                <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
-                  <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                          <span aria-hidden="true">&times;</span>
-                        </button>
-                      </div>
-                      <div class="modal-body">
-                        {%- if summary.sponsor -%}
-                          <p><b>Sponsor:</b> {{summary.sponsor}}</p>
-                        {%- endif -%}
-                        {%- if summary.name -%}
-                          <p><b>Name:</b> {{summary.name}}</p>
-                        {%- endif -%}
-                        {%- if summary.url -%}
-                          <p><b>URL:</b> {{summary.url}}</p>
-                        {%- endif -%}
-                        {%- if summary.summary -%}
-                          <p><b>Summary:</b> {{summary.summary}}</p>
-                        {%- endif -%}
-                        {%- if summary.howitworks -%}
-                          <p><b>How it works:</b> {{summary.howitworks}}</p>
-                        {%- endif -%}
-                        {%- if summary.application -%}
-                          <p><b>Application:</b> {{summary.application}}</p>
-                        {%- endif -%}
-                        {%- if summary.preview -%}
-                          <p><b>Preview:</b></p>
-                          <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
-                        {%- endif -%}
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
                 {%- endif -%}
               {%- endfor -%}
             {%- endfor -%}
@@ -113,49 +72,51 @@ html > body > footer > div > div > div > div > ul > li > a { color: #0061c9 }
               </a> 
               : {{summary.description}}
             </li></p>
-
-            <!-- Modal -->
-            <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
-              <div class="modal-dialog" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
-                    {%- if summary.sponsor -%}
-                      <p><b>Sponsor:</b> {{summary.sponsor}}</p>
-                    {%- endif -%}
-                    {%- if summary.name -%}
-                      <p><b>Name:</b> {{summary.name}}</p>
-                    {%- endif -%}
-                    {%- if summary.url -%}
-                      <p><b>URL:</b> {{summary.url}}</p>
-                    {%- endif -%}
-                    {%- if summary.summary -%}
-                      <p><b>Summary:</b> {{summary.summary}}</p>
-                    {%- endif -%}
-                    {%- if summary.howitworks -%}
-                      <p><b>How it works:</b> {{summary.howitworks}}</p>
-                    {%- endif -%}
-                    {%- if summary.application -%}
-                      <p><b>Application:</b> {{summary.application}}</p>
-                    {%- endif -%}
-                    {%- if summary.preview -%}
-                      <p><b>Preview:</b></p>
-                      <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
-                    {%- endif -%}
-                  </div>
-                  <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                  </div>
-                </div>
-              </div>
-            </div>
           {%- endfor -%}
         {%- endif -%}
+
+        {%- for summary in mainlinks -%}
+        <!-- Modal -->
+        <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                {%- if summary.sponsor -%}
+                  <p><b>Sponsor:</b> {{summary.sponsor}}</p>
+                {%- endif -%}
+                {%- if summary.name -%}
+                  <p><b>Name:</b> {{summary.name}}</p>
+                {%- endif -%}
+                {%- if summary.url -%}
+                  <p><b>URL:</b> {{summary.url}}</p>
+                {%- endif -%}
+                {%- if summary.summary -%}
+                  <p><b>Summary:</b> {{summary.summary}}</p>
+                {%- endif -%}
+                {%- if summary.howitworks -%}
+                  <p><b>How it works:</b> {{summary.howitworks}}</p>
+                {%- endif -%}
+                {%- if summary.application -%}
+                  <p><b>Application:</b> {{summary.application}}</p>
+                {%- endif -%}
+                {%- if summary.preview -%}
+                  <p><b>Preview:</b></p>
+                  <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
+                {%- endif -%}
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        {%- endfor -%}
       </div>
     </div>
   </div>
