@@ -38,61 +38,124 @@ html > body > footer > div > div > div > div > ul > li > a { color: #0061c9 }
           </div>
         </div>
         {{content}}
-        <ul>
-        {%- for summary in mainlinks -%}
-          {%- if summary.group -%}
-          </ul>
-          <h2 class="subject">{{summary.group}}</h2>
-          <ul>
-          {%- endif -%}
 
-          <li><p>
-            <a data-toggle="modal" data-target="#{{summary.link}}" href="#{{summary.link}}">
-              {{summary.title}}
-            </a> 
-            : {{summary.description}}
-          </p></li>
-          <!-- Modal -->
-          <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
-            <div class="modal-dialog" role="document">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
-                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                  </button>
+        {%- if sub-titles -%}
+          <p>
+          {%- for sub in sub-titles -%}
+            <b> <a href="#{{sub}}">{{sub}}</a> | </b>
+          {%- endfor -%}
+          </p>
+          {%- for sub in sub-titles -%}
+            </ul>
+            <div id ="{{sub}}">
+              <h2 class="subject">{{sub}}</h2>
+            </div>
+            <ul>
+            {%- for summary in mainlinks -%}
+              {%- for group in summary.group -%}
+                {%- if group == sub -%}
+                <p><li>
+                  <a data-toggle="modal" data-target="#{{summary.link}}" href="#{{summary.link}}">
+                    {{summary.title}}
+                  </a> 
+                  : {{summary.description}}
+                </li></p>
+
+                <!-- Modal -->
+                <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
+                  <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        {%- if summary.sponsor -%}
+                          <p><b>Sponsor:</b> {{summary.sponsor}}</p>
+                        {%- endif -%}
+                        {%- if summary.name -%}
+                          <p><b>Name:</b> {{summary.name}}</p>
+                        {%- endif -%}
+                        {%- if summary.url -%}
+                          <p><b>URL:</b> {{summary.url}}</p>
+                        {%- endif -%}
+                        {%- if summary.summary -%}
+                          <p><b>Summary:</b> {{summary.summary}}</p>
+                        {%- endif -%}
+                        {%- if summary.howitworks -%}
+                          <p><b>How it works:</b> {{summary.howitworks}}</p>
+                        {%- endif -%}
+                        {%- if summary.application -%}
+                          <p><b>Application:</b> {{summary.application}}</p>
+                        {%- endif -%}
+                        {%- if summary.preview -%}
+                          <p><b>Preview:</b></p>
+                          <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
+                        {%- endif -%}
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                <div class="modal-body">
-                  {%- if summary.sponsor -%}
-                    <p><b>Sponsor:</b> {{summary.sponsor}}</p>
-                  {%- endif -%}
-                  {%- if summary.name -%}
-                    <p><b>Name:</b> {{summary.name}}</p>
-                  {%- endif -%}
-                  {%- if summary.url -%}
-                    <p><b>URL:</b> {{summary.url}}</p>
-                  {%- endif -%}
-                  {%- if summary.summary -%}
-                    <p><b>Summary:</b> {{summary.summary}}</p>
-                  {%- endif -%}
-                  {%- if summary.howitworks -%}
-                    <p><b>How it works:</b> {{summary.howitworks}}</p>
-                  {%- endif -%}
-                  {%- if summary.application -%}
-                    <p><b>Application:</b> {{summary.application}}</p>
-                  {%- endif -%}
-                  {%- if summary.preview -%}
-                    <p><b>Preview:</b></p>
-                    <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
-                  {%- endif -%}
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                {%- endif -%}
+              {%- endfor -%}
+            {%- endfor -%}
+          {%- endfor -%}
+        {%- else -%}
+          {%- for summary in mainlinks -%}
+            <p><li>
+              <a data-toggle="modal" data-target="#{{summary.link}}" href="#{{summary.link}}">
+                {{summary.title}}
+              </a> 
+              : {{summary.description}}
+            </li></p>
+
+            <!-- Modal -->
+            <div class="modal fade" id="{{summary.link}}" tabindex="-1" role="dialog" aria-labelledby="{{summary.link}}" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="{{summary.link}}">{{summary.title}}</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    {%- if summary.sponsor -%}
+                      <p><b>Sponsor:</b> {{summary.sponsor}}</p>
+                    {%- endif -%}
+                    {%- if summary.name -%}
+                      <p><b>Name:</b> {{summary.name}}</p>
+                    {%- endif -%}
+                    {%- if summary.url -%}
+                      <p><b>URL:</b> {{summary.url}}</p>
+                    {%- endif -%}
+                    {%- if summary.summary -%}
+                      <p><b>Summary:</b> {{summary.summary}}</p>
+                    {%- endif -%}
+                    {%- if summary.howitworks -%}
+                      <p><b>How it works:</b> {{summary.howitworks}}</p>
+                    {%- endif -%}
+                    {%- if summary.application -%}
+                      <p><b>Application:</b> {{summary.application}}</p>
+                    {%- endif -%}
+                    {%- if summary.preview -%}
+                      <p><b>Preview:</b></p>
+                      <a href="{{summary.url}}"><img src="{{summary.preview}}" alt="{{summary.url}}"/></a>
+                    {%- endif -%}
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-        {%- endfor -%}
+          {%- endfor -%}
+        {%- endif -%}
       </div>
     </div>
   </div>
