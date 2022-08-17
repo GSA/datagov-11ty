@@ -1,0 +1,139 @@
+{
+  "bioenergy-knowledge-discovery-framework": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion", "Energy Infrastructure"],
+    "title": "Bioenergy Knowledge Discovery Framework",
+    "link": "bioenergy-knowledge-discovery-framework",
+    "description": "The Bioenergy Library contains hundreds of publications, data sets, and models specifically related to bioenergy production, distribution, delivery, and end use. Many of the Bioenergy Library publication records include abstracts and links to full-text content, while certain data sets can be added to and visualized on the KDF Map. Users also have the ability to comment on entries and share links with others via email and social networking sites.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "Bioenergy Knowledge Discovery Framework",
+    "url": "https://bioenergykdf.net",
+    "summary": "The Bioenergy Library contains hundreds of publications, data sets, and models specifically related to bioenergy production, distribution, delivery, and end use. Many of the Bioenergy Library publication records include abstracts and links to full-text content, while certain data sets can be added to and visualized on the KDF Map. Users also have the ability to comment on entries and share links with others via email and social networking sites.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/BioenergyKnowledgeDiscoveryFramework.png"
+  },
+  "biofuels-atlas": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion", "Energy Infrastructure"],
+    "title": "BioFuels Atlas",
+    "link": "biofuels-atlas",
+    "description": "Built into Google Maps, BioEnergy Atlas includes two interactive maps, BioPower and BioFuels. These maps allow you to compare and analyze biomass feedstocks, biopower and biofuels data from the U.S. Department of Energy (DOE), U.S. Environmental Protection Agency (EPA), and the U.S. Department of Agriculture.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "BioFuels Atlas",
+    "url": "http://maps.nrel.gov/biomass",
+    "summary": "Built into Google Maps, BioEnergy Atlas includes two interactive maps, BioPower and BioFuels. These maps allow you to compare and analyze biomass feedstocks, biopower and biofuels data from the U.S. Department of Energy (DOE), U.S. Environmental Protection Agency (EPA), and the U.S. Department of Agriculture.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/BioFuelsAtlas.png"
+  },
+  "biopower-atlas": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion", "Energy Infrastructure"],
+    "title": "BioPower Atlas",
+    "link": "biopower-atlas",
+    "description": "BioPower is an interactive map for comparing biomass feedstocks and biopower by location. This tool helps users select from and apply biomass data layers to a map as well as query and download biopower and feedstock data. The analysis function offers common conversion factors that allow users to determine the potential biopower production for a selected feedstock in a specific area.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "BioPower Atlas",
+    "url": "http://maps.nrel.gov/biopower",
+    "summary": "BioPower is an interactive map for comparing biomass feedstocks and biopower by location. This tool helps users select from and apply biomass data layers to a map as well as query and download biopower and feedstock data. The analysis function offers common conversion factors that allow users to determine the potential biopower production for a selected feedstock in a specific area.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/BioPowerAtlas.png"
+  },
+  "geothermal-prospector": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion"],
+    "title": "Geothermal Prospector",
+    "link": "geothermal-prospector",
+    "description": "NREL developed Geothermal Prospector, a web-based geographic information system (GIS) application, to support resource assessment and data exploration for the U.S. Department of Energy’s (DOE) Geothermal Technologies Office.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "Geothermal Prospector",
+    "url": "https://maps.nrel.gov/geothermal-prospector/?aL=AyQ4yd%255Bv%255D%3Dt%26nBy5Q_%255Bv%255D%3Dt%26nBy5Q_%255Bd%255D%3D1&bL=clight&cE=0&lR=0&mC=40.21244%2C-91.625976&zL=4",
+    "summary": "NREL developed Geothermal Prospector, a web-based geographic information system (GIS) application, to support resource assessment and data exploration for the U.S. Department of Energy’s (DOE) Geothermal Technologies Office.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GeothermalProspector.png"
+    
+  },
+  "hydrogis-viewer": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion", "Energy Infrastructure"],
+    "title": "HydroGIS Viewer",
+    "link": "hydrogis-viewer",
+    "description": "The HydroGIS Viewer is a geographic information system (GIS) web map service that allows registered users to view select key information from the NHAAP. Geospatial information that can be visualized through HydroGIS Viewer include: Geospatial distribution and characterization of existing hydropower plants, dams, and generators; Environmental mitigation layers; Geospatially summarized New Stream-reach Development (NSD) potential and environmental attributes from the ORNL NSD Resource Assessment; Geospatial distribution of Non-Powered Dam (NPD) potential from the ORNL NPD Resource Assessment; Streamflow and climate time series information; Geographic reference layers.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "HydroGIS Viewer",
+    "url": "http://nhaap.ornl.gov/content/hydrogis-0",
+    "summary": "The HydroGIS Viewer is a geographic information system (GIS) web map service that allows registered users to view select key information from the NHAAP. Geospatial information that can be visualized through HydroGIS Viewer include: Geospatial distribution and characterization of existing hydropower plants, dams, and generators; Environmental mitigation layers; Geospatially summarized New Stream-reach Development (NSD) potential and environmental attributes from the ORNL NSD Resource Assessment; Geospatial distribution of Non-Powered Dam (NPD) potential from the ORNL NPD Resource Assessment; Streamflow and climate time series information; Geographic reference layers.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/HydroGISViewer.png"
+  },
+  "solar-roadmap": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion", "Energy Infrastructure"],
+    "title": "Solar Roadmap",
+    "link": "solar-roadmap",
+    "description": "Map of the United States which contains the latest information about efforts underway and access comprehensive resources on local programs and activities by state.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "Solar Roadmap",
+    "url": "http://my.solarroadmap.com/national",
+    "summary": " Map of the United States which contains the latest information about efforts underway and access comprehensive resources on local programs and activities by state.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/SolarRoadmap.png"
+    
+  },
+  "north-american-atlas-of-unconventional-hydrocarbon-sources": {
+    "group": ["Energy Resources", "Energy Supply"],
+    "title": "North American Atlas of Unconventional Hydrocarbon Sources",
+    "link": "north-american-atlas-of-unconventional-hydrocarbon-sources",
+    "description": "Interactive map/tool which allows users to visualize locations of unconventional hydrocarbon sources as well as production boundaries.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "North American Atlas of Unconventional Hydrocarbon Sources",
+    "url": "http://www.unconventionalenergyresources.com/",
+    "summary": "Interactive map/tool which allows users to visualize locations of unconventional hydrocarbon sources as well as production boundaries.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NorthAmericanAtlasofUnconventionalHydrocarbonSources.png"
+  },
+  "u.s.-energy-mapping-system": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Conversion", "Energy Infrastructure", "Energy Resilience"],
+    "title": "U.S. Energy Mapping System",
+    "link": "u.s.-energy-mapping-system",
+    "description": "Interactive map with multiple layers on various aspects of U.S Energy infrastructure including energy conversion sites, transmission pathways, and various energy reserves.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "U.S. Energy Mapping System",
+    "url": "http://www.eia.gov/state/maps.cfm?src=home-f3",
+    "summary": " Interactive map with multiple layers on various aspects of U.S Energy infrastructure including energy conversion sites, transmission pathways, and various energy reserves.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/U.S.EnergyMappingSystem.png"
+  },
+  "usgs-energy-data-finder": {
+    "group": ["Energy Resources", "Energy Supply", "Energy Resilience"],
+    "title": "USGS Energy Data Finder",
+    "link": "usgs-energy-data-finder",
+    "description": "USGS Energy Data Finder allows one to find, map, and download GIS and tabular data, databases, geospatial web services (ArcGIS, WMS, KML).",
+    "sponsor": "USGS",
+    "name": "USGS Energy Data Finder",
+    "url": "http://energy.usgs.gov/Tools/EnergyDataFinderSplash.aspx",
+    "summary": "The Energy Data Finder allows users to search or browse through a range of energy resources data for the United States and subsequently map or download selected data.",
+    "howitworks": "The user launches the tool in her web browser and enters search terms of interest. Alternatively, the user can select the browse tab to explore the full set of accessible data holdings. Once selected, data can be viewed, downloaded or shared. Details on the data including metadata are also accessible.",
+    "application": "The tool can be used to find and access data assets including databases and applications relevant to understanding U.S. energy resources.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USGSEnergyDataFinder.png"
+  },
+  "owner-performance-requirements-(opr)": {
+    "group": ["Energy Supply", "Energy Demand", "Energy Infrastructure"],
+    "title": "Owner Performance Requirements (OPR)",
+    "link": "owner-performance-requirements-(opr)",
+    "description": "This Web-based tool allows owners to analyze a range of high-performance requirements (safety, security, energy conservation and renewal, environmental sustainability, durability, continuity of operations, and cost benefit) to meet their business case/model or mission. It helps owners evaluate the effects of changing goals and select the optimal envelope performance objectives for their proposed building.",
+    "sponsor": "U.S. Department of Homeland Security",
+    "name": "Owner Performance Requirements",
+    "url": "http://www.dhs.gov/owner-performance-requirements-opr-tool",
+    "summary": "This Web-based tool allows owners to analyze a range of high-performance requirements (safety, security, energy conservation and renewal, environmental sustainability, durability, continuity of operations, and cost benefit) to meet their business case/model or mission. It helps owners evaluate the effects of changing goals and select the optimal envelope performance objectives for their proposed building.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/OwnerPerformanceRequirements.png"
+  },
+  "Energy Infrastructure-with-real-time-storm-information": {
+    "group": ["Energy Infrastructure", "Energy Resilience"],
+    "title": "Energy infrastructure with real time storm information",
+    "link": "Energy Infrastructure-with-real-time-storm-information",
+    "description": "EIA tracks and reports on selected significant storms that impact or could potentially impact energy infrastructure. See past historical events reported on right or real-time storm tracking with energy infrastructure maps below.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "Energy infrastructure with real time storm information",
+    "url": "http://www.eia.gov/special/disruptions/",
+    "summary": "EIA tracks and reports on selected significant storms that impact or could potentially impact energy infrastructure. See past historical events reported on right or real-time storm tracking with energy infrastructure maps below.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Energyinfrastructurewithrealtimestorminformation.png"
+    
+  },
+  "flood-vulnerability-assessment-map": {
+    "group": ["Energy Infrastructure", "Energy Resilience"],
+    "title": "Flood Vulnerability Assessment Map",
+    "link": "flood-vulnerability-assessment-map",
+    "description": "Flood hazard information from FEMA has been combined with EIA’s energy infrastructure layers as a tool to help state, county, city, and private sector planners assess which key energy infrastructure assets are vulnerable to rising sea levels, storm surges, and flash flooding. Note that flood hazard layers must be zoomed-in to street level before they become visible. For a full set of energy infrastructure layers refer to the U.S. Energy Mapping System.",
+    "sponsor": "U.S. Department of Energy",
+    "name": "Flood Vulnerability Assessment Map",
+    "url": "http://www.eia.gov/special/floodhazard/",
+    "summary": "Flood hazard information from FEMA has been combined with EIA’s energy infrastructure layers as a tool to help state, county, city, and private sector planners assess which key energy infrastructure assets are vulnerable to rising sea levels, storm surges, and flash flooding. Note that flood hazard layers must be zoomed-in to street level before they become visible. For a full set of energy infrastructure layers refer to the U.S. Energy Mapping System.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/FloodVulnerabilityAssessmentMap.png"
+  }
+}
