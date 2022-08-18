@@ -1,0 +1,123 @@
+{
+  "National Stormwater Calculator": {
+    "title": "National Stormwater Calculator",
+    "link": "national-stormwater-calculator",
+    "description": " EPA\u2019s National Stormwater Calculator (SWC) is a desktop application that estimates the annual amount of rainwater and frequency of runoff from a specific site anywhere in the United States (including Puerto Rico). Estimates are based on local soil conditions, land cover, and historic rainfall records.\n",
+    "sponsor": "EPA",
+    "url": "http://www2.epa.gov/water-research/national-stormwater-calculator",
+    "summary": "EPA\u2019s National Stormwater Calculator (SWC) is a desktop application that estimates the annual amount of rainwater and frequency of runoff from a specific site anywhere in the United States (including Puerto Rico). Estimates are based on local soil conditions, land cover, and historic rainfall records.",
+    "howitworks": "The Calculator accesses several national databases that provide soil, topography, rainfall, and evaporation information for the chosen site. The user supplies information about the site\u2019s land cover and selects the types of low impact development (LID) controls they would like to use.",
+    "application": "It is designed to be used by anyone interested in reducing runoff from a property, including site developers, landscape architects, urban planners, and homeowners.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NationalStormwaterCalculator.png"
+  },
+  "BASINS (Better Assessment Science Integrating point & Non-point Sources)": {
+    "title": "BASINS (Better Assessment Science Integrating point & Non-point Sources)",
+    "link": "basins-better-assessment-science-integrating-point-and-non-point-sources",
+    "description": " Better Assessment Science Integrating Point and Nonpoint Sources (BASINS) is a multipurpose environmental analysis system designed to help regional, state, and local agencies perform watershed- and water quality-based studies.\n",
+    "sponsor": "EPA",
+    "url": "http://water.epa.gov/scitech/datait/models/basins/index.cfm",
+    "summary": "Better Assessment Science Integrating Point and Nonpoint Sources (BASINS) is a multipurpose environmental analysis system designed to help regional, state, and local agencies perform watershed- and water quality-based studies.",
+    "howitworks": "A geographic information system (GIS) provides the integrating framework for BASINS. GIS organizes spatial information so it can be displayed as maps, tables, or graphics. GIS allows the user to analyze landscape information and display relationships among data.",
+    "application": "BASINS is a useful tool for those interested in watershed management, development of total maximum daily loads (TMDLs), coastal zone management, nonpoint source programs, water quality modeling, and National Pollutant Discharge Elimination System (NDPES) permitting.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/BASINS.png"
+  },
+  "Geo Data Portal": {
+    "title": "Geo Data Portal",
+    "link": "geo-data-portal",
+    "description": " The Geo Data Portal helps scientists and decisionmakers construct ensembles and compare climate hind casts and future projections for particular spatial areas. It helps with data management for modeling and assessing the impacts of future climate conditions.\n",
+    "sponsor": "EPA",
+    "url": "http://cida.usgs.gov/gdp/",
+    "summary": "The Geo Data Portal helps scientists and decisionmakers construct ensembles and compare climate hind casts and future projections for particular spatial areas. It helps with data management for modeling and assessing the impacts of future climate conditions.",
+    "howitworks": "\u201cThe portal allows a user to process data by:  1\\. selecting areas of interest by uploading a polygon  shapefile or drawing on a map,  ",
+    "application": "Interest in the impacts of future climate conditions on water resources is growing. Spatially continuous representations of historical climate time-series datasets are required for calibrating hydrologic models. After calibration, climate projec tions can be applied to the model, and model outputs like soil moisture and streamflow can be produced for projected future conditions. The portal can be used to assist in generating time series of climate data, past and future, attributed to watershed polygons or other hydrologic modeling units.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GeoDataPortal.png"
+  },
+  "Climate Ready Water Utilities (CRWU)": {
+    "title": "Climate Ready Water Utilities (CRWU)",
+    "link": "climate-ready-water-utilities-crwu",
+    "description": " EPA\u2019s Climate Ready Water Utilities (CRWU) initiative assists the water sector, which includes drinking water, wastewater, and stormwater utilities, in addressing climate change impacts.\n",
+    "sponsor": "EPA",
+    "url": "http://water.epa.gov/infrastructure/watersecurity/climate/index.cfm",
+    "summary": "EPA\u2019s Climate Ready Water Utilities (CRWU) initiative assists the water sector, which includes drinking water, wastewater, and stormwater utilities, in addressing climate change impacts.",
+    "howitworks": "Through the development of practical and easy-to-use tools, EPA promotes a clear understanding of climate science and adaptation options by translating complex climate projections into accessible formats. This information helps utility owners and operators better prepare their systems for the impacts of climate change.",
+    "application": "The impacts of events such as Hurricane Sandy pose challenges to water sector utilities. Extreme weather events, sea level rise, shifting precipitation patterns and temperature variability, all intensified by climate change, have significant implications for the sustainability of the water sector. By planning for, assessing and adapting to these challenges, the water sector can fulfill their public health and environmental missions and begin the process of becoming climate ready.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/ClimateReadyWaterUtilities.png"
+  },
+  "National Water Census Data Portal": {
+    "title": "National Water Census Data Portal",
+    "link": "national-water-census-data-portal",
+    "description": " The National Water Census Data Platform, enables integration and delivery of water budget information alongside other data of interest to managers, such as water use data or ecological assessment criteria.\n",
+    "sponsor": "USGS",
+    "url": "http://cida.usgs.gov/nwc/",
+    "summary": "The National Water Census Data Platform, enables integration and delivery of water budget information alongside other data of interest to managers, such as water use data or ecological assessment criteria.",
+    "howitworks": "End users of water budget data (i.e. management agencies and decision-makers) are be able to access an integrated online database in a form that enables them to construct local and regional water budgets.",
+    "application": "Using the National Water Census Portal, a user can select their local watershed or stream gage and access water budget information in web visualizations or tabular data downloads. Streamflow statistics of observed and modeled daily streamflow can also be accessed.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NationalWaterCensusDataPortal.png"
+  },
+  "National Integrated Drought Information System Tools": {
+    "title": "National Integrated Drought Information System Tools",
+    "link": "national-integrated-drought-information-system-tools",
+    "description": " National Integrated Drought Information System provides access to US drought data, forecasts, and information from across federal and state agencies, tribes, universities, and other partners.\n",
+    "sponsor": "USDA",
+    "url": "http://drought.gov/drought/content/tools",
+    "summary": "National Integrated Drought Information System provides access to US drought data, forecasts, and information from across federal and state agencies, tribes, universities, and other partners.",
+    "howitworks": "Data is provided using visualization tools within the Portal or as links directly to an appropriate website from the data\u2019s host institution.",
+    "application": "NIDIS provides an accessible and usable drought information system that can facilitate informed decision-making by resource managers and others.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NationalIntegratedDroughtInformationSystemTools.png"
+  },
+  "Exploration and Graphics for RivEr Trends (EGRET)": {
+    "title": "Exploration and Graphics for RivEr Trends (EGRET)",
+    "link": "exploration-and-graphics-for-river-trends-egret",
+    "description": " An R-package for the analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on Time, Discharge, and Season (WRTDS)\n",
+    "sponsor": "USGS",
+    "url": "https://github.com/USGS-R/EGRET",
+    "summary": "Exploration and Graphics for RivEr Trends (EGRET): An R-package for the analysis of long-term changes in water quality and streamflow, including the water-quality method Weighted Regressions on Time, Discharge, and Season (WRTDS)",
+    "howitworks": "EGRET can obtain data from enterprise data systems or user-siupplied files. It has all of the existing WRTDS functionality \u2013 computing concentrations, fluxes, flow normalized versions of those, trends in those and graphics to show results and to explore the behavior of the data (by season, by flow class\u2026). It has additional statistics and graphics to help evaluate the possibility that flux estimates may be biased and to evaluate historical streamflow characteristics.",
+    "application": "WRTDS is a method of analysis for long-term surface water quality data. It is intended for use with data sets of more than about 200 observations of water quality over a time span of about 20 years or more.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/ExplorationandGraphicsforRivErTrends.png"
+  },
+  "NOAA Weather and Climate Toolkit": {
+    "title": "NOAA Weather and Climate Toolkit",
+    "link": "noaa-weather-and-climate-toolkit",
+    "description": " NOAA\u2019s Weather and Climate Toolkit (WCT) is free, platform independent software distributed from NOAA\u2019s National Climatic Data Center (NCDC). The WCT allows the visualization and data export of weather and climate data, including Radar, Satellite and Model data.\n",
+    "sponsor": "NOAA",
+    "url": "http://www.ncdc.noaa.gov/wct/",
+    "summary": "NOAA\u2019s Weather and Climate Toolkit (WCT) is free, platform independent software distributed from NOAA\u2019s National Climatic Data Center (NCDC). The WCT allows the visualization and data export of weather and climate data, including Radar, Satellite and Model data.",
+    "howitworks": "The WCT provides tools for background maps, animations and basic filtering. The export of images and movies is provided in multiple formats. The data export feature supports conversion of data to a variety of common formats including KMZ, Shapefile, Well-Known Text, GeoTIFF, ESRI Grid and Gridded NetCDF.",
+    "application": "The Weather and Climate Toolkit offers access to traditionally hard-to-use weather data in an accessible, visual format. If you\u2019re someone with NOAA data but don\u2019t know how to process it into something usable, the Weather and Climate Toolkit is a great first step to getting that data into a workable format. Likewise, if you have NOAA data and want to get it into a format you\u2019re already familiar with, the toolkit quickly allows you to do that.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NOAAWeatherandClimateToolkit.png"
+  },
+  "Global Precipitation Measurement Education Tools": {
+    "title": "Global Precipitation Measurement Education Tools",
+    "link": "global-precipitation-measurement-education-tools",
+    "description": " This website, presented by NASA\u2019s Global Precipitation Measurement (GPM) mission, provides students and educators with resources to learn about Earth\u2019s water cycle, weather and climate, and the technology and societal applications of studying them.\n",
+    "sponsor": "NASA",
+    "url": "http://pmm.nasa.gov/education/",
+    "summary": "This website, presented by NASA\u2019s Global Precipitation Measurement (GPM) mission, provides students and educators with resources to learn about Earth\u2019s water cycle, weather and climate, and the technology and societal applications of studying them.",
+    "howitworks": "Education tools include videos, websites, interactive applications, and lesson plans for a K-12 audience. Topics covered include the water cycle, climate and weather, global water cycle observing technology, and societal applications for these data.",
+    "application": "Users of the GPM education resources will find materials targeted for specific age ranges, interests, and learning modalities.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GlobalPrecipitationMeasurementEducationTools.png"
+  },
+  "Geospatial Data Abstraction Library": {
+    "title": "Geospatial Data Abstraction Library",
+    "link": "geospatial-data-abstraction-library",
+    "description": " The Geospatial Data Abstraction Library is a translator library for raster and vector geospatial data formats.\n",
+    "sponsor": "NASA",
+    "url": "http://www.gdal.org/",
+    "summary": "The Geospatial Data Abstraction Library is a translator library for raster and vector geospatial data formats.",
+    "howitworks": "As a library, it presents a single raster abstract data model and vector abstract data model to the calling application for all supported formats.",
+    "application": "GDAL can be used by software developers and sciencetists as a library in an existing software project. It also comes with a variety of useful commandline utilities for data translation and processing.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GeospatialDataAbstractionLibrary.png"
+  },
+  "Giovanni \u2013 Interactive Visualization and Analysis": {
+    "title": "Giovanni \u2013 Interactive Visualization and Analysis",
+    "link": "giovanni-interactive-visualization-and-analysis",
+    "description": " Giovanni is a Web application to provide a simple, intuitive way to visualize, analyze, and access vast amounts of Earth science remote sensing data, particularly from satellites, without having to download the data.\n",
+    "sponsor": "NASA",
+    "url": "http://disc.sci.gsfc.nasa.gov/giovanni/overview/index.html",
+    "summary": "Giovanni is a Web application to provide a simple, intuitive way to visualize, analyze, and access vast amounts of Earth science remote sensing data, particularly from satellites, without having to download the data.",
+    "howitworks": "Giovanni consists of several portals tailored to meet the needs of different Earth science research communities. A user selects from a list of datasets then selects spatial and temporal subsets and a visual summary type. Giovanni then automatically and repeatably creates the visualization.",
+    "application": "Giovanni includes data for aerosols, atmospheric chemistry, atmospheric temperature and moisture, and rainfall. Giovanni also includes output from assimilation models covering a wealth of atmospheric, land surface and oceanographic parameters.",
+    "preview": "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Giovanni.png"
+  }
+}
