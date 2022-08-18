@@ -1,0 +1,155 @@
+{
+  "EMFAC Model": {
+    "title": "EMFAC Model",
+    "link": "emfac-model",
+    "description": " This model produces emission rates and inventories for criteria air pollutants and CO2. It is the approved emissions model used in the State of California for SIP development, conformity analysis, and other analyses that are typically conducted using MOBILE6 in other states.\n",
+    "sponsor": "California Department of Transportation",
+    "url": "http://www.dot.ca.gov/hq/env/air/pages/emfac.htm",
+    "summary": "This model produces emission rates and inventories for criteria air pollutants and CO2. It is the approved emissions model used in the State of California for SIP development, conformity analysis, and other analyses that are typically conducted using MOBILE6 in other states.",
+    "preview": ""
+  },
+  "The Greenhouse Gases, Regulated Emissions, and Energy Use in Transportation (GREET) model": {
+    "title": "The Greenhouse Gases, Regulated Emissions, and Energy Use in Transportation (GREET) model",
+    "link": "the-greenhouse-gases-regulated-emissions-and-energy-use-in-transportation-greet",
+    "description": " This full life-cycle model was designed to evaluate energy and emission impacts of advanced vehicle technologies and new transportation fuel combinations on a full fuel-cycle/vehicle-cycle basis.\n",
+    "sponsor": "Argonne National Laboratory",
+    "url": "https://greet.es.anl.gov/",
+    "summary": "This full life-cycle model was designed to evaluate energy and emission impacts of advanced vehicle technologies and new transportation fuel combinations on a full fuel-cycle/vehicle-cycle basis.",
+    "preview": ""
+  },
+  "Intelligent Transportation Systems Deployment Analysis System (IDAS)": {
+    "title": "Intelligent Transportation Systems Deployment Analysis System (IDAS)",
+    "link": "intelligent-transportation-systems-deployment-analysis-system-idas",
+    "description": " This sketch planning analysis tool is used to estimate the impacts, benefits, and costs resulting from the deployment of Intelligent Transportation System (ITS) components of over 60 types of ITS investments.\n",
+    "sponsor": "Federal Highway Administration",
+    "url": "http://mctrans.ce.ufl.edu/featured/idas/",
+    "summary": "This sketch planning analysis tool is used to estimate the impacts, benefits, and costs resulting from the deployment of Intelligent Transportation System (ITS) components of over 60 types of ITS investments.",
+    "preview": ""
+  },
+  "Long Range Energy Alternatives Planning (LEAP) System": {
+    "title": "Long Range Energy Alternatives Planning (LEAP) System",
+    "link": "long-range-energy-alternatives-planning-leap",
+    "description": " LEAP is a software tool for energy policy analysis and climate change mitigation assessment that uses integrated modeling to track energy consumption, production, and resource extraction in all sectors of an economy.\n",
+    "sponsor": "Commend: Community for Energy, Environment and Development",
+    "url": "http://www.energycommunity.org/default.asp?action=47",
+    "summary": "LEAP is a software tool for energy policy analysis and climate change mitigation assessment that uses integrated modeling to track energy consumption, production, and resource extraction in all sectors of an economy.",
+    "preview": ""
+  },
+  "The Global Change Assessment Model": {
+    "title": "The Global Change Assessment Model",
+    "link": "the-global-change-assessment-model",
+    "description": " This model forecasts CO2 and other GHG emissions and estimates the impacts on GHG atmospheric concentrations, climate, and the environment.\n",
+    "sponsor": "Pacific Northwest National Laboratory (PNNL)",
+    "url": "http://www.globalchange.umd.edu/models/gcam/",
+    "summary": "This model forecasts CO2 and other GHG emissions and estimates the impacts on GHG atmospheric concentrations, climate, and the environment.",
+    "preview": ""
+  },
+  "Motor Vehicle Emission Simulator (MOVES) Model": {
+    "title": "Motor Vehicle Emission Simulator (MOVES) Model",
+    "link": "motor-vehicle-emission-simulator-moves",
+    "description": " This modeling system estimates emissions for on-road and non-road sources for a broad range of pollutants and allow multiple scale analysis. This system is intended to replace MOBILE6 and NONROAD.\n",
+    "sponsor": "Environmental Protection Agency",
+    "url": "http://www.epa.gov/otaq/models/moves/index.htm",
+    "summary": "This modeling system estimates emissions for on-road and non-road sources for a broad range of pollutants and allow multiple scale analysis. This system is intended to replace MOBILE6 and NONROAD.",
+    "preview": ""
+  },
+  "National Energy Modeling System (NEMS)": {
+    "title": "National Energy Modeling System (NEMS)",
+    "link": "national-energy-modeling-system-nems",
+    "description": " This modeling system represents the behavior of energy markets and their interactions with the U.S. economy. It contains a transportation demand module (TRAN) that has several sub-modules and that uses NEMS inputs.\n",
+    "sponsor": "Energy Information Administration",
+    "url": "https://www.eia.gov/outlooks/aeo/info\\_nems\\_archive.cfm",
+    "summary": "This modeling system represents the behavior of energy markets and their interactions with the U.S. economy. It contains a transportation demand module (TRAN) that has several sub-modules and that uses NEMS inputs.",
+    "preview": ""
+  },
+  "National Mobile Inventory Model (NMIM)": {
+    "title": "National Mobile Inventory Model (NMIM)",
+    "link": "national-mobile-inventory-model-nmim",
+    "description": " NMIM uses current versions of MOBILE6 and NONROAD to calculate emission inventories, based on multiple input scenarios that users can enter into the system, and can be used to calculate national or individual state or county inventories.\n",
+    "sponsor": "Environmental Protection Agency",
+    "url": "https://www.epa.gov/moves/national-mobile-inventory-model-nmim",
+    "summary": "NMIM uses current versions of MOBILE6 and NONROAD to calculate emission inventories, based on multiple input scenarios that users can enter into the system, and can be used to calculate national or individual state or county inventories.",
+    "preview": ""
+  },
+  "Invest": {
+    "title": "Invest",
+    "link": "invest",
+    "description": " A self-evaluation tool for transportation agencies seeking to incorporate sustainability and resiliency into their planning processes.\n",
+    "sponsor": "Federal Highway Administration",
+    "url": "https://www.sustainablehighways.org/1/home.html",
+    "summary": "A self-evaluation tool for transportation agencies seeking to incorporate sustainability and resiliency into their planning processes.",
+    "preview": ""
+  },
+  "Sensitivity Matrix": {
+    "title": "Sensitivity Matrix",
+    "link": "sensitivity-matrix",
+    "description": " Spreadsheet tool that documents the sensitivity of roads, bridges, airports, ports, pipelines, and rail to 11 climate impacts.\n",
+    "sponsor": "Federal Highway Administration",
+    "url": "https://www.fhwa.dot.gov/environment/sustainability/resilience/adaptation\\_framework/modules/sensitivity\\_matrix.xlsm",
+    "summary": "Spreadsheet tool that documents the sensitivity of roads, bridges, airports, ports, pipelines, and rail to 11 climate impacts.",
+    "preview": ""
+  },
+  "Vulnerability Assessment Scoring Tool": {
+    "title": "Vulnerability Assessment Scoring Tool",
+    "link": "vulnerability-assessment-scoring-tool",
+    "description": " Spreadsheet tool that guides the user through conducting a quantitative, indicator-based vulnerability screen. Intended for agencies assessing how components of their transportation system may be vulnerable to climate stressors.\n",
+    "sponsor": "Federal Highway Administration",
+    "url": "https://toolkit.climate.gov/tool/vulnerability-assessment-scoring-tool-vast",
+    "summary": "Spreadsheet tool that guides the user through conducting a quantitative, indicator-based vulnerability screen. Intended for agencies assessing how components of their transportation system may be vulnerable to climate stressors.",
+    "preview": ""
+  },
+  "SLOSH": {
+    "title": "SLOSH",
+    "link": "slosh",
+    "description": " Coastal storm surge modeling for East & Gulf Coast.\n",
+    "sponsor": "DOC/NOAA",
+    "url": "http://www.nhc.noaa.gov/surge/slosh.php",
+    "summary": "Coastal storm surge modeling for East & Gulf Coast.",
+    "preview": ""
+  },
+  "Hazus-MH": {
+    "title": "Hazus-MH",
+    "link": "hazus-mh",
+    "description": " Economic losses from floods of various magnitudes.\n",
+    "sponsor": "FEMA",
+    "url": "https://coast.noaa.gov/digitalcoast/tools/hazus-mh.html",
+    "summary": "Economic losses from floods of various magnitudes.",
+    "preview": ""
+  },
+  "SLAMM": {
+    "title": "SLAMM",
+    "link": "slamm",
+    "description": " Models wetland conversion under sea level rise.\n",
+    "sponsor": "Warren Pinnacle Consulting",
+    "url": "http://warrenpinnacle.com/prof/SLAMM/index.html",
+    "summary": "Models wetland conversion under sea level rise.",
+    "preview": ""
+  },
+  "FUSION": {
+    "title": "FUSION",
+    "link": "fusion",
+    "description": " Processes LIDAR data and converts it to digital elevation models.\n",
+    "sponsor": "DOC/NOAA",
+    "url": "http://coast.noaa.gov/digitalcoast/tools/fusion",
+    "summary": "Processes LIDAR data and converts it to digital elevation models.",
+    "preview": ""
+  },
+  "Sea Level Rise Viewer": {
+    "title": "Sea Level Rise Viewer",
+    "link": "sea-level-rise-viewer",
+    "description": " Web-based coastal sea-level rise viewer.\n",
+    "sponsor": "DOC/NOAA",
+    "url": "http://coast.noaa.gov/slr/",
+    "summary": "Web-based coastal sea-level rise viewer.",
+    "preview": ""
+  },
+  "Sea Level Change Curve Viewer": {
+    "title": "Sea Level Change Curve Viewer",
+    "link": "sea-level-change-curve-viewer",
+    "description": " Converts global sea-level rise projections to regional sea-level rise for US tidal gauge stations.\n",
+    "sponsor": "DOD/USACE",
+    "url": "http://www.corpsclimate.us/ccaceslcurves.cfm",
+    "summary": "Converts global sea-level rise projections to regional sea-level rise for US tidal gauge stations.",
+    "preview": ""
+  }
+}
