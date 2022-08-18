@@ -1,5 +1,5 @@
 ---
-author: aaron-bordengsa-gov
+author: admin
 categories:
 - arctic
 - climate
@@ -39,10 +39,13 @@ redirect_from:
 - /transportation/launch-water-theme-climate-data-gov/
 - /tribal-nations/launch-water-theme-climate-data-gov/
 - /water/launch-water-theme-climate-data-gov/
+- /climate/water-framing-questions/
 slug: launch-water-theme-climate-data-gov
 
-title: Launch of Water theme of Climate.Data.Gov
+title: Launch of Water theme of Climate.Data.Gov + Framing Questions
 ---
+
+### ![toolkit_water](/img/toolkit_water-150x150.jpg)Water
 
 To help communities and individuals plan for the risks of climate-change-related impacts on water resources, the U.S. Government is releasing today a collection of datasets containing information relevant to this important issue. Select data are also being made available via mapping services on Geoplatform.gov. The resources provided here can be used to help answer a number of relevant questions, such as:
 
