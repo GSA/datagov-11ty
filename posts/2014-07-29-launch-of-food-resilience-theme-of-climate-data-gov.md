@@ -21,6 +21,7 @@ link: https://www.data.gov/climate/launch-food-resilience-theme-climate-data-gov
 modified: '2016-05-19T18:12:16'
 permalink: /climate/launch-food-resilience-theme-climate-data-gov/
 redirect_from:
+- /climate/foodresilience/food-resilience-framing-questions/
 - /arctic/launch-food-resilience-theme-climate-data-gov/
 - /climate/arctic/launch-food-resilience-theme-climate-data-gov/
 - /climate/coastalflooding/launch-food-resilience-theme-climate-data-gov/
@@ -40,9 +41,12 @@ redirect_from:
 - /tribal-nations/launch-food-resilience-theme-climate-data-gov/
 - /water/launch-food-resilience-theme-climate-data-gov/
 slug: launch-food-resilience-theme-climate-data-gov
+tags: climate
 
 title: Launch of Food Resilience theme of Climate.Data.Gov
 ---
+
+![toolkit_food](/img/toolkit_food-150x150.jpg)
 
 To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the U.S. Government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system.
 
