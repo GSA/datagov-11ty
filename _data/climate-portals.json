@@ -1,0 +1,42 @@
+{
+  "Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections": {
+    "title": "Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections",
+    "link": "downscaled-cmip3-and-cmip5-climate-and-hydrology-projections",
+    "description": "\u201cDownscaled\u201d (finer-resolution) versions of monthly and daily temperature and precipitation from most of the GCM simulations in the PCMDI CMIP3 and CMIP5 archives, for CONUS, using two downscaling methods. In addition, derived simulations of surface hydrology are provided.\n",
+    "sponsor": "Multiple Fed/Univ/NGO",
+    "url": "https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/",
+    "summary": "This archive contains fine spatial resolution translations of climate projections over the contiguous United States (U.S.) developed using two downscaling techniques (monthly BCSD Figure 1, and daily BCCA Figure 2), and hydrologic projections over the western U.S. (roughly the western U.S. Figure 3) corresponding to the monthly BCSD climate projections. Archive content is based on global climate projections from the World Climate Research Programme\u2019s (WCRP\u2019s) Coupled Model Intercomparison Project phase 3 (CMIP3) multi-model dataset referenced in the Intergovernmental Panel on Climate Change Fourth Assessment Report, and the phase 5 (CMIP5) multi-model dataset that informed much of the IPCC Fifth Assessment. The downscaled data archive also includes GCM results that have been interpolated to a common, 1 deg. (latitiude) by 1 deg. (longitude) horizontal grid (but not downscaled), as well as GCM results that have been interpolated to the 1\u00d71 degree grid and \u201cbias corrected,\u201d but not downscaled."
+  },
+  "NASA NEX DCP30 National Climate Change Viewer (NCCV)": {
+    "title": "NASA NEX DCP30 National Climate Change Viewer (NCCV)",
+    "link": "nasa-nex-dcp30-national-climate-change-viewer-nccv",
+    "description": "Ultra-fine resulution downscaled versions of CMIP5 GCM results, with derived resulst for surface hdrology, for CONUS.\n",
+    "sponsor": "NASA/USGS",
+    "url": "https://www2.usgs.gov/climate_landuse/clu_rd/nccv/viewer.asp",
+    "summary": "To derive higher resolution data for regional climate change assessments, NASA applied a statistical technique to downscale maximum and minimum air temperature and precipitation from 33 of the CMIP5 climate models to a very fine, 800-m grid over the continental United States (CONUS). The full NEX-DCP30 dataset covers the historical period (1950-2005) and 21st century (2006-2099) under four Representative Concentration Pathways (RCP) emission scenarios developed for AR5. The USGS National Climate Change Viewer (NCCV) includes the historical and future climate projections from 30 of the CMIP5 models, downscaled to an 800-m grid over the continental United States under the NASA NEX-DCP30 project, for two of the RCP emission scenarios (RCP4.5 and RCP8.5). USGS has also used the downscaled temperature and precipitation data from these 30 CMIP5 models as input to a simple water-balance model to simulate changes in the surface water balance (snow water equivalent, runoff, soil water storage and evaporative deficit) over the historical and future time periods on the 800-m CONUS grid. Combining the climate data with the water balance data in the NCCV provides further insights into the potential for climate-driven change in water resources. The NCCV shows averages of the climate and water balance data over four climatology periods: 1950-2005, 2025-2049, 2050-2074, and 2075-2099. The viewer provides a number of useful tools for characterizing climate change including maps, climographs (plots of monthly averages), histograms that show the distribution or spread of the model simulations, monthly time series spanning 1950-2099, and tables that summarize changes in the quantiles (median and extremes) of the variables. The application also provides access to comprehensive, summary reports in PDF format and CSV files of the temperature and precipitation data for each geographic area."
+  },
+  "Regional Climate Change Viewer (RCCV)": {
+    "title": "Regional Climate Change Viewer (RCCV)",
+    "link": "regional-climate-change-viewer-rccv",
+    "description": "Tool to visualize dynamically downscaled GCM results\n",
+    "sponsor": "USGS/Oregon State Univ.",
+    "url": "https://regclim.coas.oregonstate.edu/visualization/rccv/",
+    "summary": "The Regional Climate Change Viewer (RCCV) allows a user to visualize model output from the Dynamical Downscaling project as averages of model grid cell values over selected bounding polygons. Currently, averages over telescoping political outlines (states and counties) and hydrologic units (HUC2, HUC4, HUC8) are provided. The RCCV can be used to investigate a subset of the more than 60 variables available in the data sets including air temperature, precipitation, soil moisture, snow water equivalent (SWE), growing degree days and evapotranspiration."
+  },
+  "MACA CMIP5 Archive": {
+    "title": "MACA CMIP5 Archive",
+    "link": "maca-cmip5-archive",
+    "description": "Empirically-downscaled results from CMIP5 GCMs.\n",
+    "sponsor": "Multiple Fed/University of Idaho",
+    "url": "https://maca.northwestknowledge.net/",
+    "summary": "This archive contains output from 20 global climate models (GCMs) of the Coupled Model Inter-Comparison Project 5 (CMIP5) for the historical GCM forcings (1950-2005) and the future Representative Concentration Pathways (RCPs) RCP 4.5 and RCP8.5 scenarios (2006-2100). This CMIP5 output is downscaled from the native resolution of the GCMS to either 4-km or ~6-km using the Multivariate Adaptive Constructed Analogs(MACA) method, a statistical downscaling method which utilizes a training dataset (i.e. a meteorological observation dataset) to remove historical biases and match spatial patterns in climate model output."
+  },
+  "North American Regional Climate Change Assessment Program (NARCCAP)": {
+    "title": "North American Regional Climate Change Assessment Program (NARCCAP)",
+    "link": "north-american-regional-climate-change-assessment-program-narccap",
+    "description": "Dynamically downscaled results from CMIP3 GCMs, for North America.\n",
+    "sponsor": "NSF, DOE, NOAA, EPA, Ouranos (Canada)",
+    "url": "https://www.narccap.ucar.edu/",
+    "summary": "\u201cThe North American Regional Climate Change Assessment Program (NARCCAP) is an international program to produce high resolution climate change simulations in order to investigate uncertainties in regional scale projections of future climate and generate climate change scenarios for use in impacts research."
+  }
+}
