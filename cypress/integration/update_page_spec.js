@@ -19,7 +19,7 @@ describe('A blog post', () => {
 
   it('has an image which loads', () => {
     cy.get('a img').invoke('attr', 'src')
-      .should('eq', 'https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2016/07/unnamed-1024x386.jpg')
+      .should('eq', 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/unnamed-1024x386.jpg')
       .then((href) => {
         cy.request(href)
       })
