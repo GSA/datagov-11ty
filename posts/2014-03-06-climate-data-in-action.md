@@ -10,6 +10,7 @@ categories:
 - humanhealth
 - transportation
 - water
+tags: climate
 date: '2014-03-06T14:34:03'
 excerpt: |-
   These post-Superstorm Sandy maps for New York City and New Jersey and

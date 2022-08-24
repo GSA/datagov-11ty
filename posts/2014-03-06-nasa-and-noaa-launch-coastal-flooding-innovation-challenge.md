@@ -10,6 +10,7 @@ categories:
 - humanhealth
 - transportation
 - water
+tags: climate
 date: '2014-03-06T13:38:47'
 excerpt: |-
   Want to solve an innovation challenge to address climate change? The

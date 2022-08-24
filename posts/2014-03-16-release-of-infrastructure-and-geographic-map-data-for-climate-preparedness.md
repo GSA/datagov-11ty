@@ -10,6 +10,7 @@ categories:
 - humanhealth
 - transportation
 - water
+tags: climate
 date: '2014-03-16T16:43:38'
 excerpt: |-
   To help communities and citizens plan for the risks of coastal flooding and other climate-change-related impacts, the Department of Homeland Security, the Department of Defense, the National Geospatial-Intelligence Agency, and the U.S. Geological Survey are releasing today a collection of non-sensitive…
