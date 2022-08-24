@@ -19,13 +19,11 @@ A 2018 report from the U.S. Committee on the Marine Transportation System (CMTS)
 
 This report relied on both expert comments and data gathered before, during, and after the hurricane season. Estimates of the impacts discussed on this report utilized a variety of data sets across trade and transportation sectors. These data sets including statistics on trade patterns and commodity tonnage from previous years; records of port advisory and closure status; historic vessel position reports; and storm-related characteristics such as date, location, and wind speed.
 
-Links to the report:  
-CMTS Press Release at https://www.cmts.gov/posts/AWfRaeCN3JAwUKdhhD45  
-or  
-Download the PDF “The 2017 Hurricane Season: Recommendations for a Resilient Path Forward for the Marine Transportation System” at  
-https://www.cmts.gov/downloads/CMTS\_RIAT\_2017Hurricanes.pdf
+__Links to the report:__
+- CMTS Press Release at https://www.cmts.gov/posts/AWfRaeCN3JAwUKdhhD45
+- Download the PDF “The 2017 Hurricane Season: Recommendations for a Resilient Path Forward for the Marine Transportation System” at https://www.cmts.gov/downloads/CMTS\_RIAT\_2017Hurricanes.pdf
 
-Select data sources cited in the report:  
+__Select data sources cited in the report:__
 Pérez, M.C., A.D. Marrero, L.A. Rivera. (2017). “External Trade Statistics Puerto Rico 2016”, Government of Puerto Rico, Office of the Governor Planning Board. http://jp.pr.gov/Portals/0/Economia/Comercio%20Exterior/External%20Trade%20Statistics/ets-2016%20(v1).pdf?ver=2017-08-23-092107-857
 
 U.S. Department of Commerce, National Oceanic and Atmospheric Administration (2016): “Describing the Ocean Economies of the U.S. Virgin Islands and Puerto Rico”, accessed July 2018. https://coast.noaa.gov/digitalcoast/training/econ-usvi-pr.html
