@@ -11,6 +11,7 @@ tagline: The home of the U.S. Government's open data
 </style>
 <!-- For Accessibility Checks -->
 
+
 <section class="usa-section">
   <div class="grid-container">
     <div class="grid-row grid-gap">
@@ -20,6 +21,26 @@ tagline: The home of the U.S. Government's open data
     </div>
   </div>
 </section>
+
+<section class="usa-section">
+  <div class="grid-container">
+    <div class="grid-row grid-gap">
+      <h2>Explore our <a href="https://catalog.data.gov">catalog</a> consisting of more than </h2><h2 id="datasetCount"></h2><h2>datasets!</h2>
+    </div>
+  </div>
+</section>
+<!-- Get dataset count from catalog.data.gov -->
+<script type='text/javascript'>
+window.onload = function() {
+  const userAction = async () => {
+    const response = await fetch('https://catalog.data.gov/api/action/package_search');
+    const myJson = await response.json(); //extract JSON from the http response
+    document.getElementById("datasetCount").innerHTML = myJson.result.count;
+  }
+  userAction();
+}
+</script>
+<!-- Get dataset count from catalog.data.gov -->
 
 <section class="usa-section">
   <div class="grid-container text-center">
@@ -36,7 +57,7 @@ tagline: The home of the U.S. Government's open data
         <div class="card">
           <div class="card-body">
             <img class="card-img-top" src="https://stamen-tiles-a.a.ssl.fastly.net/terrain/0/0/0.png" alt="Climate Topic">
-            <a href="/updates" class="btn btn-primary">Explore the rest of Data.gov</a>
+            <a href="/updates" class="btn btn-primary">Explore all of Data.gov</a>
           </div>
         </div>
       </div>
