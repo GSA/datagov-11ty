@@ -18,4 +18,4 @@ The 2016 Port Performance report used multiple sources, including public dataset
 
 Link to dataset: <https://catalog.data.gov/dataset/total-tonnage-foreign-and-domestic-of-commodites-carried-on-commercial-waterways> .
 
-[![Example of cargo movement through a dry bulk cargo port terminal](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2017/02/PPFS_2016_dry-bulk.jpg)](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2017/02/PPFS_2016_dry-bulk.jpg) Typical infrastructure and cargo flow at a port terminal handling dry bulk cargo, such as coal.
+[![Example of cargo movement through a dry bulk cargo port terminal](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/PPFS_2016_dry-bulk.jpg)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/PPFS_2016_dry-bulk.jpg) Typical infrastructure and cargo flow at a port terminal handling dry bulk cargo, such as coal.
