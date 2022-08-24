@@ -13,7 +13,7 @@ slug: open-data-revolution-fight-global-hunger
 title: Open Data Revolution to Fight Global Hunger
 ---
 
-![carrillo-app-blog-060217](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2017/06/carrillo-app-blog-060217.jpg)*USDA-NRCS rangeland scientist Emilio Carrillo uses an open data mobile app called LandPKS for sustainable land use management.*
+![carrillo-app-blog-060217](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/carrillo-app-blog-060217.jpg)*USDA-NRCS rangeland scientist Emilio Carrillo uses an open data mobile app called LandPKS for sustainable land use management.*
 Every day, people around the world use data to make decisions. When heading out of town, most of us use weather apps to check the forecast anywhere in the world before packing our bags. However, when we travel to far-flung places, we may find ourselves packing food from home because we don’t know what may be available when we arrive. We have a global, comprehensive, open data set that enables weather forecasting, but not something similar for food and agriculture?
 
 In his first public remarks as head of USDA, Secretary Sonny Perdue noted that “…we want to make decisions based on facts and evidence,” “we want to be data-driven,” and “I need good data, I need good sound science to make decisions on…”

@@ -41,7 +41,7 @@ tags: climate
 title: NASA Invites Citizens to Collaborate on Coastal Flooding Challenge
 ---
 
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2014/03/Christchurch-flooding-300x200.jpg)
+![](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Christchurch-flooding-300x200.jpg)
 
 _(Mar 21, 2015)_ Today I was honored to represent NASA at the [Climate Data Initiative launch](https://obamawhitehouse.archives.gov/blog/2014/03/19/climate-data-initiative-launches-strong-public-and-private-sector-commitments) at the White House. Along with NOAA, Google, and many partners from other government agencies and the private sector, we opened the [climate.data.gov](/climate) gateway with more than 100 curated, high-quality datasets, web services, and tools that can be used by local officials, emergency management personnel and innovators to help communities prepare for the effects of our changing climate change.
 

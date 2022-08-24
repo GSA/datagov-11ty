@@ -18,7 +18,7 @@ slug: uncategorized__blog__one-click-and-well-give-you-millions
 title: "One Click and We'll Give You Millions"
 ---
 
-![](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2013/10/IMAGE%20FINAL%2022113%20BLOG.PNG)
+![](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/IMAGE-FINAL-22113-BLOG.PNG)
 
 While Data.gov lists its holdings at almost 400,000 datasets, the fact is, Data.gov is the link to millions of public datasets.
 

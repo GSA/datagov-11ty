@@ -1,5 +1,6 @@
 ---
-date: '2021-10-01T17:15:15'
+author: admin
+date: '2009-10-01T17:15:15'
 excerpt: '<p>Privacy Policy Information Collected and Stored Automatically Cookies
   Personal Information Online Comments Moderation of Comments and Posts Site Security
   External Links Children&#8217;s Privacy Prohibitions Changes to this Policy Data
@@ -239,7 +240,7 @@ Use of Logo
 * The image below is the official Data.gov logo.
 
 
-[![logo](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2020/07/logo.png)](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2020/07/logo.png)
+[![logo](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.png)
 
 
 * The Data.gov logo can be used to indicate linkage or federation of the datasets on Data.gov.

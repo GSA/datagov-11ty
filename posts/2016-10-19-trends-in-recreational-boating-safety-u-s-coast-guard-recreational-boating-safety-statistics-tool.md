@@ -21,4 +21,4 @@ The U.S. Coast Guard is responsible for investigating accidents on coastal and i
 
 Link to dataset: <http://catalog.data.gov/dataset/accident-statistics>
 
-![bssc](https://s3.amazonaws.com/bsp-ocsit-prod-east-appdata/datagov/wordpress/2016/10/bssc.png)
+![bssc](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/bssc.png)
