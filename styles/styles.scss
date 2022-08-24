@@ -95,3 +95,13 @@ article.update {
   display: block;
   background-size: cover;
 }
+
+.usa-section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  line-height: 1.5em;
+}
+
+.usa-prose * {
+  max-width: 100%;
+}
