@@ -50,37 +50,52 @@ title: Climate
 
 {% include "pagination-links.html" %}
 
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_coastal-300x300.jpg" alt="Coastal Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/coastal-flood-risk">Coastal Flooding Risk</a>.</p>
+
+<h4>Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic areas</h4>
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color: silver;">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
+  </ol>
+  <div class="carousel-inner" style="height:200px">
+    {%- for item in climate-toolkits limit: 1 -%}
+    <div class="carousel-item active">
+      <img style="width: 200px; display: block; margin-left: auto; margin-right: auto; vertical-align: middle;" src="{{item.img}}" alt="{{item.name}}"/>
+      <div class="carousel-caption d-none d-md-block">
+        <h3 style="display: inline-block;"><a href="{{item.url}}">{{item.name}}</a></h3>
+      </div>
+    </div>
+    {%- endfor -%}
+    {%- for item in climate-toolkits -%}
+      {%- if item.name != "Coastal Flooding Risk" -%}
+        <div class="carousel-item">
+          <img style="width: 200px; display: block; margin-left: auto; margin-right: auto; vertical-align: middle;" src="{{item.img}}" alt="{{item.name}}"/>
+          <div class="carousel-caption d-none d-md-block">
+            <h3 style="display: inline-block;"><a href="{{item.url}}">{{item.name}}</a></h3>
+          </div>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
 <br/>
 
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_eco-300x300.jpg" alt="Ecosystem Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/ecosystem-vulnerability">Ecosystem Vulnerability</a>.</p>
-<br/>
-
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_energy-300x300.jpg" alt="Energy Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/energy-supply-and-use">Energy Infrastructure</a>.</p>
-<br/>
-
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_food-300x300.jpg" alt="Food Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/food-resilience">Food Resilience</a>.</p>
-<br/>
-
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_health-300x300.jpg" alt="Health Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/human-health">Human Health</a>.</p>
-<br/>
-
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_transportation-300x300.jpg" alt="Transportation Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/transportation-and-supply-chain">Transportation</a>.</p>
-<br/>
-
-<img style="width: 50px; vertical-align: middle;" src="/img/tribal_icon_alt.png" alt="Tribal Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/tribal-nations">Tribal Nations</a>.</p>
-<br/>
-
-<img style="width: 50px; vertical-align: middle;" src="/img/toolkit_water-300x300.jpg" alt="Water Toolkit"/>
-<p style="display: inline-block;">Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic area for <a href="https://toolkit.climate.gov/topics/water-resources">Water Resources</a>.</p>
-<br/>
 
 {%- for post in posts %}
   {% include "update.html", post: post %}
