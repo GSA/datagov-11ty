@@ -2,6 +2,7 @@
 author: anaprivette
 categories:
 - energy-infrastructure
+tags: climate
 date: '2015-03-04T14:48:58'
 excerpt: |-
   The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…

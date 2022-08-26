@@ -2,6 +2,7 @@
 author: anaprivette
 categories:
 - transportation
+tags: climate
 date: '2015-06-26T18:00:21'
 excerpt: |-
   September 16-18, 2015 The National Academy of Sciences Building Washington, DC The Transportation Research Board will host a conference September 16-18, 2015 to provide transportation professionals with information about emerging best practices and research results on how to adapt surface transportation …

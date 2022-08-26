@@ -11,6 +11,7 @@ categories:
 - transportation
 - tribal-nations
 - water
+tags: climate
 date: '2015-03-23T13:19:28'
 excerpt: |-
   (April 7th 2015) The U.S. Government has released a collection of datasets to help individuals and communities plan for the impacts of climate change on the public's health. These resources can help answer a number of relevant questions, including: In what…

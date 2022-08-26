@@ -3,10 +3,9 @@ author: admin
 categories:
 - coastalflooding
 date: '2015-04-23T15:52:12'
-excerpt: 'Coastal Flooding What areas currently are at greatest risk of coastal
+excerpt: Coastal Flooding What areas currently are at greatest risk of coastal
   flooding? What areas are going to be impacted in the future as sea level rises?
-  In what areas are there additional factors that add to the risk? Where are &hellip;
-  '
+  In what areas are there additional factors that add to the risk? Where are…
 link: https://www.data.gov/climate/coastal-flooding-questions
 modified: '2019-04-19T15:51:03'
 permalink: /climate/coastal-flooding-questions/
