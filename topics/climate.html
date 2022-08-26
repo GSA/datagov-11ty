@@ -50,52 +50,21 @@ title: Climate
 
 {% include "pagination-links.html" %}
 
-
-<h4>Explore the <a href="https://toolkit.climate.gov">Climate Resilience Toolkit</a> topic areas</h4>
-
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="background-color: silver;">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="5"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="6"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="7"></li>
-  </ol>
-  <div class="carousel-inner" style="height:200px">
-    {%- for item in climate-toolkits limit: 1 -%}
-    <div class="carousel-item active">
-      <img style="width: 200px; display: block; margin-left: auto; margin-right: auto; vertical-align: middle;" src="{{item.img}}" alt="{{item.name}}"/>
-      <div class="carousel-caption d-none d-md-block">
-        <h3 style="display: inline-block;"><a href="{{item.url}}">{{item.name}}</a></h3>
-      </div>
-    </div>
-    {%- endfor -%}
-    {%- for item in climate-toolkits -%}
-      {%- if item.name != "Coastal Flooding Risk" -%}
-        <div class="carousel-item">
-          <img style="width: 200px; display: block; margin-left: auto; margin-right: auto; vertical-align: middle;" src="{{item.img}}" alt="{{item.name}}"/>
-          <div class="carousel-caption d-none d-md-block">
-            <h3 style="display: inline-block;"><a href="{{item.url}}">{{item.name}}</a></h3>
-          </div>
-        </div>
-      {%- endif -%}
-    {%- endfor -%}
+<div class="climate-box float-right border border-base radius-md margin-105">
+  <div class="padding-x-105 padding-y-05 text-white" style="background-color: #3a74a5;">
+  Explore the <a href="https://toolkit.climate.gov" class="text-white text-underline
+   usa-link--external">Climate Resilience Toolkit</a>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+  <ul class="list-unstyled grid-striped padding-0 margin-0">
+    <div class="padding-x-105 text-bold">Topic areas:</div>
+    {%- for item in climate-toolkits -%}
+      <li class="padding-x-105">
+        <img style="width: 27px; vertical-align: middle;" src="{{item.img}}" alt="{{item.name}}"/>
+        <a class="usa-link usa-link--external" href="{{item.url}}">{{item.name}}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
 </div>
-
-<br/>
-
 
 {%- for post in posts %}
   {% include "update.html", post: post %}
