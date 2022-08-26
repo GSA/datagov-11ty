@@ -105,3 +105,14 @@ article.update {
 .usa-prose * {
   max-width: 100%;
 }
+
+.climate-box ul {
+  list-style: none;
+}
+.climate-box li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.climate-box li:nth-child(even){
+  background-color: rgba(0,0,0,.05);
+}
