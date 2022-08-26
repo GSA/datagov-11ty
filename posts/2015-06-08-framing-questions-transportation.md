@@ -13,7 +13,7 @@ slug: framing-questions-transportation
 title: Transportation Framing Questions
 ---
 
-[![img/toolkit_transportation](/img/toolkit_transportation-150x150.jpg)](/img/toolkit_transportation.jpg)
+![toolkit_transportation](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_transportation-1024x1024.png)
 
 *   How will climate trends affect transportation systems and their future design?
 *   What parts of the transportation system will be most vulnerable to climate change?
@@ -28,6 +28,4 @@ Including:
 
 *   Transportation system networks used as evacuation. What infrastructure changes will be needed to ensure viability of evacuation routes in coastal areas?
 *   The use of public transportation during high/low temperatures, precipitation, and extreme weather.
-
 *   What are the thresholds for transportation decisions in a changing climate? What would “climate ready” standards look like for each sector and discipline?
-
