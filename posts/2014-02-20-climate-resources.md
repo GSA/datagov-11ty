@@ -3,11 +3,10 @@ categories:
 - climate
 tags: climate
 date: '2014-02-20T09:44:40'
-excerpt: '<p>Coastal communities are becoming increasingly vulnerable to the risk
+excerpt: Coastal communities are becoming increasingly vulnerable to the risk
   of damage from coastal inundation. In the northeast, Hurricane Sandy was a stark
   reminder of the potential damage a single storm can cause. These additional resources
-  listed below will allow you &hellip; <a aria-describedby="post-title-138991" href="https://www.data.gov/climate/climate-resources">Continued</a></p>
-  '
+  listed below will allow you…
 link: https://www.data.gov/climate/climate-resources/
 modified: '2020-05-19T17:57:37'
 permalink: /climate/climate-resources/
