@@ -14,9 +14,8 @@ slug: human-health-framing-questions
 title: Human Health Framing Questions
 ---
 
-### ![toolkit_health](/img/toolkit_health-150x150.jpg)
+### ![toolkit_health](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_health-1024x1024.png)
 
 1.  In what ways does the changing climate affect public health where I live?
 2.  What risk factors make individuals or communities more vulnerable to climate-related health effects?
 3.  How can public health agencies, communities, and individuals plan for uncertain future conditions?
-

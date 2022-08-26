@@ -46,7 +46,7 @@ tags: climate
 title: Launch of Food Resilience theme of Climate.Data.Gov
 ---
 
-![toolkit_food](/img/toolkit_food-150x150.jpg)
+![toolkit_food](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_food-1024x1024.png)
 
 To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the U.S. Government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system.
 
