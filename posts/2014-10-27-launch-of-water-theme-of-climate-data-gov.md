@@ -11,6 +11,7 @@ categories:
 - transportation
 - tribal-nations
 - water
+tags: climate
 date: '2014-10-27T14:02:57'
 excerpt: |-
   To help communities and individuals plan for the risks of climate-change-related

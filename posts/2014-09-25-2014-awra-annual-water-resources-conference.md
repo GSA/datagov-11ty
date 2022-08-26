@@ -3,6 +3,7 @@ author: aaron-bordengsa-gov
 categories:
 - climate
 - water
+tags: climate
 date: '2014-09-25T10:46:09'
 excerpt: |-
   2014 AWRA Annual Water Resources Conference Open Water Data Initiative

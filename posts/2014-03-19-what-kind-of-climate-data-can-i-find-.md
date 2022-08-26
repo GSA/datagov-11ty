@@ -10,6 +10,7 @@ categories:
 - humanhealth
 - transportation
 - water
+tags: climate
 date: '2014-03-19T00:03:41'
 excerpt: |-
   In this emerging climate data resource, you can find datasets and web
