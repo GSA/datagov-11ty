@@ -4,12 +4,9 @@ categories:
 - energy-infrastructure
 tags: climate
 date: '2014-02-26T13:41:48'
-excerpt: '<p>Here users will find relevant content&nbsp;from U.S. government agencies
+excerpt: Here users will find relevant content&nbsp;from U.S. government agencies
   that help inform how climate variability and/or global climate change may potentially
-  affect different aspects of energy and infrastructure systems. &nbsp; Energy Resources
-  &nbsp;| &nbsp;Energy Supply &nbsp;| &nbsp;Energy Demand &nbsp;| &nbsp;Energy &hellip;
-  <a href="https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-featured-content">Continued</a></p>
-  '
+  affect different aspects of energy and infrastructure systems. &nbsp; Energy Resources…
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-featured-content/
 modified: '2019-05-06T13:39:03'
 permalink: /climate/energy-infrastructure/energy-infrastructure-featured-content/

@@ -1,13 +1,10 @@
 ---
 author: admin
 date: '2009-10-01T17:15:15'
-excerpt: '<p>Privacy Policy Information Collected and Stored Automatically Cookies
+excerpt: Privacy Policy Information Collected and Stored Automatically Cookies
   Personal Information Online Comments Moderation of Comments and Posts Site Security
   External Links Children&#8217;s Privacy Prohibitions Changes to this Policy Data
-  Policy Linking to Data.gov Licensing Use of Logo Public Information Security &hellip;
-  <a aria-describedby="post-title-31" href="https://www.data.gov/privacy-policy">Continued</a></p>
-
-  '
+  Policy Linking to Data.gov Licensing Use of Logo Public Information Security…
 link: https://www.data.gov/data-policy/
 modified: '2021-10-01T17:10:31'
 permalink: /data-policy/
