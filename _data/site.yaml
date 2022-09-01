@@ -4,6 +4,7 @@ description: >- # this means to ignore newlines
   Here you will find data, tools, and resources to conduct research, develop web and 
   mobile applications, design data visualizations, and more. For information regarding the 
   Coronavirus/COVID-19, please visit Coronavirus.gov
+locale: en_US
 # Social media handles. Only the handle, not the URL.
 twitter: usdatagov
 github: GSA/data.gov
