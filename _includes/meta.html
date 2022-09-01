@@ -16,41 +16,48 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- Title and meta description
     ================================================== -->
-  <title>{{page.title}} - Data.gov</title>
-  <meta name="description" content="{{page.description}}" />
+  <title>{{title}} - Data.gov</title>
+  <meta name="description" content="{{excerpt}}" />
   
-	<meta property="og:locale" content="en_US" />
+	<meta property="og:locale" content="{{site.locale}}" />
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="{{page.title}} - Data.gov" />
-  <meta property="og:description" content="{{page.description}}" />
+  <meta property="og:title" content="{{title}} - Data.gov" />
+  <meta property="og:description" content="{{excerpt}}" />
   <meta property="og:site_name" content="{{ site.title }}"/>
   {% comment %} TODO: Figure out how to add article: modified_time {% endcomment %}
   {% comment %} TODO: Do we need a schema.json file?  {% endcomment %}
 
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:site" content="@{{site.twitter}}" />
-  <meta name="twitter:title" content="{{page.title}}" />
-  <meta name="twitter:description" content="{{page.description}}" />
+  <meta name="twitter:title" content="{{title}}" />
+  <meta name="twitter:description" content="{{excerpt}}" />
 
   <!-- CSS
     ================================================== -->
-  <link rel="preload" as="style" href="{{ assetPaths['styles.css'] }}" />
-  <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
-  <link rel="stylesheet" href="{{ assetPaths['main.min.css'] }}" type="text/css" />
+    <link rel="icon" href="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/favicon.ico" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{ assetPaths['styles.css'] }}" type="text/css" />
+
 
   <!-- Bootstrap for fancy customizations (JavaScript Bundle with Popper too!)
     ================================================== -->
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
   <!-- For Accessibility Checks -->
   <style>
-  a { color: #0072ed }
-  #main-content > div > div > div > div > ul > button { color: #001731 }
-  footer li > a { color: #0061c9 }
-  #main-content > section > a { color: #0072ed }
+    a {
+      color: #0072ed
+    }
+    #main-content>div>div>div>div>ul>button {
+      color: #001731
+    }
+    footer li>a {
+      color: #0061c9
+    }
+    #main-content>section>a {
+      color: #0072ed
+    }
   </style>
   <!-- For Accessibility Checks -->
-
 </head>

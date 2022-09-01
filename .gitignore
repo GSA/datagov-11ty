@@ -2,6 +2,8 @@
 .DS_Store
 .AppleDouble
 .LSOverride
+.vscode
+.cache
 
 # Icon must end with two \r
 Icon
