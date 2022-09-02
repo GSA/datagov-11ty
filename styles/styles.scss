@@ -47,8 +47,8 @@ i.e.
 ----------------------------------------
 */
 
-// import datagovtheme styles
-@import 'datagov';
+// import font awesome cdn
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
 
-// import pa11y accessibiilty fixes
-@import 'pa11y';
+// import datagovtheme styles and overrides
+@import 'datagovtheme/all';

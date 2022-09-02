@@ -1,3 +1,7 @@
+/*
+    datagov theme styles
+*/
+
 .usa-logo a {
     background-image: url('../_img/logo.svg');
     background-repeat: no-repeat;
@@ -39,24 +43,10 @@ a {
 }
 
 .fa {
-    display: inline-block;
-    font-family: FontAwesome;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    &-twitter:before {
-        content: '\f099';
-    }
-    &-github:before {
-        content: '\f09b';
-    }
     & + span {
         padding-left: 0.5rem;
     }
-}
-
-.fa .logo-links + ul.grid-row {
-    padding-inline-start: 10px;
+    & .logo-links + ul.grid-row {
+        padding-inline-start: 10px;
+    }
 }
