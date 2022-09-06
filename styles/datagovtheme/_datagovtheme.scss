@@ -1,0 +1,52 @@
+/*
+    datagov theme styles
+*/
+
+.usa-logo a {
+    background-image: url('../_img/logo.svg');
+    background-repeat: no-repeat;
+    height: 48px;
+    width: 200px;
+    display: block;
+    background-size: cover;
+}
+
+a {
+    color: #284a7a;
+}
+
+.site-footer {
+    border-top: 1px solid #e7e7e7;
+}
+
+#menu-footer2 {
+    padding-inline-start: 15px;
+    & li {
+        border-left-color: #428bca;
+        border-left-style: solid;
+        border-left-width: 1px;
+        display: inline;
+        float: left;
+        padding-bottom: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 0;
+        &:first-child {
+            border-left-style: none;
+            padding-left: 0;
+        }
+        & a {
+            font-size: 13px;
+            padding: 0;
+        }
+    }
+}
+
+.fa {
+    & + span {
+        padding-left: 0.5rem;
+    }
+    & .logo-links + ul.grid-row {
+        padding-inline-start: 10px;
+    }
+}
