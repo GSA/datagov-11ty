@@ -26,5 +26,10 @@ jobs:
         shell: bash
         run: npm install
 
-      - name: Build eleventy and run pa11y-ci
+      - name: Build static assets
+        shell: bash
+        run: npm run assets:build
+
+      - name: Run pa11y-ci
+        shell: bash
         run: npm run pa11y-ci:gh

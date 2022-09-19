@@ -38,13 +38,6 @@ redirect_from:
 slug: contact
 title: For all your Open Data needs...
 ---
-
-<!-- For Accessibility Checks -->
-<style>
-#touchpoints-form-1327b00b > div:nth-child(3) > header > div > div:nth-child(2) > p > a { background-color: #fff }
-</style>
-<!-- For Accessibility Checks -->
-
 {% comment %}
 Update the touchpoints form at https://touchpoints.app.cloud.gov/admin/forms/1327b00b
 {% endcomment %}
