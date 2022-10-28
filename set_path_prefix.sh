@@ -6,4 +6,8 @@ if [[ "$branch" = "main" ]]; then
   exit 0;
 fi
 
-sed -i "s#pathPrefix = '/';#pathPrefix = '/preview/gsa/datagov-11ty/$branch';#g" .eleventy.js
+if [ -z $LOCAL ]; then
+  echo "Setting prefix path"
+  sed -i "s#pathPrefix = '/';#pathPrefix = '/preview/gsa/datagov-11ty/$branch';#g" .eleventy.js
+  grep "pathPrefix = '" .eleventy.js
+fi

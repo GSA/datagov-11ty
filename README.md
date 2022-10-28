@@ -87,6 +87,9 @@ TODO
 
 `npm run dev`
 
+Note: when running locally, make sure to set the `LOCAL` environment variable
+to make sure the `prefixPath` does not accidentally change.
+
 TODO
 
 ### Run tests
