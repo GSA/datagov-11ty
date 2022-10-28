@@ -10,7 +10,7 @@ const { imageShortcode, imageWithClassShortcode } = require('./config');
 
 module.exports = function (config) {
     // Set pathPrefix for site
-    // let pathPrefix = '/';
+    let pathPrefix = '/';
 
     // Copy the `admin` folders to the output
     config.addPassthroughCopy('admin');
