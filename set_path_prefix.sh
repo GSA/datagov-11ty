@@ -1,10 +1,13 @@
+#!/bin/bash
+
 branch=$(git rev-parse --abbrev-ref HEAD)
 
-if [ -z $LOCAL ]; then
-  export BASEURL=/preview/gsa/datagov-11ty/$branch
+if [[ "$branch" = "main" ]]; then
+  exit 0;
 fi
 
-if [ "$branch" = "main" ]; then
-  echo "Everything is correct.  Leaving configuration alone"
-  export BASEURL=/
+if [ -z $LOCAL ]; then
+  echo "Setting prefix path"
+  sed -i "s#pathPrefix = '/';#pathPrefix = '/preview/gsa/datagov-11ty/$branch';#g" .eleventy.js
+  grep "pathPrefix = '" .eleventy.js
 fi

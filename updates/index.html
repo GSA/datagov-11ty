@@ -1,5 +1,5 @@
 ---
-permalink: "/updates/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
+permalink: "{{ url }}/updates/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
 layout: layouts/update-index
 title: Updates
 pagination:
