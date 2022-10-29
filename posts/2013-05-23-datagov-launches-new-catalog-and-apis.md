@@ -16,7 +16,7 @@ redirect_from:
 - /meta/uncategorized__announcements__datagov-launches-new-catalog-and-apis/
 
 modified: '2018-10-25T11:48:35'
-permalink: {{ url }}/datagov-launches-new-catalog-and-apis/
+permalink: "{{ url }}/datagov-launches-new-catalog-and-apis/"
 
 slug: data.gov-launches-new-catalog-and-apis
 

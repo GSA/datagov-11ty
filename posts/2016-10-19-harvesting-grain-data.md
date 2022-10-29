@@ -10,7 +10,7 @@ excerpt: |-
   traveling to ports in five…
 link: https://www.data.gov/maritime/harvesting-grain-data/
 modified: '2016-11-29T20:14:50'
-permalink: {{ url }}/maritime/harvesting-grain-data/
+permalink: "{{ url }}/maritime/harvesting-grain-data/"
 slug: harvesting-grain-data
 
 title: Harvesting Grain Data

@@ -10,7 +10,7 @@ excerpt: 'Food production, distribution, safety, and international security are
   '
 link: https://www.data.gov/climate/foodresilience/foodresilience-resources
 modified: '2019-05-06T13:40:58'
-permalink: {{ url }}/climate/foodresilience/foodresilience-resources/
+permalink: "{{ url }}/climate/foodresilience/foodresilience-resources/"
 slug: foodresilience-resources
 tags: climate
 title: Foodresilience Resources

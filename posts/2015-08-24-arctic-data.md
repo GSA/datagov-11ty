@@ -6,7 +6,7 @@ date: '2015-08-24T14:25:32'
 excerpt: The U.S. government and its partners have been collecting data relevant to the vulnerability of the Arctic to climate change. &nbsp; The data is organized around &nbsp; seven &nbsp; different topic areas. &nbsp; All Arctic data Arctic Ocean, Sea Ice, and Coasts Melting Glaciers, Snow, and ...
 link: https://www.data.gov/climate/arctic-data/
 modified: '2021-02-19T10:27:02'
-permalink: {{ url }}/climate/arctic-data/
+permalink: "{{ url }}/climate/arctic-data/"
 slug: arctic-data
 title: Arctic Data
 ---

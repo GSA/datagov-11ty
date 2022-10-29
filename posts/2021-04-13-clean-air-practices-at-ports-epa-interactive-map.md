@@ -10,7 +10,7 @@ excerpt: |-
   helps people living and working near ports across the…
 link: https://www.data.gov/maritime/clean-air-practices-at-ports-epa-interactive-map/
 modified: '2021-03-24T17:31:44'
-permalink: {{ url }}/maritime/clean-air-practices-at-ports-epa-interactive-map/
+permalink: "{{ url }}/maritime/clean-air-practices-at-ports-epa-interactive-map/"
 slug: clean-air-practices-at-ports-epa-interactive-map
 title: "Clean Air Practices at Ports \u2013 EPA Interactive Map"
 ---

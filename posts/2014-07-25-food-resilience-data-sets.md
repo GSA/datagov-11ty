@@ -11,7 +11,7 @@ excerpt: 'The U.S. Government and its partners have been collecting data relevan
   '
 link: https://www.data.gov/climate/foodresilience/food-resilience-data-sets
 modified: '2014-07-31T20:57:27'
-permalink: {{ url }}/climate/foodresilience/food-resilience-data-sets/
+permalink: "{{ url }}/climate/foodresilience/food-resilience-data-sets/"
 slug: food-resilience-data-sets
 title: Food Resilience Data Sets
 ---

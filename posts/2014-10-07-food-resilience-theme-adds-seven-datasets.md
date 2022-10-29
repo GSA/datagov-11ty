@@ -16,7 +16,7 @@ excerpt: |-
   The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
 link: https://www.data.gov/food-resilience-theme-adds-seven-datasets/
 modified: '2015-11-05T17:09:07'
-permalink: {{ url }}/food-resilience-theme-adds-seven-datasets/
+permalink: "{{ url }}/food-resilience-theme-adds-seven-datasets/"
 redirect_from:
 - /arctic/food-resilience-theme-adds-seven-datasets/
 - /climate/arctic/food-resilience-theme-adds-seven-datasets/

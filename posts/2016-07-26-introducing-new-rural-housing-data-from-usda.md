@@ -7,7 +7,7 @@ excerpt: |-
   For the first time, USDA's Rural Housing Service is publicly releasing data across every program area in which the agency provides loans, guarantees, and grants — multifamily housing, single-family housing, and community facilities.
 link: https://www.data.gov/food/introducing-new-rural-housing-data-from-usda/
 modified: '2016-07-26T13:24:32'
-permalink: {{ url }}/food/introducing-new-rural-housing-data-from-usda/
+permalink: "{{ url }}/food/introducing-new-rural-housing-data-from-usda/"
 slug: introducing-new-rural-housing-data-from-usda
 
 title: Introducing New Rural Housing Data from USDA

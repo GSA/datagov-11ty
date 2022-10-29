@@ -6,7 +6,7 @@ excerpt: |-
   May 21, 2012 marks the third anniversary of the U.S. government's open data site, Data.gov. The first national open data site, Data.gov led the way in opening government data around the world. Now 30 countries host open data sites and…
 link: https://www.data.gov/announcements/datagov-celebrates-third-anniversary
 modified: '2014-03-18T21:44:30'
-permalink: {{ url }}/announcements/datagov-celebrates-third-anniversary/
+permalink: "{{ url }}/announcements/datagov-celebrates-third-anniversary/"
 redirect_from:
 - /meta/datagov-celebrates-third-anniversary/
 slug: uncategorized__announcements__datagov-celebrates-third-anniversary

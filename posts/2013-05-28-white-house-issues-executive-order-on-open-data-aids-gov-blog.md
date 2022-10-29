@@ -8,7 +8,7 @@ excerpt: |-
   about open data. This Executive Order and accompanying
 link: https://www.data.gov/announcements/white-house-issues-executive-order-open-data-aidsgov-blog
 modified: '2014-03-18T21:44:16'
-permalink: {{ url }}/announcements/white-house-issues-executive-order-open-data-aidsgov-blog/
+permalink: "{{ url }}/announcements/white-house-issues-executive-order-open-data-aidsgov-blog/"
 redirect_from:
 - /meta/white-house-issues-executive-order-open-data-aidsgov-blog/
 slug: uncategorized__announcements__white-house-issues-executive-order-open-data-aidsgov-blog

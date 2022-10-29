@@ -10,7 +10,7 @@ excerpt: |-
   is…
 link: https://www.data.gov/ocean/maritime-limits-boundaries-united-states/
 modified: '2014-04-09T13:40:03'
-permalink: {{ url }}/ocean/maritime-limits-boundaries-united-states/
+permalink: "{{ url }}/ocean/maritime-limits-boundaries-united-states/"
 slug: maritime-limits-boundaries-united-states
 
 title: Maritime Limits and Boundaries of the United States

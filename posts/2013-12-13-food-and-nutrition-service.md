@@ -8,7 +8,7 @@ excerpt: |-
   retailers that welcome SNAP Electronic Benefit Transfer (EBT) customers.
 link: https://www.data.gov/food/food-and-nutrition-service/
 modified: '2013-12-18T15:44:37'
-permalink: {{ url }}/food/food-and-nutrition-service/
+permalink: "{{ url }}/food/food-and-nutrition-service/"
 slug: food-and-nutrition-service
 
 title: Food and Nutrition Service

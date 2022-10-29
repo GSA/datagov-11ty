@@ -8,7 +8,7 @@ excerpt: |-
     A 2018 report from the U.S. Committee on the Marine Transportation System (CMTS) gathered recommendations and ‘lessons learned’ from the 2017 hurricane season on how to improve resiliency across the marine transportation system. The report notes that “over the course…
 link: https://www.data.gov/maritime/after-the-storms-research-on-how-to-improve-marine-transportation-system-resilience-after-the-2017-hurricane-season/
 modified: '2021-03-24T21:37:35'
-permalink: {{ url }}/maritime/after-the-storms-research-on-how-to-improve-marine-transportation-system-resilience-after-the-2017-hurricane-season/
+permalink: "{{ url }}/maritime/after-the-storms-research-on-how-to-improve-marine-transportation-system-resilience-after-the-2017-hurricane-season/"
 slug: after-the-storms-research-on-how-to-improve-marine-transportation-system-resilience-after-the-2017-hurricane-season
 title: After the storms - Research on How to Improve Marine Transportation System Resilience after the 2017 Hurricane Season
 ---

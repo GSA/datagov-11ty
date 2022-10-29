@@ -8,7 +8,7 @@ excerpt: |-
   Indian Lands datasets are difficult to correctly interpret, so please visit the [Bureau of Indian Affairs Frequently Asked Questions](https://www.bia.gov/FAQs/) to aid understanding. Other data sharing limitations to Tribal Nations data selection and thematic content are discussed in the…
 link: https://www.data.gov/climate/tribal-nations/data-page/
 modified: '2021-02-18T20:33:32'
-permalink: {{ url }}/climate/tribal-nations/data-page/
+permalink: "{{ url }}/climate/tribal-nations/data-page/"
 slug: tribal-nations-data-page
 title: Tribal Nations Data
 ---

@@ -9,7 +9,7 @@ excerpt: Data and innovation challenges issued by public, private, nonprofit,
   an innovation challenge for entrepreneurs and developers…
 link: https://www.data.gov/climate/climate-challenges/
 modified: '2014-03-18T22:56:50'
-permalink: {{ url }}/climate/climate-challenges/
+permalink: "{{ url }}/climate/climate-challenges/"
 redirect_from:
 - /climate/coastalflooding/coastalflooding-challenges/
 - /climate/ecosystem-vulnerability/ecosystem-vulnerability-challenges/

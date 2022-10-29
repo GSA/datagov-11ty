@@ -7,7 +7,7 @@ excerpt: |-
   Over the past five years, there has been a large body of literature developed on climate impacts on transportation and transportation adaptation. This work includes…
 link: https://www.data.gov/climate/transportation/transportation-featured-content/
 modified: '2019-05-06T17:54:46'
-permalink: {{ url }}/climate/transportation/transportation-featured-content/
+permalink: "{{ url }}/climate/transportation/transportation-featured-content/"
 redirect_from:
 slug: transportation-featured-content
 title: Transportation Featured Content

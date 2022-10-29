@@ -8,7 +8,7 @@ excerpt: |-
     The U.S. Coast Guard (USCG) is responsible for investigating reportable marine casualties, accidents, and serious marine incidents.  The relevant mission statement and specific regulations can be found on the [USCG Investigations Division homepage](https://homeport.uscg.mil/Lists/Content/DispForm.aspx?ID=2602).  After an incident…
 link: https://www.data.gov/maritime/safety-at-sea-us-coast-guard-marine-casualty-and-pollution-data-for-researchers/
 modified: '2019-11-18T21:30:09'
-permalink: {{ url }}/maritime/safety-at-sea-us-coast-guard-marine-casualty-and-pollution-data-for-researchers/
+permalink: "{{ url }}/maritime/safety-at-sea-us-coast-guard-marine-casualty-and-pollution-data-for-researchers/"
 redirect_from:
 - /maritime/p24907817/
 slug: safety-at-sea-us-coast-guard-marine-casualty-and-pollution-data-for-researchers

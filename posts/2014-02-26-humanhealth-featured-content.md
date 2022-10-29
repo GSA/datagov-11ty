@@ -7,7 +7,7 @@ excerpt: |-
   The 2018 US National Climate Assessment’s Human Health chapter provides a comprehensive overview of the latest scientific information on the impacts of climate change on public health…
 link: https://www.data.gov/climate/humanhealth/humanhealth-featured-content/
 modified: '2019-05-06T17:44:11'
-permalink: {{ url }}/climate/humanhealth/humanhealth-featured-content/
+permalink: "{{ url }}/climate/humanhealth/humanhealth-featured-content/"
 slug: humanhealth-featured-content
 title: Human Health Featured Content
 ---

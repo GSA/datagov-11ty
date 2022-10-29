@@ -10,7 +10,7 @@ excerpt: |-
   are estimated and mapped.
 link: https://www.data.gov/food/ers-2/
 modified: '2014-04-11T13:26:26'
-permalink: {{ url }}/food/ers-2/
+permalink: "{{ url }}/food/ers-2/"
 slug: ers-2
 
 title: ERS Food Access Research Atlas API

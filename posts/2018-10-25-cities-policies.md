@@ -6,7 +6,7 @@ excerpt: |-
   The data on Cities.Data.gov is brought together from many official government sites. The policies for the release of those data vary from one city to another. Below you can find the detailed policies and developer resources for each catalog in …
 link: https://www.data.gov/cities/cities-policies/
 modified: '2018-10-25T16:20:27'
-permalink: {{ url }}/cities/cities-policies/
+permalink: "{{ url }}/cities/cities-policies/"
 redirect_from:
 - /cities/page/cities-policies/
 slug: cities–policies

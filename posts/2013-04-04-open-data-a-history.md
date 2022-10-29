@@ -7,7 +7,7 @@ excerpt: |-
   This term "open data" is becoming increasingly commonplace. That's what Data.gov is all about. But what is open data? A new article in the Paris Tech Review offers a snapshot of how open data was born, its evolving purpose, and…
 link: https://www.data.gov/blog/open-data-history
 modified: '2017-10-02T18:18:24'
-permalink: {{ url }}/blog/open-data-history/
+permalink: "{{ url }}/blog/open-data-history/"
 redirect_from:
 - /meta/open-data-history/
 slug: uncategorized__blog__open-data-history

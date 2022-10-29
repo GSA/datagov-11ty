@@ -7,7 +7,7 @@ excerpt: |-
   The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
 link: https://www.data.gov/climate/humanhealth/humanhealth-maps/
 modified: '2019-05-01T14:00:37'
-permalink: {{ url }}/climate/humanhealth/humanhealth-maps/
+permalink: "{{ url }}/climate/humanhealth/humanhealth-maps/"
 slug: food-resilience-theme-adds-seven-datasets
 title: Humanhealth Maps
 ---

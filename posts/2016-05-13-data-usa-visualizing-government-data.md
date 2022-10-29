@@ -10,7 +10,7 @@ excerpt: |-
   decisions through the…
 link: https://www.data.gov/meta/data-usa-visualizing-government-data/
 modified: '2016-05-13T15:57:44'
-permalink: {{ url }}/meta/data-usa-visualizing-government-data/
+permalink: "{{ url }}/meta/data-usa-visualizing-government-data/"
 slug: data-usa-visualizing-government-data
 
 title: 'Data USA: Visualizing Government Data'

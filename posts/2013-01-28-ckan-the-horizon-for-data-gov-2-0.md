@@ -6,7 +6,7 @@ excerpt: |-
   Recently, we marked another milestone in Data.gov's evolution. Members of the Open Knowledge Foundation met in Washington, D.C., with the Data.gov team and Federal Agencies to discuss the next iteration of Data.gov. Within months, Data.gov will see major enhancements around…
 link: https://www.data.gov/blog/ckan-horizon-datagov-20
 modified: '2014-03-18T21:44:20'
-permalink: {{ url }}/blog/ckan-horizon-datagov-20/
+permalink: "{{ url }}/blog/ckan-horizon-datagov-20/"
 redirect_from:
 - /meta/ckan-horizon-datagov-20/
 slug: uncategorized__blog__ckan-horizon-datagov-20

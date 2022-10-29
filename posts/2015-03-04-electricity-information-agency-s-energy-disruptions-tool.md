@@ -8,7 +8,7 @@ excerpt: |-
   The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
 link: https://www.data.gov/climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 modified: '2020-09-17T15:29:18'
-permalink: {{ url }}/climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
+permalink: "{{ url }}/climate/energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/"
 redirect_from:
 - /energy-infrastructure/electricity-information-agencys-energy-disruptions-tool/
 slug: electricity-information-agencys-energy-disruptions-tool

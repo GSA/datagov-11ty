@@ -8,7 +8,7 @@ excerpt: |-
     For many Americans, maritime transportation plays a role in their daily commute to work. Understanding usage patterns and operational expenditures at different ferry operators can help transportation planners learn more about how ferries are used in different parts of the…
 link: https://www.data.gov/maritime/ferrying-data-public-usdot-national-census-ferry-operators/
 modified: '2017-03-14T23:21:49'
-permalink: {{ url }}/maritime/ferrying-data-public-usdot-national-census-ferry-operators/
+permalink: "{{ url }}/maritime/ferrying-data-public-usdot-national-census-ferry-operators/"
 slug: ferrying-data-public-usdot-national-census-ferry-operators
 title: Ferrying data to the public through the USDOT National Census of Ferry Operators
 ---

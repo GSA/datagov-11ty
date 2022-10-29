@@ -8,7 +8,7 @@ excerpt: |-
     The [U.S. Coast Guard](https://www.navcen.uscg.gov/) maintains an archive of historical vessel position movements, collected through the Nationwide Automatic Identification System (NAIS). Originally designed to improve maritime safety and security…
 link: https://www.data.gov/maritime/of-sturgeon-and-ships/
 modified: '2019-11-18T21:30:02'
-permalink: {{ url }}/maritime/of-sturgeon-and-ships/
+permalink: "{{ url }}/maritime/of-sturgeon-and-ships/"
 slug: of-sturgeon-and-ships
 title: Of Sturgeon and Ships
 ---

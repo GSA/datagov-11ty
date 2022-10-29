@@ -16,7 +16,7 @@ excerpt: 'Here are a few government and non-government software tools to help co
   list &hellip;'
 link: https://www.data.gov/climate/climate-tools/
 modified: '2019-05-02T14:25:28'
-permalink: {{ url }}/climate/climate-tools/
+permalink: "{{ url }}/climate/climate-tools/"
 redirect_from:
 - /climate/coastalflooding/coastalflooding-tools/
 slug: climate-tools
