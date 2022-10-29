@@ -20,7 +20,7 @@ excerpt: |-
   Geological Survey have released new non-sensitive datasets containing…
 link: https://www.data.gov/climate/infrastructure-geographic-map-data-climate-preparedness/
 modified: '2016-05-19T18:12:17'
-permalink: /climate/infrastructure-geographic-map-data-climate-preparedness/
+permalink: {{ url }}/climate/infrastructure-geographic-map-data-climate-preparedness/
 redirect_from:
 - /arctic/infrastructure-geographic-map-data-climate-preparedness/
 - /climate/arctic/infrastructure-geographic-map-data-climate-preparedness/

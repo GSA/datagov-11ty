@@ -11,7 +11,7 @@ pagination:
   size: 10
   alias: posts
   reverse: true
-permalink: "/maritime/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
+permalink: "{{ url }}/maritime/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
 slug: maritime
 title: Maritime
 ---

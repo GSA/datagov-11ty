@@ -10,7 +10,7 @@ excerpt: |-
   Nautical charts provide critical information to mariners in support of safe navigation. Historically these charts have been printed and distributed on paper, but modern communications systems allow for electronic charts that are able to be updated as new information becomes…
 link: https://www.data.gov/maritime/rivers-of-data-inland-electronic-navigation-charts/
 modified: '2021-03-24T17:35:54'
-permalink: /maritime/rivers-of-data-inland-electronic-navigation-charts/
+permalink: {{ url }}/maritime/rivers-of-data-inland-electronic-navigation-charts/
 redirect_from:
 - /climate/transportation/rivers-of-data-inland-electronic-navigation-charts/
 - /geospatial/rivers-of-data-inland-electronic-navigation-charts/

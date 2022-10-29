@@ -10,7 +10,7 @@ excerpt: 'Here are mapping tools and data layers to help you analyze and assess
   identify &hellip;'
 link: https://www.data.gov/climate/coastalflooding/coastalflooding-maps
 modified: '2019-05-02T14:30:22'
-permalink: /climate/coastalflooding/coastalflooding-maps/
+permalink: {{ url }}/climate/coastalflooding/coastalflooding-maps/
 redirect_from:
 - /climate/hurricanes-tropical-storms/
 slug: coastalflooding-maps

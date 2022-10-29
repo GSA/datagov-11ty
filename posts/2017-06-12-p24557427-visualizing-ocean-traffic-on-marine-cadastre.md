@@ -8,7 +8,7 @@ excerpt: |-
     When viewed from the shore the ocean may seem like a boundless resource with plenty of space, but the reality is quite different.  Coastal areas are home to shipping lanes used by commercial vessels, attractive fish habitat that supports commercial and…
 link: https://www.data.gov/maritime/visualizing-ocean-traffic-on-marine-cadastre/
 modified: '2017-06-02T17:15:39'
-permalink: /maritime/visualizing-ocean-traffic-on-marine-cadastre/
+permalink: {{ url }}/maritime/visualizing-ocean-traffic-on-marine-cadastre/
 redirect_from:
 - /maritime/p24557427/
 slug: visualizing-ocean-traffic-on-marine-cadastre

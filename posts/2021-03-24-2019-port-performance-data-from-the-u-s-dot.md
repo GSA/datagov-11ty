@@ -8,7 +8,7 @@ excerpt: |-
   The U.S. Department of Transportation's Port Performance Freight Statistics Program: Annual Reports to Congress provide summary statistics and detailed analysis for the Nation's largest container, tonnage, and dry bulk ports. Results from calendar year 2019 are now available online. Individual…
 link: https://www.data.gov/maritime/2019-port-performance-data-from-the-u-s-dot/
 modified: '2021-03-24T16:32:33'
-permalink: /maritime/2019-port-performance-data-from-the-u-s-dot/
+permalink: {{ url }}/maritime/2019-port-performance-data-from-the-u-s-dot/
 slug: 2019-port-performance-data-from-the-u-s-dot
 title: 2019 Port Performance Data from the U.S. DOT
 ---

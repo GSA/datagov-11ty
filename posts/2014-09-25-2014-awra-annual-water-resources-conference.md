@@ -12,7 +12,7 @@ excerpt: |-
   the Federal Geographic Data Committee, and…
 link: https://www.data.gov/climate/2014-awra-annual-water-resources-conference/
 modified: '2015-04-21T15:53:24'
-permalink: /climate/2014-awra-annual-water-resources-conference/
+permalink: {{ url }}/climate/2014-awra-annual-water-resources-conference/
 redirect_from:
 - /climate/water/2014-awra-annual-water-resources-conference/
 - /water/2014-awra-annual-water-resources-conference/

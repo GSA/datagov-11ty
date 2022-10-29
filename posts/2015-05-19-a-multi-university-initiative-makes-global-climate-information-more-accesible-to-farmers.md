@@ -9,7 +9,7 @@ excerpt: |-
   Useful to Usable (u2u) offers a suite of online tools created to help farmers and agricultural advisers manage increasingly variable weather and climate conditions across the Corn Belt. They provide historical climate data that help inform purchasing, marketing and activity planning …
 link: https://www.data.gov/climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 modified: '2016-05-19T18:11:13'
-permalink: /climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
+permalink: {{ url }}/climate/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 redirect_from:
 - /climate/ecosystem-vulnerability/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/
 - /climate/foodresilience/a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers/

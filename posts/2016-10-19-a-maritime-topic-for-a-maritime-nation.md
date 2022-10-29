@@ -8,7 +8,7 @@ excerpt: |-
     We are excited to launch the Maritime Topic on Data.gov, a place where the diverse datasets…
 link: https://www.data.gov/maritime/a-maritime-topic-for-a-maritime-nation/
 modified: '2016-11-30T01:14:52'
-permalink: /maritime/a-maritime-topic-for-a-maritime-nation/
+permalink: {{ url }}/maritime/a-maritime-topic-for-a-maritime-nation/
 slug: a-maritime-topic-for-a-maritime-nation
 title: A Maritime Topic for a Maritime Nation
 ---

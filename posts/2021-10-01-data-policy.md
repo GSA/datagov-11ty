@@ -7,7 +7,7 @@ excerpt: Privacy Policy Information Collected and Stored Automatically Cookies
   Policy Linking to Data.gov Licensing Use of Logo Public Information Security…
 link: https://www.data.gov/data-policy/
 modified: '2021-10-01T17:10:31'
-permalink: /data-policy/
+permalink: {{ url }}/data-policy/
 redirect_from: 
 - /privacy-policy/
 slug: privacy-policy

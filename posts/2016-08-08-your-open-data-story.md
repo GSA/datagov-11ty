@@ -10,7 +10,7 @@ excerpt: |-
   post-graduation salaries, using the College Scorecard–…
 link: https://www.data.gov/meta/your-open-data-story/
 modified: '2016-08-08T11:21:48'
-permalink: /meta/your-open-data-story/
+permalink: {{ url }}/meta/your-open-data-story/
 slug: your-open-data-story
 
 title: Your Open Data Story

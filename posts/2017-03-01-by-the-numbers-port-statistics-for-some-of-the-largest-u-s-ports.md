@@ -7,7 +7,7 @@ excerpt: |-
   As intermodal connectors for domestic and international freight, our nation's ports serve a critical role in numerous supply chains and the national economy. In recognition of this importance, the Fixing America's Surface Transportation (FAST) Act (P.L. 114-94; Dec. 4, 2015;…
 link: https://www.data.gov/maritime/p24529331/
 modified: '2017-02-15T14:56:27'
-permalink: /maritime/p24529331/
+permalink: {{ url }}/maritime/p24529331/
 slug: p24529331
 title: 'By the numbers: port statistics for some of the largest U.S. ports'
 ---

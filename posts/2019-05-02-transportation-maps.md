@@ -7,7 +7,7 @@ excerpt: |-
     Both climate impacts and transportation systems are distributed spatially. To map climate impacts to transportation infrastructure, we need to match the locations of the infrastructure to the impacts, and, this in turn requires maps or geocoded data sets…
 link: https://www.data.gov/climate/transportation/transportation-maps/
 modified: '2019-05-08T14:23:59'
-permalink: /climate/transportation/transportation-maps/
+permalink: {{ url }}/climate/transportation/transportation-maps/
 slug: transportation-maps
 title: Transportation Maps
 ---

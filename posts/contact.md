@@ -4,7 +4,7 @@ layout: layouts/post
 excerpt: 'Thank you for your feedback. To protect your privacy, please do not include
   personal information (such as a social security number), other than your email address.'
 link: https://www.data.gov/contact
-permalink: /contact/
+permalink: {{ url }}/contact/
 redirect_from: 
 - /feedback/
 - /contact-us/

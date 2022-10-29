@@ -17,7 +17,7 @@ excerpt: |-
   develop plans and policies…
 link: https://www.data.gov/climate/water-resources-resilience/
 modified: '2020-09-17T15:29:49'
-permalink: /climate/water-resources-resilience/
+permalink: {{ url }}/climate/water-resources-resilience/
 redirect_from:
 - /climate/coastalflooding/water-resources-resilience/
 - /climate/ecosystem-vulnerability/water-resources-resilience/

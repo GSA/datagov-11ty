@@ -10,7 +10,7 @@ excerpt: |-
     host to tools,…
 link: https://www.data.gov/blog/one-click-and-we-ll-give-you-millions
 modified: '2014-04-14T17:18:41'
-permalink: /blog/one-click-and-we-ll-give-you-millions/
+permalink: {{ url }}/blog/one-click-and-we-ll-give-you-millions/
 redirect_from:
     - /meta/one-click-and-we-ll-give-you-millions/
 slug: uncategorized__blog__one-click-and-we-ll-give-you-millions

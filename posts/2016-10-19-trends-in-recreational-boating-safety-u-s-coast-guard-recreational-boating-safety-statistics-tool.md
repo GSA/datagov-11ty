@@ -10,7 +10,7 @@ excerpt: |-
   boating accident…
 link: https://www.data.gov/maritime/trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool/
 modified: '2016-11-29T20:14:51'
-permalink: /maritime/trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool/
+permalink: {{ url }}/maritime/trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool/
 slug: trends-recreational-boating-safety-u-s-coast-guard-recreational-boating-safety-statistics-tool
 
 title: Trends in Recreational Boating Safety, U.S. Coast Guard Recreational Boating

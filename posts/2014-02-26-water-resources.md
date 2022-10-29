@@ -8,7 +8,7 @@ excerpt: |-
     The 2014 National Climate Assessment provides background information to help communities, water utilities, resource managers, and food and energy producers prepare for a changing climate. Given a need to develop resilience…
 link: https://www.data.gov/climate/water/water-resources/
 modified: '2014-12-15T15:05:48'
-permalink: /climate/water/water-resources/
+permalink: {{ url }}/climate/water/water-resources/
 slug: water-resources
 title: Water Resources
 ---

@@ -19,7 +19,7 @@ excerpt: |-
   Evaporation from Water Surface…
 link: https://www.data.gov/climate/water-theme-adds-new-content/
 modified: '2015-11-05T12:09:06'
-permalink: /climate/water-theme-adds-new-content/
+permalink: {{ url }}/climate/water-theme-adds-new-content/
 redirect_from:
 - /arctic/water-theme-adds-new-content/
 - /climate/arctic/water-theme-adds-new-content/

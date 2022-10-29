@@ -7,7 +7,7 @@ excerpt: |-
   Transportation How will climate trends affect transportation systems and their future design? What parts of the transportation system will be most vulnerable to climate change?…
 link: https://www.data.gov/climate/transportation/framing-questions-transportation/
 modified: '2015-06-16T20:33:48'
-permalink: /climate/transportation/framing-questions-transportation/
+permalink: {{ url }}/climate/transportation/framing-questions-transportation/
 slug: framing-questions-transportation
 
 title: Transportation Framing Questions
