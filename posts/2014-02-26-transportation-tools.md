@@ -14,7 +14,7 @@ excerpt: |-
     The Department of Transportation and other public and private organizations provide a range of software tools useful for transportation impact analysis. Generally, software tools break down into several categories…
 link: https://www.data.gov/climate/transportation/transportation-tools/
 modified: '2019-09-19T14:53:18'
-permalink: "/climate/transportation/transportation-tools/"
+permalink: "climate/transportation/transportation-tools/"
 slug: transportation-tools
 title: Transportation Tools
 ---

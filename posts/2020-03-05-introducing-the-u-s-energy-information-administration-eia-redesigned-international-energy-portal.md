@@ -10,7 +10,7 @@ excerpt: |-
   about the earlier beta release of the…
 link: https://www.data.gov/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/
 modified: '2020-03-05T16:01:08'
-permalink: "/energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/"
+permalink: "energy/introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal/"
 slug: introducing-the-u-s-energy-information-administration-eia-redesigned-international-energy-portal
 title: Introducing the U.S. Energy Information Administration (EIA) redesigned International
   Energy Portal

@@ -6,7 +6,7 @@ excerpt: |-
   A supplemental guide to the White House’s Open Data Policy has been released providing additional clarification and detailed to assist agencies in carrying out the objectives laid out in a May 9 memo and executive order. The administration’s document, posted on the…
 link: https://www.data.gov/announcements/white-house-issues-guide-open-data-policy-fierce-government-it
 modified: '2014-03-18T21:44:05'
-permalink: "/announcements/white-house-issues-guide-open-data-policy-fierce-government-it/"
+permalink: "announcements/white-house-issues-guide-open-data-policy-fierce-government-it/"
 redirect_from:
 - /meta/white-house-issues-guide-open-data-policy-fierce-government-it/
 slug: uncategorized__announcements__white-house-issues-guide-open-data-policy-fierce-government-it

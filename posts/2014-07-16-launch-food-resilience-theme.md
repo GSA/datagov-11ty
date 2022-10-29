@@ -10,7 +10,7 @@ excerpt: |-
   To help communities and individuals plan for the risks of drought, floods, and other climate-change-related impacts, the US government is releasing today a collection of datasets containing information relevant to the effects of climate change on the food system.…
 link: https://www.data.gov/climate/launch-food-resilience-theme/
 modified: '2020-09-17T19:30:33'
-permalink: "/climate/launch-food-resilience-theme/"
+permalink: "climate/launch-food-resilience-theme/"
 redirect_from:
 - /arctic/launch-food-resilience-theme/
 - /climate/arctic/launch-food-resilience-theme/

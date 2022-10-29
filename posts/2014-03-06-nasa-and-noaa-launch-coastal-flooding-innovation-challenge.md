@@ -19,7 +19,7 @@ excerpt: |-
   Coastal communities are becoming increasingly vulnerable to the risk of…
 link: https://www.data.gov/climate/space-apps-challenge-2/
 modified: '2020-09-17T15:31:21'
-permalink: "/climate/space-apps-challenge-2/"
+permalink: "climate/space-apps-challenge-2/"
 redirect_from:
 - /arctic/space-apps-challenge-2/
 - /climate/arctic/space-apps-challenge-2/

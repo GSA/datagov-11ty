@@ -10,7 +10,7 @@ excerpt: |-
   communities. The website provides access to authoritative…
 link: https://www.data.gov/ocean/marinecadastre-gov/
 modified: '2014-01-16T08:21:49'
-permalink: "/ocean/marinecadastre-gov/"
+permalink: "ocean/marinecadastre-gov/"
 slug: marinecadastre-gov
 
 title: MarineCadastre.gov

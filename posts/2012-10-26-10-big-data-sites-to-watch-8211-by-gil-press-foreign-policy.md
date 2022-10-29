@@ -9,7 +9,7 @@ excerpt: |-
   have built on the…
 link: https://www.data.gov/announcements/10-big-data-sites-watch-gil-press-foreign-policy
 modified: '2017-10-02T18:18:22'
-permalink: "/announcements/10-big-data-sites-watch-gil-press-foreign-policy/"
+permalink: "announcements/10-big-data-sites-watch-gil-press-foreign-policy/"
 redirect_from:
 - /meta/10-big-data-sites-watch-gil-press-foreign-policy/
 slug: uncategorized__announcements__10-big-data-sites-watch-gil-press-foreign-policy

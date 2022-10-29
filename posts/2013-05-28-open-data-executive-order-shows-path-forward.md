@@ -6,7 +6,7 @@ excerpt: |-
   Today, the White House is issuing a new Executive Order on Open Data – one that is significantly different from the open data policies that have come before it — reflecting Sunlight’s persistent call for stronger public listings of agency data,…
 link: https://www.data.gov/announcements/open-data-executive-order-shows-path-forward
 modified: '2014-03-18T21:44:15'
-permalink: "/announcements/open-data-executive-order-shows-path-forward/"
+permalink: "announcements/open-data-executive-order-shows-path-forward/"
 redirect_from:
 - /meta/open-data-executive-order-shows-path-forward/
 slug: uncategorized__announcements__open-data-executive-order-shows-path-forward

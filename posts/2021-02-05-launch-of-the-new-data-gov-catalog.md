@@ -10,7 +10,7 @@ excerpt: |-
   over 1000…
 link: https://www.data.gov/meta/launch-of-the-new-data-gov-catalog/
 modified: '2021-02-05T16:12:04'
-permalink: "/meta/launch-of-the-new-data-gov-catalog/"
+permalink: "meta/launch-of-the-new-data-gov-catalog/"
 slug: launch-of-the-new-data-gov-catalog
 sticky: true
 

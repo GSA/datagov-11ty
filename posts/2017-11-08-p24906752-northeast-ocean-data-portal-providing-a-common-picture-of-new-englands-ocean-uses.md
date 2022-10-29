@@ -8,7 +8,7 @@ excerpt: |-
     The North Atlantic ocean is a busy place, full of sea life, ships, and – fortunately – a slew of data.  Anyone interested in local, state, or regional marine planning efforts in New England can visit the [Northeast Ocean Data portal](https://www.northeastoceandata.org/) (http://www.northeastoceandata.org/), which provides…
 link: https://www.data.gov/maritime/northeast-ocean-data-portal-providing-a-common-picture-of-new-englands-ocean-uses/
 modified: '2018-10-25T16:25:56'
-permalink: "/maritime/northeast-ocean-data-portal-providing-a-common-picture-of-new-englands-ocean-uses/"
+permalink: "maritime/northeast-ocean-data-portal-providing-a-common-picture-of-new-englands-ocean-uses/"
 redirect_from:
 - /maritime/p24906752/
 slug: northeast-ocean-data-portal-providing-a-common-picture-of-new-englands-ocean-uses

@@ -19,7 +19,7 @@ excerpt: |-
   hubs (Biodiversity, Ecosystem Services, and Land Cover Dynamics),…
 link: https://www.data.gov/climate/ecosystems-data-gov-ecoinforma-3/
 modified: '2016-05-19T18:11:16'
-permalink: "/climate/ecosystems-data-gov-ecoinforma-3/"
+permalink: "climate/ecosystems-data-gov-ecoinforma-3/"
 redirect_from:
 - /arctic/ecosystems-data-gov-ecoinforma-3/
 - /climate/arctic/ecosystems-data-gov-ecoinforma-3/

@@ -18,7 +18,7 @@ excerpt: |-
   Severe Weather Data Inventory…
 link: https://www.data.gov/climate/water-theme-adds-eight-datasets/
 modified: '2018-10-10T11:44:39'
-permalink: "/climate/water-theme-adds-eight-datasets/"
+permalink: "climate/water-theme-adds-eight-datasets/"
 redirect_from:
 - /arctic/water-theme-adds-eight-datasets/
 - /climate/arctic/water-theme-adds-eight-datasets/

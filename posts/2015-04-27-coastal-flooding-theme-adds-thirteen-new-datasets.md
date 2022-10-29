@@ -18,7 +18,7 @@ excerpt: |-
   Record (CDR) of Sea Surface…
 link: https://www.data.gov/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/
 modified: '2015-12-22T11:47:11'
-permalink: "/climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/"
+permalink: "climate/water/coastal-flooding-theme-adds-thirteen-new-datasets/"
 redirect_from:
 - /arctic/coastal-flooding-theme-adds-thirteen-new-datasets/
 - /climate/arctic/coastal-flooding-theme-adds-thirteen-new-datasets/

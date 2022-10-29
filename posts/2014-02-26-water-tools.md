@@ -13,7 +13,7 @@ excerpt: |-
     There is a range of software tools available to help analyze and assess impacts of a changing climate on the water cycle. These tools provide users with convenient data access capabilities, common data transformation utilities, and analysis methods for data and related information   …
 link: https://www.data.gov/climate/water/water-tools/
 modified: '2019-05-06T18:09:53'
-permalink: "/climate/water/water-tools/"
+permalink: "climate/water/water-tools/"
 slug: water-tools
 title: Water Tools
 ---

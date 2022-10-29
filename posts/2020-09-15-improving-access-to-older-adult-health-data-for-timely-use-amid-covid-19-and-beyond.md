@@ -7,7 +7,7 @@ excerpt: |-
   Today marks the launch of the Older Adults Health Data Collection – a new resource cataloging over 200 Federal datasets previously available on Data.gov related to the health of older Americans. This centralized location will assist experts from academia, industry,…
 link: https://www.data.gov/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/
 modified: '2020-09-15T12:42:54'
-permalink: "/meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/"
+permalink: "meta/data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults/"
 slug: data-gov-creates-one-stop-shop-for-datasets-on-the-health-of-older-adults
 sticky: true
 

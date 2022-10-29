@@ -17,7 +17,7 @@ excerpt: |-
   Through the Open NASA Earth Exchange, NASA is challenging innovators to use data from Earth's satellites in new and creative ways, including for applications that help people understand climate change. Learn more.
 link: https://www.data.gov/climate/nasa-launches-earth-science-challenges/
 modified: '2016-05-19T18:12:17'
-permalink: "/climate/nasa-launches-earth-science-challenges/"
+permalink: "climate/nasa-launches-earth-science-challenges/"
 redirect_from:
 - /arctic/nasa-launches-earth-science-challenges/
 - /climate/arctic/nasa-launches-earth-science-challenges/

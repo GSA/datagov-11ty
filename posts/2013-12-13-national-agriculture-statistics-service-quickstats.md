@@ -10,7 +10,7 @@ excerpt: |-
   every aspect of U.S. agriculture and the Census of Agriculture conducted…
 link: https://www.data.gov/food/nass-quickstats/
 modified: '2014-04-03T11:45:11'
-permalink: "/food/nass-quickstats/"
+permalink: "food/nass-quickstats/"
 slug: nass-quickstats
 
 title: National Agriculture Statistics Service QuickStats

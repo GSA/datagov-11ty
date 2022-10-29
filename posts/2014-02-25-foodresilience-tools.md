@@ -16,7 +16,7 @@ excerpt: 'There are a large number of government and non-government software too
   climate. With software tools, users can…'
 link: https://www.data.gov/climate/foodresilience/foodresilience-tools/
 modified: '2017-06-19T12:59:38'
-permalink: "/climate/foodresilience/foodresilience-tools/"
+permalink: "climate/foodresilience/foodresilience-tools/"
 slug: foodresilience-tools
 title: Foodresilience Tools
 sub-titles: ["Food Production", "Food Distribution", "Food Safety and Nutrition", "International Food Security"]

@@ -16,7 +16,7 @@ excerpt: |-
   In this new and pilot-stage of Climate.Data.gov, you will find resources to help companies, communities, and citizens understand and prepare for the impacts of coastal flooding and sea level rise. Over time, you’ll find more datasets, web services, and tools,…
 link: https://www.data.gov/welcome-climate-data-gov/
 modified: '2016-05-19T22:12:18'
-permalink: "/welcome-climate-data-gov/"
+permalink: "welcome-climate-data-gov/"
 redirect_from:
 - /arctic/welcome-climate-data-gov/
 - /climate/arctic/welcome-climate-data-gov/
