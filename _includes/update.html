@@ -8,11 +8,7 @@
 <article class="update display-block">
   <header>
     <h3 class="entry-title">
-      {% if pageNumber == 1 %}
-      <a href="../{{ post.data.permalink }}" class="usa-link">
-      {% else %}
       <a href="../../{{ post.data.permalink }}" class="usa-link">
-      {% endif %}
         {{ post.data.title }}
       </a>
     </h3>
@@ -30,10 +26,7 @@
     <p>
       {{ post.data.excerpt }}
       {% if pageNumber == 1 %}
-      <a href="../{{ post.data.permalink }}" aria-describedby="{{ post.data.title }}" class="usa-link">Continued</a>
-      {% else %}
       <a href="../../{{ post.data.permalink }}" aria-describedby="{{ post.data.title }}" class="usa-link">Continued</a>
-      {% endif %}
     </p>
   </div>
 </article>
