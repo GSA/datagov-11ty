@@ -14,7 +14,7 @@ pagination:
 {% include "pagination-links.html" %}
 
 {% for post in posts %}
-  {% include "update.html", post: post %}
+  {% include "update.html", post: post, pageNumber: pagination.pageNumber %}
 {% endfor %}
 
 {% include "pagination-links.html" %}
