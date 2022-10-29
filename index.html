@@ -14,7 +14,7 @@ pagination:
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <h1>{{tagline}}</h1>
-      <p>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and <a href="https://data.gov/about/">more</a>.</p>
+      <p>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and <a href="./about/">more</a>.</p>
       <p>For information regarding the Coronavirus/COVID-19, please visit <a href="https://www.coronavirus.gov/">Coronavirus.gov.</a></p>
     </div>
   </div>
@@ -76,6 +76,7 @@ window.onload = function() {
     <h2>Recent updates</h2>
     <a class="updates-link" href="updates">Browse all updates</a>
 
+    {% comment %} TODO: This is broken because of relative links {% endcomment %}
     {%- for post in posts limit: 3 -%}
       {%- include "update.html", post: post -%}
     {%- endfor -%}
