@@ -4,7 +4,7 @@
   "description": "A 11ty UWDS template.",
   "main": "index.js",
   "scripts": {
-    "build": "npm run set-prefixpath && npm run assets:build && npx @11ty/eleventy",
+    "build": "npm run assets:build && npx @11ty/eleventy",
     "assets:autoprefix": "postcss _site/assets/styles/*.css -r --use autoprefixer",
     "assets:build": "node ./config/buildAssets && npm run assets:autoprefix",
     "assets:clean": "rimraf _site/assets",
