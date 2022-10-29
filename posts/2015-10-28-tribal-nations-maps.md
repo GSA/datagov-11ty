@@ -7,7 +7,7 @@ excerpt: |-
     The Tribal Nations Map Gallery includes printable PDF wall-map versions (24×36) of the Indian and Ceded Lands Web Services found in the data tab. The Map Gallery also includes interactive maps from federal partners, intertribal groups, and a tribal climate map showcase of example work products to inform climate resilience efforts of tribes, Alaska Natives, and other diverse communities nationwide…
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-maps/
 modified: '2019-05-06T18:31:46'
-permalink: "{{ url }}/climate/tribal-nations/tribal-nations-maps/"
+permalink: "/climate/tribal-nations/tribal-nations-maps/"
 slug: tribal-nations-maps
 title: Tribal Nations Maps
 ---

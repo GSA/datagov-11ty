@@ -18,7 +18,7 @@ excerpt: |-
   featuring key resources to help you get started building data layers and tools…
 link: https://www.data.gov/climate/types-climate-datasets/
 modified: '2016-05-19T18:12:18'
-permalink: "{{ url }}/climate/types-climate-datasets/"
+permalink: "/climate/types-climate-datasets/"
 redirect_from:
 - /arctic/types-climate-datasets/
 - /climate/arctic/types-climate-datasets/

@@ -9,7 +9,7 @@ excerpt: |-
   between a small UK…
 link: https://www.data.gov/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog
 modified: '2014-03-18T21:44:16'
-permalink: "{{ url }}/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog/"
+permalink: "/announcements/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog/"
 redirect_from:
 - /meta/opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog/
 slug: uncategorized__announcements__opengov-voices-datagov-relaunches-open-source-platform-ckan-sunlight-foundation-blog

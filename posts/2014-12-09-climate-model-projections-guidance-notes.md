@@ -5,7 +5,7 @@ excerpt: |-
   Before using scenarios or climate simulation results, it is important to make sure you have formulated specific questions you want to address, and to investigate whether you can do that using the results of existing analyses, rather than performing …
 link: https://www.data.gov/climate-model-projections-guidance-notes/
 modified: '2019-05-01T18:06:29'
-permalink: "{{ url }}/climate-model-projections-guidance-notes/"
+permalink: "/climate-model-projections-guidance-notes/"
 slug: climate-model-projections-guidance-notes
 
 title: Climate Model Projections Guidance Notes

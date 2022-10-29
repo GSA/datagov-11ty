@@ -19,7 +19,7 @@ excerpt: |-
   change on the food system. These…
 link: https://www.data.gov/climate/launch-food-resilience-theme-climate-data-gov/
 modified: '2016-05-19T18:12:16'
-permalink: "{{ url }}/climate/launch-food-resilience-theme-climate-data-gov/"
+permalink: "/climate/launch-food-resilience-theme-climate-data-gov/"
 redirect_from:
 - /climate/foodresilience/food-resilience-framing-questions/
 - /arctic/launch-food-resilience-theme-climate-data-gov/

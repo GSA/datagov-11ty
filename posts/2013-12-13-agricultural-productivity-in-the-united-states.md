@@ -10,7 +10,7 @@ excerpt: |-
   across the…
 link: https://www.data.gov/food/agricultural-productivity-in-the-united-states/
 modified: '2013-12-18T15:38:10'
-permalink: "{{ url }}/food/agricultural-productivity-in-the-united-states/"
+permalink: "/food/agricultural-productivity-in-the-united-states/"
 slug: agricultural-productivity-in-the-united-states
 
 title: Agricultural Productivity in the United States

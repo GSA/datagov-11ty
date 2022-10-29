@@ -16,7 +16,7 @@ excerpt: |-
   WASHINGTON, July 27, – The U.S. Department of Agriculture is partnering with Microsoft to launch the "Innovation Challenge," a competition to develop software applications that help farmers, agriculture businesses, and consumers explore how climate change will affect their food systems. The Innovation Challenge…
 link: https://www.data.gov/climate/microsoft-launches-innovation-challenge-around-food-resilience/
 modified: '2016-05-19T18:11:12'
-permalink: "{{ url }}/climate/microsoft-launches-innovation-challenge-around-food-resilience/"
+permalink: "/climate/microsoft-launches-innovation-challenge-around-food-resilience/"
 redirect_from:
 - /arctic/microsoft-launches-innovation-challenge-around-food-resilience/
 - /climate/arctic/microsoft-launches-innovation-challenge-around-food-resilience/

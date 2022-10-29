@@ -20,7 +20,7 @@ excerpt: |-
   are also being made available via…
 link: https://www.data.gov/climate/launch-water-theme-climate-data-gov/
 modified: '2015-11-05T12:09:07'
-permalink: "{{ url }}/climate/launch-water-theme-climate-data-gov/"
+permalink: "/climate/launch-water-theme-climate-data-gov/"
 redirect_from:
 - /arctic/launch-water-theme-climate-data-gov/
 - /climate/arctic/launch-water-theme-climate-data-gov/

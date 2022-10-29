@@ -6,7 +6,7 @@ excerpt: |-
   By Sarah Gearen From shopping for an airline ticket to choosing a college or purchasing a home, consumers face increasingly complex choices in today's marketplace. Too often, the effort required to make informed financial decisions leaves many Americans in the…
 link: https://www.data.gov/blog/innovators-using-federal-data-help-consumers-make-informed-decisions
 modified: '2014-03-18T21:44:19'
-permalink: "{{ url }}/blog/innovators-using-federal-data-help-consumers-make-informed-decisions/"
+permalink: "/blog/innovators-using-federal-data-help-consumers-make-informed-decisions/"
 redirect_from:
 - /meta/innovators-using-federal-data-help-consumers-make-informed-decisions/
 slug: uncategorized__blog__innovators-using-federal-data-help-consumers-make-informed-decisions

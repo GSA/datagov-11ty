@@ -8,7 +8,7 @@ excerpt: |-
     The [California Seafloor and Coastal Mapping Program](https://www.opc.ca.gov/category/programs-seafloor-and-coastal-mapping/) has brought together federal, state, and local stakeholders to develop and share an extensive variety of seafloor-mapping datasets…
 link: https://www.data.gov/maritime/the-california-seafloor-and-coastal-mapping-program-benefits-from-shared-data/
 modified: '2018-10-25T16:27:33'
-permalink: "{{ url }}/maritime/the-california-seafloor-and-coastal-mapping-program-benefits-from-shared-data/"
+permalink: "/maritime/the-california-seafloor-and-coastal-mapping-program-benefits-from-shared-data/"
 redirect_from:
 - /maritime/p24587094/
 slug: the-california-seafloor-and-coastal-mapping-program-benefits-from-shared-data

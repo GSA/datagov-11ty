@@ -16,7 +16,7 @@ excerpt: 'Here users will find web-based tools and publicly accessible models to
   and compounding stressors. Tools include interactive mapping applications…'
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-tools/
 modified: '2019-05-06T13:23:10'
-permalink: "{{ url }}/climate/energy-infrastructure/energy-infrastructure-tools/"
+permalink: "/climate/energy-infrastructure/energy-infrastructure-tools/"
 slug: energy-infrastructure-tools
 title: Energy Infrastructure Tools
 sub-titles: ["Energy Resources", "Energy Supply", "Energy Demand", "Energy Conversion", "Energy Infrastructure", "Energy Resilience"]

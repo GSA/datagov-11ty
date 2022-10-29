@@ -13,7 +13,7 @@ excerpt: |-
   Target User Community: As with the other resources provided through climate.data.gov, this page is primarily intended for audiences, such as data innovators, who want to use government data to develop tools to help others learn …
 link: https://www.data.gov/climate/portals/
 modified: '2019-05-06T18:41:14'
-permalink: "{{ url }}/climate/portals/"
+permalink: "/climate/portals/"
 redirect_from:
 - /climate/climate-model-projections/
 slug: climate-model-projections

@@ -11,7 +11,7 @@ excerpt: "Here are several examples of the available map resources on data.gov\_
   "
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-maps/
 modified: '2017-05-25T14:40:15'
-permalink: "{{ url }}/climate/energy-infrastructure/energy-infrastructure-maps/"
+permalink: "/climate/energy-infrastructure/energy-infrastructure-maps/"
 slug: energy-infrastructure-maps
 title: Energy Infrastructure Maps
 ---

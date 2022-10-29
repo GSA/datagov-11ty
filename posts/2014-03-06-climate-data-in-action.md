@@ -19,7 +19,7 @@ excerpt: |-
   for…
 link: https://www.data.gov/climate/climate-data-action/
 modified: '2016-05-19T18:12:19'
-permalink: "{{ url }}/climate/climate-data-action/"
+permalink: "/climate/climate-data-action/"
 redirect_from:
 - /arctic/climate-data-action/
 - /climate/arctic/climate-data-action/

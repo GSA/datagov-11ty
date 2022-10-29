@@ -12,7 +12,7 @@ pagination:
 excerpt: |-
     Tribal Nations Tools – All,  Adaptation Workbook for Natural Resources: A growing number of Tribal Nations work with the U.S. Forest Service on adjacent lands through…
 modified: '2019-05-08T14:18:02'
-permalink: "{{ url }}/climate/tribal-nations/tribal-nations-tools/"
+permalink: "/climate/tribal-nations/tribal-nations-tools/"
 redirect_from:
 - /climate/tribal-nations/tools-all/
 - /climate/tribal-nations/tools-adaptation/

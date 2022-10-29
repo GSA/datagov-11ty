@@ -7,7 +7,7 @@ excerpt: |-
     Data sharing between Tribal Nations and non-tribal partners must ensure that there is free, prior, and informed consent of tribes and traditional knowledge…
 link: https://www.data.gov/climate/tribal-nations/framing-questions/
 modified: '2019-05-06T18:20:25'
-permalink: "{{ url }}/climate/tribal-nations/framing-questions/"
+permalink: "/climate/tribal-nations/framing-questions/"
 slug: tribal-nations-framing-questions
 title: Tribal Nations Framing Questions
 ---

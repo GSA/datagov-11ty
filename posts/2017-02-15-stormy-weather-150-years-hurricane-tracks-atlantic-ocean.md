@@ -8,7 +8,7 @@ excerpt: |-
     Interested in seeing where and when hurricanes might have affected commercial navigation or port activities around the world? The NOAA Historical Hurricane Tracks online tool allows anyone to search and view storm tracks as far back as 1848. Only want the want to find …
 link: https://www.data.gov/maritime/stormy-weather-150-years-of-hurricane-tracks-in-the-atlantic-ocean/
 modified: '2017-02-17T23:44:57'
-permalink: "{{ url }}/maritime/stormy-weather-150-years-of-hurricane-tracks-in-the-atlantic-ocean/"
+permalink: "/maritime/stormy-weather-150-years-of-hurricane-tracks-in-the-atlantic-ocean/"
 slug: stormy-weather-150+-years-of-hurricane-tracks-in-the-atlantic-ocean
 title: Stormy weather - 150+ years of hurricane tracks in the Atlantic Ocean
 ---

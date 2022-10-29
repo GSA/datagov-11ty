@@ -10,7 +10,7 @@ excerpt: |-
   worldwide. In 2011, NGDC,…
 link: https://www.data.gov/ocean/water-column-sonar-data-collection/
 modified: '2014-07-31T21:15:43'
-permalink: "{{ url }}/ocean/water-column-sonar-data-collection/"
+permalink: "/ocean/water-column-sonar-data-collection/"
 slug: water-column-sonar-data-collection
 
 title: Water Column Sonar Data Collection

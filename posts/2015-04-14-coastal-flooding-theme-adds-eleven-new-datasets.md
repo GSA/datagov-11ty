@@ -19,7 +19,7 @@ excerpt: |-
   1/4 Degree Daily Sea Surface…
 link: https://www.data.gov/climate/coastal-flooding-theme-adds-eleven-new-datasets/
 modified: '2015-11-05T12:09:02'
-permalink: "{{ url }}/climate/coastal-flooding-theme-adds-eleven-new-datasets/"
+permalink: "/climate/coastal-flooding-theme-adds-eleven-new-datasets/"
 redirect_from:
 - /arctic/coastal-flooding-theme-adds-eleven-new-datasets/
 - /climate/arctic/coastal-flooding-theme-adds-eleven-new-datasets/
