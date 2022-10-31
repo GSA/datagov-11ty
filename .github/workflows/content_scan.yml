@@ -34,5 +34,5 @@ jobs:
         with:
           name: cypress-artifacts
           path: |
-            ./e2e/cypress/screenshots/
-            ./e2e/cypress/videos/
+            ./cypress/screenshots/
+            ./cypress/videos/
