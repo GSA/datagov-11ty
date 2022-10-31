@@ -1,6 +1,6 @@
 describe('The updates index page 1', () => {
   it('successfully loads', () => {
-    cy.visit('/updates', failOnStatusCode: false)
+    cy.visit('/updates/1')
   })
 
   it('has the expected title', () => {
