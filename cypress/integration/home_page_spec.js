@@ -20,7 +20,7 @@ describe('The Home Page', () => {
   it('the link to more updates successfully loads', () => {
     cy.get('a.updates-link')
       .should('have.attr', 'href')
-      .and('include', 'updates/1')
+      .and('include', './updates/1')
       .then((href) => {
         cy.visit(href)
       })
