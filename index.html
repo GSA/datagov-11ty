@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: ""
 layout: layouts/wide
 title: Data.gov Home
 tagline: The home of the U.S. Government's open data
@@ -14,7 +14,7 @@ pagination:
   <div class="grid-container">
     <div class="grid-row grid-gap">
       <h1>{{tagline}}</h1>
-      <p>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and <a href="https://data.gov/about/">more</a>.</p>
+      <p>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data visualizations, and <a href="./about/">more</a>.</p>
       <p>For information regarding the Coronavirus/COVID-19, please visit <a href="https://www.coronavirus.gov/">Coronavirus.gov.</a></p>
     </div>
   </div>
@@ -47,7 +47,7 @@ window.onload = function() {
         <div class="card">
           <div class="card-body">
             <img class="card-img-top" src="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/climate_home.png" alt="Climate Topic">
-            <a href="/climate" class="btn btn-primary">Explore Posts about Climate</a>
+            <a href="./climate/1" class="btn btn-primary">Explore Posts about Climate</a>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@ window.onload = function() {
         <div class="card">
           <div class="card-body">
             <img class="card-img-top" src="https://stamen-tiles-a.a.ssl.fastly.net/terrain/0/0/0.png" alt="Climate Topic">
-            <a href="/updates" class="btn btn-primary">Explore all of Data.gov</a>
+            <a href="./updates/1" class="btn btn-primary">Explore all of Data.gov</a>
           </div>
         </div>
       </div>
@@ -63,7 +63,7 @@ window.onload = function() {
         <div class="card">
           <div class="card-body">
             <img class="card-img-top" src="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/maritime_home.png" alt="Maritime Topic">
-            <a href="/maritime" class="btn btn-primary">Explore Posts about Maritime</a>
+            <a href="./maritime/1" class="btn btn-primary">Explore Posts about Maritime</a>
           </div>
         </div>
       </div>
@@ -74,12 +74,13 @@ window.onload = function() {
 <section class="usa-section updates">
   <div class="grid-container">
     <h2>Recent updates</h2>
-    <a class="updates-link" href="updates">Browse all updates</a>
+    <a class="updates-link" href="./updates/1">Browse all updates</a>
 
+    {% comment %} TODO: This is broken because of relative links {% endcomment %}
     {%- for post in posts limit: 3 -%}
       {%- include "update.html", post: post -%}
     {%- endfor -%}
 
-    <a class="updates-link" href="updates">Browse all updates</a>
+    <a class="updates-link" href="./updates/1">Browse all updates</a>
   </div>
 </section>

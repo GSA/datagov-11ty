@@ -7,7 +7,7 @@ excerpt: |-
   NASA is launching two challenges to give the public an opportunity to create innovative ways to use data from the agency’s Earth science satellites…
 link: https://www.data.gov/nasa-launches-earth-science-challenges-opennex-cloud-data/
 modified: '2020-09-17T19:30:55'
-permalink: /nasa-launches-earth-science-challenges-opennex-cloud-data/
+permalink: "nasa-launches-earth-science-challenges-opennex-cloud-data/"
 redirect_from:
 - /arctic/nasa-launches-earth-science-challenges-opennex-cloud-data/
 - /climate/arctic/nasa-launches-earth-science-challenges-opennex-cloud-data/

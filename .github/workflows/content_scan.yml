@@ -27,3 +27,12 @@ jobs:
 
       - name: Build eleventy and run cypress
         run: npm run cypress:gh
+
+      - name: cypress-artifacs
+        uses: actions/upload-artifact@v3
+        if: failure()
+        with:
+          name: cypress-artifacts
+          path: |
+            ./cypress/screenshots/
+            ./cypress/videos/

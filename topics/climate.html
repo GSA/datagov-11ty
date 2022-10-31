@@ -21,10 +21,11 @@ pagination:
   size: 10
   alias: posts
   reverse: true
-permalink: "/climate/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber | plus: 1 }}/index.html{% endif %}"
+permalink: "{{ url }}/climate/{{ pagination.pageNumber | plus: 1 }}/index.html"
 
 redirect_from:
 - /arctic/
+- /climate/
 - /climate/arctic/
 - /climate/coastalflooding/
 - /climate/ecosystem-vulnerability/

@@ -9,7 +9,7 @@ excerpt: Coastal communities are becoming increasingly vulnerable to the risk
   listed below will allow you…
 link: https://www.data.gov/climate/climate-resources/
 modified: '2020-05-19T17:57:37'
-permalink: /climate/climate-resources/
+permalink: "climate/climate-resources/"
 redirect_from:
 - /climate/coastalflooding/coastalflooding-resources/
 slug: climate-resources

@@ -16,7 +16,7 @@ excerpt: |-
   The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
 link: https://www.data.gov/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 modified: '2017-10-02T22:21:49'
-permalink: /nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
+permalink: "nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/"
 redirect_from:
 - /arctic/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/
 - /climate/nasa-invites-citizens-to-collaborate-on-coastal-flooding-challenge/

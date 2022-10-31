@@ -8,7 +8,7 @@ excerpt: |-
     This page contains relevant content from U.S. government agencies and other sources that can help Tribal Nations and other communities understand how climate variability and/or global climate change is impacting and/or may impact their Peoples, Lands, and Resources and…
 link: https://www.data.gov/climate/tribal-nations/tribal-nations-featured-content/
 modified: '2019-05-06T18:30:27'
-permalink: /climate/tribal-nations/tribal-nations-featured-content/
+permalink: "climate/tribal-nations/tribal-nations-featured-content/"
 slug: tribal-nations-featured-content
 title: Tribal Nations Featured Content
 ---

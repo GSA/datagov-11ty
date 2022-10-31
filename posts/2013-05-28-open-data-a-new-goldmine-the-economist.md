@@ -6,7 +6,7 @@ excerpt: |-
   AFTER a Soviet missile shot down a South Korean airliner that strayed into Russian airspace in 1983, President Ronald Reagan made America's military satellite-navigation system, GPS, available to the world. Entrepreneurs pounced. Car-navigation, precision farming and 3m American jobs now …
 link: https://www.data.gov/announcements/open-data-new-goldmine-economist
 modified: '2014-03-18T21:44:17'
-permalink: /announcements/open-data-new-goldmine-economist/
+permalink: "announcements/open-data-new-goldmine-economist/"
 redirect_from:
 - /meta/open-data-new-goldmine-economist/
 slug: uncategorized__announcements__open-data-new-goldmine-economist

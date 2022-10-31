@@ -9,7 +9,7 @@ excerpt: Here users will find relevant content&nbsp;from U.S. government agencie
   affect different aspects of energy and infrastructure systems. &nbsp; Energy Resources…
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-featured-content/
 modified: '2019-05-06T13:39:03'
-permalink: /climate/energy-infrastructure/energy-infrastructure-featured-content/
+permalink: "climate/energy-infrastructure/energy-infrastructure-featured-content/"
 slug: energy-infrastructure-featured-content
 title: Energy Infrastructure Featured Content
 ---

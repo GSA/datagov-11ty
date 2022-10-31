@@ -1,6 +1,6 @@
 describe('The updates index page 1', () => {
   it('successfully loads', () => {
-    cy.visit('/updates')
+    cy.visit('/updates/1')
   })
 
   it('has the expected title', () => {
@@ -43,7 +43,7 @@ describe('The updates index page 1', () => {
   })
 })
 
-describe('The updates index page 1', () => {
+describe('The updates index page 2', () => {
   it('successfully loads', () => {
     cy.visit('/updates/2')
   })

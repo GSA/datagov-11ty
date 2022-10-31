@@ -8,7 +8,7 @@ excerpt: |-
     The U.S. Army Corps of Engineers (USACE) performs hydrographic surveys (hydrosurveys) for federal navigation projects around the U.S. Federal navigation projects include an estimated 25,000 miles of channels and form a key part of U.S. maritime infrastructure…
 link: https://www.data.gov/maritime/hydrosurvey-data-archive-for-federal-navigation-projects/
 modified: '2021-07-27T22:34:04'
-permalink: /maritime/hydrosurvey-data-archive-for-federal-navigation-projects/
+permalink: "maritime/hydrosurvey-data-archive-for-federal-navigation-projects/"
 redirect_from:
 - /geospatial/hydrosurvey-data-archive-for-federal-navigation-projects/
 slug: hydrosurvey-data-archive-for-federal-navigation-projects

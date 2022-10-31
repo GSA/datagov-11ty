@@ -7,7 +7,7 @@ excerpt: |-
   Every day, people around the world use data to make decisions. When heading out of town, most of us use weather apps to check the forecast anywhere in the world before packing our bags. However, when we travel to far-flung…
 link: https://www.data.gov/food/open-data-revolution-fight-global-hunger/
 modified: '2017-06-08T15:35:14'
-permalink: /food/open-data-revolution-fight-global-hunger/
+permalink: "food/open-data-revolution-fight-global-hunger/"
 slug: open-data-revolution-fight-global-hunger
 
 title: Open Data Revolution to Fight Global Hunger

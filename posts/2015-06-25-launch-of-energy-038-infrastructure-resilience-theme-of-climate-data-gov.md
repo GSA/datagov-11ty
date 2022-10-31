@@ -20,7 +20,7 @@ excerpt: |-
   of datasets containing scientific and technical information…
 link: https://www.data.gov/climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/
 modified: '2016-05-19T18:11:12'
-permalink: /climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/
+permalink: "climate/launch-energy-infrastructure-resilience-theme-climate-data-gov/"
 redirect_from:
 - /arctic/launch-energy-infrastructure-resilience-theme-climate-data-gov/
 - /climate/arctic/launch-energy-infrastructure-resilience-theme-climate-data-gov/

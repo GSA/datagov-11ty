@@ -16,7 +16,7 @@ excerpt: This page contains links to web-based tools and publicly accessible mod
   Tools include interactive mapping applications as well…
 link: https://www.data.gov/climate/arctic/tools/
 modified: '2021-02-19T10:29:33'
-permalink: /climate/arctic/tools/
+permalink: "climate/arctic/tools/"
 redirect_from: []
 slug: arctic-highlights
 title: Arctic Tools

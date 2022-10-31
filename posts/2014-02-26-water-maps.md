@@ -7,7 +7,7 @@ excerpt: |-
     Here are a few examples of the many maps available on the Internet that illustrate historical conditions and potential climate impacts on water resources…
 link: https://www.data.gov/climate/water/water-maps/
 modified: '2019-05-06T18:14:26'
-permalink: /climate/water/water-maps/
+permalink: "climate/water/water-maps/"
 slug: water-maps
 title: Water Maps
 ---
