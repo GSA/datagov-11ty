@@ -15,7 +15,7 @@ layout: layouts/default
     <div class="grid-row grid-gap">
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         {% if tags[1] %}
-        <a href="../../" class="text-bold" rel="homepage">Back to {{tags[1]}}</a>
+        <a href="/{{ tags[1] }}" class="text-bold" rel="homepage">Back to {{tags[1]}}</a>
         {% else %}
         <a href="/" class="text-bold" rel="homepage">Back to Home</a>
         {% endif %}
