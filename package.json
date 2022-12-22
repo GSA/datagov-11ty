@@ -55,7 +55,7 @@
     "start-server-and-test": "^1.14.0"
   },
   "dependencies": {
-    "fs": "^0.0.1-security",
+    "fs": "^0.0.2",
     "netlify-cms": "^2.10.187",
     "turndown": "^7.1.1",
     "uswds": "^2.13.3"
