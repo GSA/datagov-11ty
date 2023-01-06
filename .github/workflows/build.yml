@@ -4,5 +4,5 @@ on: [push]
 
 jobs:
   build:
-    name: Build Static Site
+    name: Build
     uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main

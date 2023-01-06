@@ -26,7 +26,7 @@
         "pages": "npm run build",
         "serve": "npx @11ty/eleventy --serve",
         "start": "npx @11ty/eleventy --serve",
-        "test": "npm run cypress:gh; npm run pa11y-ci:gh",
+        "test": "npm run pa11y-ci:gh",
         "test:local": "npm run woke; npm run cypress:run; npm run pa11y-ci",
         "woke": "woke"
     },
