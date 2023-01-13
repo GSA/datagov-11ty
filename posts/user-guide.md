@@ -58,7 +58,7 @@ Under the Access and Use section, there are links to any conditions on the use o
 
 Under the Downloads and Resources section is where you can access the dataset. If a direct download link is provided, you can download the dataset by clicking on the “Download” button. If there is a landing page for the dataset on the website for the agency, you can access it by clicking on the “Visit Page” button.
 
-![Data.gov catalog download dataset metadata](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_access-and-use-and-download-resource.png 'Data.gov catalog download dataset metadata')
+![Data.gov catalog download dataset metadata](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_access-and-use-and-download-resource-1.png 'Data.gov catalog download dataset metadata')
 
 In the Dates section, you can see the date that the record was first added to the Data.gov catalog and the Metadata Source section has information about the agency harvest source for the dataset.
 
