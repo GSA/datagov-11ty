@@ -2,7 +2,6 @@ const { DateTime } = require('luxon');
 const fs = require('fs');
 const pluginRss = require('@11ty/eleventy-plugin-rss');
 const pluginNavigation = require('@11ty/eleventy-navigation');
-const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const yaml = require('js-yaml');
 const svgSprite = require('eleventy-plugin-svg-sprite');
@@ -77,20 +76,22 @@ module.exports = function (config) {
     });
 
     // Customize Markdown library and settings:
-    let markdownLibrary = markdownIt({
+    let md = require('markdown-it')({
         html: true,
         breaks: true,
         linkify: true,
     }).use(markdownItAnchor, {
         permalink: markdownItAnchor.permalink.ariaHidden({
             placement: 'after',
-            class: 'direct-link',
+            class: 'anchor-link',
             symbol: '#',
             level: [1, 2, 3, 4],
         }),
         slugify: config.getFilter('slug'),
     });
-    config.setLibrary('md', markdownLibrary);
+    md.linkify.set({ fuzzyLink: false }); // disables converting URLs without protocol to link
+
+    config.setLibrary('md', md);
 
     // Override Browsersync defaults (used only with --serve)
     config.setBrowserSyncConfig({

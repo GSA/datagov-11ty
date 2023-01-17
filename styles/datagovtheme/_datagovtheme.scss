@@ -50,3 +50,16 @@ a {
         padding-inline-start: 10px;
     }
 }
+
+/* data.gov static site styles*/
+h1,
+h2,
+h3,
+h4 {
+    .anchor-link {
+        display: none;
+    }
+    &:hover .anchor-link {
+        display: inline;
+    }
+}

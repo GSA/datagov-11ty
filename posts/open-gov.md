@@ -2,11 +2,11 @@
 date: '2022-11-21T11:55:00'
 layout: layouts/post
 excerpt: 'Data.gov is leading the way in democratizing public sector data and driving
-  innovation. This movement has spread throughout cities, states, and countries. We
-  are encouraging and working with countries, cities, and organizations internationally,
-  who have launched their own sites with access to machine-readable data.'
+innovation. This movement has spread throughout cities, states, and countries. We
+are encouraging and working with countries, cities, and organizations internationally,
+who have launched their own sites with access to machine-readable data.'
 link: https://www.data.gov/open-gov
-permalink: "open-gov/"
+permalink: 'open-gov/'
 
 slug: open-gov
 title: Open Government
@@ -22,6 +22,6 @@ Data.gov was built with open source software. Anyone, especially local, state, a
 
 # Open Data in the United States
 
-Numerous states, cities, and counties have launched open data sites.  By collaborating with these non-federal data sources, Data.gov is able to include this data in the catalog. Searches on the Data.gov catalog will return relevant datasets from both federal and non-federal sources.
+Numerous states, cities, and counties have launched open data sites. By collaborating with these non-federal data sources, Data.gov is able to include this data in the catalog. Searches on the Data.gov catalog will return relevant datasets from both federal and non-federal sources.
 
 Download the full list of current 330 open data sites: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_sites_2022_11_21.csv)
