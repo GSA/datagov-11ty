@@ -33,6 +33,11 @@ module.exports = function (config) {
     // Allow yaml to be used in the _data dir
     config.addDataExtension('yaml', (contents) => yaml.load(contents));
 
+    // Allow for uppercasing names in Liquid Templates
+    config.addLiquidFilter('makeUppercase', (value) => {
+        return value.toUpperCase();
+    });
+
     config.addFilter('readableDate', (dateObj) => {
         return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat('dd LLL yyyy');
     });

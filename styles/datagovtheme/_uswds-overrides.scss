@@ -5,3 +5,31 @@
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
+
+.usa-header {
+    padding: 1rem 0;
+    &--extended {
+        .usa-logo {
+            display: inline;
+        }
+        .usa-navbar {
+            max-width: none;
+        }
+        .usa-nav__inner {
+            margin-left: 0;
+        }
+        .usa-nav {
+            border: none;
+        }
+    }
+    .grid-container {
+        max-width: none;
+    }
+}
+
+.usa-banner {
+    &__inner {
+        max-width: none;
+        padding-left: 4rem;
+    }
+}

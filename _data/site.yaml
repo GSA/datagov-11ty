@@ -56,14 +56,12 @@ ga:
 primary_navigation:
   - name: Data
     url: https://catalog.data.gov
-  - name: Resources
-    url: https://resources.data.gov/
-  - name: Strategy
-    url: https://strategy.data.gov/
-  - name: Developers
-    url: https://www.data.gov/developers/
+  - name: Reports
+    url: https://catalog.data.gov/report
+  - name: Open Government
+    url: /open-gov
   - name: Contact
-    url: https://www.data.gov/contact
+    url: /contact
 
 # Search.gov configuration
 #
