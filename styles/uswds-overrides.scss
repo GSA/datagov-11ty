@@ -25,11 +25,23 @@
     .grid-container {
         max-width: none;
     }
+    // .usa-menu-btn {
+    //     float: right;
+    //     margin-right: -1rem;
+    // }
 }
 
 .usa-banner {
     &__inner {
-        max-width: none;
-        padding-left: 4rem;
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .usa-banner {
+        &__inner {
+            max-width: none;
+            padding-left: 4rem;
+        }
     }
 }

@@ -32,6 +32,13 @@
     },
     "author": "",
     "license": "CC0-1.0",
+    "dependencies": {
+        "@uswds/uswds": "3.0.2",
+        "fs": "^0.0.2",
+        "markdown-it-attrs": "^4.1.6",
+        "netlify-cms": "^2.10.187",
+        "turndown": "^7.1.1"
+    },
     "devDependencies": {
         "@11ty/eleventy": "^1.0.0",
         "@11ty/eleventy-img": "^1.1.0",
@@ -55,11 +62,5 @@
         "postcss-cli": "^9.1.0",
         "rimraf": "^3.0.2",
         "start-server-and-test": "^1.14.0"
-    },
-    "dependencies": {
-        "fs": "^0.0.2",
-        "netlify-cms": "^2.10.187",
-        "turndown": "^7.1.1",
-        "uswds": "^2.13.3"
     }
 }
