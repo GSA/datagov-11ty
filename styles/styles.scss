@@ -6,6 +6,7 @@
 );
 
 @forward "uswds";
-@import 'uswds-overrides';
-@import 'pa11y-fixes';
-@import 'datagovtheme-styles';
+
+@use 'datagov/uswds-overrides.scss';
+@use 'datagov/pa11y-fixes.scss';
+@use 'datagov/datagovtheme';
