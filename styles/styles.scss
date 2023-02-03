@@ -1,4 +1,5 @@
-@use "uswds-core" as * with ($theme-show-notifications: false,
+@use "uswds-core" as * with (
+    $theme-show-notifications: false,
     $theme-font-path: "../node_modules/@uswds/uswds/dist/fonts",
     $theme-image-path: "../node_modules/@uswds/uswds/dist/img",
     $theme-font-type-sans: "public-sans",
@@ -7,6 +8,18 @@
 
 @forward "uswds";
 
-@use 'datagov/uswds-overrides.scss';
-@use 'datagov/pa11y-fixes.scss';
-@use 'datagov/datagovtheme';
+@import 'datagov/uswds-overrides.scss';
+@import 'datagov/pa11y-fixes.scss';
+@import 'datagov/datagovtheme';
+
+//TODO RIP THIS OUT PRIOR TO MERGE
+.fpo {
+    color: red;
+    height: 100%;
+    padding: 3rem;
+    border: 5px solid red;
+    text-align: center;
+    &::before {
+        content: "FPO >>"
+    }
+}
