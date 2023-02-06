@@ -70,7 +70,6 @@ module.exports = {
     downloadShortCode,
     imageWithClassShortcode,
     imageShortcode,
-    slackChannelLinkShortcode,
     uswdsIconShortcode,
     usaCurrentShortcode,
 };
