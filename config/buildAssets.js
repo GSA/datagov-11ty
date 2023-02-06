@@ -40,6 +40,7 @@ const main = async () => {
             outdir: '_site/assets',
             format: 'iife',
             loader: {
+                '.jpg': 'dataurl', //TODO: get 'file' loader working
                 '.png': 'dataurl',
                 '.svg': 'dataurl',
                 '.ttf': 'dataurl',

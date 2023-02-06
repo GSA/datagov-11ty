@@ -1,0 +1,28 @@
+//helper clases
+.text {
+    &-center {
+        text-align: center;
+    }
+}
+
+.desktop {
+    &-show {
+        display: none;
+    }
+
+    &-hide {
+        display: inline;
+    }
+}
+
+@media (min-width: 1024px) {
+    .desktop {
+        &-show {
+            display: inline;
+        }
+
+        &-hide {
+            display: hide;
+        }
+    }
+}

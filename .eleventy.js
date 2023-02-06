@@ -10,7 +10,6 @@ const {
     downloadShortCode,
     imageShortcode,
     imageWithClassShortcode,
-    slackChannelLinkShortcode,
     uswdsIconShortcode,
     usaCurrentShortcode,
 } = require('./config/shortCodes');
@@ -101,7 +100,6 @@ module.exports = function (config) {
     config.addLiquidShortcode('download', downloadShortCode);
     config.addLiquidShortcode('image', imageShortcode);
     config.addLiquidShortcode('image_with_class', imageWithClassShortcode);
-    config.addLiquidShortcode('slack_channel', slackChannelLinkShortcode);
     config.addLiquidShortcode('uswds_icon', uswdsIconShortcode);
     config.addLiquidShortcode('usa_current', usaCurrentShortcode);
 

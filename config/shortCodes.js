@@ -59,11 +59,6 @@ const uswdsIconShortcode = (name) =>
     <use xlink:href="#svg-${name}"></use>
   </svg>`;
 
-const slackChannelLinkShortcode = (channel, name) => {
-    const cleanChannel = channel.replace(/^#/, '');
-    return `<a href="https://gsa-tts.slack.com/channels/${cleanChannel}" target="_blank">${name ?? `#${cleanChannel}`}</a>`;
-};
-
 const usaCurrentShortcode = (navItemMainFilePath, pagePath) => {
     if (pagePath.includes(navItemMainFilePath)) {
         return `usa-current - ${pagePath} - ${navItemMainFilePath}`;

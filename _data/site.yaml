@@ -63,6 +63,20 @@ primary_navigation:
   - name: Contact
     url: /contact
 
+catalog_filters:
+  - name: Most Viewed Datasets
+    url: https://catalog.data.gov
+    iconName: visibility
+  - name: Recently Added Datasets
+    url: https://catalog.data.gov
+    iconName: history
+  - name: Organizations Datasets
+    url: https://catalog.data.gov
+    iconName: account_balance
+  - name: Geospatial
+    url: https://catalog.data.gov
+    iconName: language
+
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup
