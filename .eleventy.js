@@ -13,7 +13,7 @@ const {
     slackChannelLinkShortcode,
     uswdsIconShortcode,
     usaCurrentShortcode,
-} = require('./config/shortcodes');
+} = require('./config/shortCodes');
 const { headingLinks } = require('./config/headingLinks');
 
 module.exports = function (config) {

@@ -6,23 +6,24 @@ This is an [11ty](https://www.11ty.dev/) static site generator (SSG) template us
 
 This project strives to be compliant with requirements set by [21st Century IDEA Act](https://www.meritalk.com/articles/senate-passes-idea-act/). The standards require that a website or digital service:
 
-- is accessible to individuals with disabilities;
-- has a consistent appearance;
-- does not duplicate any legacy websites (the legislation also requires agencies to ensure that legacy websites are regularly reviewed, removed, and consolidated);
-- has a search function;
-- uses an industry standard secure connection;
-- “is designed around user needs with data-driven analysis influencing management and development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed;”
-- allows for user customization; and
-- is mobile-friendly.
+-   is accessible to individuals with disabilities;
+-   has a consistent appearance;
+-   does not duplicate any legacy websites (the legislation also requires agencies to ensure that legacy websites are regularly reviewed, removed, and consolidated);
+-   has a search function;
+-   uses an industry standard secure connection;
+-   “is designed around user needs with data-driven analysis influencing management and development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed;”
+-   allows for user customization; and
+-   is mobile-friendly.
 
 ## Key Functionality
+
 This repository contains the following examples and functionality:
 
-✅  Publish blog posts, press releases, announcements, etc. To modify this code, check out `_includes/updates.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
+✅ Publish blog posts, press releases, announcements, etc. To modify this code, check out `_includes/updates.html`, which manages how the posts are listed. You should then check out `_includes/layouts/post.html` to see how individual posts are structured.
 
 ✅ Publish single one-off pages. Instead of creating lots of folders throughout the root directory, you should put single pages in `pages` folder and change the `permalink` at the top of each page. Use sub-folders only when you really need to.
 
-✅  There are two different kinds of `pages`, one does not have a side bar navigation, and the other uses `_includes/sidenav.html`. You can enable this option by adding `sidenav: true` to your page front matter.
+✅ There are two different kinds of `pages`, one does not have a side bar navigation, and the other uses `_includes/sidenav.html`. You can enable this option by adding `sidenav: true` to your page front matter.
 
 ```
 ---
@@ -52,10 +53,12 @@ searchgov:
 ```
 
 The logic for using Search.gov can be found in `_includes/searchgov/form.html` and supports displaying the results inline or sending the user to Search.gov the view the results. This setting defaults to "inline" but can be changed by setting
+
 ```
 searchgov:
   inline: false
 ```
+
 in `_data/site.yml`.
 
 ✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration - Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_data/site.yml` and uncomment the appropriate lines. Ex.
@@ -94,25 +97,24 @@ TODO
 `npm run test`
 
 This will run the following:
-- content: `cypress` checks the generated HTML
-- accessibility: `pa11y-ci` on localhost using paths found in `sitemap.xml`
-- inclusivity: `woke` scans files for non-inclusive language
+
+-   content: `cypress` checks the generated HTML
+-   accessibility: `pa11y-ci` on localhost using paths found in `sitemap.xml`
+-   inclusivity: `woke` scans files for non-inclusive language
 
 #### Setting up your environment to test
 
 Follow instructions on individual repos to install `pa11y-ci` and `woke`:
 
-- [cypress](https://docs.cypress.io/guides/overview/why-cypress)
-- [pa11y-ci](https://github.com/pa11y/pa11y-ci)
-- [woke](https://github.com/get-woke/woke)
+-   [cypress](https://docs.cypress.io/guides/overview/why-cypress)
+-   [pa11y-ci](https://github.com/pa11y/pa11y-ci)
+-   [woke](https://github.com/get-woke/woke)
 
 Cypress tests live in `cypress/integration`. Currently, the tests do not use fixtures or plugins.
 
 Although you may be tempted to change the `pa11y-ci` concurrency higher than 1 for speed, note that you may receive "Failed to run" errors on multiple URLs when doing so.
 
 ## Netlify CMS
-
-
 
 ### Config
 
@@ -121,13 +123,13 @@ The Netlify CMS can be configured in [`/admin/config.yml`](./admin/config.yml) a
 
 ```yml
 backend:
-  name: github
-  repo: <your-github-org>/<your-repository-name>
-  base_url: https://federalistapp.18f.gov
-  auth_endpoint: external/auth/github
-  preview_context: federalist/build
-  branch: master
-  use_graphql: true
+    name: github
+    repo: <your-github-org>/<your-repository-name>
+    base_url: https://federalistapp.18f.gov
+    auth_endpoint: external/auth/github
+    preview_context: federalist/build
+    branch: master
+    use_graphql: true
 ```
 
 ### Running Locally
@@ -135,13 +137,13 @@ backend:
 You can run the Netlify CMS locally to more easily customize and troubleshoot the CMS to you content.
 We provide comments in the [`/admin/config.yml`](./admin/config.yml) instructing you how to change the `backend` values from your production site to the local development.
 
-> *Note: Make sure to not commit and push the config with the `backend` set for local develop to Github or
-else you will break your production site's Netlify CMS.
+> \*Note: Make sure to not commit and push the config with the `backend` set for local develop to Github or
+> else you will break your production site's Netlify CMS.
 
 ```yml
 # Local development backend
 backend:
-  name: git-gateway
+    name: git-gateway
 local_backend: true
 ```
 
@@ -163,12 +165,12 @@ Use `---` to begin and end your front matter, then fill out the below informatio
 author: author-hyphenated, found in `_data/authors.json`
 title: The Full Title of Your Update
 categories:
-  - meta
-  - or multiple
+    - meta
+    - or multiple
 date: 'YYYY-MM-DDThh:mm:ss'
 excerpt: |-
-  You can type multilined text here. You may even include HTML
-  if you are interested in adding <em>flair</em>. This is used to preview the list and typically ends with …
+    You can type multilined text here. You may even include HTML
+    if you are interested in adding <em>flair</em>. This is used to preview the list and typically ends with …
 link: https://www.data.gov/path/with-slug
 modified: 'YYYY-MM-DDThh:mm:ss'
 permalink: /path/with-slug
@@ -188,7 +190,7 @@ TODO
 
 ### Creating links
 
-For preview links generated on the platform, we automatically set the `pathPrefix` in the [`.eleventy.js`](/.eleventy.js) file base on the `BASEURL` environment variable. We use the built-in 11ty filter for `url` to properly append the prefix path for the linked page.  When adding new links, use the following syntax:
+For preview links generated on the platform, we automatically set the `pathPrefix` in the [`.eleventy.js`](/.eleventy.js) file base on the `BASEURL` environment variable. We use the built-in 11ty filter for `url` to properly append the prefix path for the linked page. When adding new links, use the following syntax:
 
 ```liquid
 <a href="{{ '/myDir/' | url }}">Link to My Dir</a>
@@ -198,7 +200,7 @@ See the [11ty docs](https://www.11ty.dev/docs/filters/url/)
 
 ### Referencing Images
 
-All of your images will be stored in the `_img/` directory. To reference your images in your templates you can use the `shortcodes` built into the template.
+All of your images will be stored in the `_img/` directory. To reference your images in your templates you can use the `shortCodes` built into the template.
 
 For referencing an image without a style class, you will pass the template shortcode the image's source path and the alternative image name in that order. ie:
 
