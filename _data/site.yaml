@@ -77,6 +77,30 @@ catalog_filters:
     url: https://catalog.data.gov
     iconName: language
 
+resource_quick_links:
+  - title: Data Management & Governance
+    url: https://resources.data.gov/categories/data-management-governance/
+  - title: Guidance
+    url: https://resources.data.gov/categories/guidance/
+  - title: Data Tools
+    url: https://resources.data.gov/categories/data-tools/
+  - title: Case Studies & Examples
+    url: https://resources.data.gov/categories/case-studies-examples/
+  - title: Data Inclubator
+    url: https://resources.data.gov/categories/data-incubator/
+  - title: Skills Development
+    url: https://resources.data.gov/categories/skills-development/
+
+strategy_quick_links:
+  - title: 2021 Action Plan
+    url: https://strategy.data.gov/2021/action-plan/
+  - title: 2021 Action Progress
+    url: https://strategy.data.gov/2021/progress/
+  - title: 2020 Action Plan
+    url: https://strategy.data.gov/2020/action-plan/
+  - title: 2020 Action Progress
+    url: https://strategy.data.gov/2020/progress/
+
 # Search.gov configuration
 #
 # 1. Create an account with Search.gov https://search.usa.gov/signup

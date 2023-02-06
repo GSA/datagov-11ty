@@ -73,14 +73,36 @@ tagline: The home of the U.S. Government's open data
 
 
 <!-- Sibling sites  -->
-<section class="usa-section">
+<section class="usa-section sibling-sites">
     <div class="grid-container">
-        <div class="grid-row grid-gap-lg">
+        <div class="grid-row">
             <div class="grid-col-6">
-                <div class="fpo">RESOURCES</div>
+                <div class="logo">
+                    {% image_with_class "_img/resources-logo.svg" "" %}
+                </div>
+                <div class="quick-links">
+                    <ul>
+                        {% for link in site.resource_quick_links %}
+                            <a href="{{link.url}}" target="_blank">
+                                <li>{{link.title}} {% uswds_icon 'launch' %}</li>
+                            </a>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
             <div class="grid-col-6">
-                <div class="fpo">STRATEGY</div>
+                <div class="logo">
+                    {% image_with_class "_img/strategy-logo.svg" "" %}
+                </div>
+                <div class="quick-links">
+                    <ul>
+                        {% for link in site.strategy_quick_links %}
+                            <a href="{{link.url}}" target="_blank">
+                                <li>{{link.title}} {% uswds_icon 'launch' %}</li>
+                            </a>
+                        {% endfor %}
+                    </ul>
+                </div>
             </div>
         </div>
     </div>

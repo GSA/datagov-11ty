@@ -55,6 +55,22 @@ h4 {
     }
 }
 
+.sibling-sites {
+    .logo {
+        padding: 2rem;
+        text-align: center;
+        img {
+            max-height: 75px;
+        }
+    }
+
+    ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        list-style: none;
+    }
+}
+
 .usa-footer {
     border-top: 1px solid #e7e7e7;
 

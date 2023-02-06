@@ -3,6 +3,10 @@
   ****** USWDS OVERRIDES ******
   *****************************
 */
+.grid-container {
+    max-width: 75rem;
+}
+
 .usa-section {
     padding-top: 2rem;
     padding-bottom: 2rem;
