@@ -14,8 +14,6 @@ categories:
 excerpt: |-
   Main Page for Climate updates
 link: https://www.data.gov/climate/
-layout: layouts/update-index
-
 pagination:
   data: collections.climate
   size: 10
@@ -49,8 +47,6 @@ slug: climate
 title: Climate
 ---
 
-{% include "pagination-links.html" %}
-
 <div class="climate-box float-right border border-base radius-md margin-105">
   <div class="padding-x-105 padding-y-05 text-white" style="background-color: #3a74a5;">
   Explore the <a href="https://toolkit.climate.gov" class="text-white text-underline
@@ -70,5 +66,3 @@ title: Climate
 {%- for post in posts %}
   {% include "update.html", post: post %}
 {%- endfor %}
-
-{% include "pagination-links.html" %}

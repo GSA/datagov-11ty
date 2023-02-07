@@ -13,7 +13,6 @@ const {
     uswdsIconShortcode,
     usaCurrentShortcode,
 } = require('./config/shortCodes');
-const { headingLinks } = require('./config/headingLinks');
 
 module.exports = function (config) {
     // Set pathPrefix for site
@@ -65,12 +64,21 @@ module.exports = function (config) {
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
         html: true,
+        breaks: true,
+        linkify: true,
     })
         .use(markdownItAnchor, {
-            permalink: headingLinks, // use our custom heading links
+            permalink: markdownItAnchor.permalink.ariaHidden({
+                placement: 'after',
+                class: 'anchor-link',
+                symbol: '#',
+                level: [1, 2, 3, 4],
+            }),
             slugify: config.getFilter('slugify'),
         })
         .use(markdownItAttrs);
+    markdownLibrary.linkify.set({ fuzzyLink: false }); // disables converting URLs without protocol to link
+
     config.setLibrary('md', markdownLibrary);
 
     // Override Browsersync defaults (used only with --serve)

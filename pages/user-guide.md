@@ -1,6 +1,5 @@
 ---
 date: '2023-01-09T11:55:00'
-layout: layouts/post
 excerpt: 'Data.gov is the United States government’s open data website. It provides access to datasets published by agencies across the federal government. Data.gov is intended to provide access to government open data to the public, achieve agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.'
 link: https://www.data.gov/open-gov
 permalink: 'user-guide/'
