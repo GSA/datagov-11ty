@@ -1,16 +1,16 @@
 ---
 categories:
-- meta
+    - meta
 date: '2012-06-11T09:53:33'
 excerpt: |-
-  Data.gov is pleased to announce the launch of a new data catalog on an
-  open source data management system called CKAN used by the data portals of the U.K.,
-  Germany, Brazil, and a number of other governments around the world.…
+    Data.gov is pleased to announce the launch of a new data catalog on an
+    open source data management system called CKAN used by the data portals of the U.K.,
+    Germany, Brazil, and a number of other governments around the world.…
 link: https://www.data.gov/announcements/datagov-ckan-catalog
 modified: '2014-03-18T21:44:35'
-permalink: "announcements/datagov-ckan-catalog/"
+permalink: 'announcements/datagov-ckan-catalog/'
 redirect_from:
-- /meta/datagov-ckan-catalog/
+    - /meta/datagov-ckan-catalog/
 slug: uncategorized__announcements__datagov-ckan-catalog
 title: Data.gov CKAN Catalog
 ---
