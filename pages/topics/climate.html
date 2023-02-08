@@ -1,0 +1,68 @@
+---
+author: admin
+categories:
+- arctic
+- climate
+- coastalflooding
+- ecosystem-vulnerability
+- energy-infrastructure
+- foodresilience
+- humanhealth
+- transportation
+- tribal-nations
+- water
+excerpt: |-
+  Main Page for Climate updates
+link: https://www.data.gov/climate/
+pagination:
+  data: collections.climate
+  size: 10
+  alias: posts
+  reverse: true
+permalink: "{{ url }}/climate/{{ pagination.pageNumber | plus: 1 }}/index.html"
+
+redirect_from:
+- /arctic/
+- /climate/
+- /climate/arctic/
+- /climate/coastalflooding/
+- /climate/ecosystem-vulnerability/
+- /climate/energy-infrastructure/
+- /climate/foodresilience/
+- /climate/humanhealth/
+- /climate/transportation/
+- /climate/tribal-nations/
+- /climate/water/
+- /coastalflooding/
+- /ecosystem-vulnerability/
+- /energy-infrastructure/
+- /foodresilience/
+- /humanhealth/
+- /transportation/
+- /tribal-nations/
+- /water/
+
+slug: climate
+
+title: Climate
+---
+
+<div class="climate-box float-right border border-base radius-md margin-105">
+  <div class="padding-x-105 padding-y-05 text-white" style="background-color: #3a74a5;">
+  Explore the <a href="https://toolkit.climate.gov" class="text-white text-underline
+   usa-link--external">Climate Resilience Toolkit</a>
+  </div>
+  <ul class="list-unstyled grid-striped padding-0 margin-0">
+    <div class="padding-x-105 text-bold">Topic areas:</div>
+    {%- for item in climate-toolkits -%}
+      <li class="padding-x-105">
+        <img style="width: 27px; vertical-align: middle;" src="{{item.img}}" alt="{{item.name}}"/>
+        <a class="usa-link usa-link--external" href="{{item.url}}">{{item.name}}</a>
+      </li>
+    {%- endfor -%}
+  </ul>
+</div>
+
+{%- for post in posts %}
+  {% include "update.html", post: post %}
+{%- endfor %}

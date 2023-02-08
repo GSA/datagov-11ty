@@ -1,57 +1,25 @@
-/*
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
-* * * * * ==============================
-========================================
-========================================
-========================================
-*/
+@use "uswds-core" as * with (
+    $theme-show-notifications: false,
+    $theme-font-path: "../node_modules/@uswds/uswds/dist/fonts",
+    $theme-image-path: "../node_modules/@uswds/uswds/dist/img",
+    $theme-font-type-sans: "public-sans",
+    $theme-hero-image: "../_img/hero.png"
+);
 
-// -------------------------------------
-// Import individual theme settings
+@forward "uswds";
 
-// Set correct paths for use with asset pipeline
-@import 'theme/uswds-theme-general';
-@import 'theme/uswds-theme-typography';
-@import 'theme/uswds-theme-spacing';
-@import 'theme/uswds-theme-color';
-@import 'theme/uswds-theme-utilities';
-@import 'theme/uswds-theme-components';
+@import 'partials/overrides.scss';
+@import 'partials/helpers.scss';
+@import 'partials/datagovtheme';
 
-// Set correct paths for use with asset pipeline
-$theme-font-path: 'fonts';
-$theme-image-path: 'img';
-
-// -------------------------------------
-// Import individual USWDS packages...
-@import 'uswds/src/stylesheets/packages/required';
-@import 'overrides/all';
-@import 'uswds/src/stylesheets/packages/global';
-
-@import 'uswds/src/stylesheets/packages/uswds-components';
-@import 'uswds/src/stylesheets/packages/uswds-utilities';
-
-/*
-----------------------------------------
-USWDS THEME CUSTOM STYLES
-----------------------------------------
-!! Copy this file to your project's
-   sass root. Don't edit the version
-   in node_modules.
-----------------------------------------
-Custom project SASS goes here.
-
-i.e.
-@include u-padding-right('05');
-----------------------------------------
-*/
-
-// import font awesome cdn
-@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css';
-
-// import datagovtheme styles and overrides
-@import 'datagovtheme/all';
-
-// Pa11y-fixes
-@import 'pa11y_fixes';
+//TODO RIP THIS OUT PRIOR TO MERGE
+.fpo {
+    color: red;
+    height: 100%;
+    padding: 3rem;
+    border: 5px solid red;
+    text-align: center;
+    &::before {
+        content: "FPO >>"
+    }
+}

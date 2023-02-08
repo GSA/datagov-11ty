@@ -1,0 +1,17 @@
+---
+permalink: '{{ url }}/updates/{{ pagination.pageNumber | plus: 1 }}/index.html'
+title: Updates
+slug: updates
+redirect_from:
+- /updates/
+- /update/
+pagination:
+    data: collections.posts
+    size: 10
+    alias: posts
+    reverse: true
+---
+
+{% for post in posts %}
+{% include "update.html", post: post, pageNumber: pagination.pageNumber %}
+{% endfor %}

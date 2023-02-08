@@ -12,13 +12,21 @@ The home page uses wide.html layout, since it extends full width of page
 <body>
   {% include "header.html" %}
 
-  {% include "menu.html" primary_navigation: site.primary_navigation secondary_navigation: site.secondary_navigation %}
+  {% include "menu.html" primary_navigation: site.primary_navigation secondary_navigation: site.secondary_navigation
+  %}
+
+  {% include "banner.html" %}
 
   {{ content }}
 
   {% include "footer.html" %}
-  
+
   {% include "identifier.html" %}
+
+  {% comment %} Hide SVG Sprites {% endcomment %}
+  <div style="display: none">
+    {% usa_icons_sprite %} {% uswds_icons_sprite %}
+  </div>
 
   {% include "scripts.html" %}
 </body>

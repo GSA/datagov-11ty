@@ -1,0 +1,92 @@
+/*
+  *****************************
+  ****** USWDS OVERRIDES ******
+  *****************************
+*/
+.grid-container {
+    max-width: 75rem;
+}
+
+.usa-section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.usa-header {
+    padding: 1rem 0;
+    &--extended {
+        .usa-logo {
+            display: inline;
+        }
+        .usa-navbar {
+            max-width: none;
+        }
+        .usa-nav__inner {
+            margin-left: 0;
+        }
+        .usa-nav {
+            border: none;
+        }
+    }
+    .grid-container {
+        max-width: none;
+    }
+    // .usa-menu-btn {
+    //     float: right;
+    //     margin-right: -1rem;
+    // }
+}
+
+.usa-banner {
+    &__inner {
+        padding-left: 2rem;
+    }
+}
+
+@media (min-width: 640px) {
+    .usa-banner {
+        &__inner {
+            max-width: none;
+            padding-left: 4rem;
+        }
+    }
+}
+
+
+/*
+  *************************
+  ****** PA11Y FIXES ******
+  *************************
+*/
+// #main-content > section > div > div > div > div > div > a {
+//     background-color: #0072ed;
+// }
+
+a {
+    color: #0072ed;
+}
+
+#main-content>div>div>div>div>ul>button {
+    color: #001731;
+}
+
+footer li>a {
+    color: #0061c9;
+}
+
+#main-content>section>a {
+    color: #0072ed;
+}
+
+img[alt='Logo'] {
+    margin-left: 75px;
+    width: 150px;
+}
+
+button {
+    margin-top: 0px !important;
+}
+
+#touchpoints-form-1327b00b>div:nth-child(3)>header>div>div:nth-child(2)>p>a {
+    background-color: #fff;
+}
