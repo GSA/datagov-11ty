@@ -7,7 +7,12 @@ tagline: The home of the U.S. Government's open data
 
 <!-- Banner hero -->
 <section class="usa-section hero-image">
-    <h1 class="fpo">hero content</h1>
+    <div class="fpo">
+        <h1>hero content</h1>
+        {% if catalog and catalog.datasets %}
+            <h2>Make use of this dataset count {{ catalog.datasets}}</h2>
+        {% endif %}
+    </div>
 </section>
 
 <!-- Filtered views -->
