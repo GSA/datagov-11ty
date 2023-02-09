@@ -12,17 +12,23 @@
 
     &-hide {
         display: inline;
+        .usa-nav__primary & {
+            display: list-item;
+        }
     }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 64em) {
     .desktop {
         &-show {
             display: inline;
         }
 
         &-hide {
-            display: hide;
+            display: none;
+            .usa-nav__primary & {
+                    display: none;
+                }
         }
     }
 }
