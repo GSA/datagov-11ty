@@ -56,11 +56,6 @@ module.exports = function (config) {
     config.addDataExtension('yaml', (contents) => yaml.load(contents));
     config.addDataExtension('yml', (contents) => yaml.load(contents));
 
-    // Allow for uppercasing names in Liquid Templates
-    config.addLiquidFilter('makeUppercase', (value) => {
-        return value.toUpperCase();
-    });
-
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
         html: true,

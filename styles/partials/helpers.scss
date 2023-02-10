@@ -1,7 +1,21 @@
+// mixins
+@mixin buttonColor($bg, $color: 'white') {
+    background-color: $bg;
+    color: $color;
+}
+
 //helper clases
 .text {
     &-center {
         text-align: center;
+    }
+    &-uppercase {
+        text-transform: uppercase;
+    }
+    &-color {
+        &--red {
+            color: color('secondary');
+        }
     }
 }
 

@@ -46,8 +46,28 @@ h4 {
     }
 }
 
-.hero-image {
-    
+.hero {
+    background-image: url('../_img/hero-image-bg.svg');
+    background-size: 35% auto;
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-color: color('base-lightest');
+    min-height: 25em;
+    &__content {
+        margin: 3em 5em;
+    }
+    &__copy {
+        max-width: 30em;
+    }
+    &__dataset-count {
+        margin-top: 1em;
+    }
+    &__search {
+        margin: 1em 0;
+        .usa-button[type="submit"] {
+            @include buttonColor(color('secondary'))
+        }
+    }
 }
 
 .catalog-filters {
