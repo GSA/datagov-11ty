@@ -22,6 +22,9 @@
 .desktop {
     &-show {
         display: none;
+        @include at-media('desktop') {
+            display: inline;
+        }
     }
 
     &-hide {
@@ -29,18 +32,9 @@
         .usa-nav__primary & {
             display: list-item;
         }
-    }
-}
-
-@media (min-width: 64em) {
-    .desktop {
-        &-show {
-            display: inline;
-        }
-
-        &-hide {
+        @include at-media('desktop') {
             display: none;
-            .usa-nav__primary & {
+                .usa-nav__primary & {
                     display: none;
                 }
         }
