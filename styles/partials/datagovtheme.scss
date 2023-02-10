@@ -40,6 +40,13 @@ html.datagov {
 */
 
 .usa-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid color('base-lighter');
+    .usa-js-mobile-nav--active & {
+        position: inherit;
+    }
     .usa-logo a {
         background-image: url('../_img/logo.svg');
         background-repeat: no-repeat;
