@@ -66,16 +66,16 @@ primary_navigation:
 catalog_filters:
   - name: Most Viewed Datasets
     url: https://catalog.data.gov
-    iconName: visibility
+    iconName: most-viewed-datasets-icon
   - name: Recently Added Datasets
     url: https://catalog.data.gov
-    iconName: history
+    iconName: recently-added-datasets-icon
   - name: Organizations Datasets
     url: https://catalog.data.gov
-    iconName: account_balance
+    iconName: organizations-datasets-icon
   - name: Geospatial
     url: https://catalog.data.gov
-    iconName: language
+    iconName: geospatial-icon
 
 resource_quick_links:
   - title: Data Management & Governance

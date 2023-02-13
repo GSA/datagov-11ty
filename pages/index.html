@@ -29,11 +29,8 @@ tagline: The home of the U.S. Government's open data
           type="search"
           name="search" />
         <button class="usa-button" type="submit">
-          <span class="usa-search__submit-text">Search
-          </span><img
-            src="/assets/img/usa-icons-bg/search--white.svg"
-            class="usa-search__submit-icon"
-            alt="Search" />
+          <span class="usa-search__submit-text">Search</span>
+          {% image_with_class "_img/search--white.svg" "usa-search__submit-icon" "Search" %}
         </button>
       </form>
     </section>
@@ -45,7 +42,7 @@ tagline: The home of the U.S. Government's open data
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
       {% for filter in site.catalog_filters %}
-        <div class="grid-col grid-col-3">
+        <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3">
           {% assign iconName = filter.iconName | escape %}
           <div class="icon-container text-center">
             <a href="{{filter.url}}">
@@ -72,7 +69,7 @@ tagline: The home of the U.S. Government's open data
       <div>
         Data.gov is the United States government’s open data website. It provides access to datasets published by agencies
         across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-                                                                                                                    agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+                                                                                                                                                                    agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
       </div>
     </div>
   </div>

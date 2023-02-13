@@ -59,15 +59,10 @@ html.datagov {
         &__col {
             padding: .5em 0 .5em 2em;
             border-left: 1px solid color('base-lighter');
-        }
-        &__icon {
-            background-image: url('../_img/recently-added-datasets-icon.svg'); //TODO: get correct icon
-            background-repeat: no-repeat;
-            background-size: cover;
-            height: 3em;
-            width: 3em;
-            display: block;
-            margin: 0 auto;
+            .datagov-icon {
+                height: 3em;
+                width: 3em;
+            }
         }
         &__text {
             color: black;

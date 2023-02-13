@@ -59,6 +59,16 @@ const uswdsIconShortcode = (name) =>
     <use xlink:href="#svg-${name}"></use>
   </svg>`;
 
+const usaIconShortcode = (name) =>
+    `<svg class="usa-icon" aria-hidden="true" role="img">
+    <use xlink:href="#svg-${name}"></use>
+  </svg>`;
+
+const datagovIconShortcode = (name) =>
+    `<svg class="usa-icon datagov-icon" aria-hidden="true" role="img">
+    <use xlink:href="#svg-${name}"></use>
+  </svg>`;
+
 const usaCurrentShortcode = (navItemMainFilePath, pagePath) => {
     if (pagePath.includes(navItemMainFilePath)) {
         return `usa-current - ${pagePath} - ${navItemMainFilePath}`;
@@ -71,5 +81,7 @@ module.exports = {
     imageWithClassShortcode,
     imageShortcode,
     uswdsIconShortcode,
+    usaIconShortcode,
+    datagovIconShortcode,
     usaCurrentShortcode,
 };
