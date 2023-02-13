@@ -1,28 +1,35 @@
-describe.skip('The Home Page', () => {
+describe('The Home Page', () => {
     it('successfully loads', () => {
         cy.visit('/');
     });
 
     it('has the expected title', () => {
-        cy.get('h1').contains("The home of the U.S. Government's open data");
+        cy.get('h1').contains("The Home of the U.S. Government's Open Data");
     });
 
-    // because the home page is variable and outside of the control of this test
-    // we cannot check specific titles, presence of authors, etc
-    it('has three updates', () => {
-        cy.get('section.updates article.update').should('have.length', 3);
+    it('has a count for catalog datasets', () => {
+        cy.get('section.hero .hero__dataset-count').contains('datasets available');
     });
 
-    it('has a link to more updates', () => {
-        cy.get('a.updates-link').contains('Browse all updates');
+    it('has all the requisite nav elements', () => {
+        cy.get('.usa-nav__inner')
+            .children()
+            .should('contain', 'Data')
+            .and('contain', 'Reports')
+            .and('contain', 'Open Government')
+            .and('contain', 'Contact')
+            .and('contain', 'User Guide');
     });
+    // it.skip('has a link to more updates', () => {
+    //     cy.get('a.updates-link').contains('Browse all updates');
+    // });
 
-    it('the link to more updates successfully loads', () => {
-        cy.get('a.updates-link')
-            .should('have.attr', 'href')
-            .and('include', './updates/1')
-            .then((href) => {
-                cy.visit(href);
-            });
-    });
+    // it.skip('the link to more updates successfully loads', () => {
+    //     cy.get('a.updates-link')
+    //         .should('have.attr', 'href')
+    //         .and('include', './updates/1')
+    //         .then((href) => {
+    //             cy.visit(href);
+    //         });
+    // });
 });
