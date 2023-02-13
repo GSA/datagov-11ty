@@ -6,110 +6,134 @@ tagline: The home of the U.S. Government's open data
 ---
 
 <!-- Banner hero -->
-<section class="usa-section hero-image">
-    <div class="fpo">
-        <h1>hero content</h1>
+<section class="usa-section hero">
+  <div class="hero__content">
+    <div class="hero__copy">
+      <h1>The Home of the U.S. Government's Open Data</h1>
+      <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data
+        visualizations, and more.</div>
+      <div class="hero__dataset-count">
         {% if catalog and catalog.datasets %}
-            <h2>Make use of this dataset count {{ catalog.datasets}}</h2>
+          <h4 class="text-uppercase">
+            <span class="text-color--red">{{ catalog.datasets }}</span>
+            datasets available</h4>
         {% endif %}
+      </div>
     </div>
+    <section aria-label="Search component" class="hero__search">
+      <form class="usa-search" role="search">
+        <label class="usa-sr-only" for="search-field">Search</label>
+        <input
+          class="usa-input"
+          id="search-field"
+          type="search"
+          name="search" />
+        <button class="usa-button" type="submit">
+          <span class="usa-search__submit-text">Search</span>
+          {% image_with_class "_img/search--white.svg" "usa-search__submit-icon" "Search" %}
+        </button>
+      </form>
+    </section>
+  </div>
 </section>
 
 <!-- Filtered views -->
 <section class="usa-section catalog-filters">
-    <div class="grid-container">
-        <div class="grid-row grid-gap-lg">
-            {% for filter in site.catalog_filters %}
-            <div class="grid-col grid-col-3">
-                {% assign iconName = filter.iconName | escape %}
-                <div class="icon-container text-center">
-                    <a href="{{filter.url}}">
-                        <svg class="usa-icon--size-5" aria-hidden="true" role="img">
-                            <use xlink:href="#svg-{{iconName}}"></use>
-                        </svg>
-                        <div class="name">{{ filter.name }}</div>
-                    </a>
-                </div>
-            </div>
-            {% endfor %}
+  <div class="grid-container">
+    <div class="grid-row grid-gap-lg">
+      {% for filter in site.catalog_filters %}
+        <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3">
+          {% assign iconName = filter.iconName | escape %}
+          <div class="icon-container text-center">
+            <a href="{{filter.url}}">
+              <svg
+                class="usa-icon--size-5"
+                aria-hidden="true"
+                role="img">
+                <use xlink:href="#svg-{{iconName}}"></use>
+              </svg>
+              <div class="name">{{ filter.name }}</div>
+            </a>
+          </div>
         </div>
+      {% endfor %}
     </div>
+  </div>
 </section>
 
 <!-- About  -->
 <section class="usa-section about">
-    <div class="grid-container text-center">
-        <div class="grid-row-auto">
-            <h1>About Data.gov</h1>
-            <div>
-                Data.gov is the United States government’s open data website. It provides access to datasets published by agencies
-            across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-            agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
-            </div>
-        </div>
+  <div class="grid-container text-center">
+    <div class="grid-row-auto">
+      <h1>About Data.gov</h1>
+      <div>
+        Data.gov is the United States government’s open data website. It provides access to datasets published by agencies
+        across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
+                                                                                                                                                                    agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+      </div>
     </div>
+  </div>
 </section>
 
 <!-- Metrics Tiles  -->
 <section class="usa-section">
-    <div class="grid-container">
-        <div class="grid-row grid-gap-lg">
-            <div class="grid-col-4">
-                <div class="fpo">1</div>
-            </div>
-            <div class="grid-col-4">
-                <div class="fpo">1</div>
-            </div>
-            <div class="grid-col-4">
-                <div class="grid-row">
-                    <div class="grid-col-12">
-                        <div class="fpo"></div>
-                    </div>
-                </div>
-                <div class="grid-row">
-                    <div class="grid-col-12">
-                        <div class="fpo"></div>
-                    </div>
-                </div>
-            </div>
+  <div class="grid-container">
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-4">
+        <div class="fpo">1</div>
+      </div>
+      <div class="grid-col-4">
+        <div class="fpo">1</div>
+      </div>
+      <div class="grid-col-4">
+        <div class="grid-row">
+          <div class="grid-col-12">
+            <div class="fpo"></div>
+          </div>
         </div>
+        <div class="grid-row">
+          <div class="grid-col-12">
+            <div class="fpo"></div>
+          </div>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
 
 
 <!-- Sibling sites  -->
 <section class="usa-section sibling-sites">
-    <div class="grid-container">
-        <div class="grid-row">
-            <div class="grid-col-6">
-                <div class="logo">
-                    {% image_with_class "_img/resources-logo.svg" "" %}
-                </div>
-                <div class="quick-links">
-                    <ul>
-                        {% for link in site.resource_quick_links %}
-                            <a href="{{link.url}}" target="_blank">
-                                <li>{{link.title}} {% uswds_icon 'launch' %}</li>
-                            </a>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
-            <div class="grid-col-6">
-                <div class="logo">
-                    {% image_with_class "_img/strategy-logo.svg" "" %}
-                </div>
-                <div class="quick-links">
-                    <ul>
-                        {% for link in site.strategy_quick_links %}
-                            <a href="{{link.url}}" target="_blank">
-                                <li>{{link.title}} {% uswds_icon 'launch' %}</li>
-                            </a>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+  <div class="grid-container">
+    <div class="grid-row">
+      <div class="grid-col-6">
+        <div class="logo">
+          {% image_with_class "_img/resources-logo.svg" "" %}
         </div>
+        <div class="quick-links">
+          <ul>
+            {% for link in site.resource_quick_links %}
+              <a href="{{link.url}}" target="_blank">
+                <li>{{ link.title }} {% uswds_icon 'launch' %}</li>
+              </a>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="grid-col-6">
+        <div class="logo">
+          {% image_with_class "_img/strategy-logo.svg" "" %}
+        </div>
+        <div class="quick-links">
+          <ul>
+            {% for link in site.strategy_quick_links %}
+              <a href="{{link.url}}" target="_blank">
+                <li>{{ link.title }} {% uswds_icon 'launch' %}</li>
+              </a>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
     </div>
+  </div>
 </section>
-

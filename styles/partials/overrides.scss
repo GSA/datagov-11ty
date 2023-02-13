@@ -1,10 +1,21 @@
 /*
-  *****************************
-  ****** USWDS OVERRIDES ******
-  *****************************
+  *******************
+  ****** USWDS ******
+  *******************
 */
 .grid-container {
     max-width: 75rem;
+    .usa-header & {
+        .grid-row {
+            align-items: center;
+        }
+    }
+    @include at-media-max('desktop') {
+        .usa-header & {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
 }
 
 .usa-section {
@@ -13,7 +24,10 @@
 }
 
 .usa-header {
-    padding: 1rem 0;
+    // padding: 1rem 0;
+    // @include at-media-max('desktop') {
+    //     padding: 0;
+    // }
     &--extended {
         .usa-logo {
             display: inline;
@@ -31,10 +45,6 @@
     .grid-container {
         max-width: none;
     }
-    // .usa-menu-btn {
-    //     float: right;
-    //     margin-right: -1rem;
-    // }
 }
 
 .usa-banner {
@@ -53,9 +63,9 @@
 }
 
 /*
-  *************************
-  ****** PA11Y FIXES ******
-  *************************
+  *******************
+  ****** PA11Y ******
+  *******************
 */
 // #main-content > section > div > div > div > div > div > a {
 //     background-color: #0072ed;

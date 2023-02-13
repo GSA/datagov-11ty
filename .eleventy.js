@@ -11,6 +11,8 @@ const {
     imageShortcode,
     imageWithClassShortcode,
     uswdsIconShortcode,
+    usaIconShortcode,
+    datagovIconShortcode,
     usaCurrentShortcode,
 } = require('./config/shortCodes');
 
@@ -52,14 +54,16 @@ module.exports = function (config) {
         svgShortcode: 'usa_icons',
     });
 
+    //// SVG Sprite Plugin for USWDS USA icons
+    config.addPlugin(svgSprite, {
+        path: './_img/datagov-icons',
+        svgSpriteShortcode: 'datagov_icons_sprite',
+        svgShortcode: 'datagov_icons',
+    });
+
     // Allow yaml to be used in the _data dir
     config.addDataExtension('yaml', (contents) => yaml.load(contents));
     config.addDataExtension('yml', (contents) => yaml.load(contents));
-
-    // Allow for uppercasing names in Liquid Templates
-    config.addLiquidFilter('makeUppercase', (value) => {
-        return value.toUpperCase();
-    });
 
     // Customize Markdown library and settings:
     let markdownLibrary = markdownIt({
@@ -109,6 +113,8 @@ module.exports = function (config) {
     config.addLiquidShortcode('image', imageShortcode);
     config.addLiquidShortcode('image_with_class', imageWithClassShortcode);
     config.addLiquidShortcode('uswds_icon', uswdsIconShortcode);
+    config.addLiquidShortcode('usa_icon', usaIconShortcode);
+    config.addLiquidShortcode('datagov_icon', datagovIconShortcode);
     config.addLiquidShortcode('usa_current', usaCurrentShortcode);
 
     config.addLiquidShortcode('page', (link) => path.join(pathPrefix, link));

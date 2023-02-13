@@ -1,13 +1,30 @@
+// mixins
+@mixin buttonColor($bg, $color: 'white') {
+    background-color: $bg;
+    color: $color;
+}
+
 //helper clases
 .text {
     &-center {
         text-align: center;
+    }
+    &-uppercase {
+        text-transform: uppercase;
+    }
+    &-color {
+        &--red {
+            color: color('secondary');
+        }
     }
 }
 
 .desktop {
     &-show {
         display: none;
+        @include at-media('desktop') {
+            display: inline;
+        }
     }
 
     &-hide {
@@ -15,18 +32,9 @@
         .usa-nav__primary & {
             display: list-item;
         }
-    }
-}
-
-@media (min-width: 64em) {
-    .desktop {
-        &-show {
-            display: inline;
-        }
-
-        &-hide {
+        @include at-media('desktop') {
             display: none;
-            .usa-nav__primary & {
+                .usa-nav__primary & {
                     display: none;
                 }
         }

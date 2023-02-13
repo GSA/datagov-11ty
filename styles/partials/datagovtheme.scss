@@ -6,6 +6,9 @@
 
 a {
     color: #284a7a;
+    &:hover::after {
+        background-color: #D54309 !important;
+    }
 }
 
 h1,
@@ -20,6 +23,19 @@ h4 {
     }
 }
 
+html.datagov {
+    .usa-menu-btn,
+    .usa-button {
+        @include buttonColor(color('secondary'))
+    }
+}
+
+.datagov-icons {
+    .usa-header & {
+        max-width: 3em;
+    }
+}
+
 /*
   ************************
   ****** COMPONENTS ******
@@ -27,6 +43,13 @@ h4 {
 */
 
 .usa-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid color('base-lighter');
+    .usa-js-mobile-nav--active & {
+        position: inherit;
+    }
     .usa-logo a {
         background-image: url('../_img/logo.svg');
         background-repeat: no-repeat;
@@ -34,6 +57,19 @@ h4 {
         width: 200px;
         display: block;
         background-size: cover;
+    }
+    .user-guide {
+        &__col {
+            padding: .5em 0 .5em 2em;
+            border-left: 1px solid color('base-lighter');
+            .datagov-icon {
+                height: 3em;
+                width: 3em;
+            }
+        }
+        &__text {
+            color: color('ink');
+        }
     }
 }
 
@@ -46,8 +82,39 @@ h4 {
     }
 }
 
-.hero-image {
-    
+.hero {
+    background-image: url('../_img/hero-image-bg.svg');
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    background-position: 375% 0;
+    background-color: color('base-lightest');
+    min-height: 25em;
+    @include at-media('tablet') {
+        background-size: 50% auto;
+        background-position: 144% 0;
+    }
+    @include at-media('desktop') {
+        background-size: 35% auto;
+        background-position: 98%;
+    }
+    &__content {
+        margin: 1em;
+        @include at-media('tablet') {
+            margin: 3em;
+        }
+        @include at-media('desktop') {
+            margin: 3em 5em;
+        }
+    }
+    &__copy {
+        max-width: 30em;
+    }
+    &__dataset-count {
+        margin-top: 1em;
+    }
+    &__search {
+        margin: 1em 0;
+    }
 }
 
 .catalog-filters {
@@ -57,6 +124,9 @@ h4 {
         border: 1px solid color('base-lighter');
         padding: 1rem;
         margin: 1rem 0;
+        a {
+            color: color('ink');
+        }
     }
 }
 

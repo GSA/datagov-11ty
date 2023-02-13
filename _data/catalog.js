@@ -9,7 +9,7 @@ module.exports = async function () {
         });
 
         return {
-            datasets: json.result?.count,
+            datasets: json.result?.count.toLocaleString('en', { useGrouping: true }),
         };
     } catch (e) {
         // if(process.env.NODE_ENV === "production") {
