@@ -6,6 +6,9 @@
 
 a {
     color: #284a7a;
+    &:hover::after {
+        background-color: #D54309 !important;
+    }
 }
 
 h1,
@@ -65,7 +68,7 @@ html.datagov {
             }
         }
         &__text {
-            color: black;
+            color: color('ink');
         }
     }
 }
@@ -121,6 +124,9 @@ html.datagov {
         border: 1px solid color('base-lighter');
         padding: 1rem;
         margin: 1rem 0;
+        a {
+            color: color('ink');
+        }
     }
 }
 
