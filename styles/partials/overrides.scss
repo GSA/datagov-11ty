@@ -50,15 +50,17 @@
 .usa-banner {
     &__inner {
         padding-left: 2rem;
-    }
-}
-
-@media (min-width: 640px) {
-    .usa-banner {
-        &__inner {
+        @include at-media('tablet') {
             max-width: none;
             padding-left: 4rem;
         }
+    }
+}
+
+.usa-prose {
+    margin: 0 auto;
+    & > p {
+        max-width: none;
     }
 }
 

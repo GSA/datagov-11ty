@@ -13,9 +13,9 @@ tagline: The home of the U.S. Government's open data
       <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data
         visualizations, and more.</div>
       <div class="hero__dataset-count">
-        {% if catalog and catalog.datasets %}
+        {% if catalog and catalog.results and catalog.results.datasets %}
           <h4 class="text-uppercase">
-            <span class="text-color--red">{{ catalog.datasets }}</span>
+            <span class="text-color--red">{{ catalog.results.datasets | toLocaleString }}</span>
             datasets available</h4>
         {% endif %}
       </div>
@@ -67,33 +67,41 @@ tagline: The home of the U.S. Government's open data
     <div class="grid-row-auto">
       <h1>About Data.gov</h1>
       <div>
-        Data.gov is the United States government’s open data website. It provides access to datasets published by agencies
+        Data.gov is the United States government's open data website. It provides access to datasets published by agencies
         across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-                                                                                                                                                                    agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+                                                                                                                                                                                                                                                                                                                        agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
       </div>
     </div>
   </div>
 </section>
 
 <!-- Metrics Tiles  -->
-<section class="usa-section">
+<section class="usa-section metrics">
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
       <div class="grid-col-4">
-        <div class="fpo">1</div>
+        {% include "metrics_widgets/time-series.html" metric: "organizations" %}
       </div>
       <div class="grid-col-4">
-        <div class="fpo">1</div>
+        {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
+          {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
+        {% endif %}
       </div>
       <div class="grid-col-4">
         <div class="grid-row">
           <div class="grid-col-12">
-            <div class="fpo"></div>
+            <!-- Age of Data.gov metric -->
+            {% include "metrics_widgets/card.html" heading: "Years of Data.gov" metric: '14' %}
           </div>
         </div>
-        <div class="grid-row">
+        <div class="grid-row margin-top--1">
           <div class="grid-col-12">
-            <div class="fpo"></div>
+            <!-- Number of Datasets metric -->
+            {% if catalog and catalog.results and catalog.results.datasets and catalog.meta and catalog.meta.date and catalog.meta.catalogUrl %}
+              {% assign date = 'Last Updated: ' | append: catalog.meta.date %}
+              {% assign datasetsCount = catalog.results.datasets | toLocaleString %}
+              {% include "metrics_widgets/card.html" heading: "Number of Datasets" subhead: date metric: datasetsCount subhead_link: catalog.meta.catalogUrl %}
+            {% endif %}
           </div>
         </div>
       </div>
