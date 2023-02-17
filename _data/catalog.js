@@ -1,17 +1,32 @@
 const EleventyFetch = require('@11ty/eleventy-fetch');
 
 const CATALOG_BASE_URL = 'https://catalog.data.gov';
-const API_ROUTE = '/api/action/package_search';
+const PACKAGE_API_ROUTE = '/api/action/package_search';
+const ORGANIZATION_API_ROUTE = '/api/action/organization_list';
 const CATALOG_FILTERS = {
     datasets: 'rows=0',
     collections: 'fq=(collection_metadata:*)&include_private=true&rows=0',
-    total_datasets: 'fq=(collection_package_id:*%20OR%20*:*)&include_private=true&rows=0',
+    totalDatasets: 'fq=(collection_package_id:*%20OR%20*:*)&include_private=true&rows=0',
+    harvestSources: 'fq=dataset_type:harvest&rows=1000',
 };
-
+const CACHE_CONFIG = {
+    duration: '1d',
+    type: 'json',
+};
 const PIE_CHART_ENUM = {
     datasets: 'Datasets',
-    total_datasets: 'Total Datasets',
+    totalDatasets: 'Total Datasets',
 };
+
+const d = new Date();
+const daysAgo = (days) => {
+    const offset = d.setDate(d.getDate() - days);
+    return new Date(offset).toISOString();
+};
+
+const dates = [daysAgo(7), daysAgo(30), daysAgo(365)];
+
+const normalizeMetrics = (number) => Math.log10(number);
 
 const buildPieMetric = (results) => {
     const pie = [];
@@ -21,27 +36,103 @@ const buildPieMetric = (results) => {
             count: results[key],
         });
     }
-    const pieString = encodeURIComponent(JSON.stringify(pie));
-    return pieString;
+    return encodeURIComponent(JSON.stringify(pie));
+};
+
+const buildBubbleMetric = (results) => {
+    const bubble = [];
+    for (let orgType in results.organizations) {
+        let orgInfo = results.organizations[orgType];
+        bubble.push({
+            label: orgType,
+            agencies: normalizeMetrics(orgInfo.agencies),
+            packages: normalizeMetrics(orgInfo.packages),
+            harvestSources: normalizeMetrics(orgInfo.harvestSources),
+        });
+    }
+    return encodeURIComponent(JSON.stringify(bubble));
+};
+
+const buildBarMetric = (results) => {
+    const bar = [];
+    for (let orgType in results.organizations) {
+        let orgInfo = results.organizations[orgType];
+        bar.push({
+            label: orgType,
+            data: [
+                normalizeMetrics(orgInfo.agencies),
+                normalizeMetrics(orgInfo.packages),
+                normalizeMetrics(orgInfo.harvestSources),
+            ],
+        });
+    }
+    return encodeURIComponent(JSON.stringify(bar));
 };
 
 module.exports = async function () {
     try {
         const results = {};
+        let harvestSources = [];
         const meta = {
             date: new Date().toLocaleDateString(),
             catalogUrl: CATALOG_BASE_URL,
         };
-        for (const filter in CATALOG_FILTERS) {
-            let json = await EleventyFetch(`${CATALOG_BASE_URL}${API_ROUTE}?${CATALOG_FILTERS[filter]}`, {
-                duration: '1d',
-                type: 'json',
-            });
-            // results[`${filter}`] = json.result.count.toLocaleString('en', { useGrouping: true });
+
+        // retrieve catalog filters (datasets, collections, total datasets)
+        for (let filter in CATALOG_FILTERS) {
+            let json = await EleventyFetch(`${CATALOG_BASE_URL}${PACKAGE_API_ROUTE}?${CATALOG_FILTERS[filter]}`, CACHE_CONFIG);
             results[`${filter}`] = json.result.count;
+            if (filter === 'harvestSources') {
+                // we only care about actual results from harvest sources
+                harvestSources = json.result.results;
+            }
         }
+
+        // calculate harvest source count per org
+        const harvestSourceCount = harvestSources.reduce((allSources, source) => {
+            const orgName = source?.organization?.name ?? 'None';
+            const count = allSources[orgName] ?? 0;
+            return {
+                ...allSources,
+                [orgName]: count + 1,
+            };
+        }, {});
+
+        // get number of orgs and calculate offset needed
+        const orgCount = await EleventyFetch(`${CATALOG_BASE_URL}${ORGANIZATION_API_ROUTE}`, CACHE_CONFIG);
+        const maxOffset = Math.ceil(orgCount.result.length / 25);
+
+        // fetch list of orgs and concat it into a single json
+        let orgList = [];
+        for (let i = 0; i <= maxOffset; i++) {
+            const json = await EleventyFetch(
+                `${CATALOG_BASE_URL}${ORGANIZATION_API_ROUTE}?all_fields=true&offset=${i * 25}`,
+                CACHE_CONFIG
+            );
+            orgList = orgList.concat(json.result);
+        }
+
+        // reduce the org json to an object with count of agencies, packages, and harvest sources
+        results.organizations = orgList.reduce((accum, org) => {
+            const orgType = org['organization_type'];
+            const orgName = org['name'];
+            const orgCount = accum[orgType] ?? { agencies: 0, packages: 0, harvestSources: 0 };
+            if (orgType === undefined) return accum;
+            return {
+                ...accum,
+                [orgType]: {
+                    agencies: orgCount.agencies + 1,
+                    packages: orgCount.packages + org['package_count'],
+                    harvestSources: orgCount.harvestSources + (harvestSourceCount[orgName] ?? 0),
+                },
+            };
+        }, {});
+
+        console.log(results);
         const metrics = {
             pieMetric: buildPieMetric(results),
+            bubbleMetric: buildBubbleMetric(results),
+            barMetric: buildBarMetric(results),
         };
         return {
             results,
@@ -54,7 +145,7 @@ module.exports = async function () {
             return Promise.reject(e);
         }
 
-        console.log('Failed getting datasets count, returning empty object.');
+        console.log(`Fetch failed ${e}`);
         return {
             results: {},
         };

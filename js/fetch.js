@@ -4,6 +4,13 @@ import fetch from 'node-fetch';
 const URL = 'https://catalog.data.gov';
 
 const DATAGOV_COLOR_PALETTE = ['#d83933', '#0050d8', '#71767A'];
+
+const getRandomDataGovColor = () => {
+    return DATAGOV_COLOR_PALETTE[Math.floor(Math.random() * DATAGOV_COLOR_PALETTE.length)];
+};
+
+const deNormalizeMetrics = (number) => Math.floor(Math.pow(number, 10));
+
 const buildPiConfig = (el) => {
     const dataString = el.dataset.metric;
     const data = JSON.parse(decodeURIComponent(dataString));
@@ -24,51 +31,89 @@ const buildPiConfig = (el) => {
     return config;
 };
 
-(async function () {
-    // const response = await fetch('https://api.github.com/users/github');
-    const d = new Date();
-    const daysAgo = (days) => {
-        const offset = d.setDate(d.getDate() - days);
-        return new Date(offset).toISOString();
+const buildBubbleConfig = (el) => {
+    const dataString = el.dataset.metric;
+    const data = JSON.parse(decodeURIComponent(dataString));
+    const config = {
+        type: 'bubble',
+        data: {
+            datasets: data.map((row) => ({
+                label: row.label,
+                data: [
+                    {
+                        x: row.agencies,
+                        y: row.harvestSources,
+                        r: row.packages,
+                    },
+                ],
+            })),
+        },
+        options: {
+            scales: {
+                x: {
+                    title: {
+                        display: true,
+                        text: 'Agencies count',
+                    },
+                },
+                y: {
+                    title: {
+                        display: true,
+                        text: 'Harvest Sources count',
+                    },
+                },
+            },
+        },
     };
+    return config;
+};
 
-    const dates = [daysAgo(7), daysAgo(30), daysAgo(365)];
+const buildBarConfig = (el) => {
+    const dataString = el.dataset.metric;
+    const data = JSON.parse(decodeURIComponent(dataString));
+    const config = {
+        type: 'bar',
+        data: {
+            labels: ['Agencies', 'Datasets', 'Harvest Sources'],
+            datasets: data.map((row) => ({
+                label: row.label,
+                data: row.data,
+            })),
+        },
+        options: {
+            plugins: {
+                tooltip: {
+                    callbacks: {
+                        label: function (context) {
+                            let label = context.dataset.label || '';
+                            let trueValue = deNormalizeMetrics(context.formattedValue) || '';
+                            return `${label}: ${trueValue}`;
+                        },
+                    },
+                },
+            },
+            scales: {
+                y: {
+                    ticks: {
+                        callback: function (value, index, ticks) {
+                            return deNormalizeMetrics(value);
+                        },
+                    },
+                },
+            },
+        },
+    };
+    console.log(config);
+    return config;
+};
 
-    const widgets = document.getElementsByClassName('datagov-charts');
-    // console.log(widgets);
-    // let data = [
-    //     { year: 2010, count: 10 },
-    //     { year: 2011, count: 20 },
-    //     { year: 2012, count: 15 },
-    //     { year: 2013, count: 25 },
-    //     { year: 2014, count: 22 },
-    //     { year: 2015, count: 30 },
-    //     { year: 2016, count: 28 },
-    // ];
+(async function () {
+    // const piEl = document.getElementById('datagov-pie-chart');
+    // new Chart(piEl, buildPiConfig(piEl));
 
-    // data = {
-    //     labels: ['food', 'Blue', 'Yellow'],
-    //     datasets: [
-    //         {
-    //             data: [300, 50, 100],
-    //             hoverOffset: 4,
-    //         },
-    //     ],
-    // };
+    // const bubbleEl = document.getElementById('datagov-bubble-chart');
+    // new Chart(bubbleEl, buildBubbleConfig(bubbleEl));
 
-    // new Chart(document.getElementById('acquisitions'), {
-    //     type: 'bar',
-    //     data: {
-    //         labels: data.map((row) => row.year),
-    //         datasets: [
-    //             {
-    //                 label: 'Acquisitions by year',
-    //                 data: data.map((row) => row.count),
-    //             },
-    //         ],
-    //     },
-    // });
-    const piEl = document.getElementById('datagov-pie-chart');
-    const piConfig = buildPiConfig(piEl);
-    new Chart(piEl, piConfig);
+    const barEl = document.getElementById('datagov-bar-chart');
+    new Chart(barEl, buildBarConfig(barEl));
 })();

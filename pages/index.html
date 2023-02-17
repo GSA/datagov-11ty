@@ -15,7 +15,7 @@ tagline: The home of the U.S. Government's open data
       <div class="hero__dataset-count">
         {% if catalog and catalog.results and catalog.results.datasets %}
           <h4 class="text-uppercase">
-            <span class="text-color--red">{{ catalog.results.datasets | toLocaleString }}</span>
+            <span class="text-color-red">{{ catalog.results.datasets | toLocaleString }}</span>
             datasets available</h4>
         {% endif %}
       </div>
@@ -79,14 +79,16 @@ tagline: The home of the U.S. Government's open data
 <section class="usa-section metrics">
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
-      <div class="grid-col-4">
-        {% include "metrics_widgets/time-series.html" metric: "organizations" %}
+      <div class="grid-col-8">
+        {% if catalog and catalog.metrics and catalog.metrics.barMetric %}
+          {% include "metrics_widgets/bar-chart.html" metric: catalog.metrics.barMetric %}
+        {% endif  %}
       </div>
-      <div class="grid-col-4">
+      <!-- <div class="grid-col-4">
         {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
           {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
         {% endif %}
-      </div>
+      </div> -->
       <div class="grid-col-4">
         <div class="grid-row">
           <div class="grid-col-12">
@@ -94,7 +96,7 @@ tagline: The home of the U.S. Government's open data
             {% include "metrics_widgets/card.html" heading: "Years of Data.gov" metric: '14' %}
           </div>
         </div>
-        <div class="grid-row margin-top--1">
+        <div class="grid-row margin-top-1">
           <div class="grid-col-12">
             <!-- Number of Datasets metric -->
             {% if catalog and catalog.results and catalog.results.datasets and catalog.meta and catalog.meta.date and catalog.meta.catalogUrl %}
