@@ -3,13 +3,13 @@ import fetch from 'node-fetch';
 
 const URL = 'https://catalog.data.gov';
 
-const DATAGOV_COLOR_PALETTE = ['#d83933', '#0050d8', '#71767A'];
+const DATAGOV_COLOR_PALETTE = ['216, 57, 51', '0, 80, 216', '113, 118, 122'];
 
 const getRandomDataGovColor = () => {
     return DATAGOV_COLOR_PALETTE[Math.floor(Math.random() * DATAGOV_COLOR_PALETTE.length)];
 };
 
-const deNormalizeMetrics = (number) => Math.floor(Math.pow(number, 10));
+const deNormalizeMetrics = (number) => Math.floor(Math.pow(10, number));
 
 const buildPiConfig = (el) => {
     const dataString = el.dataset.metric;
@@ -78,6 +78,8 @@ const buildBarConfig = (el) => {
             datasets: data.map((row) => ({
                 label: row.label,
                 data: row.data,
+                // backgroundColor: `rgba(${getRandomDataGovColor()}, 0.2)`,
+                // borderColor: `rgba(${getRandomDataGovColor()})`,
             })),
         },
         options: {

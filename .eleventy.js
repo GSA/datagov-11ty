@@ -1,6 +1,5 @@
 const fs = require('fs');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
-const EleventyFetch = require('@11ty/eleventy-fetch');
 const path = require('path');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
@@ -135,14 +134,6 @@ module.exports = function (config) {
         pathPrefix = process.env.BASEURL;
     }
 
-    config.addAsyncShortcode('catalog_metrics', async function (metric) {
-        const res = await fetchCatalogMetrics(metric);
-        if (!res) {
-            return '';
-        }
-        return JSON.stringify(res);
-    });
-
     // Set image shortcodes
     config.addLiquidShortcode('download', downloadShortCode);
     config.addLiquidShortcode('image', imageShortcode);
@@ -186,17 +177,3 @@ module.exports = function (config) {
         },
     };
 };
-
-async function fetchCatalogMetrics(metric) {
-    console.log(metric);
-    if (!metric) {
-        return;
-    }
-    switch (metric) {
-        case 'organizations':
-            return {
-                foo: 123,
-                bar: 456,
-            };
-    }
-}
