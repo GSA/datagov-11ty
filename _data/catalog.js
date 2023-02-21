@@ -9,13 +9,14 @@ const CATALOG_FILTERS = {
     totalDatasets: 'fq=(collection_package_id:*%20OR%20*:*)&include_private=true&rows=0',
     harvestSources: 'fq=dataset_type:harvest&rows=1000',
 };
+
 const CACHE_CONFIG = {
     duration: '1d',
     type: 'json',
 };
 const PIE_CHART_ENUM = {
+    datasetsInCollections: 'Datasets in Collections',
     datasets: 'Datasets',
-    totalDatasets: 'Total Datasets',
 };
 
 const d = new Date();
@@ -24,7 +25,7 @@ const daysAgo = (days) => {
     return new Date(offset).toISOString();
 };
 
-const dates = [daysAgo(7), daysAgo(30), daysAgo(365)];
+const dates = [daysAgo(0), daysAgo(7), daysAgo(30), daysAgo(365), daysAgo(1460)];
 
 const normalizeMetrics = (number) => Math.log10(number);
 
@@ -53,7 +54,7 @@ const buildBubbleMetric = (results) => {
     return encodeURIComponent(JSON.stringify(bubble));
 };
 
-const buildBarMetric = (results) => {
+const buildOrgBarMetric = (results) => {
     const bar = [];
     for (let orgType in results.organizations) {
         let orgInfo = results.organizations[orgType];
@@ -69,9 +70,18 @@ const buildBarMetric = (results) => {
     return encodeURIComponent(JSON.stringify(bar));
 };
 
+const buildDatasetsBarMetric = (results) => {
+    const bar = [
+        {
+            data: results.datasetSizeByDate,
+        },
+    ];
+    return encodeURIComponent(JSON.stringify(bar));
+};
+
 module.exports = async function () {
     try {
-        const results = {};
+        let results = {};
         let harvestSources = [];
         const meta = {
             date: new Date().toLocaleDateString(),
@@ -87,6 +97,16 @@ module.exports = async function () {
                 harvestSources = json.result.results;
             }
         }
+        results.datasetsInCollections = results.totalDatasets - results.datasets;
+        results.datasetSizeByDate = [];
+        for (let i = 0; i < dates.length - 1; i++) {
+            let json = await EleventyFetch(
+                `${CATALOG_BASE_URL}${PACKAGE_API_ROUTE}?q=metadata_modified:%5B${dates[i + 1]}%20TO%20${dates[i]}%5D`,
+                CACHE_CONFIG
+            );
+            results.datasetSizeByDate.push(json.result.count);
+        }
+        results.datasetSizeByDate.reverse(); // reverse order of values to put newest at end
 
         // calculate harvest source count per org
         const harvestSourceCount = harvestSources.reduce((allSources, source) => {
@@ -117,7 +137,7 @@ module.exports = async function () {
             const orgType = org['organization_type'];
             const orgName = org['name'];
             const orgCount = accum[orgType] ?? { agencies: 0, packages: 0, harvestSources: 0 };
-            if (orgType === undefined) return accum;
+            if (['Tribal', 'Non-Profit', undefined].includes(orgType)) return accum;
             return {
                 ...accum,
                 [orgType]: {
@@ -128,12 +148,12 @@ module.exports = async function () {
             };
         }, {});
 
-        console.log(results);
         const metrics = {
             pieMetric: buildPieMetric(results),
-            bubbleMetric: buildBubbleMetric(results),
-            barMetric: buildBarMetric(results),
+            orgBarMetric: buildOrgBarMetric(results),
+            datasetsBarMetric: buildDatasetsBarMetric(results),
         };
+        console.log(results);
         return {
             results,
             meta,

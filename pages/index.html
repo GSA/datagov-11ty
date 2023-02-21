@@ -69,7 +69,7 @@ tagline: The home of the U.S. Government's open data
       <div>
         Data.gov is the United States government's open data website. It provides access to datasets published by agencies
         across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-                                                                                                                                                                                                                                                                                                                        agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+                                                                                                                                                                                                                                                                                                                                                                                agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
       </div>
     </div>
   </div>
@@ -80,29 +80,30 @@ tagline: The home of the U.S. Government's open data
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
       <div class="grid-col-8">
-        {% if catalog and catalog.metrics and catalog.metrics.barMetric %}
-          {% include "metrics_widgets/bar-chart.html" metric: catalog.metrics.barMetric %}
-        {% endif  %}
+        <!-- Data.gov catalog composition bar chart -->
+        {% if catalog and catalog.metrics and catalog.metrics.orgBarMetric %}
+          {% include "metrics_widgets/bar-chart.html" name: 'org' metric: catalog.metrics.orgBarMetric %}
+        {% endif %}
       </div>
       <!-- <div class="grid-col-4">
-        {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-          {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
-        {% endif %}
+      {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
+      {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
+      {% endif %}
       </div> -->
       <div class="grid-col-4">
         <div class="grid-row">
           <div class="grid-col-12">
-            <!-- Age of Data.gov metric -->
-            {% include "metrics_widgets/card.html" heading: "Years of Data.gov" metric: '14' %}
+            <!-- Datasets updated over time bar chart -->
+            {% if catalog and catalog.metrics and catalog.metrics.datasetsBarMetric %}
+              {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric %}
+            {% endif %}
           </div>
         </div>
         <div class="grid-row margin-top-1">
           <div class="grid-col-12">
             <!-- Number of Datasets metric -->
-            {% if catalog and catalog.results and catalog.results.datasets and catalog.meta and catalog.meta.date and catalog.meta.catalogUrl %}
-              {% assign date = 'Last Updated: ' | append: catalog.meta.date %}
-              {% assign datasetsCount = catalog.results.datasets | toLocaleString %}
-              {% include "metrics_widgets/card.html" heading: "Number of Datasets" subhead: date metric: datasetsCount subhead_link: catalog.meta.catalogUrl %}
+            {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
+              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
             {% endif %}
           </div>
         </div>
