@@ -21,7 +21,11 @@ tagline: The home of the U.S. Government's open data
       </div>
     </div>
     <section aria-label="Search component" class="hero__search">
-      <form class="usa-search" role="search">
+      <form
+        class="usa-search"
+        role="search"
+        method="get"
+        action="https://catalog.data.gov/dataset">
         <label class="usa-sr-only" for="search-field">Search</label>
         <input
           class="usa-input"
@@ -69,7 +73,7 @@ tagline: The home of the U.S. Government's open data
       <div>
         Data.gov is the United States government's open data website. It provides access to datasets published by agencies
         across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-                                                                                                                                                                                                                                                                                                                                                                                agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
       </div>
     </div>
   </div>
@@ -79,31 +83,24 @@ tagline: The home of the U.S. Government's open data
 <section class="usa-section metrics">
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
-      <div class="grid-col-8">
-        <!-- Data.gov catalog composition bar chart -->
+      <div class="grid-col-12 desktop:grid-col-8">
+        <!-- Key Metric by Organization Type -->
         {% if catalog and catalog.metrics and catalog.metrics.orgBarMetric %}
           {% include "metrics_widgets/bar-chart.html" name: 'org' metric: catalog.metrics.orgBarMetric %}
         {% endif %}
       </div>
-      <!-- <div class="grid-col-4">
-      {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-      {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
-      {% endif %}
-      </div> -->
-      <div class="grid-col-4">
+      <div class="grid-col-12 desktop:grid-col-4">
         <div class="grid-row">
-          <div class="grid-col-12">
-            <!-- Datasets updated over time bar chart -->
+          <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1 desktop:margin-top-0">
+            <!-- Dataset Age -->
             {% if catalog and catalog.metrics and catalog.metrics.datasetsBarMetric %}
               {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric %}
             {% endif %}
           </div>
-        </div>
-        <div class="grid-row margin-top-1">
-          <div class="grid-col-12">
-            <!-- Number of Datasets metric -->
+          <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1">
+            <!-- Dataset Distribution -->
             {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric %}
+              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric link: '/user-guide/#dataset-totals' tooltipText: 'Click to learn more about collections in our user guide' %}
             {% endif %}
           </div>
         </div>
@@ -111,7 +108,6 @@ tagline: The home of the U.S. Government's open data
     </div>
   </div>
 </section>
-
 
 <!-- Sibling sites  -->
 <section class="usa-section sibling-sites">

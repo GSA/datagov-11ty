@@ -1,5 +1,5 @@
+require('dotenv').config();
 const EleventyFetch = require('@11ty/eleventy-fetch');
-
 const CATALOG_BASE_URL = 'https://catalog.data.gov';
 const PACKAGE_API_ROUTE = '/api/action/package_search';
 const ORGANIZATION_API_ROUTE = '/api/action/organization_list';
@@ -153,7 +153,7 @@ module.exports = async function () {
             orgBarMetric: buildOrgBarMetric(results),
             datasetsBarMetric: buildDatasetsBarMetric(results),
         };
-        console.log(results);
+
         return {
             results,
             meta,
@@ -165,7 +165,7 @@ module.exports = async function () {
             return Promise.reject(e);
         }
 
-        console.log(`Fetch failed ${e}`);
+        console.error(`ERROR :: Fetch failed :: ${e}`);
         return {
             results: {},
         };
