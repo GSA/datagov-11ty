@@ -25,12 +25,12 @@ const buildPieConfig = (el) => {
             ],
         },
         options: {
-            aspectRatio: 1.5,
+            // aspectRatio: 1.5,
             plugins: {
-                // title: {
-                //     display: true,
-                //     text: 'Dataset Distribution',
-                // },
+                title: {
+                    display: true,
+                    text: 'Dataset Distribution',
+                },
             },
         },
     };
@@ -116,10 +116,10 @@ const buildDatasetBarConfig = (el) => {
                 legend: {
                     display: false,
                 },
-                // title: {
-                //     display: true,
-                //     text: 'Dataset Age',
-                // },
+                title: {
+                    display: true,
+                    text: 'Dataset Age',
+                },
             },
         },
     };
@@ -140,7 +140,7 @@ const buildOrgBarConfig = (el) => {
             })),
         },
         options: {
-            aspectRatio: 1.75,
+            aspectRatio: 1.4,
             plugins: {
                 tooltip: {
                     callbacks: {
