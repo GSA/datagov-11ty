@@ -1,10 +1,11 @@
 import Chart from 'chart.js/auto';
 
 const DATAGOV_COLOR_PALETTE = ['216, 57, 51', '0, 80, 216', '239, 94, 37', '255, 190, 46', '253, 68, 150'];
+const DATAGOV_COLOR_OPACITY = '0.75';
 
 const getRandomDataGovColor = () => DATAGOV_COLOR_PALETTE[Math.floor(Math.random() * DATAGOV_COLOR_PALETTE.length)];
 
-const mapDataGovColors = () => DATAGOV_COLOR_PALETTE.map((color) => `rgba(${color}, 0.4)`);
+const mapDataGovColors = () => DATAGOV_COLOR_PALETTE.map((color) => `rgba(${color}, ${DATAGOV_COLOR_OPACITY})`);
 
 const deNormalizeMetrics = (number) => Math.floor(Math.pow(10, number));
 
@@ -69,7 +70,7 @@ const metricConfigs = {
                 datasets: data.map((row, index) => ({
                     label: row.label,
                     data: row.data,
-                    backgroundColor: `rgba(${DATAGOV_COLOR_PALETTE[index]}, 0.4)`,
+                    backgroundColor: `rgba(${DATAGOV_COLOR_PALETTE[index]}, ${DATAGOV_COLOR_OPACITY})`,
                 })),
             },
             options: {
