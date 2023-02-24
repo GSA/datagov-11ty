@@ -40,20 +40,6 @@ const buildPieMetric = (results) => {
     return encodeURIComponent(JSON.stringify(pie));
 };
 
-const buildBubbleMetric = (results) => {
-    const bubble = [];
-    for (let orgType in results.organizations) {
-        let orgInfo = results.organizations[orgType];
-        bubble.push({
-            label: orgType,
-            agencies: normalizeMetrics(orgInfo.agencies),
-            packages: normalizeMetrics(orgInfo.packages),
-            harvestSources: normalizeMetrics(orgInfo.harvestSources),
-        });
-    }
-    return encodeURIComponent(JSON.stringify(bubble));
-};
-
 const buildOrgBarMetric = (results) => {
     const bar = [];
     for (let orgType in results.organizations) {
