@@ -26,7 +26,7 @@ h4 {
 html.datagov {
     .usa-menu-btn,
     .usa-button {
-        @include buttonColor(color('secondary'))
+        @include button-color(color('secondary'))
     }
 }
 
@@ -120,23 +120,24 @@ html.datagov {
 .catalog-filters {
     background-image: url('../_img/quick-navs-bg.jpg');
     background-size: cover;
-    .icon-container {
-        border: 1px solid color('base-lighter');
-        background-color: #FCFCFB;
-        filter: drop-shadow(0px 1px 4px rgba(0,0,0,0.25));
-        margin: 1rem 0;
-        padding: 1rem;
-        a {
+    a {
             color: color('ink');
         }
+    .icon-container {
+        @include drop-shadow;
+        border: 1px solid color('base-lighter');
+        background-color: #FCFCFB;
+        margin: 1rem 0;
+        padding: 1rem;
+
     }
 }
 
 .metrics {
     &__card {
+        @include drop-shadow;
         padding: 1em 2em;
         border: 1px solid color('base-lighter');
-        filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.25));
         border-radius: 4px;
         background-color: white;
         &--image {

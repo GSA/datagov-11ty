@@ -1,4 +1,4 @@
-describe.skip('The updates index page 1', () => {
+describe('The updates index page 1', () => {
     it('successfully loads', () => {
         cy.visit('/updates/1');
     });
@@ -39,7 +39,7 @@ describe.skip('The updates index page 1', () => {
     });
 });
 
-describe.skip('The updates index page 2', () => {
+describe('The updates index page 2', () => {
     it('successfully loads', () => {
         cy.visit('/updates/2');
     });

@@ -48,8 +48,8 @@ tagline: The home of the U.S. Government's open data
       {% for filter in site.catalog_filters %}
         <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3">
           {% assign iconName = filter.iconName | escape %}
-          <div class="icon-container text-center">
-            <a href="{{filter.url}}">
+          <a href="{{filter.url}}">
+            <div class="icon-container text-center">
               <svg
                 class="usa-icon--size-5"
                 aria-hidden="true"
@@ -57,8 +57,8 @@ tagline: The home of the U.S. Government's open data
                 <use xlink:href="#svg-{{iconName}}"></use>
               </svg>
               <div class="name">{{ filter.name }}</div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       {% endfor %}
     </div>
@@ -73,7 +73,7 @@ tagline: The home of the U.S. Government's open data
       <div>
         Data.gov is the United States government's open data website. It provides access to datasets published by agencies
         across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
       </div>
     </div>
   </div>
