@@ -137,7 +137,7 @@ module.exports = async function () {
             const orgType = org['organization_type'];
             const orgName = org['name'];
             const orgCount = accum[orgType] ?? { agencies: 0, packages: 0, harvestSources: 0 };
-            if (['Tribal', 'Non-Profit', undefined].includes(orgType)) return accum;
+            if (['Tribal', 'Non-Profit', 'University', undefined].includes(orgType)) return accum;
             return {
                 ...accum,
                 [orgType]: {
