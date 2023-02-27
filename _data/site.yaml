@@ -63,6 +63,14 @@ primary_navigation:
   - name: Contact
     url: /contact
 
+links:
+  sites:
+    resources: https://resources.data.gov
+    strategy: https://strategy.data.gov
+  social:
+    twitter: https://twitter.com/usdatagov
+    github: https://github.com/GSA/data.gov
+
 catalog_filters:
   - name: Most Viewed Datasets
     url: https://catalog.data.gov/dataset?q=&sort=views_recent+desc
@@ -80,24 +88,24 @@ catalog_filters:
 resource_quick_links:
   - title: Data Management & Governance
     url: https://resources.data.gov/categories/data-management-governance/
-  - title: Guidance
-    url: https://resources.data.gov/categories/guidance/
   - title: Data Tools
     url: https://resources.data.gov/categories/data-tools/
-  - title: Case Studies & Examples
-    url: https://resources.data.gov/categories/case-studies-examples/
   - title: Data Inclubator
     url: https://resources.data.gov/categories/data-incubator/
+  - title: Guidance
+    url: https://resources.data.gov/categories/guidance/
+  - title: Case Studies & Examples
+    url: https://resources.data.gov/categories/case-studies-examples/
   - title: Skills Development
     url: https://resources.data.gov/categories/skills-development/
 
 strategy_quick_links:
   - title: 2021 Action Plan
     url: https://strategy.data.gov/2021/action-plan/
-  - title: 2021 Action Progress
-    url: https://strategy.data.gov/2021/progress/
   - title: 2020 Action Plan
     url: https://strategy.data.gov/2020/action-plan/
+  - title: 2021 Action Progress
+    url: https://strategy.data.gov/2021/progress/
   - title: 2020 Action Progress
     url: https://strategy.data.gov/2020/progress/
 

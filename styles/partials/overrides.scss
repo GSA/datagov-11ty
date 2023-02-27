@@ -68,6 +68,12 @@
     display: inline;
 }
 
+.usa-identifier {
+    &__container {
+        max-width: 75rem;
+    }
+}
+
 /*
   *******************
   ****** PA11Y ******
