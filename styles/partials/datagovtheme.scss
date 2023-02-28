@@ -133,7 +133,16 @@ html.datagov {
     }
 }
 
+.about {
+    border-top: 1px solid color('gray-10');
+}
+
 .metrics {
+    &__fetch-date.grid-row {
+        justify-content: end;
+        margin-top: 1rem;
+        font-style: italic;
+    }
     &__card {
         @include drop-shadow;
         padding: 1em 2em;
@@ -156,6 +165,7 @@ html.datagov {
 }
 
 .sibling-sites {
+    border-top: 1px solid color('gray-10');
     .logo {
         padding: 2rem 0;
         @include at-media('tablet') {
@@ -178,16 +188,10 @@ html.datagov {
         }
     }
     @include at-media('desktop') {
-        .grid-col-12:nth-child(2):before {
-            content: " ";
-            position: absolute;
-            border-left: 1px solid color('gray-10');
-            top: 10%;
-            left: 0;
-            height: 90%;
-            margin-top: auto;
-            margin-bottom: auto;
+        .grid-col-12:nth-child(2){
+            @include border-span($color: 'gray-10');
         }
+
     }
 }
 
@@ -208,16 +212,7 @@ html.datagov {
                 @include list-items();
                 margin-top: 1rem;
                 & li:not(:first-child) {
-                    &:before {
-                        content: " ";
-                        position: absolute;
-                        border-left: 1px solid color('blue-warm-60v');
-                        top: 10%; 
-                        left: -5px;
-                        height: 90%;
-                        margin-top: auto;
-                        margin-bottom: auto;
-                    }
+                    @include border-span($left: -5px);
                 }
             }
         }
@@ -232,17 +227,7 @@ html.datagov {
                 margin-right: .5em;
             }
             & li:nth-child(2) {
-                &:before {
-                    content: " ";
-                    position: absolute;
-                    border-left: 1px solid color('blue-warm-60v');
-                    top: 10%;
-                    left: 0;
-                    height: 90%;
-                    margin-top: auto;
-                    margin-bottom: auto;
-                }
-
+                @include border-span();
                 a {
                     padding-left: 1em;
                 }
