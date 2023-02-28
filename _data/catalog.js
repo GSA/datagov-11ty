@@ -70,7 +70,7 @@ module.exports = async function () {
         let results = {};
         let harvestSources = [];
         const meta = {
-            date: new Date().toGMTString(),
+            date: d.toGMTString(),
             catalogUrl: CATALOG_BASE_URL,
         };
 
