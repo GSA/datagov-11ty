@@ -104,7 +104,7 @@ tagline: The home of the U.S. Government's open data
           <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1">
             <!-- Dataset Distribution -->
             {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric link: 'user-guide/#dataset-totals' tooltipText: 'Click to learn more about collections in our user guide' %}
+              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric link: 'user-guide/#dataset-totals' class: 'usa-tooltip' tooltipText: 'Click to learn more about collections in our user guide' %}
             {% endif %}
           </div>
         </div>
