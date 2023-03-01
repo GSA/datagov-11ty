@@ -81,6 +81,14 @@ The base URL for the Data.gov CKAN API is: `http://catalog.data.gov/api/3/`
 
 Complete [API documentation](https://docs.ckan.org/en/latest/api/) is available from CKAN.
 
+## Dataset Totals
+
+When you navigate to the first page of the catalog, the current total number of datasets is displayed. That total count includes datasets that are collections, where several similar datasets are grouped into one collection. For example, there are several Census datasets where the collection level dataset contains individual datasets for each state. The total number that is on the front page of the catalog counts the collection as one dataset. Therefore, the total number of individual datasets at any time is higher than the number on the front page of the catalog due to collections.
+
+Currently, there is a limitation on the search of the catalog, as the search bar on the catalog front page does not search within collections. To search within collections, click on the “search datasets within this collection” button on the collection-level record.
+
+![Data.gov catalog search within collections](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/search-collections.png 'Data.gov catalog search within collections')
+
 ## Contact Data.gov
 
 If you have questions about a particular dataset, the contact responsible for the dataset is listed as “Maintainer” in the metadata record. If you are not able to reach the maintainer, or have additional questions, click on “Contact” on the upper right of Data.gov. You will be directed to a [form](https://data.gov/contact/) where you can ask your question or leave a comment. For fixing a broken link or requests for additional datasets, the Data.gov team will contact our liaison at the relevant agency, since changes to the metadata or adding new datasets in the catalog are actions taken at the agency level.

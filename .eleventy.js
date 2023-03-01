@@ -37,6 +37,17 @@ module.exports = function (config) {
         'favicon.ico': 'favicon.ico',
     });
 
+    // Add debugger filter
+    config.addFilter('debugger', (...args) => {
+        console.log(...args);
+        debugger;
+    });
+
+    // Add String filter to put commas in numbers
+    config.addFilter('toLocaleString', (string) => {
+        return string.toLocaleString('en', { useGrouping: true });
+    });
+
     // Add plugins
     config.addPlugin(EleventyRenderPlugin);
 
@@ -86,21 +97,36 @@ module.exports = function (config) {
     config.setLibrary('md', markdownLibrary);
 
     // Override Browsersync defaults (used only with --serve)
-    config.setBrowserSyncConfig({
-        callbacks: {
-            ready: function (_, browserSync) {
-                const content_404 = fs.readFileSync('_site/404/index.html');
+    config.setServerOptions({
+        // Default values are shown:
 
-                browserSync.addMiddleware('*', (req, res) => {
-                    // Provides the 404 content without redirect.
-                    res.writeHead(404, { 'Content-Type': 'text/html; charset=UTF-8' });
-                    res.write(content_404);
-                    res.end();
-                });
-            },
+        // Whether the live reload snippet is used
+        liveReload: true,
+
+        // Whether DOM diffing updates are applied where possible instead of page reloads
+        domDiff: true,
+
+        // The starting port number
+        // Will increment up to (configurable) 10 times if a port is already in use.
+        port: 8080,
+
+        // Additional files to watch that will trigger server updates
+        // Accepts an Array of file paths or globs (passed to `chokidar.watch`).
+        // Works great with a separate bundler writing files to your output folder.
+        // e.g. `watch: ["_site/**/*.css"]`
+        watch: [],
+
+        // Show local network IP addresses for device testing
+        showAllHosts: false,
+
+        // Use a local key/certificate to opt-in to local HTTP/2 with https
+        https: {
+            // key: "./localhost.key",
+            // cert: "./localhost.cert",
         },
-        ui: false,
-        ghostMode: false,
+
+        // Change the default file encoding for reading/serving files
+        encoding: 'utf-8',
     });
 
     // If BASEURL env variable exists, update pathPrefix to the BASEURL

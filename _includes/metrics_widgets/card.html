@@ -1,0 +1,21 @@
+<div class="metrics__card {{class}}">
+  <div class="metrics__card--heading">
+    <h3>{{ heading }}</h3>
+  </div>
+  <div class="metrics__card--metric">
+    <h1>
+      <span class="text-color-red">{{ metric }}</span>
+    </h1>
+  </div>
+  {% if subhead %}
+    <div class="metrics__card--subhead">
+      {% if subhead_link %}
+        <a href="{{subhead_link}}">
+        {% endif %}
+        {{ subhead }}
+        {% if subhead_link %}
+        </a>
+      {% endif %}
+    </div>
+  {% endif %}
+</div>

@@ -1,4 +1,4 @@
-describe.skip('A blog post', () => {
+describe('A blog post', () => {
     it('successfully loads', () => {
         cy.visit('/food/introducing-new-rural-housing-data-from-usda/');
     });

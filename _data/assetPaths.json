@@ -1,15 +1,11 @@
 {
-  "icon-dot.svg": "/assets/images/icon-dot-gov.ZOTjv0I5H_.svg",
-  "icon.svg": "/assets/images/icon-https.7jkBW0JTZO.svg",
-  "resources-logo.YzkYXqQvO.svg": "/assets/images/resources-logo.YzkYXqQvO-.svg",
-  "search-.svg": "/assets/images/search--white.ZVwKBtv5eC.svg",
-  "strategy.svg": "/assets/images/strategy-logo.p_EmeJoIoE.svg",
-  "us_flag_small.F5u_E41U6.png": "/assets/images/us_flag_small.F5u_E41U6o.png",
   "admin.js": "/assets/js/admin-44W43542.js",
   "admin.map": "/assets/js/admin-44W43542.js.map",
-  "app.js": "/assets/js/app-BPWXEHK4.js",
-  "app.map": "/assets/js/app-BPWXEHK4.js.map",
+  "app.js": "/assets/js/app-IMY5FDHJ.js",
+  "app.map": "/assets/js/app-IMY5FDHJ.js.map",
+  "fetch.js": "/assets/js/fetch-W5O4SUII.js",
+  "fetch.map": "/assets/js/fetch-W5O4SUII.js.map",
   "uswds.js": "/assets/js/uswds-init.js",
-  "styles.css": "/assets/styles/styles-JHL74D2Y.css",
-  "styles.map": "/assets/styles/styles-JHL74D2Y.css.map"
+  "styles.css": "/assets/styles/styles-RTH5HMRA.css",
+  "styles.map": "/assets/styles/styles-RTH5HMRA.css.map"
 }

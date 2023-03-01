@@ -13,21 +13,25 @@ tagline: The home of the U.S. Government's open data
       <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data
         visualizations, and more.</div>
       <div class="hero__dataset-count">
-        {% if catalog and catalog.datasets %}
+        {% if catalog and catalog.results and catalog.results.datasets %}
           <h4 class="text-uppercase">
-            <span class="text-color--red">{{ catalog.datasets }}</span>
+            <span class="text-color-red">{{ catalog.results.datasets | toLocaleString }}</span>
             datasets available</h4>
         {% endif %}
       </div>
     </div>
     <section aria-label="Search component" class="hero__search">
-      <form class="usa-search" role="search">
+      <form
+        class="usa-search"
+        role="search"
+        method="get"
+        action="https://catalog.data.gov/dataset">
         <label class="usa-sr-only" for="search-field">Search</label>
         <input
           class="usa-input"
           id="search-field"
           type="search"
-          name="search" />
+          name="q" />
         <button class="usa-button" type="submit">
           <span class="usa-search__submit-text">Search</span>
           {% image_with_class "_img/search--white.svg" "usa-search__submit-icon" "Search" %}
@@ -44,8 +48,8 @@ tagline: The home of the U.S. Government's open data
       {% for filter in site.catalog_filters %}
         <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3">
           {% assign iconName = filter.iconName | escape %}
-          <div class="icon-container text-center">
-            <a href="{{filter.url}}">
+          <a href="{{filter.url}}">
+            <div class="icon-container text-center">
               <svg
                 class="usa-icon--size-5"
                 aria-hidden="true"
@@ -53,8 +57,8 @@ tagline: The home of the U.S. Government's open data
                 <use xlink:href="#svg-{{iconName}}"></use>
               </svg>
               <div class="name">{{ filter.name }}</div>
-            </a>
-          </div>
+            </div>
+          </a>
         </div>
       {% endfor %}
     </div>
@@ -67,72 +71,87 @@ tagline: The home of the U.S. Government's open data
     <div class="grid-row-auto">
       <h1>About Data.gov</h1>
       <div>
-        Data.gov is the United States government’s open data website. It provides access to datasets published by agencies
-        across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-                                                                                                                                                                    agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+        Data.gov is the United States government's open data website. It provides access to datasets published by agencies
+        across the federal government. Data.gov is intended to provide access to government open data to the public, achieve                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+      </div>
+      <div class="grid-row-auto margin-top-3">
+        <a href="{{ '/' | url }}about">
+          <button type="" class="usa-button usa-button--secondary">More about us {% uswds_icon "arrow_forward" %}</button>
+        </a>
       </div>
     </div>
   </div>
 </section>
 
 <!-- Metrics Tiles  -->
-<section class="usa-section">
+<section class="usa-section metrics">
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
-      <div class="grid-col-4">
-        <div class="fpo">1</div>
+      <div class="grid-col-12 desktop:grid-col-8">
+        <!-- Key Metric by Organization Type -->
+        {% if catalog and catalog.metrics and catalog.metrics.orgBarMetric %}
+          {% include "metrics_widgets/bar-chart.html" name: 'org' metric: catalog.metrics.orgBarMetric %}
+        {% endif %}
       </div>
-      <div class="grid-col-4">
-        <div class="fpo">1</div>
-      </div>
-      <div class="grid-col-4">
+      <div class="grid-col-12 desktop:grid-col-4">
         <div class="grid-row">
-          <div class="grid-col-12">
-            <div class="fpo"></div>
+          <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1 desktop:margin-top-0">
+            <!-- Dataset Age -->
+            {% if catalog and catalog.metrics and catalog.metrics.datasetsBarMetric %}
+              {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric %}
+            {% endif %}
+          </div>
+          <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1">
+            <!-- Dataset Distribution -->
+            {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
+              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric link: 'user-guide/#dataset-totals' class: 'usa-tooltip' tooltipText: 'Click to learn more about collections in our user guide' %}
+            {% endif %}
           </div>
         </div>
-        <div class="grid-row">
-          <div class="grid-col-12">
-            <div class="fpo"></div>
-          </div>
+      </div>
+      <div class="grid-col-12">
+        <div class="grid-row metrics__fetch-date">
+            {% if catalog and catalog.meta and catalog.meta.date %}
+            {% assign date = 'Last Updated: ' | append: catalog.meta.date %}
+              <p>{{date}}</p>
+            {% endif %}
         </div>
       </div>
     </div>
   </div>
 </section>
 
-
 <!-- Sibling sites  -->
 <section class="usa-section sibling-sites">
   <div class="grid-container">
     <div class="grid-row">
-      <div class="grid-col-6">
+      <div class="grid-col-12 desktop:grid-col-6">
         <div class="logo">
-          {% image_with_class "_img/resources-logo.svg" "" %}
+          <a href="{{site.links.sites.resources}}">
+            {% image "_img/resources-logo.svg" %}
+          </a>
         </div>
-        <div class="quick-links">
-          <ul>
+          <ul class="quick-links--resources">
             {% for link in site.resource_quick_links %}
               <a href="{{link.url}}" target="_blank">
                 <li>{{ link.title }} {% uswds_icon 'launch' %}</li>
               </a>
             {% endfor %}
           </ul>
-        </div>
       </div>
-      <div class="grid-col-6">
+      <div class="grid-col-12 desktop:grid-col-6">
         <div class="logo">
-          {% image_with_class "_img/strategy-logo.svg" "" %}
+          <a href="{{site.links.sites.strategy}}">
+            {% image "_img/strategy-logo.svg" %}
+          </a>
         </div>
-        <div class="quick-links">
-          <ul>
+          <ul class="quick-links--strategy">
             {% for link in site.strategy_quick_links %}
               <a href="{{link.url}}" target="_blank">
                 <li>{{ link.title }} {% uswds_icon 'launch' %}</li>
               </a>
             {% endfor %}
           </ul>
-        </div>
       </div>
     </div>
   </div>
