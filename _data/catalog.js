@@ -25,7 +25,7 @@ const daysAgo = (days) => {
     return new Date(offset).toISOString();
 };
 
-const dates = [daysAgo(0), daysAgo(7), daysAgo(30), daysAgo(365), daysAgo(1460)];
+const dates = [daysAgo(0), daysAgo(7), daysAgo(30), daysAgo(365), daysAgo(9999)];
 
 const normalizeMetrics = (number) => Math.log10(number);
 
@@ -70,7 +70,7 @@ module.exports = async function () {
         let results = {};
         let harvestSources = [];
         const meta = {
-            date: d.toGMTString(),
+            date: new Date().toGMTString(),
             catalogUrl: CATALOG_BASE_URL,
         };
 
