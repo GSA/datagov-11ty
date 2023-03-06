@@ -62,7 +62,6 @@
         "@uswds/uswds": "3.0.2",
         "chart.js": "^4.2.1",
         "markdown-it-attrs": "^4.1.6",
-        "netlify-cms": "^2.10.187",
         "turndown": "^7.1.1"
     }
 }
