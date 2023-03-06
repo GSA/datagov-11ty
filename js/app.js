@@ -11,3 +11,4 @@ function scrollDownCheck() {
 }
 
 window.onload = scrollDownCheck;
+window.onhashchange = scrollDownCheck;
