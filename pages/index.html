@@ -98,13 +98,13 @@ tagline: The home of the U.S. Government's open data
           <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1 desktop:margin-top-0">
             <!-- Dataset Age -->
             {% if catalog and catalog.metrics and catalog.metrics.datasetsBarMetric %}
-              {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric %}
+              {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric class: 'usa-tooltip' toolTipText: 'Datasets grouped by when metadata was last modified' %}
             {% endif %}
           </div>
           <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1">
             <!-- Dataset Distribution -->
             {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric link: 'user-guide/#dataset-totals' class: 'usa-tooltip' tooltipText: 'Click to learn more about collections in our user guide' %}
+              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric link: 'user-guide/#dataset-totals' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our user guide' toolTipPosition: 'bottom' %}
             {% endif %}
           </div>
         </div>

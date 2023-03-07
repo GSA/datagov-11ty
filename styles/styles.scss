@@ -11,15 +11,3 @@
 @import 'partials/helpers.scss';
 @import 'partials/overrides.scss';
 @import 'partials/datagovtheme';
-
-//TODO RIP THIS OUT PRIOR TO MERGE
-.fpo {
-    color: red;
-    height: 100%;
-    padding: 3rem;
-    border: 5px solid red;
-    text-align: center;
-    &::before {
-        content: "FPO >>"
-    }
-}
