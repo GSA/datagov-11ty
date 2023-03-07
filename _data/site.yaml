@@ -78,7 +78,7 @@ catalog_filters:
   - name: Recently Added Datasets
     url: https://catalog.data.gov/dataset?q=&sort=metadata_created+desc
     iconName: recently-added-datasets-icon
-  - name: Organizations Datasets
+  - name: Datasets by Organization
     url: https://catalog.data.gov/organization/
     iconName: organizations-datasets-icon
   - name: Geospatial

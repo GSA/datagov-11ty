@@ -1,3 +1,5 @@
-<div class="metrics__card">
-    <canvas id="datagov-bar-chart-{{name}}" class="datagov-charts {{class}}" data-metric="{{metric}}"></canvas>
-</div>
+{% if link %}<a href="{{ '/' | url }}{{link}}">{% endif %}
+    <div class="metrics__card">
+        <canvas id="datagov-bar-chart-{{name}}" class="datagov-charts {{class}}" data-metric="{{metric}}" data-position="{{toolTipPosition | 'top'}}" title="{{toolTipText}}"></canvas>
+    </div>
+{% if link %}</a>{% endif %}

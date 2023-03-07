@@ -53,6 +53,7 @@ You can also browse all the datasets from a specific agency. The term “Organiz
 ## Understanding Dataset Pages
 
 When you click on a dataset page, you can view the metadata provided for the dataset by the agency publishing the dataset. At the top of the page is the title of the dataset and the date when the record was most recently updated. Below the title is a description of the dataset provided by the agency.
+
 Under the Access and Use section, there are links to any conditions on the use of the dataset. There are links to specific licenses under which the dataset is released. For the most part, federal agency datasets do not have restrictions on use.
 
 Under the Downloads and Resources section is where you can access the dataset. If a direct download link is provided, you can download the dataset by clicking on the “Download” button. If there is a landing page for the dataset on the website for the agency, you can access it by clicking on the “Visit Page” button.
@@ -91,4 +92,4 @@ Currently, there is a limitation on the search of the catalog, as the search bar
 
 ## Contact Data.gov
 
-If you have questions about a particular dataset, the contact responsible for the dataset is listed as “Maintainer” in the metadata record. If you are not able to reach the maintainer, or have additional questions, click on “Contact” on the upper right of Data.gov. You will be directed to a [form](https://data.gov/contact/) where you can ask your question or leave a comment. For fixing a broken link or requests for additional datasets, the Data.gov team will contact our liaison at the relevant agency, since changes to the metadata or adding new datasets in the catalog are actions taken at the agency level.
+If you have questions about a particular dataset, the contact responsible for the dataset is listed as “Maintainer” in the metadata record. If you are not able to reach the maintainer, or have additional questions, click on “Contact” on the upper right of Data.gov. You will be directed to a [form]({{ '/' | url }}contact/) where you can ask your question or leave a comment. For fixing a broken link or requests for additional datasets, the Data.gov team will contact our liaison at the relevant agency, since changes to the metadata or adding new datasets in the catalog are actions taken at the agency level.
