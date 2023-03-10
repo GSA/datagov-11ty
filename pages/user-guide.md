@@ -1,9 +1,8 @@
 ---
 date: '2023-01-09T11:55:00'
 excerpt: 'Data.gov is the United States government’s open data website. It provides access to datasets published by agencies across the federal government. Data.gov is intended to provide access to government open data to the public, achieve agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.'
-link: https://www.data.gov/open-gov
+link: https://www.data.gov/user-guide
 permalink: 'user-guide/'
-
 slug: user-guide
 title: User Guide
 ---
@@ -24,7 +23,7 @@ While the OPEN Government Data Act is a requirement for federal agencies, many s
 
 ## Finding Datasets
 
-When you navigate to https://catalog.data.gov/dataset, you will see the first page of the entire catalog. Currently, the default view on the catalog is ordered by the most popular. Datasets are ranked by page views in the preceding two weeks. The number of recent views is shown in orange to the right of the dataset title.
+When you navigate to <https://catalog.data.gov/dataset>, you will see the first page of the entire catalog. Currently, the default view on the catalog is ordered by the most popular. Datasets are ranked by page views in the preceding two weeks. The number of recent views is shown in orange to the right of the dataset title.
 
 ![Data.gov catalog order by button](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_order-by-button.png 'Data.gov catalog order by button')
 

@@ -16,9 +16,9 @@ layout: layouts/default
       <div class="usa-layout-docs__main desktop:grid-col-9 usa-prose">
         Back to 
         {% if tags[1] %}
-        <a href="/{{ tags[1] }}" class="text-bold" rel="homepage">{{tags[1]}}</a>,  
+        <a href="{{ '/' | url }}{{ tags[1] }}" class="text-bold" rel="homepage">{{tags[1]}}</a>,
         {% endif %}
-        <a href="/updates" class="text-bold" rel="homepage">updates</a>
+        <a href="{{ '/' | url }}updates" class="text-bold" rel="homepage">updates</a>
         <h1 class="title">{{title}}</h1>
         <div class="text-base margin-bottom-2">
           <div class="margin-top-neg-105">
