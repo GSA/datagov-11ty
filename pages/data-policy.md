@@ -45,7 +45,7 @@ title: Privacy and Website Policies
 
 # Privacy Policy
 
-Data.gov is committed to protecting the privacy and security of visitors to this website. Data.gov does not collect personal information when you visit our website unless you choose to provide that information.  Outlined below is the Data.gov online privacy policy. If you have questions about this policy, [please let us know]({{ '/' | url }}contact/).
+Data.gov is committed to protecting the privacy and security of visitors to this website. Data.gov does not collect personal information when you visit our website unless you choose to provide that information.  Outlined below is the Data.gov online privacy policy. If you have questions about this policy, [please let us know]({% page '/contact/' %}).
 
 ## Information Collected and Stored Automatically
 
@@ -113,7 +113,7 @@ Data.gov will not link to any website that exhibits hate, bias, or discriminatio
 
 The Data.gov privacy policy will be revised or updated if practices change, or if better ways to keep you informed are developed. You should refer to this page often for the latest information and the effective date of any changes. If changes are made to this policy, a new policy will be posted on our site and the date at the bottom of the page will be updated. Changes to the policy will not apply retroactively.
 
-If you have any questions or concerns, please [contact us]({{ '/' | url }}contact/).
+If you have any questions or concerns, please [contact us]({% page '/contact/' %}).
 
 [Top](#top)
 
@@ -211,6 +211,6 @@ The Data.gov site is tested for compliance with Section 508 of the Rehabilitatio
 
 Users can get information regarding the accessibility of Adobe Portable Document Format (PDF) files from [the Access Adobe website](http://www.adobe.com/accessibility/).
 
-The Data.gov website is being updated frequently to make it as accessible as possible. If you use assistive technology (such as a screen reader, eye tracking device, or voice recognition software) and have difficulty accessing information on Data.gov, please [contact us]({{ '/' | url }}contact/) and provide the URL (web address) of the material you tried to access, the problem you experienced, and your contact information. A Data.gov team member will contact you and attempt to provide the information you are seeking.
+The Data.gov website is being updated frequently to make it as accessible as possible. If you use assistive technology (such as a screen reader, eye tracking device, or voice recognition software) and have difficulty accessing information on Data.gov, please [contact us]({% page '/contact/' %}) and provide the URL (web address) of the material you tried to access, the problem you experienced, and your contact information. A Data.gov team member will contact you and attempt to provide the information you are seeking.
 
 [Top](#top)

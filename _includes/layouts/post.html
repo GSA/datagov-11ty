@@ -18,7 +18,7 @@ layout: layouts/default
         {% if tags[1] %}
         <a href="{{ '/' | url }}{{ tags[1] }}" class="text-bold" rel="homepage">{{tags[1]}}</a>,
         {% endif %}
-        <a href="{{ '/' | url }}updates" class="text-bold" rel="homepage">updates</a>
+        <a href="{% page '/updates/' %}" class="text-bold" rel="homepage">updates</a>
         <h1 class="title">{{title}}</h1>
         <div class="text-base margin-bottom-2">
           <div class="margin-top-neg-105">

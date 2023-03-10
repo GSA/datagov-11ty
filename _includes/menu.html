@@ -44,7 +44,7 @@ provide an easy way to manage your navigation system {% endcomment %}
                             </li>
                             {% endunless %} {% endfor %}
                             <li class="usa-nav__primary-item desktop-hide">
-                                <a class="usa-nav__link" href="{{ '/' | url }}user-guide"><span class="text-uppercase">User Guide</span></a>
+                                <a class="usa-nav__link" href="{% page '/user-guide/' %}"><span class="text-uppercase">User Guide</span></a>
                             </li>
                         </ul>
                         <div class="usa-nav__secondary">
@@ -60,7 +60,7 @@ provide an easy way to manage your navigation system {% endcomment %}
                 </nav>
             </div>
             <div class="grid-col-auto user-guide__col desktop-show text-center">
-                <a href="{{ '/' | url }}user-guide">
+                <a href="{% page '/user-guide/' %}">
                     {% datagov_icon 'recently-added-datasets-icon'%}
                     <div class="user-guide__text">User Guide</div>
                 </a>
