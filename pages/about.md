@@ -49,7 +49,7 @@ Data.gov follows the [DCAT-US Schema v1.1 (Project Open Data Metadata Schema)](h
 
 Under the OPEN Government Data Act, which is Title II of the [Foundations for Evidence-Based Policymaking Act,](https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf) government data is required to be made available in open, machine-readable formats, while continuing to ensure privacy and security.
 
-**Government data publishers looking to get their data on Data.gov should read the detailed guide:** [**How to get your open data on Data.gov**](https://resources.data.gov/tools/how-to-get-your-open-data-on-datagov/). The Data.gov team typically works with a designated open data point of contact as a liaison for each agency. Data publishers should consult with their agency point of contact to include any additional datasets on Data.gov. If you need help determining who your open data point of contact is, please [contact us]({{ '/' | url }}contact/).
+**Government data publishers looking to get their data on Data.gov should read the detailed guide:** [**How to get your open data on Data.gov**](https://resources.data.gov/tools/how-to-get-your-open-data-on-datagov/). The Data.gov team typically works with a designated open data point of contact as a liaison for each agency. Data publishers should consult with their agency point of contact to include any additional datasets on Data.gov. If you need help determining who your open data point of contact is, please [contact us]({% page '/contact/' %}).
 
 Federal agencies are required to:
 

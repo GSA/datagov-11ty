@@ -10,10 +10,10 @@
   {% if subhead %}
     <div class="metrics__card--subhead">
       {% if subhead_link %}
-        <a href="{{subhead_link}}">
-        {% endif %}
+        <a href="{% link subhead_link %}">
+      {% endif %}
         {{ subhead }}
-        {% if subhead_link %}
+      {% if subhead_link %}
         </a>
       {% endif %}
     </div>

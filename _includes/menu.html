@@ -18,10 +18,11 @@ provide an easy way to manage your navigation system {% endcomment %}
                             {% for nav_item in primary_navigation %} {% unless nav_item.children %} {% assign basedir = page.url
                             | remove_first: '/' | split: '/' | first | lstrip %} {% assign linkdir = nav_item.url | replace:
                             "/", "" | lstrip %}
+                            {% assign navItemUrl = nav_item.url | url %}
                             <li class="usa-nav__primary-item">
                                 <a
                                     class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                                    href="{{ nav_item.url | url }}"
+                                    href="{% link navItemUrl %}"
                                     ><span class="text-uppercase">{{ nav_item.name | escape }}</span></a
                                 >
                             </li>
@@ -36,22 +37,24 @@ provide an easy way to manage your navigation system {% endcomment %}
                                 </button>
                                 <ul id="{{ nav_id }}" class="usa-nav__submenu">
                                     {% for subnav_item in nav_item.children %}
+                                    {% assign subNavItemUrl = subnav_item.url | url %}
                                     <li class="usa-nav__submenu-item">
-                                        <a href="{{ subnav_item.url | url }}">{{ subnav_item.name | escape }}</a>
+                                        <a href="{% link subNavItemUrl %}">{{ subnav_item.name | escape }}</a>
                                     </li>
                                     {% endfor %}
                                 </ul>
                             </li>
                             {% endunless %} {% endfor %}
                             <li class="usa-nav__primary-item desktop-hide">
-                                <a class="usa-nav__link" href="{{ '/' | url }}user-guide"><span class="text-uppercase">User Guide</span></a>
+                                <a class="usa-nav__link" href="{% page '/user-guide/' %}"><span class="text-uppercase">User Guide</span></a>
                             </li>
                         </ul>
                         <div class="usa-nav__secondary">
                             <ul class="usa-nav__secondary-links">
                                 {% for nav_item in secondary_navigation %}
+                                {% assign navItemUrl = nav_item.url | url %}
                                 <li class="usa-nav__secondary-item">
-                                    <a href="{{ nav_item.url | url }}">{{ nav_item.name | escape }}</a>
+                                    <a href="{% link navItemUrl %}">{{ nav_item.name | escape }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>
@@ -60,7 +63,7 @@ provide an easy way to manage your navigation system {% endcomment %}
                 </nav>
             </div>
             <div class="grid-col-auto user-guide__col desktop-show text-center">
-                <a href="{{ '/' | url }}user-guide">
+                <a href="{% page '/user-guide/' %}">
                     {% datagov_icon 'recently-added-datasets-icon'%}
                     <div class="user-guide__text">User Guide</div>
                 </a>
