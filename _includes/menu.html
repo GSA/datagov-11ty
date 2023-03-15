@@ -18,11 +18,10 @@ provide an easy way to manage your navigation system {% endcomment %}
                             {% for nav_item in primary_navigation %} {% unless nav_item.children %} {% assign basedir = page.url
                             | remove_first: '/' | split: '/' | first | lstrip %} {% assign linkdir = nav_item.url | replace:
                             "/", "" | lstrip %}
-                            {% assign navItemUrl = nav_item.url | url %}
                             <li class="usa-nav__primary-item">
                                 <a
                                     class="usa-nav__link{% if basedir == linkdir %} usa-current{% endif %}"
-                                    href="{% link navItemUrl %}"
+                                    href="{% link nav_item.url %}"
                                     ><span class="text-uppercase">{{ nav_item.name | escape }}</span></a
                                 >
                             </li>
@@ -37,9 +36,8 @@ provide an easy way to manage your navigation system {% endcomment %}
                                 </button>
                                 <ul id="{{ nav_id }}" class="usa-nav__submenu">
                                     {% for subnav_item in nav_item.children %}
-                                    {% assign subNavItemUrl = subnav_item.url | url %}
                                     <li class="usa-nav__submenu-item">
-                                        <a href="{% link subNavItemUrl %}">{{ subnav_item.name | escape }}</a>
+                                        <a href="{% link subnav_item.url %}">{{ subnav_item.name | escape }}</a>
                                     </li>
                                     {% endfor %}
                                 </ul>
@@ -52,9 +50,8 @@ provide an easy way to manage your navigation system {% endcomment %}
                         <div class="usa-nav__secondary">
                             <ul class="usa-nav__secondary-links">
                                 {% for nav_item in secondary_navigation %}
-                                {% assign navItemUrl = nav_item.url | url %}
                                 <li class="usa-nav__secondary-item">
-                                    <a href="{% link navItemUrl %}">{{ nav_item.name | escape }}</a>
+                                    <a href="{% link nav_item.url %}">{{ nav_item.name | escape }}</a>
                                 </li>
                                 {% endfor %}
                             </ul>

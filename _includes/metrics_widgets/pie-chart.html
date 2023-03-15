@@ -1,6 +1,6 @@
-{% if link %}<a href="{% link link %}">{% endif %}
+{% if url %}<a href="{% link url %}">{% endif %}
     <div class="metrics__card">
         <canvas id="datagov-pie-chart" class="datagov-charts {{class}}" data-metric="{{metric}}" data-position="{{toolTipPosition | 'top'}}" title="{{toolTipText}}"></canvas>
     </div>
 </a>
-{% if link %}</a>{% endif %}
+{% if url %}</a>{% endif %}
