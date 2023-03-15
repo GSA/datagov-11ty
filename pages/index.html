@@ -133,7 +133,7 @@ tagline: The home of the U.S. Government's open data
         </div>
           <ul class="quick-links--resources">
             {% for link in site.resource_quick_links %}
-              <a href="{% link link.url %}" target="_blank">
+              <a href="{% link link.url %}">
                 <li>{{ link.title }} {% uswds_icon 'launch' %}</li>
               </a>
             {% endfor %}
@@ -147,7 +147,7 @@ tagline: The home of the U.S. Government's open data
         </div>
           <ul class="quick-links--strategy">
             {% for link in site.strategy_quick_links %}
-              <a href="{% link link.url %}" target="_blank">
+              <a href="{% link link.url %}">
                 <li>{{ link.title }} {% uswds_icon 'launch' %}</li>
               </a>
             {% endfor %}
