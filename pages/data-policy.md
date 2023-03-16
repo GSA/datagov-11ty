@@ -5,11 +5,11 @@ excerpt: Privacy Policy Information Collected and Stored Automatically Cookies
     Personal Information Online Comments Moderation of Comments and Posts Site Security
     External Links Children&#8217;s Privacy Prohibitions Changes to this Policy Data
     Policy Linking to Data.gov Licensing Use of Logo Public Information Security…
-link: https://www.data.gov/data-policy/
+link: https://www.data.gov/privacy-policy/
 modified: '2021-10-01T17:10:31'
-permalink: data-policy/
+permalink: privacy-policy/
 redirect_from:
-    - /privacy-policy/
+    - /data-policy/
 slug: privacy-policy
 title: Privacy and Website Policies
 ---
