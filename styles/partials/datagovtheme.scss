@@ -51,7 +51,7 @@ html.datagov {
         position: inherit;
     }
     .usa-logo a {
-        background-image: url('../_img/logo.svg');
+        background-image: url('https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.svg');
         background-repeat: no-repeat;
         height: 48px;
         width: 200px;
@@ -83,7 +83,7 @@ html.datagov {
 }
 
 .hero {
-    background-image: url('../_img/hero-image-bg.svg');
+    background-image: url('https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/hero-image-bg.svg');
     background-repeat: no-repeat;
     background-size: 75% auto;
     background-position: 375% 0;
@@ -118,7 +118,7 @@ html.datagov {
 }
 
 .catalog-filters {
-    background-image: url('../_img/quick-navs-bg.jpg');
+    background-image: url('https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/quick-navs-bg.jpg');
     background-size: cover;
     a {
             color: color('ink');
@@ -151,7 +151,7 @@ html.datagov {
         background-color: white;
         &--image {
             @extend .metrics__card;
-            background-image: url('../_img/about-us-card-bg.svg');
+            background-image: url('https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/about-us-card-bg.svg');
             background-size: 50% auto;
             background-repeat: no-repeat;
             background-position: right;

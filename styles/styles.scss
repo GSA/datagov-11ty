@@ -3,7 +3,7 @@
     $theme-font-path: "../node_modules/@uswds/uswds/dist/fonts",
     $theme-image-path: "../node_modules/@uswds/uswds/dist/img",
     $theme-font-type-sans: "open-sans",
-    $theme-hero-image: "../_img/hero.png"
+    $theme-hero-image: "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/hero.png"
 );
 
 @forward "uswds";
