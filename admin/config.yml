@@ -22,7 +22,7 @@ backend:
 ##
 ##
 
-media_folder: https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/
+media_folder: _img/uploads
 public_folder: uploads
 publish_mode: editorial_workflow
 logo_url: https://federalist.18f.gov/assets/images/federalist-logo.png
