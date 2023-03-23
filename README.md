@@ -200,18 +200,23 @@ See the [11ty docs](https://www.11ty.dev/docs/filters/url/)
 
 ### Referencing Images
 
-All of your images will be stored in the `_img/` directory. To reference your images in your templates you can use the `shortCodes` built into the template.
+All of the images will ideally be stored in S3.  There is future work involved in abstracting the S3 bucket to be an environment variable.  Until that time, the S3 bucket will have to be directly prefixed to the image source filename or the `image*` functions defined below will have to be used.  The `_img/` directory are for things that have not been migrated to S3 for varying reasons.  Only use this directory as a last resort!  To reference your images in your templates you can use the `shortCodes` built into the template.
 
 For referencing an image without a style class, you will pass the template shortcode the image's source path and the alternative image name in that order. ie:
 
 ```
-{% image "_img/my-image.png" "My PNG Image Alternative Name" %}
+// Image exists in S3
+{% image "my-image.png" "My PNG Image Alternative Name" false %}
+// Image exists in an inherited node module
+{% image_with_class "./node_modules/@uswds/uswds/dist/img/us_flag_small.png" "usa-banner__header-flag" "U.S. flag" true %}
+// Image exists in local _img directory (as a last resort)
+{% image_with_class "_img/test.png" "img-class" "Bad Image" true %}
 ```
 
 For referencing an image with a style class, you will pass the template shortcode the image's source path, class names, and the alternative image name in that order. ie:
 
 ```
-{% image_with_class "_img/my-image.png" "img-class another-class" "My PNG Image Alternative Name" %}
+{% image_with_class "my-image.png" "img-class another-class" "My PNG Image Alternative Name"  false %}
 ```
 
 ### Expanding SCSS Styles
