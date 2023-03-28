@@ -136,7 +136,7 @@ If you have any questions or concerns, please [contact us]({% page '/contact/' 
 
 -   The image below is the official Data.gov logo.
 
-[![logo](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.png)
+![logo](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.png 'Data.gov Logo')
 
 -   The Data.gov logo can be used to indicate linkage or federation of the datasets on Data.gov.
 -   The Data.gov logo should not be placed near datasets or content from other sources.
