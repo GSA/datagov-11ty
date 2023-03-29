@@ -2,10 +2,10 @@
 author: admin
 categories:
     - meta
-date: '2023-03-10T09:00:00'
+date: '2023-03-30T09:00:00'
 excerpt: |-
     Data.gov is launching a redesigned home page that will help users find the datasets they need and other updates and resources about federal open data.
-permalink: 'meta/2023-03-10-datagov-launches-redesigned-home-page/'
+permalink: 'meta/2023-03-30-datagov-launches-redesigned-home-page/'
 slug: datagov-launches-redesigned-home-page
 title: Data.gov Launches Redesigned Home Page
 ---
