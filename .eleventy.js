@@ -1,16 +1,16 @@
 const fs = require('fs');
 const { EleventyRenderPlugin } = require('@11ty/eleventy');
+const svgSprite = require('eleventy-plugin-svg-sprite');
+const sitemap = require('@quasibit/eleventy-plugin-sitemap');
 const path = require('path');
 const markdownIt = require('markdown-it');
 const markdownItAnchor = require('markdown-it-anchor');
 const markdownItAttrs = require('markdown-it-attrs');
 const yaml = require('js-yaml');
-const svgSprite = require('eleventy-plugin-svg-sprite');
 const {
     downloadShortCode,
     imageShortcode,
     imageWithClassShortcode,
-    uswdsIconShortcode,
     usaIconShortcode,
     datagovIconShortcode,
     usaCurrentShortcode,
@@ -51,18 +51,25 @@ module.exports = function (config) {
     // Add plugins
     config.addPlugin(EleventyRenderPlugin);
 
-    //// SVG Sprite Plugin for USWDS USA icons
+    // SVG Sprite Plugin for USWDS USA icons
     config.addPlugin(svgSprite, {
         path: './node_modules/@uswds/uswds/dist/img/usa-icons',
         svgSpriteShortcode: 'usa_icons_sprite',
         svgShortcode: 'usa_icons',
     });
 
-    //// SVG Sprite Plugin for USWDS USA icons
+    // SVG Sprite Plugin for USWDS USA icons
     config.addPlugin(svgSprite, {
         path: './_img/datagov-icons',
         svgSpriteShortcode: 'datagov_icons_sprite',
         svgShortcode: 'datagov_icons',
+    });
+
+    // Add Sitemap
+    config.addPlugin(sitemap, {
+        sitemap: {
+            hostname: 'https://data.gov',
+        },
     });
 
     // Allow yaml to be used in the _data dir
@@ -131,7 +138,6 @@ module.exports = function (config) {
     config.addLiquidShortcode('download', downloadShortCode);
     config.addLiquidShortcode('image', imageShortcode);
     config.addLiquidShortcode('image_with_class', imageWithClassShortcode);
-    config.addLiquidShortcode('uswds_icon', uswdsIconShortcode);
     config.addLiquidShortcode('usa_icon', usaIconShortcode);
     config.addLiquidShortcode('datagov_icon', datagovIconShortcode);
     config.addLiquidShortcode('usa_current', usaCurrentShortcode);

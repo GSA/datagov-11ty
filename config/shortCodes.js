@@ -14,8 +14,8 @@ async function downloadShortCode(downloadPath) {
 }
 
 async function imageWithClassShortcode(imagePath, cssClass, altText, uswdsInherited) {
-    if ( ! uswdsInherited ){
-        imagePath = "https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/" + imagePath;
+    if (!uswdsInherited) {
+        imagePath = 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/' + imagePath;
     } else {
         const pathPrefix = process.env.BASEURL ?? '';
         const fileType = path.extname(imagePath).replace('.', '');
@@ -32,7 +32,7 @@ async function imageWithClassShortcode(imagePath, cssClass, altText, uswdsInheri
         const data = metadata[fileType]?.[0] ?? metadata.jpeg[0];
         // _site/ is the filesystem root of the site, so we should strip that off
         const url = data.outputPath.replace(/^_site\//i, '');
-        imagePath = `${pathPrefix}/${url}`
+        imagePath = `${pathPrefix}/${url}`;
     }
 
     // Put the img attributes into an object that we'll later turn into a string.
@@ -58,20 +58,15 @@ async function imageShortcode(src, alt, uswdsInherited) {
     return await imageWithClassShortcode(src, '', alt, uswdsInherited);
 }
 
-const uswdsIconShortcode = (name) =>
-    `<svg class="usa-icon" aria-hidden="true" role="img">
+const usaIconShortcode = (name, className = '') =>
+    `<svg class="usa-icon ${className}" aria-hidden="true" role="img">
     <use xlink:href="#svg-${name}"></use>
   </svg>`;
 
-const usaIconShortcode = (name) =>
-    `<svg class="usa-icon" aria-hidden="true" role="img">
-    <use xlink:href="#svg-${name}"></use>
-  </svg>`;
-
-const datagovIconShortcode = (name) =>
-    `<svg class="usa-icon datagov-icon" aria-hidden="true" role="img">
-    <use xlink:href="#svg-${name}"></use>
-  </svg>`;
+const datagovIconShortcode = (name, className = '') =>
+    `<svg class="usa-icon datagov-icon ${className}" aria-hidden="true" role="img">
+        <use xlink:href="#svg-${name}"></use>
+    </svg>`;
 
 const usaCurrentShortcode = (navItemMainFilePath, pagePath) => {
     if (pagePath.includes(navItemMainFilePath)) {
@@ -84,7 +79,6 @@ module.exports = {
     downloadShortCode,
     imageWithClassShortcode,
     imageShortcode,
-    uswdsIconShortcode,
     usaIconShortcode,
     datagovIconShortcode,
     usaCurrentShortcode,

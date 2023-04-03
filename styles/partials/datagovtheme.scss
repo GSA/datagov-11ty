@@ -52,6 +52,7 @@ html.datagov {
     top: 0;
     background: white;
     border-bottom: 1px solid color('base-lighter');
+    z-index: 2;
     .usa-js-mobile-nav--active & {
         position: inherit;
     }
