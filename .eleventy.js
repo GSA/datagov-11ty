@@ -10,7 +10,6 @@ const {
     downloadShortCode,
     imageShortcode,
     imageWithClassShortcode,
-    uswdsIconShortcode,
     usaIconShortcode,
     datagovIconShortcode,
     usaCurrentShortcode,
@@ -131,7 +130,6 @@ module.exports = function (config) {
     config.addLiquidShortcode('download', downloadShortCode);
     config.addLiquidShortcode('image', imageShortcode);
     config.addLiquidShortcode('image_with_class', imageWithClassShortcode);
-    config.addLiquidShortcode('uswds_icon', uswdsIconShortcode);
     config.addLiquidShortcode('usa_icon', usaIconShortcode);
     config.addLiquidShortcode('datagov_icon', datagovIconShortcode);
     config.addLiquidShortcode('usa_current', usaCurrentShortcode);
