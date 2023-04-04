@@ -35,7 +35,6 @@ tagline: The home of the U.S. Government's open data
         <button class="usa-button" type="submit">
           <span class="usa-search__submit-text">Search</span>
           {% datagov_icon "search--white.svg" "usa-search__submit-icon"%}
-          {% image_with_class "search--white.svg" "usa-search__submit-icon" "Search" false %}
         </button>
       </form>
     </section>
@@ -101,7 +100,7 @@ tagline: The home of the U.S. Government's open data
           <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1">
             <!-- Dataset Distribution -->
             {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric url: 'user-guide/#dataset-totals' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our user guide' toolTipPosition: 'bottom' %}
+              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric url: 'user-guide/#dataset-totals' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our user guide' %}
             {% endif %}
           </div>
         </div>

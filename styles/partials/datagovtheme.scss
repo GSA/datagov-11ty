@@ -130,7 +130,7 @@ html.datagov {
             color: color('ink');
         }
     .icon-container {
-        @include drop-shadow;
+        @include box-shadow;
         border: 1px solid color('base-lighter');
         background-color: #FCFCFB;
         margin: 1rem 0;
@@ -150,7 +150,7 @@ html.datagov {
         font-style: italic;
     }
     &__card {
-        @include drop-shadow;
+        @include box-shadow;
         padding: 1em 2em;
         border: 1px solid color('base-lighter');
         border-radius: 4px;
