@@ -23,13 +23,13 @@ title: Privacy and Website Policies
 -   **[Personal Information](#personal-information)**
 -   **[Site Security](#site-security)**
 -   **[External Links](#external-links)**
--   **[Children’s Privacy](#children's-privacy)**
+-   **[Children’s Privacy](#children-s-privacy)**
 -   **[Prohibitions](#prohibitions)**
 -   **[Changes to this Policy](#changes-to-this-policy)**
 
 **[Data Policy](#data-policy)**
 
--   **[Linking to Data.gov](#linking-to-data.gov)**
+-   **[Linking to Data.gov](#linking-to-data-gov)**
 -   **[Licensing](#licensing)**
 -   **[Use of Logo](#use-of-logo)**
 -   **[Public Information](#public-information)**

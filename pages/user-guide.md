@@ -77,7 +77,7 @@ Many datasets in the Data.gov are geospatial datasets, with a tie to a specific 
 
 The data.gov catalog is powered by [CKAN](https://ckan.org/developers/about-ckan/), an open source data platform that includes a robust API. Please be aware that data.gov and the data.gov CKAN API only contain metadata about datasets. This metadata includes URLs and descriptions of datasets, but it does not include the actual data within each dataset.
 
-The base URL for the Data.gov CKAN API is: `http://catalog.data.gov/api/3/`
+The base URL for the Data.gov CKAN API is: `https://catalog.data.gov/api/3/`
 
 Complete [API documentation](https://docs.ckan.org/en/latest/api/) is available from CKAN.
 
