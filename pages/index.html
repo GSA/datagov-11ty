@@ -62,18 +62,24 @@ tagline: The home of the U.S. Government's open data
 
 <!-- About  -->
 <section class="usa-section about">
-  <div class="grid-container text-center">
-    <div class="grid-row-auto">
-      <h1>About Data.gov</h1>
-      <div>
-        Data.gov is the United States government's open data website. It provides access to datasets published by agencies
-        across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-        agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+  <div class="grid-container">
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-12 desktop:grid-col-4">
+        <img class="datagov-age-icon" alt="Data Gov is 14yrs old!" role="img"
+          src="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/datagov-age-14.png" />
       </div>
-      <div class="grid-row-auto margin-top-3">
-        <a href="{% page '/about/' %}" class="usa-button usa-button--secondary">
-          More about us {% usa_icon "arrow_forward" %}
-        </a>
+      <div class="grid-col-12 desktop:grid-col-8">
+        <h1>About Data.gov</h1>
+        <div>
+          Data.gov is the United States government's open data website. It provides access to datasets published by agencies
+          across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
+          agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+        </div>
+        <div class="grid-row-auto margin-top-3">
+          <a href="{% page '/timeline/' %}" class="usa-button usa-button--secondary">
+            Explore the timeline {% usa_icon "arrow_forward" %}
+          </a>
+        </div>
       </div>
     </div>
   </div>

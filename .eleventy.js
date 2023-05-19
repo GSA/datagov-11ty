@@ -20,7 +20,8 @@ module.exports = function (config) {
     // Set pathPrefix for site
     let pathPrefix = '/';
 
-    config.addPassthroughCopy({ 'js/publish/*.js': 'assets/js' });
+    config.addPassthroughCopy({ 'js/vendor/*.js': 'assets/js' });
+    config.addPassthroughCopy({ 'styles/vendor/*.css': 'assets/css' });
 
     // Copy Netlify config straight through
     config.addPassthroughCopy({
