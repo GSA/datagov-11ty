@@ -61,7 +61,7 @@
     },
     "dependencies": {
         "@uswds/uswds": "3.4.1",
-        "chart.js": "^4.2.1",
+        "chart.js": "^4.3.0",
         "markdown-it-attrs": "^4.1.6",
         "turndown": "^7.1.2"
     }
