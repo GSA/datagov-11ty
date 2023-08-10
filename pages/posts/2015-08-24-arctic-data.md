@@ -11,13 +11,8 @@ slug: arctic-data
 title: Arctic Data
 ---
 
-The U.S. government and its partners have been collecting data relevant to the vulnerability of the Arctic to climate change. The data is organized around seven different topic areas.
-
-
-  
-
-
-[All Arctic data](http://catalog.data.gov/dataset?groups=climate5434&vocab_category_all=Arctic&_vocab_category_all_limit=0)
+The Arctic is warming at a rate twice the global average, according to the 2018 Arctic Report Card. Warming temperatures, melting sea ice and glaciers, and thawing permafrost are having profound impacts on Arctic ecosystems, as well as Arctic residents and their ways of life. Changes in the Arctic are also impacting other parts of the world as melting glaciers contribute to global sea-level rise and warming temperatures in the Arctic latitudes affect global weather patterns. Here, you can discover and access data and information to understand the impacts of climate change in the Arctic and how changes in the Arctic impact other regions of the world. The U.S. government and its partners have collected data relevant to the vulnerability of the Arctic to climate change.
+[All Arctic data](http://catalog.data.gov/dataset?groups=climate5434&vocab_category_all=Arctic&_vocab_category_all_limit=0) are organized around seven different topic areas:
 
 
 [Arctic Ocean, Sea Ice, and Coasts](http://catalog.data.gov/dataset?groups=climate5434&_vocab_category_all_limit=0&vocab_category_all=Arctic&vocab_category_all=Arctic+Ocean%2C+Sea+Ice+and+Coasts)
@@ -39,6 +34,8 @@ The U.S. government and its partners have been collecting data relevant to the v
 
 
 [Arctic-Global Teleconnections](http://catalog.data.gov/dataset?groups=climate5434&_vocab_category_all_limit=0&vocab_category_all=Arctic&vocab_category_all=Arctic-Global+Teleconnections)
+
+For more information about these issues, explore the [Climate Resilience Toolkit](https://toolkit.climate.gov/) topic area for [Alaska and the Arctic.](https://toolkit.climate.gov/regions/alaska-and-arctic)
 
 
 
