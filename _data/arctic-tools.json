@@ -22,7 +22,7 @@
     "link": "beaufort-gyre-observing-system",
     "description": " This web portal contains a wealth of information about oceanography derived from the Beaufort Gyre Exploration Project, which investigates basin-scale mechanisms regulating freshwater content in the Arctic Ocean, particularly in the Beaufort Gyre.\n",
     "sponsor": "DoI",
-    "url": "http://www.whoi.edu/beaufortgyre/expeditions",
+    "url": "https://arcticdata.io/catalog/portals/beaufortgyre",
     "summary": "This web portal contains a wealth of information about oceanography derived from the Beaufort Gyre Exploration Project, which investigates basin-scale mechanisms regulating freshwater content in the Arctic Ocean, particularly in the Beaufort Gyre.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/BeaufortGyre.png"
   },
@@ -40,7 +40,7 @@
     "link": "coastal-change-analysis-program-c-cap",
     "description": " This online data viewer provides user-friendly access to regional land cover and land cover change information developed through NOAA\u2019s Coastal Change Analysis Program (C-CAP).\n",
     "sponsor": "NOAA",
-    "url": "http://coast.noaa.gov/digitalcoast/tools/lca",
+    "url": "https://coast.noaa.gov/digitalcoast/tools/lca.html",
     "summary": "This online data viewer provides user-friendly access to regional land cover and land cover change information developed through NOAA\u2019s Coastal Change Analysis Program (C-CAP).",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/C-CAP.png"
   },
@@ -49,22 +49,25 @@
     "link": "daily-values-water-services-test-toolr",
     "description": " This tool provides a simple way to generate syntactically correct URLs to use with the USGS Daily Values web service. Use it to get comfortable with the service before creating your own applications.\n"
   },
+  "url": "https://waterservices.usgs.gov/rest/DV-Test-Tool.html",
+  "summary":"This tool provides a simple way to generate syntactically correct URLs to use with the USGS Daily Values web service. Use it to get comfortable with the service before creating your own applications.",
   "Deptartment of Energy (DOE) Atmospheric Radiation Measurement Program - North Slope of Alaska Barrow Facility": {
     "title": "Deptartment of Energy (DOE) Atmospheric Radiation Measurement Program \u2013 North Slope of Alaska Barrow Facility",
     "link": "department-of-energy-doe",
     "description": " This comprehensive scientific infrastructure and data archive was designated by DOE as a scientific user facility\u2014the ARM Climate Research Facility\u2014in 2003, and is freely available for use by scientists worldwide.\n"
   },
+  "url":"https://www.arm.gov/capabilities/observatories/nsa", 
   "Global Climate observing System (GCOS)": {
     "title": "Global Climate observing System (GCOS)",
     "link": "global-climate-observing-system-gcos",
     "description": " GCOS is intended to be a long-term, user-driven operational system capable of providing the comprehensive observations required for various aspects of climate science. GCOS includes components focused on obtaining a comprehensive view of the spatial structure, trends, and variability of changes in active-layer thickness and permafrost temperature in the Arctic.\n",
     "sponsor": "NOAA",
-    "url": "http://www.wmo.int/pages/prog/gcos/index.php?name=AboutGCOS",
+    "url": "https://gcos.wmo.int/en/home",
     "summary": "GCOS is intended to be a long-term, user-driven operational system capable of providing the comprehensive observations required for various aspects of climate science. GCOS includes components focused on obtaining a comprehensive view of the spatial structure, trends, and variability of changes in active-layer thickness and permafrost temperature in the Arctic.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GCOS.png"
   },
-  "Groundwater Level Water Services Test Tool": {
-    "title": "Groundwater Level Water Services Test Tool",
+  "USGS Groundwater Levels REST Web Service URL Generation Tool": {
+    "title": "USGS Groundwater Levels REST Web Service URL Generation Tool",
     "link": "groundwater-level-water-services-test-tool",
     "description": " This tool provides a simple way to generate syntactically correct URLs to use with the USGS Groundwater Levels REST web service. Please note: this service provides historical, manually recorded groundwater levels only, which in many cases are decades old. Groundwater levels recorded by automated equipment are *not* provided by this service, but recent automated groundwater levels are available using the [instantaneous values web service](http://waterservices.usgs.gov/rest/IV-Service.html).\n",
     "sponsor": "USGS",
@@ -81,17 +84,17 @@
     "summary": "ITP\u2019s are inverted moorings with an anchor in a drifting ice floe supporting a cable that extends 800-1000 m below the floe. A vehicle with temperature and salinity sensors motors up and down the cable making Lagrangian measurements. ITPs have been deployed since 2004 with primarily support primarily from the National Science Foundation and more recently with support from the Office of Naval Research.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/ITPs.png"
   },
-  "IImiq - Hydroclimate Database and Data Portal": {
+  "Imiq - Hydroclimate Data Portal": {
     "title": "IImiq - Hydroclimate Database and Data Portal",
     "link": "imiq-hydroclimate-database-and-data-portal",
-    "description": " The Imiq - Hydroclimate Database and Data Portal provides access to the *Imiq* Hydroclimate Database, a central repository built by researchers at the University of Alaska Fairbanks that contains hydrologic and climate-related data from Alaska and nearby regions (The word *Imiq* means \u2018freshwater\u2019 in the Inupiat language of Northern Alaska.)\n",
+    "description": " The Imiq - Hydroclimate Data Portal provides access to the *Imiq* Hydroclimate Database, a central repository built by researchers at the University of Alaska Fairbanks that contains hydrologic and climate-related data from Alaska and nearby regions (The word *Imiq* means \u2018freshwater\u2019 in the Inupiat language of Northern Alaska.)\n",
     "sponsor": "DoI",
-    "url": "http://arcticlcc.org/projects/imiq/",
+    "url": "https://imiq.portal.aoos.org/",
     "summary": "The Imiq – Hydroclimate Database and Data Portal provides access to the *Imiq* Hydroclimate Database, a central repository built by researchers at the University of Alaska Fairbanks that contains hydrologic and climate-related data from Alaska and nearby regions (The word *Imiq* means ‘freshwater’ in the Inupiat language of Northern Alaska.)",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Imiq.png"
   },
-  "Instantaneous Values Water Services Test Tool": {
-    "title": "Instantaneous Values Water Services Test Tool",
+  "USGS Instantaneous Values REST Web Service URL Generation Tool": {
+    "title": "USGS Instantaneous Values REST Web Service URL Generation Tool",
     "link": "instantaneous-values-water-services-test-tool",
     "description": " This tool provides a simple way to generate syntactically correct URLs to use with the USGS Instantaneous Values REST web service. Use it to get comfortable with the service before creating your own applications.\n",
     "sponsor": "USGS",
@@ -102,10 +105,10 @@
   "Interactive Multi-Sensor Snow and Ice Mapping System (IMS)": {
     "title": "Interactive Multi-Sensor Snow and Ice Mapping System (IMS)",
     "link": "interactive-multi-sensor-snow-and-ice-mapping-system-ims",
-    "description": " The U.S. National Ice Center is an interagency (NOAA, U.S. Coast Guard, U.S. Navy) operational center that provides snow- and ice-science products and services to meet the strategic, operational, and tactical requirements of U.S. government agencies and other institutions. The Interactive Multi-sensor Snow and Ice Mapping System allows the user to create customized versions of these resources.\n",
+    "description": "The IMS is an operational software package maintained by the U.S. National Ice Center for mapping snow and ice. The IMS provides northern hemisphere snow/ice charts and data files for current and archived data.",
     "sponsor": "NOAA",
-    "url": "http://www.natice.noaa.gov/ims/",
-    "summary": "The U.S. National Ice Center is an inter-agency (NOAA, U.S. Coast Guard, U.S. Navy) operational center that provides snow and ice products and services to meet the strategic, operations, and tactical requirements of U.S. Government agencies and others. The Interactive Multi-sensor Snow and Ice Mapping System allows the user to create customized products.",
+    "url": "https://usicecenter.gov/Products/ImsHome",
+    "summary": "The IMS is an operational software package maintained by the U.S. National Ice Center for mapping snow and ice. The IMS provides northern hemisphere snow/ice charts and data files for current and archived data.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/IMS.png"
   },
   "Marginal Ice Zone Departmental Research Initiative (MIZ DRI)": {
@@ -131,17 +134,17 @@
     "link": "next-generation-ecosystem-experiments-ngee",
     "description": " NGEE (Next Generation Ecosystem Experiments) Arctic is a Department of Energy program to improve process understanding and model representation of important ecosystem-climate feedbacks by quantifying the physical, chemical, and biological behavior of terrestrial ecosystems in Alaska.\n",
     "sponsor": "DoI",
-    "url": "http://www.iarc.uaf.edu/research/projects/ngee/barrow/data/a \n https://ngee-arctic.ornl.gov/",
+    "url": "https://ngee-arctic.ornl.gov//",
     "summary": "Arctic: NGEE (Next Generation Ecosystem Experiments) Arctic is a Department of Energy program to improve process understanding and model representation of important ecosystem-climate feedbacks by quantifying the physical, chemical, and biological behavior of terrestrial ecosystems in Alaska.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NGEE.png"
   },
-  "NOAA Global Monitoring Division - Barrow Observatory": {
-    "title": "NOAA Global Monitoring Division - Barrow Observatory",
+  "NOAA ESRL Global Monitoring Laboratory - Barrow Atmospheric Baseline Observatory": {
+    "title": "NOAA ESRL Global Monitoring Laboratory - Barrow Atmospheric Baseline Observatory",
     "link": "noaa-global-monitoring-division-barrow-observatory",
-    "description": " The Global Monitoring Division of the National Oceanic and Atmospheric Administration\u2019 Earth System Research Laboratory, conducts sustained observations and research related to carbon source and sink strengths, trends and global distributions of atmospheric constituents that are capable of forcing change in the climate of Earth through modification of the atmospheric radiative environment, that may cause depletion of the global ozone layer, and that affect baseline air quality.\n",
+    "description": "The Global Monitoring Laboratory of the National Oceanic and Atmospheric Administration Earth System Research Laboratories, conducts sustained observations and research related to carbon source and sink strengths, trends and global distributions of atmospheric constituents that are capable of forcing changes in the Earth’s climate through modification of the atmospheric radiative environment, that may cause depletion of the global ozone layer, and that affect baseline air quality.",
     "sponsor": "NOAA",
     "url": "http://www.esrl.noaa.gov/gmd/obop/brw/",
-    "summary": "The Global Monitoring Division (formerly CMDL) of the National Oceanic and Atmospheric Administration\u2019 Earth System Research Laboratory, conducts sustained observations and research related to carbon source and sink strengths, trends and global distributions of atmospheric constituents that are capable of forcing change in the climate of Earth through modification of the atmospheric radiative environment, that may cause depletion of the global ozone layer, and that affect baseline air quality.",
+    "summary": "The Global Monitoring Laboratory of the National Oceanic and Atmospheric Administration Earth System Research Laboratories, conducts sustained observations and research related to carbon source and sink strengths, trends and global distributions of atmospheric constituents that are capable of forcing changes in the Earth’s climate through modification of the atmospheric radiative environment, that may cause depletion of the global ozone layer, and that affect baseline air quality.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NOAA_GMD.png"
   },
   "North Pole Environmental Observatory (NPEO)": {
@@ -153,13 +156,13 @@
     "summary": "Since 2000, the University of Washington/Applied Physics Laboratory has maintained a mooring at the North Pole to investigate ice thickness and ocean stratification. Buoys are deployed and airborne physical oceanography surveys are also conducted during each spring mooring recovery and redeployment operation.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NPEO.png"
   },
-  "Permafrost Laboratory at the University of Alaska Fairbanks": {
-    "title": "Permafrost Laboratory at the University of Alaska Fairbanks",
+  "Snow, Ice, and Permafrost Group at the University of Alaska Fairbanks Geophysical Institute": {
+    "title": "Snow, Ice, and Permafrost Group at the University of Alaska Fairbanks Geophyscial Institute",
     "link": "permafrost-laboratory-at-the-university-of-alaska-fairbanks",
-    "description": " The Permafrost Laboratory at the University of Alaska Fairbanks maintains an extensive archive of permafrost temperature data for sites in Alaska, the Canadian Arctic, Greenland, and Russia. A number of the Alaska permafrost sites are on the North Slope.\n",
+    "description": "The Snow, Ice & Permafrost Group at the University of Alaska Fairbanks Geophysical Institute conducts research on Earth’s cryosphere in order to better understand how it interacts with and impacts other earth systems.",
     "sponsor": "DoI",
     "url": "http://permafrost.gi.alaska.edu/",
-    "summary": "The Permafrost Laboratory at the University of Alaska Fairbanks maintains an extensive archive of permafrost temperature data for sites in Alaska, the Canadian Arctic, Greenland, and Russia. A number of the Alaska permafrost sites are on the North Slope.",
+    "summary": "The Snow, Ice & Permafrost Group at the University of Alaska Fairbanks Geophysical Institute conducts research on Earth’s cryosphere in order to better understand how it interacts with and impacts other earth systems.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/PermafrostLab.png"
   },
   "Rutgers University Global Snow Lab": {
@@ -171,13 +174,13 @@
     "summary": "This site contains various products related to global snow cover, including maps, graphic products, and tabular data.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Rutgers.png"
   },
-  "SIZONET Barrow Sea Ice Cam": {
-    "title": "SIZONET Barrow Sea Ice Cam",
+  "Barrow Sea Ice Webcam": {
+    "title": "Barrow Sea Ice Webcam",
     "link": "sizonet-barrow-sea-ice-cam",
-    "description": " SIZONet (the Seasonal Sea Ice Zone Observation Network, which is coordinated by the University of Alaska Fairbanks and partners) maintains a sea-ice webcam and radar and conducts snow-depth and sea-ice-thickness measurements by surface and airborne radar surveys.\n",
+    "description": "The sea ice webcam operated in Utqiagvik (Barrow), Alaska is part of a collaborative effort (lead by the University of Alaska Fairbanks and partners) to monitor and record changes in sea ice cover on the northern coast of Alaska.\n",
     "sponsor": "DoI",
     "url": "http://seaice.alaska.edu/gi/observatories/barrow_webcam",
-    "summary": "SIZONet (the Seasonal Sea Ice Zone Observation Network, which is coordinated by the University of Alaska Fairbanks and partners) maintains a sea-ice webcam and radar and conducts snow-depth and sea-ice-thickness measurements by surface and airborne radar surveys.",
+    "summary": "The sea ice webcam operated in Utqiagvik (Barrow), Alaska is part of a collaborative effort (lead by the University of Alaska Fairbanks and partners) to monitor and record changes in sea ice cover on the northern coast of Alaska.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/SIZONet.png"
   },
   "Toolik Field Station GIS Data": {
@@ -194,7 +197,7 @@
     "link": "us-national-ice-center",
     "description": " The U.S. National Ice Center is an interagency (NOAA, U.S. Coast Guard, U.S. Navy) operational center that provides snow- and ice-science products and services to meet the strategic, operational, and tactical requirements of U.S. government agencies and other institutions.\n",
     "sponsor": "NOAA",
-    "url": "http://www.natice.noaa.gov/Main_Products.htm",
+    "url": "https://usicecenter.gov/",
     "summary": "U.S. National Ice Center: The U.S. National Ice Center is an interagency (NOAA, U.S. Coast Guard, U.S. Navy) operational center that provides snow- and ice-science products and services to meet the strategic, operational, and tactical requirements of U.S. government agencies and other institutions.",
     "preview": " https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USNIC.png"
   },
