@@ -22,4 +22,4 @@ slug: arctic-highlights
 title: Arctic Tools
 ---
 
-This page contains links to web-based tools and publicly accessible models to help understand, analyze, and assess the vulnerabilities and resilience of Arctic systems to climate variability, global climate change, and compounding stressors. Tools include interactive mapping applications as well as navigable libraries containing scientific and technical publications, additional datasets, or models. Please [let us know](http://www.data.gov/climate/climate-feedback/) if there are other tools that should be listed here.
+This page contains links to web-based tools and publicly accessible models to help understand, analyze, and assess the vulnerabilities and resilience of Arctic systems to climate variability, global climate change, and compounding stressors. Tools include interactive mapping applications as well as navigable libraries containing scientific and technical publications, additional datasets, or models. 
