@@ -59,7 +59,7 @@
     "pa11y-ci": "^3.1.0",
     "postcss": "^8.4.31",
     "postcss-cli": "^10.1.0",
-    "rimraf": "^4.4.1",
+    "rimraf": "^5.0.5",
     "start-server-and-test": "^2.0.3"
   },
   "dependencies": {
