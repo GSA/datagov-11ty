@@ -49,7 +49,7 @@
     "cypress": "^13.6.1",
     "eleventy-plugin-svg-sprite": "^2.4.2",
     "esbuild": "^0.19.9",
-    "esbuild-sass-plugin": "^2.16.0",
+    "esbuild-sass-plugin": "^2.16.1",
     "js-yaml": "^4.1.0",
     "luxon": "^3.4.4",
     "markdown-it": "^14.0.0",
