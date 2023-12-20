@@ -29,7 +29,7 @@ title: About Data.gov
 
 <h2 id="who">Who developed Data.gov?</h2>
 
-Data.gov was launched in 2009 and is managed and hosted by the U.S. General Services Administration, [Technology Transformation Service](http://www.gsa.gov/portal/category/25729).
+Data.gov was launched in 2009 and is managed and hosted by the U.S. General Services Administration, [Technology Transformation Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services).
 
 [Top](#top)
 
