@@ -4,13 +4,11 @@ categories:
 - energy-infrastructure
 tags: climate
 date: '2015-06-19T11:13:24'
-excerpt: 'Energy 1) How are fundamental energy resources impacted by climate? 2)
-  How might changes in climate and natural resource availability impact energy conversion
-  infrastructure and processes? 3) How might climate impact energy transmission and
-  distribution systems? 4) How might energy &hellip;
-  '
+excerpt: 'Energy 1. How are fundamental energy resources impacted by climate? 2. How might changes in climate and natural resource availability 
+impact energy conversion infrastructure and processes? 3. How might climate impact energy transmission 
+and distribution systems? 4. How might energy &hellip;'
 link: https://www.data.gov/climate/energy-infrastructure/energy-infrastructure-framing-questions/
-modified: '2015-06-24T19:18:37'
+modified: '2024-01-05T12:00:00'
 permalink: "climate/energy-infrastructure/energy-infrastructure-framing-questions/"
 slug: energy-infrastructure-framing-questions
 title: Energy Infrastructure Framing Questions
