@@ -5,84 +5,37 @@ categories:
 tags: climate
 date: '2014-02-26T19:29:54'
 excerpt: |-
-    The 2014 National Climate Assessment provides background information to help communities, water utilities, resource managers, and food and energy producers prepare for a changing climate. Given a need to develop resilience…
+    The 2018 National Climate Assessment provides background information to help communities, water utilities, resource managers, and food and energy producers prepare for a changing climate. Given a need to develop resilience…
 link: https://www.data.gov/climate/water/water-resources/
-modified: '2014-12-15T15:05:48'
+modified: '2023-11-21T12:00:00'
 permalink: "climate/water/water-resources/"
 slug: water-resources
 title: Water Resources
 ---
 
-The 2014 National Climate Assessment provides background information to help communities, water utilities, resource managers, and food and energy producers prepare for a changing climate. Given a need to develop resilience strategies based on an uncertain future, many experts look to past climate extremes for information to help guide and constrain decision-making. Information resources that may be helpful to provide characterization of the past and insight into the future include:
+The **[2018 National Climate Assessment](https://nca2018.globalchange.gov/)** provides background information to help communities, water utilities, resource managers, and food and energy producers prepare for a changing climate. Given a need to develop resilience strategies based on an uncertain future, many experts look to past climate extremes for information to help guide and constrain decision-making. Information resources that may be helpful to provide characterization of the past and insight into the future include:
 
-### National Water Information System
 
-[National Water Information System](https://waterdata.usgs.gov/nwis)
+* The **[National Water Information System (NWIS)](https://waterdata.usgs.gov/nwis)** provides access to water-resources data collected at approximately 1.5 million sites in all 50 States, the District of Columbia, Puerto Rico, the Virgin Islands, Guam, American Samoa and the Commonwealth of the Northern Mariana Islands. The USGS investigates the occurrence, quantity, quality, distribution, and movement of surface and underground waters and disseminates the data to the public, State and local governments, public and private utilities, and other Federal agencies involved with managing our water resources.
 
-NWIS provides access to water-resources data collected at approximately 1.5 million sites in all 50 States, the District of Columbia, Puerto Rico, the Virgin Islands, Guam, American Samoa and the Commonwealth of the Northern Mariana Islands.The USGS investigates the occurrence, quantity, quality, distribution, and movement of surface and underground waters and disseminates the data to the public, State and local governments, public and private utilities, and other Federal agencies involved with managing our water resources.
+* The **[National Weather Service Advanced Hydrologic Prediction Service (AHPS)](https://water.weather.gov/ahps/)** is a web-based suite of accurate and information-rich forecast products. They display the magnitude and uncertainty of occurrence of floods or droughts, from hours to days and months, in advance. These graphical products are useful information and planning tools for many economic and emergency managers. These new products will enable government agencies, private institutions, and individuals to make more informed decisions about risk-based policies and actions to mitigate the dangers posed by floods and droughts.
 
-### National Weather Service Advanced Hydrologic Prediction Service
+* The **[National Ground-Water Monitoring Network (NGWMN) Data Portal](https://cida.usgs.gov/ngwmn/)** provides access to groundwater data from multiple, dispersed databases in a web-based mapping application. The portal contains current and historical data including water levels, water quality, lithology, and well construction.
 
-[National Weather Service Advanced Hydrologic Prediction Service](https://water.weather.gov/ahps/)
+* The **[Water Quality Portal](https://www.waterqualitydata.us/)** is a cooperative service sponsored by the United States Geological Survey (USGS), the Environmental Protection Agency (EPA), and the National Water Quality Monitoring Council (NWQMC). It serves data collected by over 400 state, federal, tribal, and local agencies.
 
-AHPS is a web-based suite of accurate and information-rich forecast products. They display the magnitude and uncertainty of occurrence of floods or droughts, from hours to days and months, in advance. These graphical products are useful information and planning tools for many economic and emergency managers. These new products will enable government agencies, private institutions, and individuals to make more informed decisions about risk based policies and actions to mitigate the dangers posed by floods and droughts.
+* **[Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections](https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html)** “Downscaled” (finer-resolution) versions of monthly and daily temperature and precipitation from most of the GCM simulations in the PCMDI CMIP3 and CMIP5 archives, for CONUS, using two downscaling methods. In addition, derived simulations of surface hydrology are provided.
 
-### National Ground-Water Monitoring Network
+* The **[National Climatic Data Center Climate Data Online (CDO)](https://www.ncdc.noaa.gov/cdo-web/)** provides free access to NCDC’s archive of historical weather and climate data in addition to station history information. These data include quality controlled daily, monthly, seasonal, and yearly measurements of temperature, precipitation, wind, and degree days as well as radar data and 30-year Climate Normals.
 
-[National Ground-Water Monitoring Network](https://cida.usgs.gov/ngwmn/)
+* The **[USDA FS Climate Change Resource Center (CCRC)](https://www.fs.usda.gov/ccrc/)** is a web-based, national platform that connects land managers and decision makers with useable science to address climate change in planning and application.
 
-The NGWMN Data Portal provides access to groundwater data from multiple, dispersed databases in a web-based mapping application. The portal contains current and historical data including water levels, water quality, lithology, and well construction.
+* The **[NASA Hydrology Data and Information Services Center](https://disc.gsfc.nasa.gov/information?page=1&project=GRACE-DA-DM,FLDAS,GLDAS,NEWS,NLDAS,NCA-LDAS&keywords=hydrology)** supports data products generated by Goddard Earth Sciences Data and Information Services Center Hydrological Sciences Branch. Data products from the North America Land Data Assimilation System (NLDAS) and the Global Land Data Assimilation System (GLDAS) can be accessed through several interfaces. NLDAS and GLDAS systems integrate data from multiple space-based Earth observing systems using advanced land surface modeling and assimilation techniques. These products support weather and climate forecast experiments, water resources applications, and water and energy cycle research.
 
-### Water Quality Portal
+* The **[Global Lake Temperature Collaboration](https://scienceandtechnology.jpl.nasa.gov/global-records-lake-surface-temperature-reveal-century-warming)** was started in 2010 with the objective of compiling and analyzing lake temperature data from numerous in situ and satellite-based records dating back at least 20-30 years. It has now assembled data from over 300 lakes, with some in situ records extending back more than 100 years, and shows consistent trends of lake surface warming across most but not all sites.
 
-[Water Quality Portal](https://www.waterqualitydata.us)
+* The **[Forced Evaporation from Water Surface (FEWS)](https://pubs.usgs.gov/sir/2013/5188/)** model estimates forced evaporation – the evaporation from surface waters caused by heat from cooling systems at thermoelectric power plants. The FEWS model provided estimates of consumption at approximately 400 power plants in the U.S. for 2010. Based on FEWS, withdrawal and consumption of water by thermoelectric power plants in the United States for 2010 are described in the associated report, which can be accessed at [https://pubs.usgs.gov/sir/2013/5188/](https://pubs.usgs.gov/sir/2013/5188/)
 
-The Water Quality Portal (WQP) is a cooperative service sponsored by the United States Geological Survey (USGS), the Environmental Protection Agency (EPA), and the National Water Quality Monitoring Council (NWQMC). It serves data collected by over 400 state, federal, tribal, and local agencies.
+* **[Groundwater depletion in the United States (1900-2008)](https://pubs.usgs.gov/publication/sir20135079)** A natural consequence of groundwater withdrawals is the removal of water from subsurface storage, but the overall rates and magnitude of groundwater depletion in the United States are not well characterized. This study evaluates long-term cumulative depletion volumes in 40 separate aquifers or areas and one land use category in the United States, bringing together information from the literature and from new analyses. Depletion is directly calculated using calibrated groundwater models, analytical approaches, or volumetric budget analyses for multiple aquifer systems. Estimated groundwater depletion in the United States during 1900–2008 totals approximately 1,000 cubic kilometers (km<sup>3</sup>). Furthermore, the rate of groundwater depletion has increased markedly since about 1950, with maximum rates occurring during the most recent period (2000–2008) when the depletion rate averaged almost 25 km<sup>3</sup> per year (compared to 9.2 km<sup>3</sup> per year averaged over the 1900–2008 timeframe). Link to associated USGS report: [https://pubs.er.usgs.gov/publication/sir20135079](https://pubs.er.usgs.gov/publication/sir20135079)
 
-### Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections
-
-[Downscaled CMIP3 and CMIP5 Climate and Hydrology Projections](https://gdo-dcp.ucllnl.org/downscaled_cmip_projections/dcpInterface.html)
-
-“Downscaled” (finer-resolution) versions of monthly and daily temperature and precipitation from most of the GCM simulations in the PCMDI CMIP3 and CMIP5 archives, for CONUS, using two downscaling methods. In addition, derived simulations of surface hydrology are provided.
-
-### National Climatic Data Center Climate Data Online
-
-[National Climatic Data Center Climate Data Online](https://www.ncdc.noaa.gov/cdo-web/)
-
-Climate Data Online (CDO) provides free access to NCDC’s archive of historical weather and climate data in addition to station history information. These data include quality controlled daily, monthly, seasonal, and yearly measurements of temperature, precipitation, wind, and degree days as well as radar data and 30-year Climate Normals.
-
-### USDA FS Climate Change Resource Center
-
-[USDA FS Climate Change Resource Center](https://www.fs.usda.gov/ccrc/)
-
-The Climate Change Resource Center (CCRC) is a web-based, national resource that connects land managers and decisionmakers with useable science to address climate change in planning and application.
-
-### NASA Hydrology Data and Information Services Center
-
-[NASA Hydrology Data and Information Services Center](https://disc.sci.gsfc.nasa.gov/hydrology)
-
-The Hydrology DISC supports data products generated by Goddard Earth Sciences Data and Information Services Center Hydrological Sciences Branch. Data products from the North America Land Data Assimilation System (NLDAS) and the Global Land Data Assimilation System (GLDAS) can be accessed through several interfaces. NLDAS and GLDAS systems integrate data from multiple space-based Earth observing systems using advanced land surface modeling and assimilation techniques. These products support weather and climate forecast experiments, water resources applications, and water and energy cycle research.
-
-### Global Lake Temperature Collaboration
-
-[Global Lake Temperature Collaboration](https://portal.lternet.edu/nis/mapbrowse?scope=knb-lter-ntl&identifier=10001)
-
-The Global Lake Temperature Collaboration database is a compilation of lake summer surface water temperatures from 235 lakes around the world over a 25-year period.
-
-### Forced Evaporation from Water Surface
-
-[Forced Evaporation from Water Surface](https://pubs.usgs.gov/sir/2013/5188/)
-
-The Forced Evaporation from Water Surface (FEWS) model estimates forced evaporation – the evaporation from surface waters caused by heat from cooling systems at thermoelectric power plants. The FEWS model provided estimates of consumption at approximately 400 power plants in the U.S. for 2010. Based on FEWS, withdrawal and consumption of water by thermoelectric power plants in the United States for 2010 are described in the associated report, which can be accessed at [http://pubs.usgs.gov/sir/2013/5188/](https://pubs.usgs.gov/sir/2013/5188/)
-
-### Groundwater depletion in the United States (1900−2008)
-
-[Groundwater depletion in the United States (1900−2008)](https://pubs.er.usgs.gov/publication/sir20135079)
-
-A natural consequence of groundwater withdrawals is the removal of water from subsurface storage, but the overall rates and magnitude of groundwater depletion in the United States are not well characterized. This study evaluates long-term cumulative depletion volumes in 40 separate aquifers or areas and one land use category in the United States, bringing together information from the literature and from new analyses. Depletion is directly calculated using calibrated groundwater models, analytical approaches, or volumetric budget analyses for multiple aquifer systems. Estimated groundwater depletion in the United States during 1900–2008 totals approximately 1,000 cubic kilometers (km3). Furthermore, the rate of groundwater depletion has increased markedly since about 1950, with maximum rates occurring during the most recent period (2000–2008) when the depletion rate averaged almost 25 km3 per year (compared to 9.2 km3 per year averaged over the 1900–2008 timeframe). Link to associated USGS report: [http://pubs.er.usgs.gov/publication/sir20135079](https://pubs.er.usgs.gov/publication/sir20135079).
-
-### California drought, visualized with open data
-
-[California drought, visualized with open data](https://cida.usgs.gov/ca_drought)
-
-The State of California is experiencing one of the most severe droughts on record, which has implications for citizens of California and beyond. Many State, Federal, and Tribal agencies make routine observations of the water cycle. This website graphically visualizes these data to help understand the effect of drought on rivers, streams, lakes, and reservoirs. Below, learn more about water use and changes in the water cycle due to the current drought in California. The data presented here are drawn from free and publicly accessible sources. In addition, the analytical, graphical, and software tools used are open-source and available for public re-use.
+* **[California drought, visualized with open data](https://labs.waterdata.usgs.gov/visualizations/ca_drought/index.html)**  The State of California experiences severe droughts, which have implications for citizens of California and beyond. Many State, Federal, and Tribal agencies make routine observations of the water cycle. This website graphically visualizes these data to help understand the effect of drought on rivers, streams, lakes, and reservoirs. The data presented here are drawn from free and publicly accessible sources. In addition, the analytical, graphical, and software tools used are open-source and available for public re-use.
