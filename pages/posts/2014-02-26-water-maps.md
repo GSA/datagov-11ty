@@ -6,7 +6,7 @@ date: '2014-02-26T03:56:37'
 excerpt: |-
     Here are a few examples of the many maps available on the Internet that illustrate historical conditions and potential climate impacts on water resources…
 link: https://www.data.gov/climate/water/water-maps/
-modified: '2019-05-06T18:14:26'
+modified: '2023-11-21T12:00:00'
 permalink: "climate/water/water-maps/"
 slug: water-maps
 title: Water Maps
@@ -14,38 +14,80 @@ title: Water Maps
 
 Here are a few examples of the many maps available on the Internet that illustrate historical conditions and potential climate impacts on water resources.
 
-## Streamer
-[![Streamer](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Streamer.png "Streamer")](https://txpub.usgs.gov/DSS/streamer/web/ "Streamer")
+## [Streamer](https://txpub.usgs.gov/DSS/streamer/web/)
 
-## National Weather Service Flood Inundation Map Libraries
-[![National Weather Service Flood Inundation Map Libraries](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NationalWeatherServiceFloodInundationMapLibraries.png "National Weather Service Flood Inundation Map Libraries")](https://water.weather.gov/ahps/inundation.php "National Weather Service Flood Inundation Map Libraries")
+Interactive map platform for near real-time streamflow conditions and weather radar. Contributors: USGS
 
-## NRCS National Water and Climate Center
-[![NRCS National Water and Climate Center](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USDANRCSNationalWaterandClimateCenterMapper.png "NRCS National Water and Climate Center")](https://www.wcc.nrcs.usda.gov/webmap/ "NRCS National Water and Climate Center")
+[![Map of the United States showing streamflow conditions]()]()
 
-## Integrated Climate and Land Use Scenarios
-[![Integrated Climate and Land Use Scenarios](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/IntegratedClimateandLandUseScenarios1.png "Integrated Climate and Land Use Scenarios")](https://www.epa.gov/ncea/global/iclus/ "Integrated Climate and Land Use Scenarios")
+## [National Weather Service Flood Inundation Map Libraries](https://water.weather.gov/ahps/inundation.php)
 
-## National Integrated Drought Information System
-[![National Integrated Drought Information System](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NationalIntegratedDroughtInformationSystem.png "National Integrated Drought Information System")](https://drought.gov "National Integrated Drought Information System")
+Stream gauge locations that monitor the state of streams, recording when stage height has reached flood levels. Contributors: NOAA, NWS
 
-## National Climate Change Viewer
-[![National Climate Change Viewer](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NationalClimateChangeViewer.png "National Climate Change Viewer")](https://www2.usgs.gov/climate_landuse/clu_rd/nccv/viewer.asp "National Climate Change Viewer")
+[![Map of the East Coast of the United States]()]()
 
-## Climate Wizard
-[![Climate Wizard](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/ClimateWizard.png "Climate Wizard")](https://climatewizard.ciat.cgiar.org/index1.html "Climate Wizard")
+## [NRCS National Water and Climate Center](https://www.nrcs.usda.gov/wps/portal/wcc/home/)
 
-## U.S. Geological Survey Flood Inundation Map Library
-[![U.S. Geological Survey Flood Inundation Map Library](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USGeologicalSurveyFloodInundationMapLibrary.png "U.S. Geological Survey Flood Inundation Map Library")](https://water.usgs.gov/osw/flood_inundation/ "U.S. Geological Survey Flood Inundation Map Library")
+Interactive map portal providing data for conservation and tools for assessing water supplies under different conditions. Contributors: National Resources Conservation Service
 
-## Aqueduct Water Risk Atlas
-[![Aqueduct Water Risk Atlas](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/AqueductWaterRiskAtlas.png "Aqueduct Water Risk Atlas")](https://www.wri.org/our-work/project/aqueduct "Aqueduct Water Risk Atlas")
+[![Map of the West Coast of the United States]()]()
 
-## USGS Water Watch
-[![USGS Water Watch](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USGSWaterWatch.png "USGS Water Watch")](https://waterwatch.usgs.gov/ "USGS Water Watch")
+## [Integrated Climate and Land Use Scenarios (ICLUS)](https://iclus.epa.gov/#v=map&b=gray-vector&l=4!8!9!6&x=-100.27!-77.03!-75.55!-122.4&y=39.87!38.7!40.43!37.78&m=1&s=ssp2!ssp2!ssp2!ssp2&d=land_use!land_use!land_use!land_use&o=giss_e2_r!giss_e2_r!giss_e2_r!giss_e2_r&a=0&z=2)
 
-## USGS Groundwater Watch
-[![USGS Groundwater Watch](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USGSGroundwaterWatch.png "USGS Groundwater Watch")](https://groundwaterwatch.usgs.gov/ "USGS Groundwater Watch")
+Web portal using climate models to project land use and land cover changes in the United States. Contributors: EPA
 
-## Groundwater Depletion in the United States (1900–2008)
-[![Groundwater Depletion in the United States (1900–2008)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GroundwaterDepletionintheUnitedStates.png "Groundwater Depletion in the United States (1900–2008)")](https://pubs.usgs.gov/sir/2013/5079/ "Groundwater Depletion in the United States (1900–2008)")
+[![Map of the United States]()]()
+
+## [National Integrated Drought Information System (NIDIS)](https://www.drought.gov/)
+
+Platform for historical and current drought conditions as well as vegetation, fire, and soil moisture maps and tools. Contributors: NOAA, USDA, NDMC, National Drought Resilience Partnership (NDRP) Working Group
+
+[![Partial map of the United States with drought conditions]()]()
+
+## [National Climate Change Viewer(NCCV)](https://www.usgs.gov/tools/national-climate-change-viewer-nccv)
+
+Historical and future climate projections from various downscaled models of emission scenarios. Contributors: USGS, IPCC
+
+[![Map of the United States]()]()
+
+## [Climate Wizard](https://www.fs.usda.gov/ccrc/tool/climate-wizard)
+
+Web-based mapping tool that allows users to view historic and future temperature and rainfall predictions based on scientifically vetted model projections and to examine additional climate variables at daily timesteps and query data for custom geographical regions. Contributors: USDA FS
+
+[![Map of the United States]()]()
+
+## [Flood Inundation Mapping (FIM) Program](https://www.usgs.gov/mission-areas/water-resources/science/flood-inundation-mapping-fim-program)
+
+Online mapping tool to help communities protect lives and property by providing tools and information to help them understand their local flood risks and make cost-effective mitigation decisions. Contributors: USGS
+
+[![Map of the East Coast of the United States]()]()
+
+## [Aqueduct Water Risk Mapping Tools](https://www.wri.org/aqueduct)
+
+Web-based interactive mapping platforms for understanding and comparing national and sub-national water risks, identifying current and future water risks to agriculture and food security, and analyzing the costs and benefits of investing in flood protection. Contributors: World Resources Institute
+
+[![Aqueduct mapping tools]()]()
+
+## [USGS Water Watch](https://waterwatch.usgs.gov/new/)
+
+Streamflow Data Daily metrics from U.S. stream gauge data on streamflow, drought, and flood, as well as historical statistics. Contributors: USGS
+
+[![Maps of the United States]()]()
+
+## [USGS National Ground-Water Monitoring Portal](https://cida.usgs.gov/ngwmn/index.jsp)
+
+Web portal containing current and historical data including water levels, water quality, lithology, and well construction that is compiled from selected groundwater monitoring wells from Federal, State, and local groundwater monitoring networks across the nation. Contributors: USGS
+
+[![Map of North America showing groundwater monitoring locations in the United States]()]()
+
+## [Groundwater Depletion in the United States (1900–2008)](https://pubs.usgs.gov/sir/2013/5079/)
+
+Scientific article on groundwater depletion in the United States from 1900-2008. Contributors: USGS
+
+[![Map of the United States]()]()
+
+## [Storm Prediction Center](https://www.spc.noaa.gov/) 
+
+Web portal for viewing daily forecasts, storm warnings, reports, and climatologies in the United States. Contributors: NOAA, NWS
+
+[![Map of the United States]()]()
