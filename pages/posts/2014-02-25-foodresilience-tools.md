@@ -4,11 +4,6 @@ categories:
 - foodresilience
 tags: climate
 layout: layouts/tools
-pagination:
-  data: foodresilience-tools
-  alias: mainlinks
-  size: 100
-  resolve: values
 date: '2014-02-25T22:48:55'
 excerpt: 'There are a large number of government and non-government software tools
   available to help analyze and assess the vulnerabilities of food production and
@@ -22,8 +17,6 @@ title: Food Resilience Tools
 ---
 
 There are a large number of government and non-government software tools available to help analyze and assess the vulnerabilities of food production and distribution systems, food safety, and international food security to changes in climate. With software tools, users can make changes in how data are shown on screen or save the data to a file, according to their needs. *Note: some sections may overlap with each other as they fit in multiple criteria.*
-
-[Food Production](#food-production) | [Food Distribution](#food-distribution) | [Food Safety and Nutrition](#food-safety-and-nutrition) | [Food Security](#food-security)
 
 ## **Food Production**
 
