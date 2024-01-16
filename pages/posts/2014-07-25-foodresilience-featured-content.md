@@ -11,7 +11,7 @@ excerpt: 'Food production, distribution, safety, and international security are
 link: https://www.data.gov/climate/foodresilience/foodresilience-featured-content
 modified: '2023-12-04T12:00:00'
 permalink: "climate/foodresilience/foodresilience-featured-content/"
-slug: food-resilience-featured-content
+slug: foodresilience-featured-content
 tags: climate
 title: Food Resilience Featured Content
 ---

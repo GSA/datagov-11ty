@@ -9,10 +9,10 @@ excerpt: 'The U.S. Government and its partners have been collecting data relevan
   datasets on this topic include the Census of Agriculture, the leading source of
   facts…
   '
-link: https://www.data.gov/climate/foodresilience/food-resilience-data
+link: https://www.data.gov/climate/foodresilience/foodresilience-data
 modified: '2023-12-04T12:00:00'
-permalink: "climate/foodresilience/food-resilience-data/"
-slug: food-resilience-data
+permalink: "climate/foodresilience/foodresilience-data/"
+slug: foodresilience-data
 title: Food Resilience Data
 ---
 
