@@ -5,9 +5,9 @@ tags: climate
 date: '2023-11-21T12:00:00'
 excerpt: |-
   Water How are human and natural components of the hydrologic cycle changing? How can communities and water managers plan for uncertain future conditions?...
-link: 
-modified: ''
-permalink: 
+link: "https://www.data.gov/climate/water/framing-questions-water/"
+modified: '2024-01-17T12:00:00'
+permalink: "climate/water/framing-questions-water/"
 slug: framing-questions-water
 
 title: Water Framing Questions
