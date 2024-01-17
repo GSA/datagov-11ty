@@ -11,7 +11,7 @@ link: https://www.data.gov/climate/humanhealth/humanhealth-tools/
 modified: '2023-09-29T12:00:00'
 permalink: "climate/humanhealth/humanhealth-tools/"
 slug: humanhealth-tools
-title: Humanhealth Tools
+title: Human Health Tools
 ---
 
 A range of tools are available to help analyze and assess the impacts of climate change on public health. These tools provide users with convenient access to data, common data transformation utilities, analysis methods for data and related information, and other functionalities.
