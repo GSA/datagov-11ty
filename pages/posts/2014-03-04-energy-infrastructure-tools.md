@@ -42,7 +42,7 @@ Here users will find web-based tools and publicly accessible models to help unde
 
 ## **Energy Conversion**
 
-* [Bioenergy Knowledge Discovery Framework (KDF)](https://data.gov/climate/energy-infrastructure/energy-infrastructure-tools/#bioenergy-knowledge-discovery-framework): The Bioenergy Library contains hundreds of publications, data sets, and models specifically related to bioenergy production, distribution, delivery, and end use. Many of the Bioenergy Library publication records include abstracts and links to full-text content, while certain data sets can be added to and visualized on the KDF Map.
+* [Bioenergy Knowledge Discovery Framework (KDF)]({{ url }}/climate/energy-infrastructure/energy-infrastructure-tools/#bioenergy-knowledge-discovery-framework): The Bioenergy Library contains hundreds of publications, data sets, and models specifically related to bioenergy production, distribution, delivery, and end use. Many of the Bioenergy Library publication records include abstracts and links to full-text content, while certain data sets can be added to and visualized on the KDF Map.
 * [Biofuels Atlas](https://maps.nrel.gov/?da=biofuels-atlas): Provides biofuel data that can be used within a GIS application to explore biomass-to-biofuel potential at different locations and scales.
 * [Biopower Atlas](https://maps.nrel.gov/?da=biopower-atlas): Provides bioenergy data that can be used within a GIS application to explore the potential, production, and distribution of biofuels and energy.
 * [Geothermal Prospector](https://maps.nrel.gov/?da=geothermal-prospector): Provides geothermal data that can be used within a GIS application to explore geothermal power plants, resources for enhanced geothermal systems, and hydrothermal sites.
