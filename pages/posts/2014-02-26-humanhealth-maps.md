@@ -8,8 +8,8 @@ excerpt: |-
 link: https://www.data.gov/climate/humanhealth/humanhealth-maps/
 modified: '2023-10-04T12:00:00'
 permalink: "climate/humanhealth/humanhealth-maps/"
-slug: humanhealth-maps
-title: Humanhealth Maps
+slug: food-resilience-theme-adds-seven-datasets
+title: Human Health Maps
 ---
 
 The mapping tools and data layers in this section can be used to analyze and assess public health impacts and vulnerabilities associated with climate change.

@@ -1,12 +1,13 @@
+---
 categories:
 - climate
 tags: climate
 date: '2023-11-21T12:00:00'
 excerpt: |-
     Here you will find resources related to the effects of climate change on water resources, as well as other water-related environmental and societal themes. Citizens, businesses, non-governmental agencies and governments can use these resources to...
-link: 
-modified: ''
-permalink: "climate/water-data/"
+link: "https://www.data.gov/climate/water/water-data/"
+modified: '2024-01-17T12:00:00'
+permalink: "climate/water/water-data/"
 slug: water-data
 
 title: Water Data
