@@ -4,11 +4,6 @@ categories:
 tags: climate
 layout: layouts/tools
 date: '2015-10-23T17:36:40'
-pagination:
-  alias: mainlinks
-  data: tribal-nations-tools
-  size: 100
-  resolve: values
 excerpt: |-
     This page contains links to web-based tools, training, and guidance to help understand, analyze, and assess the vulnerabilities and resilience of Tribal Nations to climate variability, global climate change, and compounding stressors...
 modified: '2023-10-02T12:00:00'

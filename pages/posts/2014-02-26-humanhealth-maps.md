@@ -4,9 +4,9 @@ categories:
 tags: climate
 date: '2014-02-26T03:57:19'
 excerpt: |-
-  The U.S. Energy Information Administration (EIA) interactive energy disruption maps combine real-time data feeds from NOAA's National Hurricane Center with more than 20 map layers showing the nation's energy infrastructure and resources. This new tool, available around the clock on the EIA…
+  The mapping tools and data layers in this section can be used to analyze and assess public health impacts and vulnerabilities associated with climate change.
 link: https://www.data.gov/climate/humanhealth/humanhealth-maps/
-modified: '2019-05-01T14:00:37'
+modified: '2023-10-04T12:00:00'
 permalink: "climate/humanhealth/humanhealth-maps/"
 slug: food-resilience-theme-adds-seven-datasets
 title: Human Health Maps
@@ -14,41 +14,86 @@ title: Human Health Maps
 
 The mapping tools and data layers in this section can be used to analyze and assess public health impacts and vulnerabilities associated with climate change.
 
-## CDC/ATSDR – Social Vulnerability Index
-[![CDC/ATSDR - Social Vulnerability Index](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/CDCATSDRSocialVulnerabilityIndex.png "CDC/ATSDR - Social Vulnerability Index")](https://svi.cdc.gov/ "CDC/ATSDR - Social Vulnerability Index")
+## [CDC/ATSDR – Social Vulnerability Index](https://www.atsdr.cdc.gov/placeandhealth/svi/index.html)
 
-## Coastal Change Analysis Program (C-CAP) Land Cover Atlas
-[![Coastal Change Analysis Program (C-CAP) Land Cover Atlas](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/CoastalChangeAnalysisProgramLandCoverAtlas.png "Coastal Change Analysis Program (C-CAP) Land Cover Atlas")](https://coast.noaa.gov/digitalcoast/tools/lca "Coastal Change Analysis Program (C-CAP) Land Cover Atlas")
+The CDC/ATSDR – Social Vulnerability Index highlights populations vulnerable to various health conditions, hazards, and disaster relief. Contributors: CDC, Agency for Toxic Substances and Disease Registry (ATSDR)
 
-## Water Watch – Stream flow data
-[![Water Watch - Stream flowflow data](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/WaterWatch.png "Water Watch - Stream flowflow data")](https://waterwatch.usgs.gov/new/ "Water Watch - Stream flowflow data")
+[![Map of U.S. social vulnerability index](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map1_CDC_ATSDR_SVI.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map1_CDC_ATSDR_SVI.png)
 
-## Coastal Flood Exposure Mapper
-[![Coastal Flood Exposure Mapper](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/ExposureMapper.png "Coastal Flood Exposure Mapper")](https://www.coast.noaa.gov/floodexposure/#/map "Coastal Flood Exposure Mapper")
+## [Coastal Change Analysis Program (C-CAP) Land Cover Atlas](https://coast.noaa.gov/digitalcoast/tools/lca.html)
 
-## Interactive Atlas of Heart Disease and Stroke
-[![Interactive Atlas of Heart Disease and Stroke](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/HeartDiseaseStroke.png "Interactive Atlas of Heart Disease and Stroke")](https://www.cdc.gov/dhdsp/maps/atlas/index.htm "Interactive Atlas of Heart Disease and Stroke")
+The Coastal Change Analysis Program (C-CAP) Land Cover Atlas online data viewer for coastal land cover and land cover change information, such as forest loss or new urban development. Contributors: NOAA
 
-## Reported Cases of Lyme Disease
-[![Reported Cases of Lyme Disease](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/LymeDisease.png "Reported Cases of Lyme Disease")](https://www.cdc.gov/lyme/stats/maps/map2013.html "Reported Cases of Lyme Disease")
+[![Map of land cover change in southern Louisiana](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map2_CCAP_LandCoverAtlas.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map2_CCAP_LandCoverAtlas.png)
 
-## Observed US Temperature Change
-[![Observed US Temperature Change](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USTemperatureChange.png "Observed US Temperature Change")](https://nca2014.globalchange.gov/report/our-changing-climate/recent-us-temperature-trends#graphic-16683 "Observed US Temperature Change")
+## [USGS WaterWatch](https://waterwatch.usgs.gov/new/)
 
-## Observed US Precipitation Change
-[![Observed US Precipitation Change](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/USPrecipitationChange.png "Observed US Precipitation Change")](https://nca2014.globalchange.gov/report/our-changing-climate/precipitation-change#intro-section-2 "Observed US Precipitation Change")
+The USGS WaterWatch tool provides metrics from U.S stream gauge data on streamflow, drought, and flood as well as historic statistics. Contributors: USGS
 
-## Air Conditioning Usage (New York City, NY)
-[![Air Conditioning Usage (New York City, NY)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NYC_EnvironmentHealth.png "Air Conditioning Usage (New York City, NY)")](https://a816-dohbesp.nyc.gov/IndicatorPublic/VisualizationData.aspx?id=2104,719b87,107,Summarize "Air Conditioning Usage (New York City, NY)")
+[![Maps of U.S. stream gauge metrics](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map3_USGS_WaterWatch.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map3_USGS_WaterWatch.png)
 
-## Hurricane Storm Surge Zones (New York State)
-[![Hurricane Storm Surge Zones (New York State)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/NY_HurricaneStormSurge.png "Hurricane Storm Surge Zones (New York State)")](https://www.dec.ny.gov/docs/administration_pdf/ssurgezones.pdf "Hurricane Storm Surge Zones (New York State)")
+## [Coastal Flood Exposure Mapper](https://www.coast.noaa.gov/floodexposure/#/select)
 
-## Heat Hazard Risk and a Medical Vulnerability Index (Florida)
-[![Heat Hazard Risk and a Medical Vulnerability Index (Florida)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Floria_HeatHazardRisk2100.png "Heat Hazard Risk and a Medical Vulnerability Index (Florida)")](https://www.floridahealth.gov/environmental-health/climate-and-health/_documents/climate-sensitive-hazards-in-florida-final-report-8.pdf "Heat Hazard Risk and a Medical Vulnerability Index (Florida)")
+The Coastal Flood Exposure Mapper Web portal for coastal related resilience and preparedness for disasters, natural resource risk and exposure, and human settlement endangerment. Contributors: NOAA
 
-## Lyme Disease and Tick Surveillance (California)
-[![Lyme Disease and Tick Surveillance (California)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/LymeDisease_California.png "Lyme Disease and Tick Surveillance (California)")](https://cdphgis.maps.arcgis.com/apps/SocialMedia/index.html?appid=8d99fb1135d1424f9d8a8711acb7d459 "Lyme Disease and Tick Surveillance (California)")
+[![Map of flood hazard in the southeastern U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map4_Coastal_Flood_Mapper.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map4_Coastal_Flood_Mapper.png)
 
-## Wildfire Map – Geospatial Multi-Agency Coordination Group (GeoMAC)
-[![Wildfire Map - Geospatial Multi-Agency Coordination Group (GeoMAC)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/GEOMAC_fire.png "Wildfire Map - Geospatial Multi-Agency Coordination Group (GeoMAC)")](https://www.geomac.gov/viewer/viewer.shtml "Wildfire Map - Geospatial Multi-Agency Coordination Group (GeoMAC)")
+## [Interactive Atlas of Heart Disease and Stroke](https://www.cdc.gov/dhdsp/maps/atlas/index.htm)
+
+The Interactive Atlas of Heart Disease and Stroke is an online mapping tool for users to customize state and county level maps of heart disease and stroke by race, gender, age group, and other demographic settings. Contributors: CDC, U.S. Census Bureau
+
+[![Map of U.S. cardiovascular disease death rate by state](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map5_Atlas_Heart_Disease.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map5_Atlas_Heart_Disease.png)
+
+## [Reported Cases of Lyme Disease](https://www.cdc.gov/lyme/stats/maps.html?CDC_AA_refVal=https%3A%2F%2Fwww.cdc.gov%2Flyme%2Fstats%2Fmaps%2Fmap2013.html)
+
+Lyme Disease Cases Over Time by State of Residence in the U.S. Contributors: CDC, National Center for Emerging and Zoonotic Infectious Diseases, Division of Vector-Borne Diseases
+
+[![Map of Lyme disease in the eastern U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map6_Reported_Lyme_Cases.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map6_Reported_Lyme_Cases.png)
+
+## [Projected U.S. Temperature Change](https://nca2018.globalchange.gov/chapter/1#fig-1-3)
+
+Projected Changes in U.S. Annual Average Temperatures from the 4th National Climate Assessment report. Contributors: North Carolina State University, National Environmental Modeling and Analysis Center (NEMAC)
+
+[![Maps of projected changes in average annual temperatures in the U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map7_US_Temp_Change.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map7_US_Temp_Change.png)
+
+## [Projected U.S. Precipitation Change](https://nca2018.globalchange.gov/chapter/2#fig-2-5)
+
+Projected Change in Seasonal Precipitation in the U.S. from the 4th National Climate Assessment report. Contributors: North Carolina State University, National Environmental Modeling and Analysis Center (NEMAC)
+
+[![Maps of projected changes in seasonal precipitation in the U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map8_US_Precip_Change.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map8_US_Precip_Change.png)
+
+## [Air Conditioning Usage (New York City, NY)](https://a816-dohbesp.nyc.gov/IndicatorPublic/beta/data-explorer/climate/?id=2104#display=map)
+
+Air Conditioning Usage in New York City, NY (2007), represented by the estimated number of adults who reported having a functioning air conditioner in any room in their home, divided by the number of adults in the area. Contributors: New York City Community Health Survey
+
+[![Map of air conditioning usage in New York City](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map9_Air_Conditioning_NYC.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map9_Air_Conditioning_NYC.png)
+
+## [New York City Hurricane Evacuation Zone Finder](https://maps.nyc.gov/hurricane/#)
+
+The New York City Hurricane Evacuation Zone Finder allows users to search for their address to determine whether they are located in an evacuation zone and enables users to locate public evacuation centers. Contributors: New York City Emergency Management
+
+[![Map of New York City hurricane evacuation zones](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map10_NYC_Hurricane_Evac_Zones.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map10_NYC_Hurricane_Evac_Zones.png)
+
+## [Heat Hazard Risk and Medical Vulnerability Index (Florida)](https://www.floridahealth.gov/environmental-health/climate-and-health/_documents/climate-sensitive-hazards-in-florida-final-report-8.pdf)
+
+Report on climate sensitive hazards in the state of Florida including maps of Heat Hazard Risk and Medical Vulnerability Index for different emission scenarios. Contributors: Florida Department of Health
+
+[![Map of heat hazard risk and medical vulnerability index in Florida](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map11_HeatHaz_MedVI_Florida.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map11_HeatHaz_MedVI_Florida.png)
+
+## [Lyme Disease and Tick Surveillance (California)](https://storymaps.arcgis.com/stories/f64d0c19a3ab42cf90e8ce38397e96e0)
+
+The Lyme Disease in California ArcGIS StoryMap provides information on lyme disease and tick surveillance in California as well as tips for preventing tick bites. Contributors: California Department of Public Health
+
+[![Map of tick collection locations in California](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map12_Lyme_Tick_California.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map12_Lyme_Tick_California.png)
+
+## [NIFC Wildfire Detection Map](https://maps.nwcg.gov/sa/#/%3F/39.8212/-96.2709/4)
+
+The NIFC Wildfire Detection Map provides real-time wildfire information using Earth Observing Satellites. Contributors: National Interagency Fire Center
+
+[![Map of U.S. fire detections](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map13_NIFC_Wildfire_Detection.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map13_NIFC_Wildfire_Detection.png)
+
+## [AirNow Interactive Map of Air Quality](https://gispub.epa.gov/airnow/)
+
+The AirNow Interactive Map of Air Quality provides maps of Air Quality Index (AQI) and allows for viewing of near real-time air quality in the United States, scaled from good air quality to hazardous conditions. Contributors: EPA
+
+[![Map of U.S. air quality index](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map14_AirNow_AirQuality.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map14_AirNow_AirQuality.png)

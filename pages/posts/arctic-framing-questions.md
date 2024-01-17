@@ -2,12 +2,13 @@
 categories:
 - climate
 tags: climate
-date: '2013-08-17'
+layout: layouts/tools
+date: '2013-08-17T00:00:00'
 excerpt: |-
    Arctic Framing Questions 1. Understand changes in Arctic Ocean chemistry, as well as historical and projected changes in sea ice extent and the impacts of these changes on coastal communities. 2. Understand the changing trends of melting glaciers, snow, and ice and the resulting impacts on hydrologic systems...
-link: https://www.data.gov/climate/arctic-framing-questions
-modified: '2023-09-01'
-permalink: "climate/arctic-framing-questions"
+link: https://www.data.gov/climate/arctic-framing-questions/
+modified: '2023-09-01T00:00:00'
+permalink: "climate/arctic-framing-questions/"
 slug: artic-framing-questions
 title: Arctic Framing Questions
 ---

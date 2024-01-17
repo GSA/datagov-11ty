@@ -3,11 +3,6 @@ categories:
 - climate
 tags: climate
 layout: layouts/tools
-pagination:
-  data: water-tools
-  alias: mainlinks
-  size: 100
-  resolve: values
 date: '2014-02-26T03:48:02'
 excerpt: |-
     There is a range of software tools available to help analyze and assess impacts of a changing climate on the water cycle. These tools provide users with convenient data access capabilities, common data transformation utilities, and analysis methods for data and related information…
