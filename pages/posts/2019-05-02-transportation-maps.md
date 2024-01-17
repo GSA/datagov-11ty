@@ -20,28 +20,28 @@ Both climate impacts and transportation systems are distributed spatially. To ma
 
 Platform where users can view data from nationwide geographic databases of transportation facilities, networks, and infrastructure. Contributors: Dept. of Transportation, Bureau of Transportation Statistics
 
-[![Bureau of Transportation Statistics Geospatial Application and Map Gallery]()]()
+[![Bureau of Transportation Statistics Geospatial Application and Map Gallery](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map3_NTAD.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map3_NTAD.png)
 
 ## [National Pipeline Mapping System Public Viewer](https://pvnpms.phmsa.dot.gov/PublicViewer/)
 
 Interactive web portal for viewing pipelines, liquefied natural gas pipeline data, leaks, hazards, gas transmission and more. Contributors: Dept. of Transportation, Pipeline and Hazardous Materials Safety Administration
 
-[![GIS image of pipelines in St. Martin Parish, Louisiana]()]()
+[![GIS image of pipelines in St. Martin Parish, Louisiana](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map2_NPMS_Viewer.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map2_NPMS_Viewer.png)
 
 ## [Federal Railroad Administration (FRA) GIS Web Application](https://fragis.fra.dot.gov/GISFRASafety/)
 
 Online map portal where users can view the U.S. railroad network, stations, nodes, and more. Contributors: Dept. of Transportation, Federal Railroad Administration
 
-[![Railway map of the United States]()]()
+[![Railway map of the United States](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map4_Railroad_Maps.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map4_Railroad_Maps.png)
 
 ## [U.S. Army Corps of Engineers Geospatial Open Data Portal](https://geospatial-usace.opendata.arcgis.com/)
 
 Provides interactive web maps for viewing transportation, infrastructure, civil works, and environmental geospatial data. Contributors: USACE
 
-[![U.S. Army Corps of Engineers Geospatial Applications]()]()
+[![U.S. Army Corps of Engineers Geospatial Applications](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map1_USACE_Apps.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map1_USACE_Apps.png)
 
 ## [Homeland Infrastructure Foundation-Level Data](https://hifld-geoplatform.opendata.arcgis.com/)
 
 Web platform for downloading, viewing, and accessing geospatial infrastructure data for various sectors including transportation, energy, and communications. Contributors: Dept. of Homeland Security
 
-[![Map of road tunnels in a GIS portal]()]()
+[![Map of road tunnels in a GIS portal](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map5_HIFLD.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map5_HIFLD.png)
