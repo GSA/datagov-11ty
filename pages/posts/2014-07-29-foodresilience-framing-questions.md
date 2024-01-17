@@ -14,9 +14,9 @@ categories:
 date: '2014-07-29T00:02:18'
 excerpt: |-
   FOOD PRODUCTION 1. How will crop yield and production of other food products be affected by changes in climate? 2. What types of food and locations will be most vulnerable to changes in climate? 3. How will changes in climate affect the types of food…
-link: https://www.data.gov/climate/foodresilience-framing-questions/
+link: https://www.data.gov/climate/foodresilience/foodresilience-framing-questions/
 modified: '2023-12-04T12:00:00'
-permalink: "climate/foodresilience-framing-questions"
+permalink: "climate/foodresilience/foodresilience-framing-questions/"
 redirect_from:
 - /climate/foodresilience/food-resilience-framing-questions/
 - /arctic/launch-food-resilience-theme-climate-data-gov/
