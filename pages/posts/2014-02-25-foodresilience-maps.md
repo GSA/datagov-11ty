@@ -13,7 +13,7 @@ link: https://www.data.gov/climate/foodresilience/foodresilience-maps
 modified: '2023-12-05T12:00:00'
 permalink: "climate/foodresilience/foodresilience-maps/"
 slug: foodresilience-maps
-title: Foodresilience Maps
+title: Food Resilience Maps
 ---
 
 Here are a few examples of the many maps and map services that illustrate the vulnerability of food production, distribution, food safety, and international food security to changes in climate.
