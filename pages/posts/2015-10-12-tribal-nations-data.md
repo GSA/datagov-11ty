@@ -13,7 +13,7 @@ slug: tribal-nations-data
 title: Tribal Nations Data
 ---
 
-Indian Lands datasets are difficult to correctly interpret, so please visit the [Bureau of Indian Affairs Frequently Asked Questions](https://www.bia.gov/frequently-asked-questions) to aid understanding. Other data sharing limitations to Tribal Nations data selection and thematic content are discussed in the [framing questions]({{ url }}/climate/tribal-nations/framing-questions/). Use the Data.gov data search portal to locate all Tribal Nations datasets.
+Indian Lands datasets are difficult to correctly interpret, so please visit the [Bureau of Indian Affairs Frequently Asked Questions](https://www.bia.gov/frequently-asked-questions) to aid understanding. Other data sharing limitations to Tribal Nations data selection and thematic content are discussed in the [framing questions]({{"/climate/tribal-nations/framing-questions/" | htmlBaseUrl}}). Use the Data.gov data search portal to locate all Tribal Nations datasets.
 
 Generally, climate data can be used by Tribal Nations in similar ways to other communities throughout the United States, except for differences in data selection and emphasis based on cultural values, experience, and unique ties to lands and resources:
 

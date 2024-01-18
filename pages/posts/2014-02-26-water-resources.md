@@ -10,7 +10,7 @@ link: https://www.data.gov/climate/water/water-resources/
 modified: '2023-11-21T12:00:00'
 permalink: "climate/water/water-resources/"
 slug: water-resources
-title: Water Resources
+title: Water Featured Content
 ---
 
 The **[2018 National Climate Assessment](https://nca2018.globalchange.gov/)** provides background information to help communities, water utilities, resource managers, and food and energy producers prepare for a changing climate. Given a need to develop resilience strategies based on an uncertain future, many experts look to past climate extremes for information to help guide and constrain decision-making. Information resources that may be helpful to provide characterization of the past and insight into the future include:
