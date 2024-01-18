@@ -1,5 +1,5 @@
 const fs = require('fs');
-const { EleventyRenderPlugin, EleventyHtmlBasePlugin } = require('@11ty/eleventy');
+const { EleventyRenderPlugin } = require('@11ty/eleventy');
 const svgSprite = require('eleventy-plugin-svg-sprite');
 const sitemap = require('@quasibit/eleventy-plugin-sitemap');
 const path = require('path');
@@ -51,7 +51,6 @@ module.exports = function (config) {
 
     // Add plugins
     config.addPlugin(EleventyRenderPlugin);
-    config.addPlugin(EleventyHtmlBasePlugin);
 
     // SVG Sprite Plugin for USWDS USA icons
     config.addPlugin(svgSprite, {
