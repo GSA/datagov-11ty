@@ -43,7 +43,7 @@ tags: climate
 title: Food Resilience Framing Questions
 ---
 
-![toolkit_food](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_food-1024x1024.png)
+![toolkit_food](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_food-1024x1024.png){class="framing-questions-icons"}
 
 FOOD PRODUCTION
 

@@ -13,7 +13,7 @@ slug: framing-questions-transportation
 title: Transportation Framing Questions
 ---
 
-![toolkit_transportation](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_transportation-1024x1024.png)
+![toolkit_transportation](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_transportation-1024x1024.png){class="framing-questions-icons"}
 
 1.   How will climate trends affect transportation systems and their future design?
 2.   What parts of the transportation system will be most vulnerable to climate change?

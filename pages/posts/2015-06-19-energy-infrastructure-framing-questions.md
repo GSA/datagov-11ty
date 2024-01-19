@@ -14,7 +14,7 @@ slug: energy-infrastructure-framing-questions
 title: Energy Infrastructure Framing Questions
 ---
 
-![toolkit_energy](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_energy-1024x1024.png)
+![toolkit_energy](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_energy-1024x1024.png){class="framing-questions-icons"}
 
 1. How are fundamental energy resources impacted by climate?
 2. How might changes in climate and natural resource availability impact energy conversion infrastructure and processes?

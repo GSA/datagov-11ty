@@ -13,7 +13,7 @@ slug: framing-questions-water
 title: Water Framing Questions
 ---
 
-![toolkit_water](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_water-1024x1024.png)
+![toolkit_water](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/toolkit_water-1024x1024.png){class="framing-questions-icons"}
 
 1. How are human and natural components of the hydrologic cycle changing?
 2. How can communities and water managers plan for uncertain future conditions?

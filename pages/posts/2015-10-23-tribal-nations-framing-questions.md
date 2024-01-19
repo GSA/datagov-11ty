@@ -12,7 +12,7 @@ slug: tribal-nations-framing-questions
 title: Tribal Nations Framing Questions
 ---
 
-![tribal_nations_icon_space](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/tribal_icon_alt.png)
+![tribal_nations_icon_space](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/tribal_icon_alt.png){class="framing-questions-icons"}
 
 1.  Data sharing between Tribal Nations and non-tribal partners must ensure that there is free, prior, and informed consent of tribes and traditional knowledge holders participating in the collaboration, and tribally-led protections for traditional knowledges if they are involved in the data sharing agreement. Please see the Tribal Nations tool [Guidelines for Considering Traditional Knowledges in Climate Change Initiatives](https://toolkit.climate.gov/tool/guidelines-considering-traditional-knowledges-climate-change-initiatives) to understand the protections needed for projects involving data sharing.
 2.  The “Indian Lands” ([_BIA Indian Lands_](https://catalog.data.gov/dataset/bia-indian-lands-dataset-indian-lands-of-the-united-states)) dataset is difficult to correctly interpret, so please visit the [DOI Indian Affairs Frequently Asked Questions](https://www.bia.gov/frequently-asked-questions) to aid in understanding. Tribal Nations sovereignty ensures that any decisions with regard to their property and citizens are made with their participation and consent.
