@@ -4,52 +4,71 @@ categories:
 - coastalflooding
 tags: climate
 date: '2014-02-25T22:55:47'
-excerpt: 'Here are mapping tools and data layers to help you analyze and assess
-  vulnerabilities in your or other coastal communities to the combination of sea level
-  rise, storm surges, and sinking lands. These resources aim to help coastal communities
-  identify &hellip;'
+excerpt: |-
+    Here are mapping tools and data layers to help you analyze and assess vulnerabilities in coastal communities from the combination of sea level rise, storm surges, and sinking lands. These resources aim to help coastal communities identify and reduce vulnerabilities to inundation and improve their resilience.
 link: https://www.data.gov/climate/coastalflooding/coastalflooding-maps
-modified: '2019-05-02T14:30:22'
+modified: '2023-10-02T12:00:00'
 permalink: "climate/coastalflooding/coastalflooding-maps/"
 redirect_from:
 - /climate/hurricanes-tropical-storms/
 slug: coastalflooding-maps
-title: Coastalflooding Maps
+title: Coastal Flooding Maps
 ---
 
-Here are mapping tools and data layers to help you analyze and assess vulnerabilities in your or other coastal communities to the combination of sea level rise, storm surges, and sinking lands. These resources aim to help coastal communities identify and reduce vulnerabilities to inundation and improve their resilience. This map gallery is in a pilot stage. Please [let us know](/climate/climate-feedback/) how we can make it more useful.
+Here are mapping tools and data layers to help you analyze and assess vulnerabilities in coastal communities from the combination of sea level rise, storm surges, and sinking lands. These resources aim to help coastal communities identify and reduce vulnerabilities to inundation and improve their resilience.
 
 _Note: Images have embedded links_
 
-## Sandy SLR Planning Tool – New York City
-[![Sea Level Rise Planning Tool - New York City](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/1-300x151.png "Sea Level Rise Planning Tool - New York City")](https://geoplatform.maps.arcgis.com/home/item.html?id=bc90ddc4984a45538c1de5b4ddf91381 "Sea Level Rise Planning Tool - New York City")
+## [Sandy Sea Level Rise Planning Tool – New York City](https://geoplatform.maps.arcgis.com/apps/mapviewer/index.html?webmap=bc90ddc4984a45538c1de5b4ddf91381)
 
-## Sandy SLR Planning Tool – New Jersey and New York State
-[![Sandy SLR Planning Tool - New Jersey and New York State](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/2-300x218.png "Sandy SLR Planning Tool - New Jersey and New York State")](https://geoplatform.maps.arcgis.com/home/item.html?id=2960f1e066544582ae0f0d988ccb3d27)
+The Sandy Sea Level Rise Planning Tool – New York City maps sea level rise risk scenarios in New York City, NY, based on Hurricane Sandy impacts. Contributors: NOAA
 
-## SLR and Coastal Flooding Impacts Viewer
-[![SLR and Coastal Flooding Impacts Viewer](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/3-300x160.png "SLR and Coastal Flooding Impacts Viewer")](https://www.csc.noaa.gov/digitalcoast/tools/slrviewer/)
+[![Map of NYC sea level rise scenarios for the 2050s](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map1_SLR_Planning_Tool.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map1_SLR_Planning_Tool.png)
 
-## Historical Hurricane Tracks Tool
-[![Historical Hurricane Tracks Tool](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/4-300x180.png "Historical Hurricane Tracks Tool")](https://csc.noaa.gov/digitalcoast/tools/hurricanes/)
+## [Sea Level Rise Viewer](https://coast.noaa.gov/slr/)
 
-## International Best Track Archive for Climate Stewardship (IBTrACS)
-[![International Best Track Archive for Climate Stewardship (IBTrACS)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Screen-Shot-2014-03-12-at-6.26.28-PM.png "International Best Track Archive for Climate Stewardship (IBTrACS)")](https://www.ncdc.noaa.gov/ibtracs/)
+The Sea Level Rise Viewer is an interactive map viewer that displays areas of sea level rise and potential coastal flooding impacts. Contributors: NOAA
 
-## NOAA’s nowCOAST Web Mapping Portal to Near-Real-Time Coastal Information
-[![NOAA's nowCOAST Web Mapping Portal to Near-Real-Time Coastal Information](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/6.png "NOAA's nowCOAST Web Mapping Portal to Near-Real-Time Coastal Information")](https://nowcoast.noaa.gov)
+[![Map of sea level rise scenarios in the southeastern U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map2_SLR_Viewer.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map2_SLR_Viewer.png)
 
-## NOAA’s Coastal Change Analyis Program (C-CAP) Regional Land Cover Data
-[![NOAA's Coastal Change Analyis Program (C-CAP) Regional Land Cover Data](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/7-300x183.png "NOAA's Coastal Change Analyis Program (C-CAP) Regional Land Cover Data")](https://www.csc.noaa.gov/digitalcoast/tools/lca "Sea Level Rise Planning Tool - New York City")
+## [Historical Hurricane Tracks Tool](https://coast.noaa.gov/hurricanes/#map=4/32/-80)
 
-## FEMA’s National Flood Hazard Layer (Official)
-[![FEMA's National Flood Hazard Layer (Official)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/8-300x202.png "FEMA's National Flood Hazard Layer (Official)")](https://fema.maps.arcgis.com/home/item.html?id=cbe088e7c8704464aa0fc34eb99e7f30)
+The Historical Hurricane Tracks Tool allows users to visualize historic hurricane paths and intensities along their path. Contributors: NOAA
 
-## FEMA’s Hazus Average Annualized Loss Viewer
-[![FEMA’s Hazus Average Annualized Loss Viewer](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/9-300x202.png "FEMA’s Hazus Average Annualized Loss Viewer")](https://fema.maps.arcgis.com/home/item.html?id=cb8228309e9d405ca6b4db6027df36d9)
+[![Path and intensity of Hurricane Harvey in 2017](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map3_Hurricane_Tracks.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map3_Hurricane_Tracks.png)
 
-## FEMA MOTF-Hurricane Sandy Impact Analysis
-[![FEMA MOTF-Hurricane Sandy Impact Analysis](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/10-300x199.png "FEMA MOTF-Hurricane Sandy Impact Analysis")](https://fema.maps.arcgis.com/home/item.html?id=307dd522499d4a44a33d7296a5da5ea0)
+## [International Best Track Archive for Climate Stewardship (IBTrACS)](https://www.ncei.noaa.gov/products/international-best-track-archive)
 
-## Coastal Change Hazards Portal
-[![Coastal Change Hazards Portal](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Screen-Shot-2014-03-12-at-6.26.51-PM.png "Coastal Change Hazards Portal")](https://marine.usgs.gov/coastalchangehazardsportal/)
+The International Best Track Archive for Climate Stewardship (IBTrACS) project compiles recent and historical global tropical cyclone data from various centers to improve data availability and discovery. Contributors: NOAA, NCEI
+
+[![The International Best Track Archive for Climate Stewardship homepage](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map4_IBTrACS.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map4_IBTrACS.png)
+
+## [NOAA nowCOAST Web Mapping Portal](https://nowcoast.noaa.gov/)
+
+NOAA’s nowCOAST Web Portal for Near-Real-Time Coastal Information provides users with near-real-time coastal observations, forecasts, and warnings. Contributors: NOAA
+
+[![Radar image of Tropical Cyclone Idalia and active alerts](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map5_nowCOAST.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map5_nowCOAST.png)
+
+## [NOAA Coastal Change Analysis Program (C-CAP) Land Cover Atlas](https://coast.noaa.gov/ccapatlas/)
+
+NOAA’s Coastal Change Analysis Program (C-CAP)  Land Cover Atlas is an online data viewer for coastal land cover and land cover change information, such as forest loss or new urban development. Contributors: NOAA
+
+[![Map of land cover change in the Lower Mississippi-New Orleans Watershed](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map6_NOAA_CCAP.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map6_NOAA_CCAP.png)
+
+## [FEMA National Flood Hazard Layer (NFHL)](https://hazards-fema.maps.arcgis.com/apps/webappviewer/index.html?id=8b0adb51996444d4879338b5529aa9cd)
+
+FEMA's National Flood Hazard Layer (NFHL) Viewer is a visualization tool that  allows users to view, download, and print flood hazard data. Contributors: FEMA
+
+[![Map of the FEMA National Flood Hazard Layer](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map7_FEMA_NFHL.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map7_FEMA_NFHL.png)
+
+## [FEMA Hazus Average Annualized Loss Viewer](https://fema.maps.arcgis.com/home/item.html?id=cb8228309e9d405ca6b4db6027df36d9)
+
+FEMA’s Hazus Average Annualized Loss Viewer to assess and mitigate risks and vulnerabilities associated with flooding using FEMA MOTF and Hazus Loss Estimation Model. *Requires ArcGIS FEMA user account to view. Contributors: FEMA
+
+[![Map of FEMA Hazus flood risk in the U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map8_FEMA_Hazus_Viewer.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map8_FEMA_Hazus_Viewer.png)
+
+## [Coastal Change Hazards Portal](https://marine.usgs.gov/coastalchangehazardsportal/)
+
+The Coastal Change Hazards Portal is an interactive data viewer that provides access to coastal change data such as shoreline change and sea level rise. Contributors: USGS
+
+[![Map of historic shoreline positions in the U.S.](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map9_Coast_Haz_Portal.png)](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/Map9_Coast_Haz_Portal.png)

@@ -13,7 +13,7 @@
         content: " ";
         position: absolute;
         border-left: 1px solid color($color);
-        top: 10%; 
+        top: 10%;
         left: $left;
         height: 90%;
         margin-top: auto;
@@ -27,6 +27,7 @@
     list-style: none;
     gap: 12px;
     padding-inline-start: 0;
+
     li {
         position: relative;
     }
@@ -37,9 +38,11 @@
     &-center {
         text-align: center;
     }
+
     &-uppercase {
         text-transform: uppercase;
     }
+
     &-color {
         &-red {
             color: color('secondary');
@@ -50,6 +53,7 @@
 .desktop {
     &-show {
         display: none;
+
         @include at-media('desktop') {
             display: inline;
         }
@@ -57,14 +61,17 @@
 
     &-hide {
         display: inline;
+
         .usa-nav__primary & {
             display: list-item;
         }
+
         @include at-media('desktop') {
             display: none !important;
-                .usa-nav__primary & {
-                    display: none;
-                }
+
+            .usa-nav__primary & {
+                display: none;
+            }
         }
     }
 }
