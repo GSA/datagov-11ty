@@ -15,6 +15,7 @@ title: About Data.gov
 
 [About data.gov](#about)
 
+-   [Mission](#mission)
 -   [Who developed Data.gov?](#who)
 -   [With what technology is Data.gov built?](#technology)
 -   [What standards were used to develop the metadata displayed on Data.gov?](#standards)
@@ -27,11 +28,18 @@ title: About Data.gov
 
 <h1 id="about">{{ title }}</h1>
 
+<h2 id="mission">Mission</h2>
+
+The United States Government’s open data site is designed to unleash the power of
+government open data to inform decisions by the public and policymakers, drive
+innovation and economic activity, achieve agency missions, and strengthen the
+foundation of an open and transparent government.
+
+
+
 <h2 id="who">Who developed Data.gov?</h2>
 
 Data.gov was launched in 2009 and is managed and hosted by the U.S. General Services Administration, [Technology Transformation Service](https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services).
-
-[Top](#top)
 
 <h2 id="technology">With what technology is Data.gov built?</h2>
 

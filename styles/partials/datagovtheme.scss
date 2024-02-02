@@ -8,6 +8,8 @@ $s3_image_quick_navs_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c
 $s3_image_logo: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.svg';
 $s3_image_hero_image_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/hero-image-bg.svg';
 $s3_image_about_us_card_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/about-us-card-bg.svg';
+$s3_image_mission_graphic: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg';
+$s3_image_mission_section_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-section-bg.png';
 
 a {
     color: color('blue-warm-60v');
@@ -160,6 +162,13 @@ html.datagov {
         padding: 1rem;
 
     }
+}
+
+.mission {
+    background-image: url($s3_image_mission_section_bg);
+    background-size: cover;
+
+    border-top: 1px solid color('gray-10');
 }
 
 .about {
