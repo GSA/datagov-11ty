@@ -166,11 +166,19 @@ html.datagov {
 
 .mission {
     background-image: url($s3_image_mission_section_bg);
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 75% auto;
+    background-position: 375% 0;
+    background-color: color('base-lightest');
+    min-height: 25em;
 
     border-top: 1px solid color('gray-10');
     margin: auto;
     text-align: center;
+}
+
+.mediabox {
+    border: 1px solid color('gray-10');
 }
 
 .about {

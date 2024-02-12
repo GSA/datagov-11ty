@@ -13,19 +13,6 @@ title: About Data.gov
 
 <div id="top"></div>
 
-[About data.gov](#about)
-
--   [Mission](#mission)
--   [Who developed Data.gov?](#who)
--   [With what technology is Data.gov built?](#technology)
--   [What standards were used to develop the metadata displayed on Data.gov?](#standards)
-
-[Get Data on Data.gov](#adddata)
-
--   [How are the datasets on Data.gov collected?](#collected)
-
-[Media Inquiries](#media)
-
 <h1 id="about">{{ title }}</h1>
 
 <h2 id="mission">Mission</h2>
@@ -55,7 +42,7 @@ Data.gov follows the [DCAT-US Schema v1.1 (Project Open Data Metadata Schema)](h
 
 [Top](#top)
 
-<h1 id="adddata">Get Data on Data.gov</h2>
+<h1 id="adddata">Get Data on Data.gov</h1>
 
 <h2 id="collected">How are the datasets on Data.gov collected?</h2>
 
@@ -73,8 +60,11 @@ Agency Public Data Listings are made available on agency websites as JSON files 
 
 [Top](#top)
 
-<h1 id="media">Media inquiries</h2>
+<div class="mediabox">
+  <h1 id="media">Media inquiries</h1>
 
-If you are preparing an article or creating an event, and are interested in finding information, a speaker, or other help in communicating about open data, contact the Data.gov team at [datagov@gsa.gov](mailto:datagov@gsa.gov).
+  If you are preparing an article or creating an event, and are interested in finding information, a speaker, or other help in communicating about open data, contact the Data.gov team at [datagov@gsa.gov](mailto:datagov@gsa.gov).
+
+</div>
 
 [Top](#top)
