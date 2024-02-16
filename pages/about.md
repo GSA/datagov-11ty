@@ -25,7 +25,7 @@ The United States Government’s open data site is designed to unleash the power
     </a>
   </div>
 
-  <![Datagov mission](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg) 
+  ![Datagov mission](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg) 
 
 
 <h2 id="who">Who developed Data.gov?</h2>
