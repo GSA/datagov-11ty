@@ -60,6 +60,16 @@ html.datagov {
 
 /*
   ************************
+  ****** LAYOUTS ******
+  ************************
+*/
+
+.page-wide {
+    padding-top: 2.5rem;
+}
+
+/*
+  ************************
   ****** COMPONENTS ******
   ************************
 */
@@ -204,35 +214,31 @@ html.datagov {
     padding: 20px;
 }
 
-.about {
-    border-top: 1px solid color('gray-10');
-
-    .mission-bg {
-        @include at-media('desktop') {
-            &::before {
-                content: "";
-                background-image: url($s3_image_mission_section_bg);
-                background-repeat: no-repeat;
-                background-size: 100% auto;
-                background-position: center;
-                opacity: .55;
-                position: absolute;
-                top: 0px;
-                right: 0px;
-                bottom: 0px;
-                left: 0px;
-            }
-
-            &__copy {
-                margin: 0 5rem;
-            }
+.mission-bg {
+    @include at-media('desktop') {
+        &::before {
+            content: "";
+            background-image: url($s3_image_mission_section_bg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            opacity: .55;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
         }
 
-        position: relative;
-        border-top: 1px solid color('gray-10');
-        border-bottom: 1px solid color('gray-10');
-        margin: auto;
+        &__copy {
+            margin: 0 5rem;
+        }
     }
+
+    position: relative;
+    border-top: 1px solid color('gray-10');
+    border-bottom: 1px solid color('gray-10');
+    margin: auto;
 }
 
 
