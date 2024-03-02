@@ -31,12 +31,23 @@ layout: layouts/page-wide
         </div>
 
       </div>
-      <div class="grid-col-12 desktop:grid-col-7 mobile-top-padding">
-        <img src="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg"
-          alt="Datagov mission">
+      <div class="grid-col-12 desktop:grid-col-7 display-none desktop:display-block">
+        {%image 'graphic-mission.svg' 'Datagov mission' %}
       </div>
     </div>
-  </section>
+    <div class="grid-row grid-gap-lg desktop:display-none tablet:padding-x-10 padding-top-5">
+      {% for icon in site.about_page_hero_icons %}
+      <div class="grid-col-12 tablet:grid-col-6 padding-bottom-3">
+        {% assign iconUrl = icon.url | escape %}
+        <div class="icon-container text-center">
+          {% image iconUrl "usa-icon--size-5"%}
+          <div class="name">{{ icon.title }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+</section>
 </div>
 <!-- full bleed break -->
 <section class="usa-section mission-bg padding-y-5">
