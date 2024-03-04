@@ -33,6 +33,7 @@
 
         .usa-navbar {
             max-width: none;
+            padding-left: 0;
         }
 
         .usa-nav__inner {
@@ -43,21 +44,12 @@
             border: none;
         }
     }
-
-    .grid-container {
-        max-width: none;
-    }
 }
 
-.usa-banner {
-    &__inner {
-        padding-left: 2rem;
-
-        @include at-media('tablet') {
-            max-width: none;
-            padding-left: 4rem;
-        }
-    }
+.usa-banner,
+.usa-banner__inner {
+    max-width: none;
+    padding-left: 0;
 }
 
 .usa-prose {
@@ -75,6 +67,22 @@
 .usa-identifier {
     &__container {
         max-width: 75rem;
+    }
+}
+
+.usa-footer {
+    .grid-container {
+        max-width: 75rem;
+    }
+
+    .grid-row {
+        .desktop\:grid-col-fill {
+            flex: 1 1 0%;
+            width: auto;
+            max-width: 100%;
+            min-width: 1px;
+        }
+
     }
 }
 

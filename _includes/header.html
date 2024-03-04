@@ -7,30 +7,24 @@ official government website
   <a class="usa-skipnav" href="#main-content">Skip to main content</a>
   <div class="usa-banner">
     <div class="usa-accordion">
-      <section
-        id="gov-banner-header-section"
-        aria-label="USA Gov banner section header"
-        class="usa-banner__header"
-      >
-        <div class="usa-banner__inner">
-          <div class="grid-col-auto">
-            {% image_with_class "./node_modules/@uswds/uswds/dist/img/us_flag_small.png" "usa-banner__header-flag" "U.S. flag" true %}
+      <section id="gov-banner-header-section" aria-label="USA Gov banner section header" class="usa-banner__header">
+        <div class="grid-container">
+          <div class="usa-banner__inner">
+            <div class="grid-col-auto">
+              {% image_with_class "./node_modules/@uswds/uswds/dist/img/us_flag_small.png" "usa-banner__header-flag" "U.S.flag" true %}
+            </div>
+            <div class="grid-col-fill tablet:grid-col-auto">
+              <p class="usa-banner__header-text">
+                An official website of the United States government
+              </p>
+              <p class="usa-banner__header-action" aria-hidden="true">
+                Here's how you know
+              </p>
+            </div>
+            <button class="usa-accordion__button usa-banner__button" aria-expanded="false" aria-controls="gov-banner">
+              <span class="usa-banner__button-text">Here's how you know</span>
+            </button>
           </div>
-          <div class="grid-col-fill tablet:grid-col-auto">
-            <p class="usa-banner__header-text">
-              An official website of the United States government
-            </p>
-            <p class="usa-banner__header-action" aria-hidden="true">
-              Here's how you know
-            </p>
-          </div>
-          <button
-            class="usa-accordion__button usa-banner__button"
-            aria-expanded="false"
-            aria-controls="gov-banner"
-          >
-            <span class="usa-banner__button-text">Here's how you know</span>
-          </button>
         </div>
       </section>
       <div class="usa-banner__content usa-accordion__content" id="gov-banner">

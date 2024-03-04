@@ -7,31 +7,34 @@ tagline: The home of the U.S. Government's open data
 
 <!-- Banner hero -->
 <section class="usa-section hero">
-  <div class="hero__content">
-    <div class="hero__copy">
-      <h1>The Home of the U.S. Government's Open Data</h1>
-      <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications,
-        design data
-        visualizations, and more.</div>
-      <div class="hero__dataset-count">
-        {% if catalog and catalog.results and catalog.results.datasets %}
-        <h4 class="text-uppercase">
-          <span class="text-color-red">{{ catalog.results.datasets | toLocaleString }}</span>
-          datasets available
-        </h4>
-        {% endif %}
+  <div class="grid-container">
+
+    <div class="hero__content">
+      <div class="hero__copy">
+        <h1>The Home of the U.S. Government's Open Data</h1>
+        <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications,
+          design data
+          visualizations, and more.</div>
+        <div class="hero__dataset-count">
+          {% if catalog and catalog.results and catalog.results.datasets %}
+          <h4 class="text-uppercase">
+            <span class="text-color-red">{{ catalog.results.datasets | toLocaleString }}</span>
+            datasets available
+          </h4>
+          {% endif %}
+        </div>
       </div>
+      <section aria-label="Search component" class="hero__search">
+        <form class="usa-search" role="search" method="get" action="https://catalog.data.gov/dataset">
+          <label class="usa-sr-only" for="search-field">Search</label>
+          <input class="usa-input" id="search-field" type="search" name="q" />
+          <button class="usa-button" type="submit">
+            <span class="usa-search__submit-text">Search</span>
+            {% datagov_icon "search--white.svg" "usa-search__submit-icon"%}
+          </button>
+        </form>
+      </section>
     </div>
-    <section aria-label="Search component" class="hero__search">
-      <form class="usa-search" role="search" method="get" action="https://catalog.data.gov/dataset">
-        <label class="usa-sr-only" for="search-field">Search</label>
-        <input class="usa-input" id="search-field" type="search" name="q" />
-        <button class="usa-button" type="submit">
-          <span class="usa-search__submit-text">Search</span>
-          {% datagov_icon "search--white.svg" "usa-search__submit-icon"%}
-        </button>
-      </form>
-    </section>
   </div>
 </section>
 

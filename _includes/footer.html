@@ -4,22 +4,23 @@
             <div class="grid-row padding-top-4">
                 <div class="site-footer__logo">
                     <a href="https://data.gov">
-                        <img
-                            class="width-30 height-auto"
+                        <img class="width-30 height-auto"
                             src="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.png"
-                            alt="Data.gov logo"
-                        />
+                            alt="Data.gov logo" />
                     </a>
                 </div>
             </div>
             <div class="grid-row padding-bottom-1">
-                <div class="grid-col-auto site-footer__links-container">
+                <div class="grid-col-auto desktop:grid-col-fill site-footer__links-container">
                     <ul class="grid-row grid-gap site-footer__links--datagov">
                         <li><a href="{% page '/about/' %}">About</a></li>
                         <li><a href="{% page '/open-gov/' %}">Open Government</a></li>
                         <li><a href="{% page '/privacy-policy/' %}">Website Policies</a></li>
                         <li><a href="https://www.performance.gov/">PERFORMANCE.GOV</a></li>
                     </ul>
+                </div>
+                <div class="break tablet:display-none"></div>
+                <div class="grid-col-auto">
                     <ul class="site-footer__links--social">
                         <li>
                             <a href="{{site.links.social.twitter}}">{% usa_icon 'twitter' %}<span>Twitter</span></a>
@@ -31,5 +32,6 @@
                 </div>
             </div>
         </div>
+    </div>
     </div>
 </footer>

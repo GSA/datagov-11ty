@@ -96,8 +96,9 @@ html.datagov {
 
     .user-guide {
         &__col {
-            padding: .5em 0 .5em 2em;
+            padding: .5rem 2rem;
             border-left: 1px solid color('base-lighter');
+            border-right: 1px solid color('base-lighter');
 
             .datagov-icon {
                 height: 3em;
@@ -137,18 +138,6 @@ html.datagov {
     @include at-media('desktop') {
         background-size: 35% auto;
         background-position: 98%;
-    }
-
-    &__content {
-        margin: 1em;
-
-        @include at-media('tablet') {
-            margin: 3em;
-        }
-
-        @include at-media('desktop') {
-            margin: 3em 5em;
-        }
     }
 
     &__copy {
@@ -341,7 +330,7 @@ html.datagov {
         &--social {
             @include list-items();
 
-            @include at-media('desktop') {
+            @include at-media('tablet') {
                 margin-top: 1rem;
             }
 
