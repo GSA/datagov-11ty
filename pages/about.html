@@ -1,0 +1,133 @@
+---
+excerpt: Who developed Data.gov? With what technology is Data.gov built?
+link: https://www.data.gov/about
+redirect_from:
+- /faq/
+- /climate/faq/
+slug: about
+title: About Us
+layout: layouts/page-wide
+---
+
+<div id="top"></div>
+
+<div class="grid-container">
+  <div class="usa-prose">
+    <h1 id="about">{{ title }}</h1>
+  </div>
+  <section class="usa-section">
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-12 desktop:grid-col-5 ">
+        <h4 id="mission">Mission</h4>
+        <div>
+          The United States Government's open data site is designed to unleash the power of government open data to
+          <b>inform decisions by the public and policymakers, drive innovation and economic activity, achieve agency
+            missions, and strengthen the foundation of an open and transparent government.</b>
+        </div>
+        <div class="margin-top-4">
+          <a href="{% page '/timeline/' %}" class="usa-button usa-button--secondary">
+            Explore the Timeline {% usa_icon "arrow_forward" %}
+          </a>
+        </div>
+
+      </div>
+      <div class="grid-col-12 desktop:grid-col-7 display-none desktop:display-block">
+        {%image 'graphic-mission.svg' 'Datagov mission' %}
+      </div>
+    </div>
+    <div class="grid-row grid-gap-lg desktop:display-none tablet:padding-x-10 padding-top-5">
+      {% for icon in site.about_page_hero_icons %}
+      <div class="grid-col-12 tablet:grid-col-6 padding-bottom-3">
+        {% assign iconUrl = icon.url | escape %}
+        <div class="icon-container text-center">
+          {% image iconUrl "usa-icon--size-5"%}
+          <div class="name">{{ icon.title }}</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+</section>
+</div>
+<!-- full bleed break -->
+<section class="usa-section mission-bg padding-y-5">
+  <div class="grid-container">
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-12 desktop:grid-col-6 ">
+        <h2 id="who">Who developed Data.gov?</h2>
+        <div>
+          Data.gov was launched in 2009 and is managed and hosted by the U.S. General Services Administration, <a
+            href="https://www.gsa.gov/about-us/organization/federal-acquisition-service/technology-transformation-services"
+            target="_blank" class="usa-link usa-link--external">Technology Transformation Services</a>.
+        </div>
+      </div>
+      <div class="grid-col-12 desktop:grid-col-6 mobile-top-padding">
+        <h2 id="technology">With what technology is Data.gov built?</h2>
+        <div>
+          Data.gov is powered by two open source applications, <a href="https://ckan.org" target="_blank"
+            class="usa-link usa-link--external">CKAN</a> and
+          <a href="https://www.11ty.dev/" target="_blank" class="usa-link usa-link--external">11ty</a> and it is
+          developed publicly on <a href="https://github.com/GSA/data.gov" target="_blank"
+            class="usa-link usa-link--external">GitHub</a>.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="grid-container">
+  <section class="usa-section">
+    <h2>Get Data on Data.gov</h2>
+    <h4>How are the datasets on Data.gov collected?</h4>
+    <div class="grid-row grid-gap-lg padding-top-2">
+      <div class="grid-col-12 desktop:grid-col-6 ">
+        Under the OPEN Government Data Act, which is Title II of the <a
+          href="https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf" target="_blank"
+          class="usa-link usa-link--external">Foundations for Evidence-Based Policymaking
+          Act</a>, government data is required to be made
+        available in open, machine-readable formats, while continuing to ensure privacy and security.
+
+        Government data publishers looking to get their data on Data.gov should read the detailed guide: <a
+          href="https://resources.data.gov/tools/how-to-get-your-open-data-on-datagov/" target="_blank"
+          class="usa-link usa-link--external">How to
+          get your open data on Data.gov</a>. The Data.gov team typically works with a designated open data point of
+        contact as a liaison for each agency. Data publishers should consult with their agency point of contact to
+        include any additional datasets on Data.gov. If you need help determining who your open data point of contact
+        is, please <a href="{% page '/contact/'%}">contact us</a>.
+
+      </div>
+      <div class="grid-col-12 desktop:grid-col-6 mobile-top-padding">
+        <b>Federal agencies are required to:</b>
+        <ul>
+          <li><b>Create a Single Agency Data Inventory.</b> Agencies are required to catalog their data assets, just like
+            they would inventory computers or desk chairs, to better manage and use these resources.</li>
+          <li><b>Publish a Public Data Listing.</b> Agencies are required to publish a list of their data assets that are
+            public, or could be made public. This list is made available as a data.json hosted at the primary domain
+            of
+            the agency (e.g.) <a href="https://open.gsa.gov/data.json" target="_blank"
+              class="usa-link usa-link--external">gsa.gov/data.json</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="grid-row grid-gap-lg padding-top-3">
+      <div class="grid-col-12">
+        Agency Public Data Listings are made available on agency websites as JSON files following the <a
+          href="https://resources.data.gov/resources/dcat-us/" class="usa-link usa-link--external">DCAT-US Schema
+          v1.1</a>, and are then harvested into the central catalog for
+        Data.gov. Each agency is responsible for its own data.
+      </div>
+    </div>
+  </section>
+
+  <div class="grid-row grid-gap-lg padding-bottom-5">
+    <div class="grid-col-12">
+      <div class="mediabox">
+        <h1 id="media">Media inquiries</h1>
+        If you are preparing an article or creating an event, and are interested in finding information, a speaker,
+        or
+        other help in communicating about open data, contact the Data.gov team at
+        <a href="mailto:datagov@gsa.gov">datagov@gsa.gov</a>.
+      </div>
+    </div>
+  </div>
+</div>

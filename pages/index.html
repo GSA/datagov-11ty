@@ -7,37 +7,34 @@ tagline: The home of the U.S. Government's open data
 
 <!-- Banner hero -->
 <section class="usa-section hero">
-  <div class="hero__content">
-    <div class="hero__copy">
-      <h1>The Home of the U.S. Government's Open Data</h1>
-      <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications, design data
-        visualizations, and more.</div>
-      <div class="hero__dataset-count">
-        {% if catalog and catalog.results and catalog.results.datasets %}
+  <div class="grid-container">
+
+    <div class="hero__content">
+      <div class="hero__copy">
+        <h1>The Home of the U.S. Government's Open Data</h1>
+        <div>Here you will find data, tools, and resources to conduct research, develop web and mobile applications,
+          design data
+          visualizations, and more.</div>
+        <div class="hero__dataset-count">
+          {% if catalog and catalog.results and catalog.results.datasets %}
           <h4 class="text-uppercase">
             <span class="text-color-red">{{ catalog.results.datasets | toLocaleString }}</span>
-            datasets available</h4>
-        {% endif %}
+            datasets available
+          </h4>
+          {% endif %}
+        </div>
       </div>
+      <section aria-label="Search component" class="hero__search">
+        <form class="usa-search" role="search" method="get" action="https://catalog.data.gov/dataset">
+          <label class="usa-sr-only" for="search-field">Search</label>
+          <input class="usa-input" id="search-field" type="search" name="q" />
+          <button class="usa-button" type="submit">
+            <span class="usa-search__submit-text">Search</span>
+            {% datagov_icon "search--white.svg" "usa-search__submit-icon"%}
+          </button>
+        </form>
+      </section>
     </div>
-    <section aria-label="Search component" class="hero__search">
-      <form
-        class="usa-search"
-        role="search"
-        method="get"
-        action="https://catalog.data.gov/dataset">
-        <label class="usa-sr-only" for="search-field">Search</label>
-        <input
-          class="usa-input"
-          id="search-field"
-          type="search"
-          name="q" />
-        <button class="usa-button" type="submit">
-          <span class="usa-search__submit-text">Search</span>
-          {% datagov_icon "search--white.svg" "usa-search__submit-icon"%}
-        </button>
-      </form>
-    </section>
   </div>
 </section>
 
@@ -46,38 +43,36 @@ tagline: The home of the U.S. Government's open data
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
       {% for filter in site.catalog_filters %}
-        <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3">
-          {% assign iconName = filter.iconName | escape %}
-          <a href="{% link filter.url %}">
-            <div class="icon-container text-center">
-              {% datagov_icon iconName "usa-icon--size-5"%}
-              <div class="name">{{ filter.name }}</div>
-            </div>
-          </a>
-        </div>
+      <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-3">
+        {% assign iconName = filter.iconName | escape %}
+        <a href="{% link filter.url %}">
+          <div class="icon-container text-center">
+            {% datagov_icon iconName "usa-icon--size-5"%}
+            <div class="name">{{ filter.name }}</div>
+          </div>
+        </a>
+      </div>
       {% endfor %}
     </div>
   </div>
 </section>
 
-<!-- About  -->
-<section class="usa-section about">
+<!-- Mission  -->
+<section class="usa-section mission">
   <div class="grid-container">
     <div class="grid-row grid-gap-lg">
-      <div class="grid-col-12 desktop:grid-col-4">
-        <img class="datagov-age-icon" alt="Data Gov is 14yrs old!" role="img"
-          src="https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/datagov-age-14.png" />
-      </div>
-      <div class="grid-col-12 desktop:grid-col-8">
-        <h1>About Data.gov</h1>
+      <div class="grid-col-12 desktop:grid-col-12 mission__copy">
+        <h1>Mission</h1>
         <div>
-          Data.gov is the United States government's open data website. It provides access to datasets published by agencies
-          across the federal government. Data.gov is intended to provide access to government open data to the public, achieve
-          agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
+          The United States Government’s open data site is designed to unleash the power of government open data to
+          <b>inform
+            decisions by the public and policymakers</b>, <b>drive innovation and economic activity</b>, <b>achieve
+            agency missions</b>, and
+          <b>strengthen the foundation of an open and transparent government</b>.
         </div>
         <div class="grid-row-auto margin-top-3">
-          <a href="{% page '/timeline/' %}" class="usa-button usa-button--secondary">
-            Explore the timeline {% usa_icon "arrow_forward" %}
+          <a href="{% page '/about/' %}" class="usa-button usa-button--secondary">
+            About Us {% usa_icon "arrow_forward" %}
           </a>
         </div>
       </div>
@@ -92,7 +87,7 @@ tagline: The home of the U.S. Government's open data
       <div class="grid-col-12 desktop:grid-col-8">
         <!-- Key Metric by Organization Type -->
         {% if catalog and catalog.metrics and catalog.metrics.orgBarMetric %}
-          {% include "metrics_widgets/bar-chart.html" name: 'org' metric: catalog.metrics.orgBarMetric %}
+        {% include "metrics_widgets/bar-chart.html" name: 'org' metric: catalog.metrics.orgBarMetric %}
         {% endif %}
       </div>
       <div class="grid-col-12 desktop:grid-col-4">
@@ -100,23 +95,26 @@ tagline: The home of the U.S. Government's open data
           <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1 desktop:margin-top-0">
             <!-- Dataset Age -->
             {% if catalog and catalog.metrics and catalog.metrics.datasetsBarMetric %}
-              {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric class: 'usa-tooltip' toolTipText: 'Datasets grouped by when metadata was last modified' %}
+            {% include "metrics_widgets/bar-chart.html" name: 'datasets' metric: catalog.metrics.datasetsBarMetric
+            class: 'usa-tooltip' toolTipText: 'Datasets grouped by when metadata was last modified' %}
             {% endif %}
           </div>
           <div class="grid-col-12 tablet:grid-col-6 desktop:grid-col-12 margin-top-1">
             <!-- Dataset Distribution -->
             {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
-              {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric url: 'user-guide/#dataset-totals' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our user guide' %}
+            {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric url:
+            'user-guide/#dataset-totals' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our
+            user guide' %}
             {% endif %}
           </div>
         </div>
       </div>
       <div class="grid-col-12">
         <div class="grid-row metrics__fetch-date">
-            {% if catalog and catalog.meta and catalog.meta.date %}
-            {% assign date = 'Last Updated: ' | append: catalog.meta.date %}
-              <p>{{date}}</p>
-            {% endif %}
+          {% if catalog and catalog.meta and catalog.meta.date %}
+          {% assign date = 'Last Updated: ' | append: catalog.meta.date %}
+          <p>{{date}}</p>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -133,13 +131,13 @@ tagline: The home of the U.S. Government's open data
             {% image "resources-logo.svg" "Resources Logo" false %}
           </a>
         </div>
-          <ul class="quick-links--resources">
-            {% for link in site.resource_quick_links %}
-              <li>
-                <a href="{% link link.url %}">{{ link.title }} {% usa_icon 'launch' %}</a>
-              </li>
-            {% endfor %}
-          </ul>
+        <ul class="quick-links--resources">
+          {% for link in site.resource_quick_links %}
+          <li>
+            <a href="{% link link.url %}">{{ link.title }} {% usa_icon 'launch' %}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
       <div class="grid-col-12 desktop:grid-col-6">
         <div class="logo">
@@ -147,13 +145,13 @@ tagline: The home of the U.S. Government's open data
             {% image "strategy-logo.svg" "Strategy Logo" false %}
           </a>
         </div>
-          <ul class="quick-links--strategy">
-            {% for link in site.strategy_quick_links %}
-              <li>
-                <a href="{% link link.url %}">{{ link.title }} {% usa_icon 'launch' %}</a>
-              </li>
-            {% endfor %}
-          </ul>
+        <ul class="quick-links--strategy">
+          {% for link in site.strategy_quick_links %}
+          <li>
+            <a href="{% link link.url %}">{{ link.title }} {% usa_icon 'launch' %}</a>
+          </li>
+          {% endfor %}
+        </ul>
       </div>
     </div>
   </div>

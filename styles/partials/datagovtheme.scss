@@ -8,6 +8,8 @@ $s3_image_quick_navs_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c
 $s3_image_logo: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/logo.svg';
 $s3_image_hero_image_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/hero-image-bg.svg';
 $s3_image_about_us_card_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/about-us-card-bg.svg';
+$s3_image_mission_graphic: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg';
+$s3_image_mission_section_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-section-bg.png';
 
 a {
     color: color('blue-warm-60v');
@@ -48,6 +50,24 @@ html.datagov {
     max-height: 100px;
 }
 
+.mobile-top-padding {
+    padding-top: 2.5rem;
+
+    @include at-media('desktop') {
+        padding-top: 0;
+    }
+}
+
+/*
+  ************************
+  ****** LAYOUTS ******
+  ************************
+*/
+
+.page-wide {
+    padding-top: 2.5rem;
+}
+
 /*
   ************************
   ****** COMPONENTS ******
@@ -76,8 +96,9 @@ html.datagov {
 
     .user-guide {
         &__col {
-            padding: .5em 0 .5em 2em;
+            padding: .5rem 2rem;
             border-left: 1px solid color('base-lighter');
+            border-right: 1px solid color('base-lighter');
 
             .datagov-icon {
                 height: 3em;
@@ -119,18 +140,6 @@ html.datagov {
         background-position: 98%;
     }
 
-    &__content {
-        margin: 1em;
-
-        @include at-media('tablet') {
-            margin: 3em;
-        }
-
-        @include at-media('desktop') {
-            margin: 3em 5em;
-        }
-    }
-
     &__copy {
         max-width: 30em;
     }
@@ -162,9 +171,66 @@ html.datagov {
     }
 }
 
-.about {
-    border-top: 1px solid color('gray-10');
+.mission {
+    @include at-media('desktop') {
+        &::before {
+            content: "";
+            background-image: url($s3_image_mission_section_bg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            opacity: .55;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        &__copy {
+            margin: 0 5rem;
+        }
+    }
+
+    position: relative;
+    border-bottom: 1px solid color('gray-10');
+    margin: auto;
+    text-align: center;
 }
+
+.mediabox {
+    border: 2px solid color('gray-10');
+    padding: 20px;
+}
+
+.mission-bg {
+    @include at-media('desktop') {
+        &::before {
+            content: "";
+            background-image: url($s3_image_mission_section_bg);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            opacity: .55;
+            position: absolute;
+            top: 0px;
+            right: 0px;
+            bottom: 0px;
+            left: 0px;
+        }
+
+        &__copy {
+            margin: 0 5rem;
+        }
+    }
+
+    position: relative;
+    border-top: 1px solid color('gray-10');
+    border-bottom: 1px solid color('gray-10');
+    margin: auto;
+}
+
+
 
 .metrics {
     &__fetch-date.grid-row {
@@ -264,7 +330,7 @@ html.datagov {
         &--social {
             @include list-items();
 
-            @include at-media('desktop') {
+            @include at-media('tablet') {
                 margin-top: 1rem;
             }
 
