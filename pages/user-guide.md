@@ -31,7 +31,7 @@ To choose a different ordering, such as by Date Added or Last Modified, click on
 
 ![Data.gov catalog order by options](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_order-by-options.png 'Data.gov catalog order by options')
 
-Most users look for datasets by searching for keywords in the search box. To search the catalog, enter keywords in the search box.
+Most users look for datasets by searching for keywords in the search box. To search the catalog, enter keywords in the search box. If you can't find what you're looking for, refer to the [CKAN "Search in Detail" instructions](https://docs.ckan.org/en/2.10/user-guide.html?highlight=search#search-in-detail).
 
 ![Data.gov catalog search by keywords](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_search-bar.png 'Data.gov catalog search by keywords')
 
