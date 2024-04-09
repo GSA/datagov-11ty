@@ -41,7 +41,7 @@ You can browse on the left side through various filters to narrow the results. F
 
 You can also search for datasets by location, such as a zip code.
 
-![Data.gov catalog seach by location](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_geo_search-screenshot.png 'Data.gov catalog seach by location')
+![Data.gov catalog search by location](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/dg-user-guide_geo_search-screenshot.png 'Data.gov catalog search by location')
 
 Once you find a dataset or tool of interest, click on the title and you will be taken to a page with more details on that specific dataset or tool.
 

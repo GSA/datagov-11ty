@@ -7,7 +7,7 @@ tags: climate
 date: '2014-09-25T10:46:09'
 excerpt: |-
   2014 AWRA Annual Water Resources Conference Open Water Data Initiative
-  – Unifying Water Data for the Nation Call For Lightening Talks (Deadline:
+  – Unifying Water Data for the Nation Call For Lightning Talks (Deadline:
   October 27, 2014) In coordination with The White House Climate Data Initiative,
   the Federal Geographic Data Committee, and…
 link: https://www.data.gov/climate/2014-awra-annual-water-resources-conference/
@@ -25,7 +25,7 @@ title: 2014 AWRA Annual Water Resources Conference
 
 Open Water Data Initiative – Unifying Water Data for the Nation
 
-Call For Lightening Talks (Deadline: October 27, 2014)**
+Call For Lightning Talks (Deadline: October 27, 2014)**
 
 In coordination with The White House Climate Data Initiative,
 
