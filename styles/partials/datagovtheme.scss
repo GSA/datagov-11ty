@@ -11,6 +11,8 @@ $s3_image_about_us_card_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-
 $s3_image_mission_graphic: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg';
 $s3_image_mission_section_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-section-bg.png';
 
+$s3_anniversary_banner: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/15-years-anniversary-banner-2912px.jpg';
+
 a {
     color: color('blue-warm-60v');
 
@@ -113,8 +115,19 @@ html.datagov {
 }
 
 .banner {
-    background-color: color('primary-vivid');
+    background-image: url($s3_anniversary_banner);
+    background-size: cover;
+    // background-color: color('primary-vivid');
     color: white;
+    
+    
+    @include at-media('mobile') {
+        background-position-x: 35%;
+    }
+
+    @include at-media('tablet') {
+        background-position-x: 0%;
+    }
 
     a {
         color: white;
