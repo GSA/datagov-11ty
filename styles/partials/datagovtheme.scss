@@ -120,7 +120,6 @@ html.datagov {
     // background-color: color('primary-vivid');
     color: white;
     
-    
     @include at-media('mobile') {
         background-position-x: 35%;
     }
@@ -211,6 +210,12 @@ html.datagov {
     text-align: center;
 }
 
+.anniversary {
+    text-align: center;
+    @include at-media('desktop') {
+        text-align: left;
+    }
+}
 .mediabox {
     border: 2px solid color('gray-10');
     padding: 20px;
