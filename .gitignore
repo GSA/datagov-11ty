@@ -126,3 +126,6 @@ _data/assetPaths.json
 
 # cypress
 cypress/videos
+
+# GA4 credentials.json file
+tts-datagov-472349c4245b.json
