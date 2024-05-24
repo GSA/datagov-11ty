@@ -4,5 +4,31 @@ on: [push]
 
 jobs:
   build:
-    name: Build
-    uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install Poetry
+        run: |
+          curl -sSL https://install.python-poetry.org | python3 -
+          echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> $GITHUB_ENV
+
+      - name: Install dependencies
+        run: |
+          poetry install
+
+      - name: Get credentials.json
+        run: echo "${{ secrets.CREDENTIALS_JSON }}" > credentials.json
+
+      - name: Run Python script
+        run: |
+          poetry run python your_script.py
+
+      - name: Build
+        uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main
