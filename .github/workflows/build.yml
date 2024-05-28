@@ -3,8 +3,11 @@ name: Build & Test
 on: [push]
 
 jobs:
-  build:
+  collect_metrics:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: metrics
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -24,11 +27,13 @@ jobs:
           poetry install
 
       - name: Get credentials.json
-        run: echo "${{ secrets.CREDENTIALS_JSON }}" > credentials.json
+        run: echo "${{ secrets.CREDENTIALS_JSON }}" > datagov_metrics/credentials.json
 
       - name: Run Python script
         run: |
-          poetry run python your_script.py
+          poetry run python datagov_metrics/poc.py
 
-      - name: Build
-        uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main
+  build_site:
+    runs-on: ubuntu-latest
+    needs: collect_metrics
+    uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main

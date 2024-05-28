@@ -129,3 +129,4 @@ cypress/videos
 
 # GA4 credentials.json files
 credentials.json
+*.base64
