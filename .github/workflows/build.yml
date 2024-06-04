@@ -36,4 +36,6 @@ jobs:
   build_site:
     runs-on: ubuntu-latest
     needs: collect_metrics
-    uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main
+    steps:
+      - name: build_site
+        uses: gsa/data.gov/.github/workflows/static-site-build-template.yml@main

@@ -1,5 +1,10 @@
 {% if url %}<a href="{% link url %}">{% endif %}
     <div class="metrics__card">
-        <canvas id="datagov-bar-chart-{{name}}" class="datagov-charts {{class}}" data-metric="{{metric}}" data-position="{{toolTipPosition | default: 'bottom'}}" title="{{toolTipText}}"></canvas>
+        <canvas id="datagov-bar-chart-{{name}}"
+          class="datagov-charts {{class}}"
+          data-metric="{{metric}}"
+          data-position="{{toolTipPosition | default: 'bottom'}}"
+          title="{{toolTipText}}">
+        </canvas>
     </div>
 {% if url %}</a>{% endif %}
