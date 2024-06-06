@@ -198,7 +198,7 @@
     "sponsor": "NOAA",
     "url": "http://tidesandcurrents.noaa.gov/sltrends/sltrends.html",
     "summary": "The Center for Operational Oceanographic Products and Services has been measuring sea level for over 150 years, with tide stations of the National Water Level Observation Network operating on all U.S. coasts. Changes in Mean Sea Level (MSL), either a sea level rise or sea level fall, have been computed at 128 long-term water level stations using a minimum span of 30 years of observations at each location. These measurements have been averaged by month to remove the effect of higher frequency phenomena (e.g. storm surge) in order to compute an accurate linear sea level trend. The trend analysis has also been extended to 240 global tide stations using data from thePermanent Service for Mean Sea Level (PSMSL).",
-    "howitworks": "Use map viewer to explore individual tide gages. Arrows represent the direction and magitude of sea level change.",
+    "howitworks": "Use map viewer to explore individual tide pages. Arrows represent the direction and magitude of sea level change.",
     "application": "The mean sea level (MSL) trends measured by tide gauges that are presented on this web site are local relative MSL trends as opposed to the global sea level trend. Tide gauge measurements are made with restpect to a local fixed reference level on land; therefore, if there is some long-term vertical land motion occurring at that location, the relative MSL trend measured there is a combination of the global sea level rate and the local vertical land motion.",
     "preview": null
   },
