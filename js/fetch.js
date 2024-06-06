@@ -106,22 +106,6 @@ const metricConfigs = {
     };
     return config;
   },
-  buildMetricsPagesLast7DaysConfig: (el) => {
-    const data = metricConfigs.getData(el);
-    const config = {
-      type: 'bar',
-      data: {
-        labels: data.map((row) => row.label),
-        datasets: [
-          {
-            data: data.map((row) => row.count),
-            backgroundColor: mapDataGovColors(),
-          },
-        ],
-      },
-    };
-    return config;
-  },
 };
 
 (async function () {
@@ -136,4 +120,7 @@ const metricConfigs = {
 
   const requestPagesLast7 = document.getElementById('metricsRequestsLast7Days');
   new Chart(requestPagesLast7, metricConfigs.buildDatasetBarConfig(requestPagesLast7));
+
+  const requestPagesLast28 = document.getElementById('metricsRequestsLast28Days');
+  new Chart(requestPagesLast28, metricConfigs.buildDatasetBarConfig(requestPagesLast28));
 })();
