@@ -60,7 +60,7 @@
     "postcss": "^8.4.38",
     "postcss-cli": "^11.0.0",
     "rimraf": "^5.0.7",
-    "start-server-and-test": "^2.0.3"
+    "start-server-and-test": "^2.0.4"
   },
   "dependencies": {
     "@uswds/uswds": "3.8.1",
