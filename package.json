@@ -40,7 +40,7 @@
     "@11ty/eleventy-fetch": "^4.0.1",
     "@11ty/eleventy-img": "^4.0.2",
     "@11ty/eleventy-navigation": "^0.3.5",
-    "@11ty/eleventy-plugin-rss": "^1.2.0",
+    "@11ty/eleventy-plugin-rss": "^2.0.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
     "@types/node": "^20.14.8",
     "autoprefixer": "^10.4.19",
