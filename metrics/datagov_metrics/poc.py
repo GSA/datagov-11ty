@@ -2,6 +2,7 @@ import datetime
 import json
 import os
 
+import requests
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
@@ -16,35 +17,114 @@ analytics = build("analyticsdata", "v1beta", credentials=credentials)
 properties = analytics.properties()
 
 
+def get_org_list():
+    url = "https://catalog.data.gov/api/3/action/organization_list"
+    repo = requests.get(url)
+    data = repo.json()
+
+    return data["result"]
+
+
+def setup_organization_reports():
+    orgs = get_org_list()
+    org_reports = {}
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    days_ago_7 = (datetime.date.today() - datetime.timedelta(days=7)).strftime(
+        "%Y-%m-%d"
+    )
+    days_ago_30 = (datetime.date.today() - datetime.timedelta(days=30)).strftime(
+        "%Y-%m-%d"
+    )
+
+    for org in orgs:
+        # report most viewd dataset pages per organization
+        org_reports["request_dataset_pages_last30"] = {
+            "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
+            "dimensions": [
+                {"name": "pagePath"},
+                {"name": "DATAGOV_dataset_organization"},
+                {"name": "DATAGOV_dataset_publisher"},
+            ],
+            "dimensionFilter": {
+                "filter": {
+                    "fieldName": "DATAGOV_dataset_organization",
+                    "stringFilter": {"value": f"/dataset/{org}"},
+                }
+            },
+            "metrics": [{"name": "screenPageViews"}],
+            "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
+            "limit": 50,
+        }
+
+        # report most downloaded files per organization
+        org_reports["request_downloads_last30"] = {
+            "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
+            "dimensions": [{"name": "pagePath"}],
+            "metrics": [{"name": "screenPageViews"}],
+            "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
+            "limit": 50,
+        }
+
+        # report most clicked outboud links per organization
+        org_reports["request_outbound_links_last30"] = {
+            "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
+            "dimensions": [{"name": "pagePath"}],
+            "metrics": [{"name": "screenPageViews"}],
+            "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
+            "limit": 50,
+        }
+
+    return org_reports
+
+
 def setup_reports():
     reports = {}
     today = datetime.date.today().strftime("%Y-%m-%d")
     days_ago_7 = (datetime.date.today() - datetime.timedelta(days=7)).strftime(
         "%Y-%m-%d"
     )
-    days_ago_28 = (datetime.date.today() - datetime.timedelta(days=28)).strftime(
+    days_ago_30 = (datetime.date.today() - datetime.timedelta(days=30)).strftime(
         "%Y-%m-%d"
     )
 
     reports["request_pages_last7"] = {
         "dateRanges": [{"startDate": days_ago_7, "endDate": today}],
         "dimensions": [{"name": "pagePath"}],
-        "metrics": [{"name": "activeUsers"}],
-        "orderBys": [{"metric": {"metricName": "activeUsers"}, "desc": True}],
+        "metrics": [{"name": "screenPageViews"}],
+        "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
         "limit": 50,
     }
 
-    reports["request_pages_last28"] = {
-        "dateRanges": [{"startDate": days_ago_28, "endDate": today}],
+    reports["request_pages_last30"] = {
+        "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
         "dimensions": [{"name": "pagePath"}],
+        "metrics": [{"name": "screenPageViews"}],
+        "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
+        "limit": 50,
+    }
+
+    reports["total_pageviews_last30"] = {
+        "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
+        "metrics": [{"name": "screenPageViews"}],
+    }
+
+    reports["top_search_terms_last30"] = {
+        "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
+        "dimensions": [{"name": "searchTerm"}],
+        "metrics": [{"name": "eventCount"}],
+        "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
+        "limit": 50,
+    }
+
+    reports["device_category_last30"] = {
+        "dateRanges": [{"startDate": days_ago_30, "endDate": today}],
+        "dimensions": [{"name": "deviceCategory"}],
         "metrics": [{"name": "activeUsers"}],
         "orderBys": [{"metric": {"metricName": "activeUsers"}, "desc": True}],
         "limit": 50,
     }
 
-    # reports["active_users_last1"]
-    # reports["active_users_last7"]
-    # reports["active_users_last28"]
+    reports.update(setup_organization_reports())
 
     return reports
 
@@ -69,6 +149,14 @@ def reshape_data_for_chartjs(response):
         ],
     }
 
+    if response.get("rowCount") == 1:
+        chart_data["labels"].append(response["metricHeaders"][0]["name"])
+        chart_data["datasets"][0]["data"].append(
+            int(response["rows"][0]["metricValues"][0]["value"])
+        )
+
+        return chart_data
+
     for row in response.get("rows", []):
         chart_data["labels"].append(row["dimensionValues"][0]["value"])
         chart_data["datasets"][0]["data"].append(int(row["metricValues"][0]["value"]))
@@ -86,6 +174,7 @@ def save_chart_data(chart_data, filename):
 
 def main():
     reports = setup_reports()
+    today = datetime.date.today().strftime("%Y-%m-%d")
 
     for report in reports:
         print(f"Fetching report: {report}")

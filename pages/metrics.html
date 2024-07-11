@@ -1,0 +1,40 @@
+---
+date: '2009-10-01T17:15:15'
+excerpt: Data.gov Metrics Dashboard
+link: 'https://www.data.gov/metrics'
+permalink: metrics/
+redirect_from:
+- /dashboard/
+slug: metrics
+title: Datagov Metrics
+---
+
+<script async src="{{ assetPaths['fetchDashboard.js'] }}"></script>
+
+<!-- Metrics Tiles  -->
+<section class="usa-section metrics">
+  <div>
+    <!-- Total Page views -->
+
+    <!-- Top Search Terms -->
+    {% if catalog and catalog.metrics and catalog.metrics.topSearchTermsBarMetric %}
+    {% include "metrics_widgets/descending-bar-chart.html"
+    name: 'topSearchTerms' metric:
+    catalog.metrics.topSearchTermsBarMetric
+    url: 'user-guide/#dataset-totals'
+    class: 'usa-tooltip'
+    toolTipText: 'Click to learn more about collections in our user guide'
+    %}
+    {% endif %}
+
+    <!-- Device Distribution -->
+    {% if catalog and catalog.metrics and catalog.metrics.devicePieMetric %}
+    {% include "metrics_widgets/device-pie-chart.html"
+    metric: catalog.metrics.devicePieMetric
+    url: 'user-guide/#dataset-totals'
+    class: 'usa-tooltip'
+    toolTipText: 'Click to learn more about collections in our user guide'
+    %}
+    {% endif %}
+  </div>
+</section>

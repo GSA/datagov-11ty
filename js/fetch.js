@@ -117,10 +117,4 @@ const metricConfigs = {
 
   const datasetBarEl = document.getElementById('datagov-bar-chart-datasets');
   new Chart(datasetBarEl, metricConfigs.buildDatasetBarConfig(datasetBarEl));
-
-  const requestPagesLast7 = document.getElementById('metricsRequestsLast7Days');
-  new Chart(requestPagesLast7, metricConfigs.buildDatasetBarConfig(requestPagesLast7));
-
-  const requestPagesLast28 = document.getElementById('metricsRequestsLast28Days');
-  new Chart(requestPagesLast28, metricConfigs.buildDatasetBarConfig(requestPagesLast28));
 })();

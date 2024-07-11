@@ -40,6 +40,20 @@ const buildPieMetric = (results) => {
   return encodeURIComponent(JSON.stringify(pie));
 };
 
+const buildDevicePieMetric = (results) => {
+  // pull data from a file called _data/device_category_last30.json
+  const deviceData = require('./device_category_last30.json');
+  const pie = [];
+  for (let key in deviceData.labels) {
+    pie.push({
+      label: deviceData.labels[key],
+      count: deviceData.datasets[0].data[key],
+    });
+  }
+  console.log(pie);
+  return encodeURIComponent(JSON.stringify(pie));
+};
+
 const buildOrgBarMetric = (results) => {
   const bar = [];
   for (let orgType in results.organizations) {
@@ -136,9 +150,10 @@ module.exports = async function () {
 
     const metrics = {
       pieMetric: buildPieMetric(results),
+      devicePieMetric: buildDevicePieMetric(),
       orgBarMetric: buildOrgBarMetric(results),
       datasetsBarMetric: buildDatasetsBarMetric(results),
-      pagesLast7DaysBarMetric: buildPagesLast7DaysBarMetric(results),
+      //pagesLast7DaysBarMetric: buildPagesLast7DaysBarMetric(results),
     };
 
     return {
