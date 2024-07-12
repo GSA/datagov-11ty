@@ -106,15 +106,190 @@ const metricConfigs = {
     };
     return config;
   },
+  buildTopSearchTermsConfig: (el) => {
+    const data = metricConfigs.getData(el);
+    const config = {
+      type: 'bar',
+      data: {
+        axis: 'y',
+        labels: data.map((row) => row.label),
+        datasets: [
+          {
+            // label: 'Top Search Terms',
+            data: data.map((row) => row.count),
+            backgroundColor: mapDataGovColors(),
+            borderColor: mapDataGovColors(),
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        indexAxis: 'y',
+        plugins: {
+          title: {
+            display: true,
+            text: 'Top Search Terms',
+          },
+        },
+      },
+    };
+    return config;
+  },
+  buildDevicePieConfig: (el) => {
+    const data = metricConfigs.getData(el);
+    const config = {
+      type: 'doughnut',
+      data: {
+        labels: data.map((row) => row.label),
+        datasets: [
+          {
+            label: 'Visits by Device Type',
+            data: data.map((row) => row.count),
+            backgroundColor: mapDataGovColors(),
+          },
+        ],
+      },
+      options: {
+        plugins: {
+          title: {
+            display: true,
+            text: 'Visits by Device Type',
+          },
+        },
+      }
+    };
+    return config;
+  },
+  buildOrgMostViewedConfig: (el) => {
+    const data = metricConfigs.getData(el);
+    const config = {
+      type: 'bar',
+      data: {
+        axis: 'y',
+        labels: data.map((row) => row.label),
+        datasets: [
+          {
+            label: 'Organization Most Viewed Datasets',
+            data: data.map((row) => row.count),
+            backgroundColor: mapDataGovColors(),
+            borderColor: mapDataGovColors(),
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        indexAxis: 'y',
+        plugins: {
+          title: {
+            display: true,
+            text: 'Organization Most Viewed Datasets',
+          },
+        },
+      },
+    };
+    return config;
+  },
+  buildOrgOutboundLinksConfig: (el) => {
+    const data = metricConfigs.getData(el);
+    const config = {
+      type: 'bar',
+      data: {
+        axis: 'y',
+        labels: data.map((row) => row.label),
+        datasets: [
+          {
+            label: 'Organization Most Outbound Links',
+            data: data.map((row) => row.count),
+            backgroundColor: mapDataGovColors(),
+            borderColor: mapDataGovColors(),
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        indexAxis: 'y',
+        plugins: {
+          title: {
+            display: true,
+            text: 'Organization Most Outbound Links',
+          },
+        },
+      },
+    };
+    return config;
+  },
+  buildOrgMostDownloadedConfig: (el) => {
+    const data = metricConfigs.getData(el);
+    const config = {
+      type: 'bar',
+      data: {
+        axis: 'y',
+        labels: data.map((row) => row.label),
+        datasets: [
+          {
+            label: 'Organization Most Downloaded Datasets',
+            data: data.map((row) => row.count),
+            backgroundColor: mapDataGovColors(),
+            borderColor: mapDataGovColors(),
+            borderWidth: 1,
+          },
+        ],
+      },
+      options: {
+        indexAxis: 'y',
+        plugins: {
+          title: {
+            display: true,
+            text: 'Organization Most Downloaded Datasets',
+          },
+        },
+      },
+    };
+    return config;
+  },
 };
 
 (async function () {
+  // Home page charts
   const piEl = document.getElementById('datagov-pie-chart');
-  new Chart(piEl, metricConfigs.buildPieConfig(piEl));
+  if (piEl) {
+    new Chart(piEl, metricConfigs.buildPieConfig(piEl));
+  }
 
   const orgBarEl = document.getElementById('datagov-bar-chart-org');
-  new Chart(orgBarEl, metricConfigs.buildOrgBarConfig(orgBarEl));
+  if (orgBarEl) {
+    new Chart(orgBarEl, metricConfigs.buildOrgBarConfig(orgBarEl));
+  }
 
   const datasetBarEl = document.getElementById('datagov-bar-chart-datasets');
-  new Chart(datasetBarEl, metricConfigs.buildDatasetBarConfig(datasetBarEl));
+  if (datasetBarEl) {
+    new Chart(datasetBarEl, metricConfigs.buildDatasetBarConfig(datasetBarEl));
+  }
+
+  // Dashboard global charts
+  const devPiEl = document.getElementById('datagov-device-pie-chart');
+  if (devPiEl) {
+    new Chart(devPiEl, metricConfigs.buildDevicePieConfig(devPiEl));
+  }
+
+  const topSearchTermsEl = document.getElementById('datagov-desc-bar-chart-topsearchterms');
+  if (topSearchTermsEl) {
+    new Chart(topSearchTermsEl, metricConfigs.buildTopSearchTermsConfig(topSearchTermsEl));
+  }
+
+  // Dashboard org charts
+  const orgMostViewedEl = document.getElementById('datagov-desc-bar-chart-mostviewed-nasa-gov');
+  if (orgMostViewedEl) {
+    new Chart(orgMostViewedEl, metricConfigs.buildOrgMostViewedConfig(orgMostViewedEl));
+  }
+
+  const orgMostDownloadedEl = document.getElementById('datagov-desc-bar-chart-mostdownloaded-nasa-gov');
+  if (orgMostDownloadedEl) {
+    new Chart(orgMostDownloadedEl, metricConfigs.buildOrgMostDownloadedConfig(orgMostDownloadedEl));
+  }
+
+  const orgMostOutboundEl = document.getElementById('datagov-desc-bar-chart-mostoutbound-nasa-gov');
+  if (orgMostOutboundEl) {
+    new Chart(orgMostOutboundEl, metricConfigs.buildOrgOutboundLinksConfig(orgMostOutboundEl));
+  }
 })();

@@ -9,23 +9,16 @@ slug: dashboard
 title: Datagov Dashboard
 ---
 
-<script async src="{{ assetPaths['fetchDashboard.js'] }}"></script>
+<script async src="{{ assetPaths['fetch.js'] }}"></script>
+
 
 <!-- Metrics Tiles  -->
 <section class="usa-section dashboard">
+  <h1 class="usa-sr-only">Data.gov Metrics Dashboard</h1>
+  <!-- Global charts -->
   <div>
+    <h2 class="usa-heading">Global Metrics</h2>
     <!-- Total Page views -->
-
-    <!-- Top Search Terms -->
-    {% if catalog and catalog.metrics and catalog.metrics.topSearchTermsBarMetric %}
-    {% include "metrics_widgets/descending-bar-chart.html"
-    name: 'topSearchTerms' metric:
-    catalog.metrics.topSearchTermsBarMetric
-    url: 'user-guide/#dataset-totals'
-    class: 'usa-tooltip'
-    toolTipText: 'Click to learn more about collections in our user guide'
-    %}
-    {% endif %}
 
     <!-- Device Distribution -->
     {% if catalog and catalog.metrics and catalog.metrics.devicePieMetric %}
@@ -34,7 +27,61 @@ title: Datagov Dashboard
     url: 'user-guide/#dataset-totals'
     class: 'usa-tooltip'
     toolTipText: 'Click to learn more about collections in our user guide'
-    subtitle: 'Breakdown of visits by device type in the last 30 days'
+    %}
+    {% endif %}
+
+    <!-- Top Search Terms -->
+    {% if catalog and catalog.metrics and catalog.metrics.topSearchTermsMetric %}
+    {% include "metrics_widgets/descending-bar-chart.html"
+    name: 'topsearchterms'
+    metric: catalog.metrics.topSearchTermsMetric
+    url: 'user-guide/#dataset-totals'
+    class: 'usa-tooltip'
+    toolTipText: 'Click to learn more about collections in our user guide'
+    %}
+    {% endif %}
+  </div>
+
+  <!-- Org charts -->
+  <div>
+    <h2 class="usa-heading">Organization Specfic Metrics</h2>
+    <!-- Total Current Datasets -->
+
+    <!-- Total Current Harvest Sources -->
+
+    <!-- Most Viewed Dataset Pages -->
+    {% if catalog and catalog.metrics and catalog.metrics.orgMostViewedMetric %}
+    {% include "metrics_widgets/descending-bar-chart.html"
+    name: 'mostviewed-nasa-gov'
+    org: 'nasa-gov'
+    metric: catalog.metrics.orgMostViewedMetric
+    url: 'user-guide/#dataset-totals'
+    class: 'usa-tooltip'
+    toolTipText: 'Click to learn more about collections in our user guide'
+    %}
+    {% endif %}
+
+    <!-- Most Downloaded Files -->
+    {% if catalog and catalog.metrics and catalog.metrics.orgMostDownloadedMetric %}
+    {% include "metrics_widgets/descending-bar-chart.html"
+    name: 'mostdownloaded-nasa-gov'
+    org: 'nasa-gov'
+    metric: catalog.metrics.orgMostDownloadedMetric
+    url: 'user-guide/#dataset-totals'
+    class: 'usa-tooltip'
+    toolTipText: 'Click to learn more about collections in our user guide'
+    %}
+    {% endif %}
+
+    <!-- Most Clicked Outbound Links -->
+    {% if catalog and catalog.metrics and catalog.metrics.orgMostOutboundMetric %}
+    {% include "metrics_widgets/descending-bar-chart.html"
+    name: 'mostoutbound-nasa-gov'
+    org: 'nasa-gov'
+    metric: catalog.metrics.orgMostOutboundMetric
+    url: 'user-guide/#dataset-totals'
+    class: 'usa-tooltip'
+    toolTipText: 'Click to learn more about collections in our user guide'
     %}
     {% endif %}
   </div>

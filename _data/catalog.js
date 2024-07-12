@@ -41,7 +41,7 @@ const buildPieMetric = (results) => {
 };
 
 const buildDevicePieMetric = () => {
-  const data = require('./device_category_last30.json');
+  const data = require('./reports/device_category_last30.json');
   const pie = [];
   for (let key in data.labels) {
     pie.push({
@@ -52,10 +52,8 @@ const buildDevicePieMetric = () => {
   return encodeURIComponent(JSON.stringify(pie));
 };
 
-const buildTopSearchTermsMetric = () => {
-  const data = require('./top_search_terms_last30.json');
-  console.log(data);
-
+const buildDescBarChartMetric = (reportPath) => {
+  const data = require(reportPath);
   const bar = [];
   for (let key in data.labels) {
     bar.push({
@@ -163,7 +161,10 @@ module.exports = async function () {
     const metrics = {
       pieMetric: buildPieMetric(results),
       devicePieMetric: buildDevicePieMetric(),
-      topSearchTermsMetric: buildTopSearchTermsMetric(),
+      topSearchTermsMetric: buildDescBarChartMetric('./reports/top_search_terms_last30.json'),
+      orgMostViewedMetric: buildDescBarChartMetric('./reports/nasa-gov_request_dataset_pages_last30.json'),
+      orgMostDownloadedMetric: buildDescBarChartMetric('./reports/nasa-gov_request_downloads_last30.json'),
+      orgMostOutboundMetric: buildDescBarChartMetric('./reports/nasa-gov_request_outbound_links_last30.json'),
       orgBarMetric: buildOrgBarMetric(results),
       datasetsBarMetric: buildDatasetsBarMetric(results),
     };
