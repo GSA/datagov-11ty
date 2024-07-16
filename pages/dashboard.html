@@ -61,6 +61,7 @@ title: Datagov Dashboard
 
       <div class="grid-col-12 desktop:grid-col-8">
         <!-- Top Search Terms -->
+        {{dashboard.metrics.topSearchTermsMetric}}
         {% if dashboard and dashboard.metrics and dashboard.metrics.topSearchTermsMetric %}
         {% include "metrics_widgets/descending-bar-chart.html"
         name: 'topsearchterms'
