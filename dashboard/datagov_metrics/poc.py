@@ -8,8 +8,7 @@ from googleapiclient.discovery import build
 
 KEY_FILE_LOCATION = "datagov_metrics/credentials.json"
 GA4_PROPERTY_ID = "properties/381392243"
-DATA_DIR = r"../_data/reports"
-LIMIT = 50
+DATA_DIR = r"../_data/reports_raw"
 
 credentials = service_account.Credentials.from_service_account_file(
     KEY_FILE_LOCATION, scopes=["https://www.googleapis.com/auth/analytics.readonly"]
@@ -57,7 +56,6 @@ def setup_organization_reports():
             "dimensionFilter": org_dimension_filter,
             "metrics": [{"name": "screenPageViews"}],
             "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
-            "limit": LIMIT,
         }
 
         # report most downloaded files per organization
@@ -85,7 +83,6 @@ def setup_organization_reports():
             },
             "metrics": [{"name": "eventCount"}],
             "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
-            "limit": LIMIT,
         }
 
         # report most clicked outboud links per organization
@@ -112,7 +109,6 @@ def setup_organization_reports():
             },
             "metrics": [{"name": "eventCount"}],
             "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
-            "limit": LIMIT,
         }
 
     return org_reports
@@ -128,7 +124,6 @@ def setup_global_reports():
         # "dimensionFilter": {},
         "metrics": [{"name": "screenPageViews"}],
         "orderBys": [{"metric": {"metricName": "screenPageViews"}, "desc": True}],
-        "limit": LIMIT,
     }
 
     global_reports["total_pageviews_last30"] = {
@@ -166,7 +161,6 @@ def setup_global_reports():
         },
         "metrics": [{"name": "eventCount"}],
         "orderBys": [{"metric": {"metricName": "eventCount"}, "desc": True}],
-        "limit": LIMIT,
     }
 
     global_reports["device_category_last30"] = {
@@ -174,7 +168,6 @@ def setup_global_reports():
         "dimensions": [{"name": "deviceCategory"}],
         "metrics": [{"name": "activeUsers"}],
         "orderBys": [{"metric": {"metricName": "activeUsers"}, "desc": True}],
-        "limit": LIMIT,
     }
 
     return global_reports
@@ -227,9 +220,9 @@ def main():
     for report in reports:
         print(f"Fetching report: {report}")
         fetched_report = fetch_report(reports[report])
-        chart_data = reshape_data_for_chartjs(fetched_report)
+        # chart_data = reshape_data_for_chartjs(fetched_report)
         print(f"Saving chart data for {report} to {DATA_DIR}/{report}.json")
-        save_chart_data(chart_data, f"{report}.json")
+        save_chart_data(fetched_report, f"{report}.json")
 
 
 if __name__ == "__main__":

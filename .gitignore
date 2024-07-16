@@ -131,3 +131,6 @@ cypress/videos
 credentials.json
 *.base64
 _data/reports/
+# temp ignore
+_data/reports_raw/
+_data/reports_raw_sample/

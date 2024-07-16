@@ -11,7 +11,7 @@ const deNormalizeMetrics = (number) => Math.floor(Math.pow(10, number));
 
 const metricConfigs = {
   getData: (el) => JSON.parse(decodeURIComponent(el.dataset.metric)),
-  buildPieConfig: (el) => {
+  buildPieConfig: (el, text) => {
     const data = metricConfigs.getData(el);
     const config = {
       type: 'doughnut',
@@ -28,7 +28,7 @@ const metricConfigs = {
         plugins: {
           title: {
             display: true,
-            text: 'Dataset Distribution',
+            text: text,
           },
         },
       },
@@ -128,35 +128,13 @@ const metricConfigs = {
         plugins: {
           title: {
             display: true,
-            text: 'Top Search Terms',
+            text: 'Data.gov Top Search Terms',
           },
+          legend: {
+            display: false
+          }
         },
       },
-    };
-    return config;
-  },
-  buildDevicePieConfig: (el) => {
-    const data = metricConfigs.getData(el);
-    const config = {
-      type: 'doughnut',
-      data: {
-        labels: data.map((row) => row.label),
-        datasets: [
-          {
-            label: 'Visits by Device Type',
-            data: data.map((row) => row.count),
-            backgroundColor: mapDataGovColors(),
-          },
-        ],
-      },
-      options: {
-        plugins: {
-          title: {
-            display: true,
-            text: 'Visits by Device Type',
-          },
-        },
-      }
     };
     return config;
   },
@@ -250,26 +228,10 @@ const metricConfigs = {
 };
 
 (async function () {
-  // Home page charts
-  const piEl = document.getElementById('datagov-pie-chart');
-  if (piEl) {
-    new Chart(piEl, metricConfigs.buildPieConfig(piEl));
-  }
-
-  const orgBarEl = document.getElementById('datagov-bar-chart-org');
-  if (orgBarEl) {
-    new Chart(orgBarEl, metricConfigs.buildOrgBarConfig(orgBarEl));
-  }
-
-  const datasetBarEl = document.getElementById('datagov-bar-chart-datasets');
-  if (datasetBarEl) {
-    new Chart(datasetBarEl, metricConfigs.buildDatasetBarConfig(datasetBarEl));
-  }
-
   // Dashboard global charts
-  const devPiEl = document.getElementById('datagov-device-pie-chart');
+  const devPiEl = document.getElementById('datagov-pie-chart');
   if (devPiEl) {
-    new Chart(devPiEl, metricConfigs.buildDevicePieConfig(devPiEl));
+    new Chart(devPiEl, metricConfigs.buildPieConfig(devPiEl, 'Visits by Device Type'));
   }
 
   const topSearchTermsEl = document.getElementById('datagov-desc-bar-chart-topsearchterms');
