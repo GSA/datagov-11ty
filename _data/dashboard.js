@@ -1,4 +1,5 @@
 require('dotenv').config();
+const path = require("path");
 
 const CACHE_CONFIG = {
   duration: '1d',
@@ -30,14 +31,10 @@ const buildDevicePieMetric = (reportPath) => {
   }
 
 
-module.exports = async function () {
+module.exports = async function () {  
   try {
     const metrics = {
-      devicePieMetric: buildDevicePieMetric('./reports/device_category_last30.json'),
-      topSearchTermsMetric: buildDescBarChartMetric('./reports/top_search_terms_last30.json'),
-      orgMostViewedMetric: buildDescBarChartMetric('./reports/nasa-gov_request_dataset_pages_last30.json'),
-      orgMostDownloadedMetric: buildDescBarChartMetric('./reports/nasa-gov_request_downloads_last30.json'),
-      orgMostOutboundMetric: buildDescBarChartMetric('./reports/nasa-gov_request_outbound_links_last30.json'),
+      topSearchTermsMetric: buildDescBarChartMetric(path.resolve('./reports/top_search_terms_last30.json'))
     };
 
     return {
