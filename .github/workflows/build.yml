@@ -15,21 +15,21 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.x"
-      - name: Install Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-          echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> $GITHUB_ENV
-      - name: Install dependencies
-        run: |
-          poetry install
-      - name: Retrieve the credentials and decode to a file
-        env:
-          CREDENTIALS_JSON: ${{ secrets.CREDENTIALS_JSON }}
-        run: |
-          echo $CREDENTIALS_JSON | base64 --decode > datagov_metrics/credentials.json
-      - name: Run Python script
-        run: |
-          poetry run python datagov_metrics/poc.py
+      # - name: Install Poetry
+      #   run: |
+      #     curl -sSL https://install.python-poetry.org | python3 -
+      #     echo "export PATH=\"$HOME/.local/bin:$PATH\"" >> $GITHUB_ENV
+      # - name: Install dependencies
+      #   run: |
+      #     poetry install
+      # - name: Retrieve the credentials and decode to a file
+      #   env:
+      #     CREDENTIALS_JSON: ${{ secrets.CREDENTIALS_JSON }}
+      #   run: |
+      #     echo $CREDENTIALS_JSON | base64 --decode > datagov_metrics/credentials.json
+      # - name: Run Python script
+      #   run: |
+      #     poetry run python datagov_metrics/poc.py
 
   build_site:
     runs-on: ubuntu-latest
