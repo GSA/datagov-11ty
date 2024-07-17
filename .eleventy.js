@@ -49,11 +49,6 @@ module.exports = function (config) {
         return string.toLocaleString('en', { useGrouping: true });
     });
 
-    // Add String filter to put commas in numbers
-    config.addFilter('sum', (obj, prop) => {
-        return string.toLocaleString('en', { useGrouping: true });
-    });
-
     // Add plugins
     config.addPlugin(EleventyRenderPlugin);
 
