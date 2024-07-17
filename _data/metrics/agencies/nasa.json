@@ -1,7 +1,55 @@
 {
     "org_name": "nasa-gov",
+    "dataset_pages": {
+        "title": "Most Viewed Dataset Pages",
+        "description": "Top 10 dataset pages by pageviews in the last 30 days",
+        "headers": ["Page", "Count"],
+        "values": [
+            {
+                "key": "/dataset/meteorite-landings",
+                "value": 196
+            },
+            {
+                "key": "/dataset/li-ion-battery-aging-datasets",
+                "value": 150
+            },
+            {
+                "key": "/dataset/global-landslide-catalog-export",
+                "value": 110
+            },
+            {
+                "key": "/dataset/corona-satellite-photography",
+                "value": 76
+            },
+            {
+                "key": "/dataset/national-agriculture-imagery-program-naip",
+                "value": 66
+            },
+            {
+                "key": "/dataset/shuttle-radar-topography-mission-dted-level-1-3-arc-second-data-dted-1",
+                "value": 65
+            },
+            {
+                "key": "/dataset/c-mapss-aircraft-engine-simulator-data",
+                "value": 56
+            },
+            {
+                "key": "/dataset/gpm-imerg-final-precipitation-l3-1-day-0-1-degree-x-0-1-degree-v06-gpm-3imergdf-at-ges-dis",
+                "value": 45
+            },
+            {
+                "key": "/dataset/landsat-8",
+                "value": 44
+            },
+            {
+                "key": "/dataset/georeferenced-population-datasets-of-mexico-geo-mex-gis-of-mexican-states-municipalities-a",
+                "value": 43
+            }
+        ]
+    },    
     "downloads": {
         "title": "Most Downloaded Datasets",
+        "description": "Top 10 files by download count in the last 30 days",
         "headers": ["Datasest", "Count"],
         "values": [
             {
@@ -47,7 +95,8 @@
         ]
     },
     "outbound_links": {
-        "title": "Most Viewed Outbound Links",
+        "title": "Most Clicked Outbound Links",
+        "description": " Top 10 external link clicks in the last 30 days",
         "headers": ["Links", "Count"],
         "values": [
             {
@@ -89,52 +138,6 @@
             {
                 "key": "https://daac.ornl.gov/daacdata/global_vegetation/Global_Veg_Greenness_GIMMS_3G/",
                 "value": 10
-            }
-        ]
-    },
-    "dataset_pages": {
-        "title": "Most Requested Pages",
-        "headers": ["Page", "Count"],
-        "values": [
-            {
-                "key": "/dataset/meteorite-landings",
-                "value": 196
-            },
-            {
-                "key": "/dataset/li-ion-battery-aging-datasets",
-                "value": 150
-            },
-            {
-                "key": "/dataset/global-landslide-catalog-export",
-                "value": 110
-            },
-            {
-                "key": "/dataset/corona-satellite-photography",
-                "value": 76
-            },
-            {
-                "key": "/dataset/national-agriculture-imagery-program-naip",
-                "value": 66
-            },
-            {
-                "key": "/dataset/shuttle-radar-topography-mission-dted-level-1-3-arc-second-data-dted-1",
-                "value": 65
-            },
-            {
-                "key": "/dataset/c-mapss-aircraft-engine-simulator-data",
-                "value": 56
-            },
-            {
-                "key": "/dataset/gpm-imerg-final-precipitation-l3-1-day-0-1-degree-x-0-1-degree-v06-gpm-3imergdf-at-ges-dis",
-                "value": 45
-            },
-            {
-                "key": "/dataset/landsat-8",
-                "value": 44
-            },
-            {
-                "key": "/dataset/georeferenced-population-datasets-of-mexico-geo-mex-gis-of-mexican-states-municipalities-a",
-                "value": 43
             }
         ]
     }

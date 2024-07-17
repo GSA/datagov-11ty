@@ -14,7 +14,8 @@ title: Datagov Dashboard
 <!-- Global Metrics  -->
 <section class="usa-section dashboard">
   <div class="grid-container">
-    <h2 class="usa-heading">Global Metrics</h2>
+    <h2 class="usa-heading">Site-wide Metrics</h2>
+    <p>All data reported is based on the last 30 days, updated daily.</p>
     <div class="grid-row grid-gap-lg">
       <div class="grid-col-12 desktop:grid-col-4">
         {% if metrics and metrics.global and metrics.global.stats %}
@@ -26,7 +27,7 @@ title: Datagov Dashboard
               <th scope="col">{{data}}</th>
               {% endfor %}
             </tr>
-          </thead>             
+          </thead>
           {% for data in block.values %}
           <tr>
             <td>{{data.key}}</td>
@@ -40,13 +41,13 @@ title: Datagov Dashboard
         {% assign block = metrics.global.device_type %}
         <h4>{{block.title}}</h4>
         <table class="table">
-            <thead>
-              <tr>
-                {% for data in block.headers %}
-                <th scope="col">{{data}}</th>
-                {% endfor %}
-              </tr>
-            </thead>        
+          <thead>
+            <tr>
+              {% for data in block.headers %}
+              <th scope="col">{{data}}</th>
+              {% endfor %}
+            </tr>
+          </thead>
           {% for data in block.values %}
           <tr>
             <td>{{data.key}}</td>
@@ -78,14 +79,42 @@ title: Datagov Dashboard
   <div class="grid-container">
     <h2 class="usa-heading">Organization Specific Metrics:</h2>
     <h3 class="usa-heading">NASA (National Aeronautics & Space Administration)</h3>
-    <div class="grid-row grid-gap-lg mt-5">
+    <div class="mt-5"></div>
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-12">
+        {% assign block = metrics.agencies.nasa.dataset_pages %}
+        <h4>{{block.title}}</h4>
+        <p>{{block.description}}</p>
+        <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+          <caption>
+            <a href="">{% usa_icon 'file_download' %} Download Full Report - {{block.title}}</a>
+          </caption>
+          <thead>
+            <tr>
+              {% for data in block.headers %}
+              <th scope="col">{{data}}</th>
+              {% endfor %}
+            </tr>
+          </thead>
+          {% for data in block.values %}
+          <tr>
+            <td><a href="https://catalog.data.gov/{{data.key}}">{{data.key}}</a></td>
+            <td>{{data.value}}</td>
+          </tr>
+          {% endfor %}
+        </table>
+        <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+      </div>
+    </div>
+    <div class="grid-row grid-gap-lg">
       <div class="grid-col-12">
         <div class="">
           {% assign block = metrics.agencies.nasa.downloads %}
           <h4>{{block.title}}</h4>
-          <table class="usa-table usa-table--borderless full-width">
+          <p>{{block.description}}</p>
+          <table class="usa-table usa-table--borderless usa-table--stacked full-width">
             <caption>
-              {{block.title}}
+            <a href="">{% usa_icon 'file_download' %} Download Full Report - {{block.title}}</a>
             </caption>
             <thead>
               <tr>
@@ -109,9 +138,10 @@ title: Datagov Dashboard
       <div class="grid-col-12">
         {% assign block = metrics.agencies.nasa.outbound_links %}
         <h4>{{block.title}}</h4>
-        <table class="usa-table usa-table--borderless full-width">
+        <p>{{block.description}}</p>
+        <table class="usa-table usa-table--borderless usa-table--stacked full-width">
           <caption>
-            {{block.title}}
+            <a href="">{% usa_icon 'file_download' %} Download Full Report - {{block.title}}</a>
           </caption>
           <thead>
             <tr>
@@ -123,31 +153,6 @@ title: Datagov Dashboard
           {% for data in block.values %}
           <tr>
             <td><a href="{{data.key}}">{{data.key}}</a></td>
-            <td>{{data.value}}</td>
-          </tr>
-          {% endfor %}
-        </table>
-        <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-      </div>
-    </div>
-    <div class="grid-row grid-gap-lg">
-      <div class="grid-col-12">
-        {% assign block = metrics.agencies.nasa.dataset_pages %}
-        <h4>{{block.title}}</h4>
-        <table class="usa-table usa-table--borderless full-width">
-          <caption>
-            {{block.title}}
-          </caption>
-          <thead>
-            <tr>
-              {% for data in block.headers %}
-              <th scope="col">{{data}}</th>
-              {% endfor %}
-            </tr>
-          </thead>
-          {% for data in block.values %}
-          <tr>
-            <td><a href="https://catalog.data.gov/{{data.key}}">{{data.key}}</a></td>
             <td>{{data.value}}</td>
           </tr>
           {% endfor %}
