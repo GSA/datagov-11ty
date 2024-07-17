@@ -48,6 +48,12 @@
             color: color('secondary');
         }
     }
+    &-italic {
+        font-style: italic;
+    }
+    &-bold {
+        font-weight: bold;
+    }
 }
 
 .desktop {
