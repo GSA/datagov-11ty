@@ -42,7 +42,6 @@ const buildDescBarChartMetric = (data) => {
 module.exports = async function () {
   try {
     let data = await downloadObject('https://s3-us-gov-west-1.amazonaws.com/cg-6348e2ae-48ea-4133-ac22-8f248c43e1fd/top_search_terms_last30.json')
-    console.log(data)
     const metrics = {
       topSearchTermsMetric: buildDescBarChartMetric(data)
     };
