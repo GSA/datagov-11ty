@@ -1,0 +1,35 @@
+{
+    "stats": {
+        "title": "Stats",
+        "headers": ["Metric", "Count"],
+        "values": [
+            {
+                "key": "Total pageviews",
+                "value": 930501
+            }
+        ]
+    },
+    "device_type": {
+        "title": "Visits by Device Type",
+        "total": "273464",
+        "headers": ["Type", "Count", "Percentage"],
+        "values": [
+            {
+                "key": "desktop",
+                "value": "234351"
+            },
+            {
+                "key": "mobile",
+                "value": "37569"
+            },
+            {
+                "key": "tablet",
+                "value": "1520"
+            },
+            {
+                "key": "smart tv",
+                "value": "24"
+            }
+        ]
+    }
+}

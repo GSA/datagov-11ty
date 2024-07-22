@@ -8,14 +8,14 @@
     </h1>
   </div>
   {% if subhead %}
-    <div class="metrics__card--subhead">
-      {% if subhead_link %}
-        <a href="{% link subhead_link %}">
+  <div class="metrics__card--subhead">
+    {% if subhead_link %}
+    <a href="{% link subhead_link %}">
       {% endif %}
-        {{ subhead }}
+      {{ subhead }}
       {% if subhead_link %}
-        </a>
-      {% endif %}
-    </div>
+    </a>
+    {% endif %}
+  </div>
   {% endif %}
 </div>
