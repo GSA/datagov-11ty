@@ -45,8 +45,8 @@
     "@types/node": "^20.14.8",
     "autoprefixer": "^10.4.19",
     "chokidar-cli": "^3.0.0",
-    "dotenv": "^16.4.5",
     "cypress": "^13.11.0",
+    "dotenv": "^16.4.5",
     "eleventy-plugin-svg-sprite": "^2.4.2",
     "esbuild": "^0.20.2",
     "esbuild-sass-plugin": "^3.3.1",
@@ -65,6 +65,7 @@
   "dependencies": {
     "@uswds/uswds": "3.8.1",
     "chart.js": "^4.4.3",
+    "csvtojson": "^2.0.10",
     "markdown-it-attrs": "^4.1.6",
     "turndown": "^7.2.0"
   }
