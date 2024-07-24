@@ -1,6 +1,6 @@
 ---
 pagination:
-    data: dashboard.orgList
+    data: metrics.orgList
     size: 1
     alias: org
 permalink: "metrics/organization/{{org.name}}/index.html"
@@ -12,8 +12,7 @@ layout: layouts/default
       <h2 class="usa-heading">Organization Specific Metrics:</h2>
       <h3 class="usa-heading">{{org.display_name}}</h3>
       <div class="mt-5"></div>
-      {% for block in dashboard.orgs[org.name] %}
-      {{ block | debugger }}
+      {% for block in metrics.orgs[org.name] %}
       <div class="grid-row grid-gap-lg {{block.meta.key}}">
         <div class="grid-col-12">
           <h4>{{block.meta.title}}</h4>
@@ -27,8 +26,7 @@ layout: layouts/default
                 {% for data in block.data[0] %}
                     {%- if forloop.first -%}
                         <th scope="col">{{data}}</th>
-                    {%- endif -%}
-                    {%- if forloop.last -%}
+                    {%- elsif forloop.last -%}
                         <th scope="col">{{data}}</th>
                     {%- endif -%}
                 {% endfor %}
@@ -39,8 +37,7 @@ layout: layouts/default
                     {% for column in row %}
                         {%- if forloop.first -%}
                             <td><a href="{{column}}">{{column}}</a></td>
-                        {%- endif -%}
-                        {%- if forloop.last -%}
+                        {%- elsif forloop.last -%}
                             <td>{{column}}</td>
                         {%- endif -%}
                     {% endfor %}
