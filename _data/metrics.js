@@ -4,7 +4,7 @@ const csv = require("csvtojson/v2");
 
 const S3_BASE_URL = 'https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/'
 
-const GET_ORG_LIST_URL = "https://catalog.data.gov/api/action/organization_list?all_fields=true&limit=1"
+const GET_ORG_LIST_URL = 'https://catalog.data.gov/api/action/package_search?q=*:*&facet.field=["organization"]&facet.limit=200&rows=0'
 
 // number of reports to display when data should be truncated.
 const TRUNCATED_COUNT = 10
@@ -60,20 +60,25 @@ const REPORTS = {
 CACHE_DURATION = '22h'
 
 async function downloadCSVFromS3(url) {
-  const csvString = await EleventyFetch(url, {
-    duration: CACHE_DURATION,
-    method: 'get',
-    "headers": {
-      "content-type": 'text/csv;charset=UTF-8'
-    }
-  })
-    .then((response) => response.toString())
+  try {
+    const csvString = await EleventyFetch(url, {
+      duration: CACHE_DURATION,
+      method: 'get',
+      "headers": {
+        "content-type": 'text/csv;charset=UTF-8'
+      }
+    })
+      .then((response) => response.toString())
 
-  return csv({
-    noheader: true,
-    output: "csv"
-  }).fromString(csvString)
-    .then((csvRow) => csvRow)
+    return csv({
+      noheader: true,
+      output: "csv"
+    }).fromString(csvString)
+      .then((csvRow) => csvRow)
+  } catch (e) {
+    console.error(`ERROR :: Fetch failed :: ${e}`);
+    return []
+  }
 }
 
 const downloadJSON = async (url) => {
@@ -94,102 +99,101 @@ const buildDescBarChartMetric = (data) => {
   return encodeURIComponent(JSON.stringify(bar));
 }
 
-
-module.exports = async function () {
-  try {
-
-    // get org infos
-    let { result } = await downloadJSON(GET_ORG_LIST_URL);
-    let orgList = result;
-
-    // get data
-    const data = {}
-    for (let type in REPORTS) {
-      if (type == "ORG") {
-        // add org forloop
-        for (let org of orgList) {
-          let orgName = org.name
-          data[orgName] = {}
-          for (let report in REPORTS[type]) {
-            data[orgName][report] = await downloadCSVFromS3(`${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`)
-          }
-        }
-      } else {
-        data[type] = {}
-        for (let report in REPORTS[type]) {
-          data[type][report] = await downloadCSVFromS3(`${S3_BASE_URL}${REPORTS[type][report].url}`)
-        }
-
-      }
+const sortByName = (items) => {
+  return items.sort((a, b) => {
+    const nameA = a.name.toUpperCase(); // ignore upper and lowercase
+    const nameB = b.name.toUpperCase(); // ignore upper and lowercase
+    if (nameA < nameB) {
+      return -1;
+    }
+    if (nameA > nameB) {
+      return 1;
     }
 
-    // now structure data
-    const shapedData = {}
-    for (let type in REPORTS) {
-      if (type == "ORG") {
-        shapedData[type] = {}
-        for (let org of orgList) {
-          let orgName = org.name
-          shapedData[type][orgName] = []
-          for (let report in REPORTS.ORG) {
-            report = {
-              meta: {
-                key: report,
-                title: REPORTS.ORG[report].title,
-                description: REPORTS.ORG[report].description,
-                reportLink: `${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`
-              },
-              // truncate data before attaching
-              data: data[orgName][report].slice(0, TRUNCATED_COUNT)
-            }
-            shapedData[type][orgName].push(report)
-          }
+    // names must be equal
+    return 0;
+  });
+}
+module.exports = async function () {
+  // get org infos
+  let { result: { search_facets: { organization: { items } } } } = await downloadJSON(GET_ORG_LIST_URL);
+  let orgList = sortByName(items);
 
-
-        }
-      } else {
-        shapedData[type] = []
+  // get data
+  const data = {}
+  for (let type in REPORTS) {
+    if (type == "ORG") {
+      // add org forloop
+      for (let org of orgList) {
+        let orgName = org.name
+        data[orgName] = {}
         for (let report in REPORTS[type]) {
+          data[orgName][report] = await downloadCSVFromS3(`${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`)
+        }
+      }
+    } else {
+      data[type] = {}
+      for (let report in REPORTS[type]) {
+        data[type][report] = await downloadCSVFromS3(`${S3_BASE_URL}${REPORTS[type][report].url}`)
+      }
+
+    }
+  }
+
+  // now structure data
+  const shapedData = {}
+  for (let type in REPORTS) {
+    if (type == "ORG") {
+      shapedData[type] = {}
+      for (let org of orgList) {
+        let orgName = org.name
+        shapedData[type][orgName] = []
+        for (let report in REPORTS.ORG) {
           report = {
             meta: {
               key: report,
-              title: REPORTS[type][report].title,
-              description: REPORTS[type][report].description,
-              reportLink: `${S3_BASE_URL}${REPORTS[type][report].url}`
+              title: REPORTS.ORG[report].title,
+              description: REPORTS.ORG[report].description,
+              reportLink: `${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`
             },
             // truncate data before attaching
-            data: data[type][report].slice(0, TRUNCATED_COUNT)
+            data: data[orgName][report].slice(0, TRUNCATED_COUNT)
           }
-          shapedData[type].push(report)
+          shapedData[type][orgName].push(report)
         }
+
+
+      }
+    } else {
+      shapedData[type] = []
+      for (let report in REPORTS[type]) {
+        report = {
+          meta: {
+            key: report,
+            title: REPORTS[type][report].title,
+            description: REPORTS[type][report].description,
+            reportLink: `${S3_BASE_URL}${REPORTS[type][report].url}`
+          },
+          // truncate data before attaching
+          data: data[type][report].slice(0, TRUNCATED_COUNT)
+        }
+        shapedData[type].push(report)
       }
     }
-
-    // build charts
-    const metrics = {
-      topSearchTermsMetric: buildDescBarChartMetric(data.GLOBAL.TOP_SEARCH_TERMS)
-    };
-
-    // save to friendly namespace
-    const global = shapedData.GLOBAL
-    const orgs = shapedData.ORG
-
-    return {
-      global,
-      orgs,
-      metrics,
-      orgList
-    };
-
-  } catch (e) {
-    if (process.env.NODE_ENV === 'prod') {
-      // Fail the build in production.
-      return Promise.reject(e);
-    }
-
-    console.error(`ERROR :: Fetch failed :: ${e}`);
-    return {
-      results: {},
-    };
   }
+
+  // build charts
+  const metrics = {
+    topSearchTermsMetric: buildDescBarChartMetric(data.GLOBAL.TOP_SEARCH_TERMS)
+  };
+
+  // save to friendly namespace
+  const global = shapedData.GLOBAL
+  const orgs = shapedData.ORG
+  return {
+    global,
+    orgs,
+    metrics,
+    orgList
+  };
 };

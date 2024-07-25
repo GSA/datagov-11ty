@@ -1,117 +1,104 @@
 ---
 date: '2009-10-01T17:15:15'
 excerpt: Data.gov Metrics Dashboard
-link: 'https://www.data.gov/dashboard'
+link: 'https://www.data.gov/metrics/'
 permalink: metrics/
 layout: layouts/default
 title: Datagov Metrics Dashboard
 ---
 
-<!-- Metrics Tiles  -->
-{%- for org in dashboard.orgList %}
-  <div><a href="{{process.env.BASEURL}}/metrics/organization/{{org.name}}/index.html">{{org.display_name}}</a></div>
-{%- endfor %}
-
-<div class="grid-row grid-gap-lg {{block.meta.key}}">
-  <div class="grid-col-12">
-    <h4>Org Reports</h4>
-    <p>{{block.meta.description}}</p>
-    <table class="usa-table usa-table--borderless usa-table--stacked full-width">
-      <caption>
-        <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report - {{block.meta.title}}</a>
-      </caption>
-      <thead>
-        <tr>
-          {% for data in block.data[0] %}
-              {%- if forloop.first -%}
-                  <th scope="col">{{data}}</th>
-              {%- elsif forloop.last -%}
-                  <th scope="col">{{data}}</th>
-              {%- endif -%}
-          {% endfor %}
-        </tr>
-      </thead>
-      {% for row in block.data offset:1 %}
-          <tr>
-              {% for column in row %}
-                  {%- if forloop.first -%}
-                      <td><a href="{{column}}">{{column}}</a></td>
-                  {%- elsif forloop.last -%}
-                      <td>{{column}}</td>
-                  {%- endif -%}
-              {% endfor %}
-          </tr>
-      {% endfor %}
-    </table>
-    <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
-  </div>
-</div>
-
-<!-- Global Metrics  -->
-<section class="usa-section dashboard">
+<!-- org select combo box -->
+<section class="usa-section metrics org-select">
   <div class="grid-container">
-    <h2 class="usa-heading">Site-wide Metrics</h2>
-    <p>All data reported is based on the last 30 days, updated daily.</p>
-    <div class="grid-row grid-gap-lg">
-      <div class="grid-col-12 desktop:grid-col-4">
-        {% if metrics and metrics.global and metrics.global.stats %}
-        {% assign block = metrics.global.stats %}
-        <table class="table">
-          <thead>
-            <tr>
-              {% for data in block.headers %}
-              <th scope="col">{{data}}</th>
-              {% endfor %}
-            </tr>
-          </thead>
-          {% for data in block.values %}
-          <tr>
-            <td>{{data.key}}</td>
-            <td>{{data.value}}</td>
-          </tr>
-          {% endfor %}
-        </table>
-        {% endif%}
-        <!-- Device Distribution -->
-        {% if metrics and metrics.global and metrics.global.device_type %}
-        {% assign block = metrics.global.device_type %}
-        <h4>{{block.title}}</h4>
-        <table class="table">
-          <thead>
-            <tr>
-              {% for data in block.headers %}
-              <th scope="col">{{data}}</th>
-              {% endfor %}
-            </tr>
-          </thead>
-          {% for data in block.values %}
-          <tr>
-            <td>{{data.key}}</td>
-            <td>{{data.value}}</td>
-            <td>{{data.value | divided_by: block.total | times: 100 | truncate: 2, ''}}%</td>
-          </tr>
-          {% endfor %}
-
-        </table>
-        {% endif %}
-      </div>
-
-      <div class="grid-col-12 desktop:grid-col-8">
-        <!-- Top Search Terms -->
-        {% if dashboard and dashboard.metrics and dashboard.metrics.topSearchTermsMetric %}
-        {% include "metrics_widgets/descending-bar-chart.html"
-        name: 'topsearchterms'
-        metric: dashboard.metrics.topSearchTermsMetric
-        %}
-        {% endif %}
+    <h2 class="usa-heading">Organization Metrics:</h2>
+    <div class="grid-row grid-gap-lg {{block.meta.key}}">
+      <div class="grid-col-12">
+        <label class="usa-label" for="metrics-reports__select">Select an organization:</label>
+        <div class="usa-combo-box">
+          <select class="usa-select" name="metrics-reports" id="metrics-reports__select" data-placeholder="Organizations...">
+            {% for org in metrics.orgList %}
+            <option value="{{helpers.baseUrl}}/metrics/organization/{{org.name}}/index.html"
+              data-display-name="{{org.display_name}}">{{org.display_name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mt-2">
+          <a href="" id="metrics-reports__link">
+            <button class="usa-button" type="button">
+              View Report
+            </button>
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
-<hr class="separator">
-<!-- Metrics Tiles  -->
+
+
+<!-- Global Metrics  -->
+<section class="usa-section metrics">
+  <div class="grid-container">
+    <h2 class="usa-heading">Site-wide Metrics:</h2>
+    <div class="mt-3"></div>
+    {% for block in metrics.global %}
+      {% if block.meta.key == "PAGEVIEWS" %}
+      <div class="grid-row grid-gap-lg {{block.meta.key}}">
+        <div class="grid-col-12">
+          <h4>{{block.meta.title}}</h4>
+          <p><b>{{ block.data[1] }}</b></p>
+        </div>
+      </div>
+      <div class="mt-3"></div>
+      {% else %}
+      <div class="grid-row grid-gap-lg {{block.meta.key}}">
+        <div class="grid-col-12">
+          <h4>{{block.meta.title}}</h4>
+          <p>{{block.meta.description}}</p>
+          <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+            <caption>
+              <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
+                {{block.meta.title}}</a>
+            </caption>
+            <thead>
+              <tr>
+                {% for data in block.data[0] %}
+                {%- if forloop.first -%}
+                <th scope="col">{{data}}</th>
+                {%- elsif forloop.last -%}
+                <th scope="col">{{data}}</th>
+                {%- endif -%}
+                {% endfor %}
+              </tr>
+            </thead>
+            {% for row in block.data offset:1 %}
+            <tr>
+              {% for column in row %}
+              {%- if forloop.first -%}
+              <td><a href="{{column}}">{{column}}</a></td>
+              {%- elsif forloop.last -%}
+              <td>{{column}}</td>
+              {%- endif -%}
+              {% endfor %}
+            </tr>
+            {% endfor %}
+          </table>
+          <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+        </div>
+      </div>
+      {% endif %}
+    {% endfor %}
+  </div>
+</section>
 
 
 
-<!-- fetch dashboard data -->
-<script async src="{{ assetPaths['fetch-dashboard.js'] }}"></script>
+
+<!-- fetch metrics data -->
+<script>
+  const comboBox = document.getElementById("metrics-reports__select");
+  const linkEl = document.getElementById("metrics-reports__link");
+
+  comboBox.addEventListener("change", (event) => {
+    linkEl.href = event.target.value;
+  });
+</script>

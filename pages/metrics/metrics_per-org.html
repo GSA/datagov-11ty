@@ -7,10 +7,14 @@ permalink: "metrics/organization/{{org.name}}/index.html"
 layout: layouts/default
 ---
 <!-- Agency Specific Metrics  -->
-<section class="usa-section dashboard">
+<section class="usa-section metrics">
     <div class="grid-container">
       <h2 class="usa-heading">Organization Specific Metrics:</h2>
       <h3 class="usa-heading">{{org.display_name}}</h3>
+      <div class="mt-3"></div>
+      <a href="https://catalog.data.gov/report/metrics-dashboard/{{org.name}}">
+        <button class="usa-button" type="button">View Harvest Source Data</button>
+      </a>
       <div class="mt-5"></div>
       {% for block in metrics.orgs[org.name] %}
       <div class="grid-row grid-gap-lg {{block.meta.key}}">
@@ -36,7 +40,12 @@ layout: layouts/default
                 <tr>
                     {% for column in row %}
                         {%- if forloop.first -%}
-                            <td><a href="{{column}}">{{column}}</a></td>
+                            {%- if block.meta.key == "MOST_VIEWED_DATASETS" -%}
+                              <td><a href="https://catalog.data.gov{{column}}">{{column}}</a></td>
+                            {%- else -%}
+                              <td><a href="{{column}}">{{column}}</a></td>
+                            {%- endif -%}
+
                         {%- elsif forloop.last -%}
                             <td>{{column}}</td>
                         {%- endif -%}

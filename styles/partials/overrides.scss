@@ -124,6 +124,12 @@ button {
     background-color: #fff;
 }
 
-.usa-table.full-width tr td:first-child {
-    width: 90%;
-}
+.usa-table.full-width tr {
+    td:first-child {
+        width: 90%;
+    }
+    td:last-child {
+        // text-align: center;
+    }
+    
+} 
