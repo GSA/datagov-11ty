@@ -88,17 +88,6 @@ const downloadJSON = async (url) => {
   });
 }
 
-const buildDescBarChartMetric = (data) => {
-  const bar = [];
-  for (let key in data.labels) {
-    bar.push({
-      label: data.labels[key],
-      count: data.data[key],
-    });
-  }
-  return encodeURIComponent(JSON.stringify(bar));
-}
-
 const sortByName = (items) => {
   return items.sort((a, b) => {
     const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -109,11 +98,11 @@ const sortByName = (items) => {
     if (nameA > nameB) {
       return 1;
     }
-
     // names must be equal
     return 0;
   });
 }
+
 module.exports = async function () {
   // get org infos
   let { result: { search_facets: { organization: { items } } } } = await downloadJSON(GET_ORG_LIST_URL);
@@ -182,18 +171,13 @@ module.exports = async function () {
     }
   }
 
-  // build charts
-  const metrics = {
-    topSearchTermsMetric: buildDescBarChartMetric(data.GLOBAL.TOP_SEARCH_TERMS)
-  };
-
   // save to friendly namespace
   const global = shapedData.GLOBAL
   const orgs = shapedData.ORG
+  
   return {
     global,
     orgs,
-    metrics,
     orgList
   };
 };
