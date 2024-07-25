@@ -56,8 +56,8 @@ ga:
 primary_navigation:
   - name: Data
     url: https://catalog.data.gov
-  - name: Reports
-    url: https://catalog.data.gov/report
+  - name: Metrics
+    url: /metrics
   - name: Open Government
     url: /open-gov
   - name: Contact
