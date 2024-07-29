@@ -5,6 +5,8 @@ pagination:
     alias: org
 permalink: "metrics/organization/{{org.name}}/index.html"
 layout: layouts/default
+eleventyComputed:
+  title: "{{org.display_name}} Metrics"
 ---
 <!-- Agency Specific Metrics  -->
 <section class="usa-section metrics">
