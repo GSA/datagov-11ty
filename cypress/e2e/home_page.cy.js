@@ -8,7 +8,7 @@ describe('The Home Page', () => {
             cy.get('.usa-nav__inner')
                 .children()
                 .should('contain', 'Data')
-                .and('contain', 'Reports')
+                .and('contain', 'Metrics')
                 .and('contain', 'Open Government')
                 .and('contain', 'Contact')
                 .and('contain', 'User Guide');
