@@ -14,7 +14,7 @@ title: Datagov Metrics Dashboard
     <div class="grid-row grid-gap-lg">
       <div class="grid-col-12">
         <label class="usa-label" for="metrics-reports__select">Select an organization:</label>
-        <div class="usa-combo-box">
+        <div class="usa-combo-box" data-placeholder="Organizations...">
           <select class="usa-select" name="metrics-reports" id="metrics-reports__select"
             data-placeholder="Organizations...">
             {% for org in metrics.orgList %}

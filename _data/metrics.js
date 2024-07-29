@@ -138,7 +138,7 @@ const calculateDeviceTypePercentages = (reportData = []) => {
     if (index == 0) {
       val.push('percentage')
     } else {
-      let percentage = parseInt((parseInt(val[1]) / total) * 100)
+      let percentage = (parseFloat(val[1]) / total * 100).toFixed(2)
       val.push(`${percentage}%`)
     }
     return val
