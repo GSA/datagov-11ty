@@ -6,7 +6,7 @@ const S3_BASE_URL = 'https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-467
 
 const GET_ORG_LIST_URL = 'https://catalog.data.gov/api/action/package_search?q=*:*&facet.field=["organization"]&facet.limit=200&rows=0'
 
-// number of reports to display when data should be truncated.
+const CACHE_DURATION = '22h'
 const TRUNCATED_COUNT = 10
 
 const REPORTS = {
@@ -14,51 +14,77 @@ const REPORTS = {
     PAGEVIEWS: {
       title: "Total Pageviews",
       description: "Top pageviews sitewide",
-      url: "global__total_pageviews__last30.csv"
+      url: "global__total_pageviews__last30.csv",
+      columnKeys: ["screenPageViews"]
     },
     DEVICE_TYPE: {
-      title: "Pageviews by Device Type",
+      title: "Users by Device Type",
       description: "",
-      url: "global__device_category__last30.csv"
+      url: "global__device_category__last30.csv",
+      columnKeys: ["deviceCategory", "activeUsers", "percentage"]
     },
+    TOP_SEARCH_TERMS: {
+      title: "Top Search Terms",
+      description: "Top onsite search terms",
+      url: "global__top_search_terms__last30.csv",
+      columnKeys: ["searchTerm", "eventCount"]
+    },    
     DATASETS_PER_ORG: {
       title: "Number of Datasets per Organization",
       description: "Count of datasets by organization",
-      url: "global__datasets_per_org.csv"
+      url: "global__datasets_per_org.csv",
+      columnKeys: ["organization", "count"]
     },
     HARVEST_SOURCES_PER_ORG: {
       title: "Number of Harvest Sources per Organization",
       description: "Count of harvest sources by organization",
-      url: "global__harvest_sources.csv"
-    },
-    TOP_SEARCH_TERMS: {
-      title: "Top Search Terms",
-      description: "Top searchterms sitewide",
-      url: "global__top_search_terms__last30.csv"
+      url: "global__harvest_sources.csv",
+      columnKeys: ["organization", "count"]
     }
   },
   // ORG is a meta constructor for orgs
   ORG: {
     MOST_VIEWED_DATASETS: {
       title: "Most Viewed Dataset Pages",
-      description: "Top 10 dataset pages by pageviews in the last 30 days",
-      url: "page_requests__last30.csv"
+      description: "Top 10 dataset pages by pageviews",
+      url: "page_requests__last30.csv",
+      columnKeys: ["pagePath", "screenPageViews"]
     },
     MOST_DOWNLOADED_DATASETS: {
       title: "Most Downloaded Datasets",
-      description: "Top 10 files by download count in the last 30 days",
-      url: "download_requests__last30.csv"
+      description: "Top 10 files by download count",
+      url: "download_requests__last30.csv",
+      columnKeys: ["linkUrl", "eventCount"]
     },
     MOST_CLICKED_OUTBOUND_LINKS: {
       title: "Most Clicked Outbound Links",
-      description: "Top 10 external link clicks in the last 30 days",
-      url: "link_requests__last30.csv"
+      description: "Top 10 external link clicks",
+      url: "link_requests__last30.csv",
+      columnKeys: ["linkUrl", "eventCount"]
     }
   }
 }
 
-CACHE_DURATION = '22h'
-
+const ENUMS = {
+  "deviceCategory": "Device Category",
+  "activeUsers": "Users",
+  "searchTerm": "Search Term",
+  "eventCount": "Count",
+  "organization": "Organization",
+  "count": "Count",
+  "percentage": "Percentage",
+  "pagePath": "Page Path",
+  "screenPageViews": "Pageviews",
+  "linkUrl": "Url",
+  "OVERRIDES": {
+    "MOST_DOWNLOADED_DATASETS": {
+      "linkUrl": "File Url"
+    },
+    "MOST_CLICKED_OUTBOUND_LINKS": {
+      "linkUrl": "Link Url"
+    }
+  }
+}
 async function downloadCSVFromS3(url) {
   try {
     const csvString = await EleventyFetch(url, {
@@ -88,6 +114,8 @@ const downloadJSON = async (url) => {
   });
 }
 
+// for org list
+// sort list of strings by name
 const sortByName = (items) => {
   return items.sort((a, b) => {
     const nameA = a.name.toUpperCase(); // ignore upper and lowercase
@@ -103,12 +131,26 @@ const sortByName = (items) => {
   });
 }
 
+// calculate device type percentages 
+const calculateDeviceTypePercentages = (reportData = []) => {
+  const total = reportData.slice(1, reportData.length).reduce((accum, val) => accum += parseInt(val[1]), 0)
+  return reportData.map((val, index) => {
+    if (index == 0) {
+      val.push('percentage')
+    } else {
+      let percentage = parseInt((parseInt(val[1]) / total) * 100)
+      val.push(`${percentage}%`)
+    }
+    return val
+  })
+}
+
 module.exports = async function () {
   // get org infos
   let { result: { search_facets: { organization: { items } } } } = await downloadJSON(GET_ORG_LIST_URL);
   let orgList = sortByName(items);
 
-  // get data
+  // fetch raw data
   const data = {}
   for (let type in REPORTS) {
     if (type == "ORG") {
@@ -129,7 +171,11 @@ module.exports = async function () {
     }
   }
 
-  // now structure data
+  // interpret that data
+  //calculate devicetype percentages
+  data.GLOBAL.DEVICE_TYPE = calculateDeviceTypePercentages(data.GLOBAL.DEVICE_TYPE)
+
+  // structure that data for templating
   const shapedData = {}
   for (let type in REPORTS) {
     if (type == "ORG") {
@@ -143,7 +189,8 @@ module.exports = async function () {
               key: report,
               title: REPORTS.ORG[report].title,
               description: REPORTS.ORG[report].description,
-              reportLink: `${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`
+              reportLink: `${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`,
+              columnKeys: REPORTS.ORG[report].columnKeys
             },
             // truncate data before attaching
             data: data[orgName][report].slice(0, TRUNCATED_COUNT)
@@ -161,7 +208,8 @@ module.exports = async function () {
             key: report,
             title: REPORTS[type][report].title,
             description: REPORTS[type][report].description,
-            reportLink: `${S3_BASE_URL}${REPORTS[type][report].url}`
+            reportLink: `${S3_BASE_URL}${REPORTS[type][report].url}`,
+            columnKeys: REPORTS[type][report].columnKeys
           },
           // truncate data before attaching
           data: data[type][report].slice(0, TRUNCATED_COUNT)
@@ -174,10 +222,12 @@ module.exports = async function () {
   // save to friendly namespace
   const global = shapedData.GLOBAL
   const orgs = shapedData.ORG
-  
+  const enums = ENUMS
+
   return {
     global,
     orgs,
-    orgList
+    orgList,
+    enums
   };
 };
