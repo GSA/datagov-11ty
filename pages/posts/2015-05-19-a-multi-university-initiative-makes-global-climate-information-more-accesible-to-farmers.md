@@ -18,7 +18,7 @@ redirect_from:
 slug: a-multi-university-initiative-makes-global-climate-information-more-accesible-to-farmers
 tags: climate
 
-title: A multi-university initiative makes global climate information more accesible
+title: A multi-university initiative makes global climate information more accessible
   to farmers
 ---
 
