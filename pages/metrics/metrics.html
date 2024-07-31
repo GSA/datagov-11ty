@@ -1,0 +1,116 @@
+---
+date: '2009-10-01T17:15:15'
+excerpt: Data.gov Metrics Dashboard
+link: 'https://www.data.gov/metrics/'
+permalink: metrics/
+layout: layouts/default
+title: Datagov Metrics Dashboard
+---
+
+<!-- org select combo box -->
+<section class="usa-section metrics org-select">
+  <div class="grid-container">
+    <h2 class="usa-heading">Metrics by Organization:</h2>
+    <div class="grid-row grid-gap-lg">
+      <div class="grid-col-12">
+        <label class="usa-label" for="metrics-reports__select">Select an organization:</label>
+        <div class="usa-combo-box" data-placeholder="Organizations...">
+          <select class="usa-select" name="metrics-reports" id="metrics-reports__select"
+            data-placeholder="Organizations...">
+            {% for org in metrics.orgList %}
+            <option value="{{helpers.baseUrl}}/metrics/organization/{{org.name}}/index.html"
+              data-display-name="{{org.display_name}}">{{org.display_name}}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="mt-2">
+          <a href="" id="metrics-reports__link">
+            <button class="usa-button" type="button">
+              View Report
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Global Metrics  -->
+<section class="usa-section metrics">
+  <div class="grid-container">
+    <h2 class="usa-heading">Data.gov Sitewide Metrics:</h2>
+    <p class="text-italic">All data shown represents last calendar month. Data updates at the beginning of each new
+      month to show the calendar month past.</p>
+    <div class="mt-3"></div>
+    {% for block in metrics.global %}
+    {% assign cacheKey = block.meta.key %}
+    {% if cacheKey == "PAGEVIEWS" %}
+    <div class="grid-row grid-gap-lg {{cacheKey}}">
+      <div class="grid-col-12">
+        <h4>{{block.meta.title}}</h4>
+        <h3>{{ block.data[1] }}</h3>
+      </div>
+    </div>
+    <div class="mt-3"></div>
+    {% else %}
+    <div class="grid-row grid-gap-lg {{cacheKey}}">
+      <div class="grid-col-12">
+        <h4>{{block.meta.title}}</h4>
+        <p>{{block.meta.description}}</p>
+        <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+          <caption>
+            <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
+              {{block.meta.title}}</a>
+          </caption>
+          <thead>
+            <tr>
+              {% for data in block.data[0] %}
+              {% if block.meta.columnKeys contains data %}
+              <th scope="col">
+                {% if metrics.enums.OVERRIDES[cacheKey] and metrics.enums.OVERRIDES[cacheKey][data] %}
+                {{metrics.enums.OVERRIDES[cacheKey][data]}}
+                {% elsif metrics.enums[data] %}
+                {{metrics.enums[data]}}
+                {% else %}
+                {{data}}
+                {% endif %}
+              </th>
+              {% endif %}
+              {% endfor %}
+            </tr>
+          </thead>
+          {% for row in block.data offset:1 %}
+          <tr>
+            {% for column in row %}
+            {%- if block.meta.columnKeys contains block.data[0][forloop.index0] -%}
+            {%- if forloop.first -%}
+            <td><a href="{{column}}">{{column}}</a></td>
+            {%- else -%}
+            <td>{{column}}</td>
+            {%- endif -%}
+            {%- endif -%}
+            {% endfor %}
+          </tr>
+          {% endfor %}
+        </table>
+        <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+      </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+
+
+
+<!-- fetch metrics data -->
+<script>
+  const comboBox = document.getElementById("metrics-reports__select");
+  const linkEl = document.getElementById("metrics-reports__link");
+
+  comboBox.addEventListener("change", (event) => {
+    linkEl.href = event.target.value;
+  });
+</script>
