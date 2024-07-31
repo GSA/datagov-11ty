@@ -46,6 +46,7 @@
     "autoprefixer": "^10.4.19",
     "chokidar-cli": "^3.0.0",
     "cypress": "^13.11.0",
+    "dotenv": "^16.4.5",
     "eleventy-plugin-svg-sprite": "^2.4.2",
     "esbuild": "^0.23.0",
     "esbuild-sass-plugin": "^3.3.1",
