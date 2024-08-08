@@ -85,7 +85,11 @@ title: Datagov Metrics Dashboard
             {% for column in row %}
             {%- if block.meta.columnKeys contains block.data[0][forloop.index0] -%}
             {%- if forloop.first -%}
-            <td><a href="{{column}}">{{column}}</a></td>
+            {%- if cacheKey == "DATASETS_PER_ORG" or cacheKey == "HARVEST_SOURCES_PER_ORG" -%}
+              <td><a href="{{helpers.baseUrl}}/metrics/organization/{{column}}/index.html">{{metrics.orgDict[column]}}</a></td>
+              {%- else -%}
+              <td>{{column}}</td>
+              {%- endif -%}
             {%- else -%}
             <td>{{column}}</td>
             {%- endif -%}
@@ -101,9 +105,6 @@ title: Datagov Metrics Dashboard
     {% endfor %}
   </div>
 </section>
-
-
-
 
 <!-- fetch metrics data -->
 <script>
