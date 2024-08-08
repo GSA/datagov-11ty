@@ -219,6 +219,10 @@ module.exports = async function () {
       }
     }
   }
+  const orgDict = orgList.reduce((accum, org) => {
+    accum[org.name] = org.display_name
+    return accum
+  }, {})
 
   // save to friendly namespace
   const global = shapedData.GLOBAL
@@ -229,6 +233,7 @@ module.exports = async function () {
     global,
     orgs,
     orgList,
+    orgDict,
     enums
   };
 };
