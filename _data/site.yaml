@@ -50,7 +50,7 @@ dap:
 
 # Configuration for Google Analytics
 ga:
-  ua: G-WP7FK9QXZD
+  gtm: GTM-WZJC8CX7
 
 # Site Navigation
 primary_navigation:
