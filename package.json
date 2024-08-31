@@ -63,7 +63,7 @@
     "start-server-and-test": "^2.0.5"
   },
   "dependencies": {
-    "@uswds/uswds": "3.8.1",
+    "@uswds/uswds": "3.8.2",
     "chart.js": "^4.4.3",
     "csvtojson": "^2.0.10",
     "markdown-it-attrs": "^4.1.6",
