@@ -66,7 +66,7 @@
     "@uswds/uswds": "3.8.1",
     "chart.js": "^4.4.4",
     "csvtojson": "^2.0.10",
-    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-attrs": "^4.2.0",
     "turndown": "^7.2.0"
   }
 }
