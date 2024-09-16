@@ -25,7 +25,7 @@ const REPORTS = {
     },
     TOP_SEARCH_TERMS: {
       title: "Top Search Terms",
-      description: "Top onsite search terms",
+      description: "Top onsite search terms (Full report shows top 50 terms)",
       url: "global__top_search_terms__last30.csv",
       columnKeys: ["searchTerm", "eventCount"]
     },    
