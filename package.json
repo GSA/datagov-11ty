@@ -42,10 +42,10 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.1",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.5.4",
     "autoprefixer": "^10.4.20",
     "chokidar-cli": "^3.0.0",
-    "cypress": "^13.13.3",
+    "cypress": "^13.14.2",
     "dotenv": "^16.4.5",
     "eleventy-plugin-svg-sprite": "^2.4.2",
     "esbuild": "^0.23.0",
@@ -64,9 +64,9 @@
   },
   "dependencies": {
     "@uswds/uswds": "3.8.2",
-    "chart.js": "^4.4.3",
+    "chart.js": "^4.4.4",
     "csvtojson": "^2.0.10",
-    "markdown-it-attrs": "^4.1.6",
+    "markdown-it-attrs": "^4.2.0",
     "turndown": "^7.2.0"
   }
 }
