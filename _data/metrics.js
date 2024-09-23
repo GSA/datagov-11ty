@@ -51,7 +51,7 @@ const REPORTS = {
       columnKeys: ["pagePath", "screenPageViews"]
     },
     MOST_DOWNLOADED_DATASETS: {
-      title: "Most Downloaded Datasets",
+      title: "Most Downloaded Dataset Files",
       description: "Top 10 files by download count",
       url: "download_requests__last30.csv",
       columnKeys: ["linkUrl", "eventCount"]
