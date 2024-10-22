@@ -52,13 +52,13 @@ const REPORTS = {
     },
     MOST_DOWNLOADED_DATASETS: {
       title: "Most Downloaded Dataset Files",
-      description: "Top 10 files by download count",
+      description: "Top 10 downloaded files from dataset pages",
       url: "download_requests__last30.csv",
       columnKeys: ["linkUrl", "eventCount"]
     },
     MOST_CLICKED_OUTBOUND_LINKS: {
       title: "Most Clicked Outbound Links",
-      description: "Top 10 external link clicks",
+      description: "Top 10 external link clicks from dataset pages",
       url: "link_requests__last30.csv",
       columnKeys: ["linkUrl", "eventCount"]
     }
