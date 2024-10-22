@@ -42,7 +42,7 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.2",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "@types/node": "^22.5.4",
+    "@types/node": "^22.7.8",
     "autoprefixer": "^10.4.20",
     "chokidar-cli": "^3.0.0",
     "cypress": "^13.15.0",
