@@ -22,13 +22,7 @@ const REPORTS = {
       description: "",
       url: "global__device_category__last30.csv",
       columnKeys: ["deviceCategory", "activeUsers", "percentage"]
-    },
-    TOP_SEARCH_TERMS: {
-      title: "Top Search Terms",
-      description: "Top onsite search terms (Full report shows top 50 terms)",
-      url: "global__top_search_terms__last30.csv",
-      columnKeys: ["searchTerm", "eventCount"]
-    },    
+    }, 
     DATASETS_PER_ORG: {
       title: "Number of Datasets per Organization",
       description: "Count of datasets by organization",
