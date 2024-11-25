@@ -227,6 +227,7 @@ module.exports = async function () {
   const enums = ENUMS
 
   return {
+    end_date,
     global,
     orgs,
     orgList,
