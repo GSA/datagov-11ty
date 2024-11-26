@@ -3,6 +3,7 @@ const EleventyFetch = require('@11ty/eleventy-fetch');
 const csv = require("csvtojson/v2");
 
 const S3_BASE_URL = 'https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/'
+const END_DATE_FILE = 'report-end-date.txt'
 
 const GET_ORG_LIST_URL = 'https://catalog.data.gov/api/action/package_search?q=*:*&facet.field=["organization"]&facet.limit=200&rows=0'
 
@@ -14,25 +15,25 @@ const REPORTS = {
     PAGEVIEWS: {
       title: "Total Pageviews",
       description: "Top pageviews sitewide",
-      url: "global__total_pageviews__last30.csv",
+      url: "global__total_pageviews__last30.[end_date].csv",
       columnKeys: ["screenPageViews"]
     },
     DEVICE_TYPE: {
       title: "Users by Device Type",
       description: "",
-      url: "global__device_category__last30.csv",
+      url: "global__device_category__last30.[end_date].csv",
       columnKeys: ["deviceCategory", "activeUsers", "percentage"]
     }, 
     DATASETS_PER_ORG: {
       title: "Number of Datasets per Organization",
       description: "Count of datasets by organization",
-      url: "global__datasets_per_org.csv",
+      url: "global__datasets_per_org.[end_date].csv",
       columnKeys: ["organization", "count"]
     },
     HARVEST_SOURCES_PER_ORG: {
       title: "Number of Harvest Sources per Organization",
       description: "Count of harvest sources by organization",
-      url: "global__harvest_sources.csv",
+      url: "global__harvest_sources.[end_date].csv",
       columnKeys: ["organization", "count"]
     }
   },
@@ -41,19 +42,19 @@ const REPORTS = {
     MOST_VIEWED_DATASETS: {
       title: "Most Viewed Dataset Pages",
       description: "Top 10 dataset pages by pageviews",
-      url: "page_requests__last30.csv",
+      url: "page_requests__last30.[end_date].csv",
       columnKeys: ["pagePath", "screenPageViews"]
     },
     MOST_DOWNLOADED_DATASETS: {
       title: "Most Downloaded Dataset Files",
       description: "Top 10 downloaded files from dataset pages",
-      url: "download_requests__last30.csv",
+      url: "download_requests__last30.[end_date].csv",
       columnKeys: ["linkUrl", "eventCount"]
     },
     MOST_CLICKED_OUTBOUND_LINKS: {
       title: "Most Clicked Outbound Links",
       description: "Top 10 external link clicks from dataset pages",
-      url: "link_requests__last30.csv",
+      url: "link_requests__last30.[end_date].csv",
       columnKeys: ["linkUrl", "eventCount"]
     }
   }
@@ -145,6 +146,8 @@ module.exports = async function () {
   let { result: { search_facets: { organization: { items } } } } = await downloadJSON(GET_ORG_LIST_URL);
   let orgList = sortByName(items);
 
+  let end_date = await EleventyFetch(`${S3_BASE_URL}${END_DATE_FILE}`, {type: "text"});
+
   // fetch raw data
   const data = {}
   for (let type in REPORTS) {
@@ -154,13 +157,13 @@ module.exports = async function () {
         let orgName = org.name
         data[orgName] = {}
         for (let report in REPORTS[type]) {
-          data[orgName][report] = await downloadCSVFromS3(`${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`)
+          data[orgName][report] = await downloadCSVFromS3(`${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url.replace("[end_date]", end_date)}`)
         }
       }
     } else {
       data[type] = {}
       for (let report in REPORTS[type]) {
-        data[type][report] = await downloadCSVFromS3(`${S3_BASE_URL}${REPORTS[type][report].url}`)
+        data[type][report] = await downloadCSVFromS3(`${S3_BASE_URL}${REPORTS[type][report].url.replace("[end_date]", end_date)}`)
       }
 
     }
@@ -184,7 +187,7 @@ module.exports = async function () {
               key: report,
               title: REPORTS.ORG[report].title,
               description: REPORTS.ORG[report].description,
-              reportLink: `${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url}`,
+              reportLink: `${S3_BASE_URL}${orgName}__${REPORTS.ORG[report].url.replace("[end_date]", end_date)}`,
               columnKeys: REPORTS.ORG[report].columnKeys
             },
             // truncate data before attaching
@@ -203,7 +206,7 @@ module.exports = async function () {
             key: report,
             title: REPORTS[type][report].title,
             description: REPORTS[type][report].description,
-            reportLink: `${S3_BASE_URL}${REPORTS[type][report].url}`,
+            reportLink: `${S3_BASE_URL}${REPORTS[type][report].url.replace("[end_date]", end_date)}`,
             columnKeys: REPORTS[type][report].columnKeys
           },
           // truncate data before attaching
@@ -224,6 +227,7 @@ module.exports = async function () {
   const enums = ENUMS
 
   return {
+    end_date,
     global,
     orgs,
     orgList,
