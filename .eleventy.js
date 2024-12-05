@@ -135,6 +135,14 @@ module.exports = function (config) {
         pathPrefix = process.env.BASEURL;
     }
 
+    // add a liquid filter to separate numbers with commas
+    config.addLiquidFilter('toLocaleString', (string) => {
+        if (!isNaN(string)) {
+            string = parseFloat(string);
+        }
+        return string.toLocaleString('en', { useGrouping: true });
+    });
+
     // Set image shortcodes
     config.addLiquidShortcode('download', downloadShortCode);
     config.addLiquidShortcode('image', imageShortcode);

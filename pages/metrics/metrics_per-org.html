@@ -60,7 +60,7 @@ eleventyComputed:
             {%- endif -%}
 
             {%- else -%}
-            <td>{{column}}</td>
+            <td align="right">{{column | toLocaleString}}</td>
             {%- endif -%}
             {%- endif -%}
             {% endfor %}

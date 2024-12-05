@@ -50,7 +50,7 @@ title: Datagov Metrics Dashboard
     <div class="grid-row grid-gap-lg {{cacheKey}}">
       <div class="grid-col-12">
         <h4>{{block.meta.title}}</h4>
-        <h3>{{ block.data[1] }}</h3>
+        <h3>{{ block.data[1] | toLocaleString }}</h3>
       </div>
     </div>
     <div class="mt-3"></div>
@@ -92,7 +92,7 @@ title: Datagov Metrics Dashboard
               <td>{{column}}</td>
               {%- endif -%}
             {%- else -%}
-            <td>{{column}}</td>
+            <td align="right">{{column | toLocaleString}}</td>
             {%- endif -%}
             {%- endif -%}
             {% endfor %}
