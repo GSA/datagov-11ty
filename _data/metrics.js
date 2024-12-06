@@ -49,13 +49,13 @@ const REPORTS = {
       title: "Most Downloaded Dataset Files",
       description: "Top 10 downloaded files from dataset pages",
       url: "download_requests__last30.[end_date].csv",
-      columnKeys: ["linkUrl", "eventCount"]
+      columnKeys: ["linkUrl", "pageTitle", "eventCount"]
     },
     MOST_CLICKED_OUTBOUND_LINKS: {
       title: "Most Clicked Outbound Links",
       description: "Top 10 external link clicks from dataset pages",
       url: "link_requests__last30.[end_date].csv",
-      columnKeys: ["linkUrl", "eventCount"]
+      columnKeys: ["linkUrl", "pageTitle", "eventCount"]
     }
   }
 }
@@ -64,6 +64,7 @@ const ENUMS = {
   "deviceCategory": "Device Category",
   "activeUsers": "Users",
   "searchTerm": "Search Term",
+  "pageTitle": "Title",
   "eventCount": "Count",
   "organization": "Organization",
   "count": "Count",
