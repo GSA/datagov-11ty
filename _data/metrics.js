@@ -35,7 +35,20 @@ const REPORTS = {
       description: "Count of harvest sources by organization",
       url: "global__harvest_sources.[end_date].csv",
       columnKeys: ["organization", "count"]
+    },
+    MOST_DOWNLOADED_DATASETS: {
+      title: "Most Downloaded Dataset Files",
+      description: "Top 10 downloaded files from dataset pages",
+      url: "global__download_requests__last30.[end_date].csv",
+      columnKeys: ["linkUrl", "eventCount"]
+    },
+    MOST_CLICKED_OUTBOUND_LINKS: {
+      title: "Most Clicked Outbound Links",
+      description: "Top 10 external link clicks from dataset pages",
+      url: "global__link_requests__last30.[end_date].csv",
+      columnKeys: ["linkUrl", "eventCount"]
     }
+
   },
   // ORG is a meta constructor for orgs
   ORG: {
