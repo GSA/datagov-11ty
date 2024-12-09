@@ -24,6 +24,18 @@ const REPORTS = {
       url: "global__device_category__last30.[end_date].csv",
       columnKeys: ["deviceCategory", "activeUsers", "percentage"]
     }, 
+    MOST_DOWNLOADED_DATASETS: {
+      title: "Most Downloaded Dataset Files",
+      description: "Top 10 downloaded files",
+      url: "global__download_requests__last30.[end_date].csv",
+      columnKeys: ["linkUrl", "eventCount"]
+    },
+    MOST_CLICKED_OUTBOUND_LINKS: {
+      title: "Most Clicked Outbound Links",
+      description: "Top 10 external link clicks",
+      url: "global__link_requests__last30.[end_date].csv",
+      columnKeys: ["linkUrl", "eventCount"]
+    },
     DATASETS_PER_ORG: {
       title: "Number of Datasets per Organization",
       description: "Count of datasets by organization",
@@ -36,6 +48,7 @@ const REPORTS = {
       url: "global__harvest_sources.[end_date].csv",
       columnKeys: ["organization", "count"]
     }
+
   },
   // ORG is a meta constructor for orgs
   ORG: {

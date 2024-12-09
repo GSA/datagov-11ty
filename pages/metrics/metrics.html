@@ -84,17 +84,19 @@ title: Datagov Metrics Dashboard
           {% for row in block.data offset:1 %}
           <tr>
             {% for column in row %}
-            {%- if block.meta.columnKeys contains block.data[0][forloop.index0] -%}
-            {%- if forloop.first -%}
-            {%- if cacheKey == "DATASETS_PER_ORG" or cacheKey == "HARVEST_SOURCES_PER_ORG" -%}
-              <td><a href="{{helpers.baseUrl}}/metrics/organization/{{column}}/index.html">{{metrics.orgDict[column]}}</a></td>
-              {%- else -%}
-              <td>{{column}}</td>
+              {%- if block.meta.columnKeys contains block.data[0][forloop.index0] -%}
+                {%- if forloop.first -%}
+                  {%- if cacheKey == "DATASETS_PER_ORG" or cacheKey == "HARVEST_SOURCES_PER_ORG" -%}
+                  <td><a href="{{helpers.baseUrl}}/metrics/organization/{{column}}/index.html">{{metrics.orgDict[column]}}</a></td>
+                  {%- elsif cacheKey == "MOST_DOWNLOADED_DATASETS" or cacheKey == "MOST_CLICKED_OUTBOUND_LINKS" -%}
+                  <td><a href="{{column}}">{{column}}</a></td>
+                  {%- else -%}
+                  <td>{{column}}</td>
+                  {%- endif -%}
+                {%- else -%}
+                <td align="right">{{column | toLocaleString}}</td>
+                {%- endif -%}
               {%- endif -%}
-            {%- else -%}
-            <td align="right">{{column | toLocaleString}}</td>
-            {%- endif -%}
-            {%- endif -%}
             {% endfor %}
           </tr>
           {% endfor %}
