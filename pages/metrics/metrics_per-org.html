@@ -60,7 +60,14 @@ eleventyComputed:
             {%- endif -%}
 
             {%- else -%}
-            <td>{{column}}</td>
+            {%- assign pageURL = 5 -%}
+            {%- if block.data[0][forloop.index0] == "pageTitle" -%}
+              <td align="right">
+              <a href="{{row[pageURL]}}" target="_blank">{{column | toLocaleString | replace: " - Catalog", ""}}</a>
+            </td>
+            {%- else -%}
+            <td align="right">{{column | toLocaleString}}</td>
+            {%- endif -%}
             {%- endif -%}
             {%- endif -%}
             {% endfor %}
