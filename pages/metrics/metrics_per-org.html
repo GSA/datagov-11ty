@@ -26,7 +26,11 @@ eleventyComputed:
       <div class="grid-col-12">
         <h4>{{block.meta.title}}</h4>
         <p>{{block.meta.description}}</p>
-        <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+        {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
+          <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+        {%- else -%}
+          <table class="usa-table usa-table--borderless usa-table--stacked"> 
+        {%- endif -%}
           <caption>
             <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
               {{block.meta.title}}</a>
@@ -60,9 +64,13 @@ eleventyComputed:
             {%- endif -%}
 
             {%- else -%}
-            {%- assign pageURL = 5 -%}
+            {%- if cacheKey == "MOST_DOWNLOADED_DATASETS" -%}
+              {%- assign pageURL = 5 -%}
+            {%- else -%}
+              {%- assign pageURL = 4 -%}
+            {%- endif -%}
             {%- if block.data[0][forloop.index0] == "pageTitle" -%}
-              <td align="right">
+              <td align="left">
               <a href="{{row[pageURL]}}" target="_blank">{{column | toLocaleString | replace: " - Catalog", ""}}</a>
             </td>
             {%- else -%}

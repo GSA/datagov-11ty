@@ -64,7 +64,7 @@ const ENUMS = {
   "deviceCategory": "Device Category",
   "activeUsers": "Users",
   "searchTerm": "Search Term",
-  "pageTitle": "Title",
+  "pageTitle": "Page Title",
   "eventCount": "Count",
   "organization": "Organization",
   "count": "Count",
