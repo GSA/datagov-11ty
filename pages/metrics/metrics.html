@@ -105,11 +105,11 @@ title: Datagov Metrics Dashboard
                   {%- assign pageURL = 4 -%}
                 {%- endif -%}
                 {%- if block.data[0][forloop.index0] == "pageTitle" -%}
-                  <td align="left">
+                  <td>
                     <a href="{{row[pageURL]}}" target="_blank">{{column | toLocaleString | replace: " - Catalog", ""}}</a>
                   </td>
                 {%- else -%}
-                  <td align="right">{{column | toLocaleString}}</td>
+                  <td>{{column | toLocaleString}}</td>
                 {%- endif -%}
                 {%- endif -%}
 
