@@ -28,13 +28,13 @@ const REPORTS = {
       title: "Most Downloaded Dataset Files",
       description: "Top 10 downloaded files",
       url: "global__download_requests__last30.[end_date].csv",
-      columnKeys: ["linkUrl", "eventCount"]
+      columnKeys: ["linkUrl", "pageTitle", "eventCount"]
     },
     MOST_CLICKED_OUTBOUND_LINKS: {
       title: "Most Clicked Outbound Links",
       description: "Top 10 external link clicks",
       url: "global__link_requests__last30.[end_date].csv",
-      columnKeys: ["linkUrl", "eventCount"]
+      columnKeys: ["linkUrl", "pageTitle", "eventCount"]
     },
     DATASETS_PER_ORG: {
       title: "Number of Datasets per Organization",
@@ -77,7 +77,7 @@ const ENUMS = {
   "deviceCategory": "Device Category",
   "activeUsers": "Users",
   "searchTerm": "Search Term",
-  "pageTitle": "Title",
+  "pageTitle": "Page Title",
   "eventCount": "Count",
   "organization": "Organization",
   "count": "Count",
