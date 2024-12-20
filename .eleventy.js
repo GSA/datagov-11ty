@@ -16,7 +16,19 @@ const {
     usaCurrentShortcode,
 } = require('./config/shortCodes');
 
+const isFederalShutdownMode = false;
+
 module.exports = function (config) {
+    if (isFederalShutdownMode) {
+        config.addPassthroughCopy({ 'maintenance/federal-government-shutdown.html': 'index.html' });
+        return {
+            dir: {
+                input: 'maintenance',
+                output: '_site',
+            },
+        };
+    }
+
     // Set pathPrefix for site
     let pathPrefix = '/';
 
