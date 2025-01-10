@@ -29,7 +29,7 @@ jobs:
         run: npm run cypress:gh
 
       - name: cypress-artifacs
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: failure()
         with:
           name: cypress-artifacts
