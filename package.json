@@ -30,8 +30,7 @@
     "serve": "npx @11ty/eleventy --serve",
     "start": "npx @11ty/eleventy --serve",
     "test": "npm run pa11y-ci:gh",
-    "test:local": "npm run woke; npm run cypress:run; npm run pa11y-ci",
-    "woke": "woke"
+    "test:local": "npm run cypress:run; npm run pa11y-ci"
   },
   "author": "",
   "license": "CC0-1.0",
