@@ -1,0 +1,11 @@
+{
+    "defaults": {
+        "timeout": 10000,
+        "chromeLaunchConfig": {
+            "executablePath": "/usr/bin/google-chrome",
+            "args": [
+                "--no-sandbox"
+            ]
+        }
+    }
+}
