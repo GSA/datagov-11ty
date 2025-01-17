@@ -2545,8 +2545,7 @@ small,
     color: inherit;
 }
 .color-contrast-medium {
-    color: hsl(240, 1%, 48%);
-    color: var(--color-contrast-medium, #767679);
+    color: #767679;
 }
 .color-contrast-high {
     color: hsl(240, 4%, 20%);
