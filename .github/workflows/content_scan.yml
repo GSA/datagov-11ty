@@ -5,7 +5,7 @@ on:
 
 jobs:
   build:
-    name: cypress
+    name: Content scan
     runs-on: ubuntu-latest
     env:
       LANG: en_US.UTF-8
@@ -24,6 +24,9 @@ jobs:
       - name: Install NPM dependencies
         shell: bash
         run: npm install
+
+      - name: Build eleventy and run pa11y-ci
+        run: npm run pa11y-ci:gh
 
       - name: Build eleventy and run cypress
         run: npm run cypress:gh
