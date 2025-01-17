@@ -21,10 +21,10 @@ Data.gov is working with an expanded group of federal agencies to include their 
 
 Data.gov was built with open source software. Anyone, especially local, state, and foreign governments are welcome to borrow the code behind Data.gov.
 
-# Open Data in the United States
+# Open Data in the United States and Internationally
 
 Numerous states, cities, and counties have launched open data sites. By collaborating with these non-federal data sources, Data.gov is able to include this data in the catalog. Searches on the Data.gov catalog will return relevant datasets from both federal and non-federal sources.
 
-Download the full list of current international open data sites: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_intl_102523.csv).
+Download the full list of current international open data sites: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_intl.csv).
 
-Download the full list of current open data sites in the United States: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_us_states_cities_102523.csv).
+Download the full list of current open data sites in the United States: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_us.csv).

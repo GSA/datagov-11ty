@@ -13,12 +13,12 @@ eleventyComputed:
   <div class="grid-container">
     <h2 class="usa-heading">Organization Specific Metrics:</h2>
     <h3 class="usa-heading">{{org.display_name}}</h3>
-    <div class="mt-3"></div>
+    <h6 class="usa-heading">Report Date: {{ metrics.end_date}}</h6>
+    <p class="text-italic mt-3">All data shown represents the calendar month which ends at the Report Date.
+      Data updates at the beginning of each new month to show the calendar month past.</p>
     <a href="https://catalog.data.gov/report/metrics-dashboard/{{org.name}}">
       <button class="usa-button" type="button">View Harvest Source Data</button>
     </a>
-    <p class="text-italic mt-3">All data shown represents last calendar month. Data updates at the beginning of each new
-      month to show the calendar month past.</p>
     <div class="mt-5"></div>
     {% for block in metrics.orgs[org.name] %}
     {% assign cacheKey = block.meta.key %}
@@ -26,7 +26,11 @@ eleventyComputed:
       <div class="grid-col-12">
         <h4>{{block.meta.title}}</h4>
         <p>{{block.meta.description}}</p>
-        <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+        {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
+          <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+        {%- else -%}
+          <table class="usa-table usa-table--borderless usa-table--stacked"> 
+        {%- endif -%}
           <caption>
             <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
               {{block.meta.title}}</a>
@@ -60,7 +64,18 @@ eleventyComputed:
             {%- endif -%}
 
             {%- else -%}
-            <td>{{column}}</td>
+            {%- if cacheKey == "MOST_DOWNLOADED_DATASETS" -%}
+              {%- assign pageURL = 5 -%}
+            {%- else -%}
+              {%- assign pageURL = 4 -%}
+            {%- endif -%}
+            {%- if block.data[0][forloop.index0] == "pageTitle" -%}
+              <td>
+              <a href="{{row[pageURL]}}" target="_blank">{{column | toLocaleString | replace: " - Catalog", ""}}</a>
+            </td>
+            {%- else -%}
+            <td>{{column | toLocaleString}}</td>
+            {%- endif -%}
             {%- endif -%}
             {%- endif -%}
             {% endfor %}
