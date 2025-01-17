@@ -16,7 +16,19 @@ const {
     usaCurrentShortcode,
 } = require('./config/shortCodes');
 
+const isFederalShutdownMode = false;
+
 module.exports = function (config) {
+    if (isFederalShutdownMode) {
+        config.addPassthroughCopy({ 'maintenance/federal-government-shutdown.html': 'index.html' });
+        return {
+            dir: {
+                input: 'maintenance',
+                output: '_site',
+            },
+        };
+    }
+
     // Set pathPrefix for site
     let pathPrefix = '/';
 
@@ -134,6 +146,14 @@ module.exports = function (config) {
     if (process.env.BASEURL) {
         pathPrefix = process.env.BASEURL;
     }
+
+    // add a liquid filter to separate numbers with commas
+    config.addLiquidFilter('toLocaleString', (string) => {
+        if (!isNaN(string)) {
+            string = parseFloat(string);
+        }
+        return string.toLocaleString('en', { useGrouping: true });
+    });
 
     // Set image shortcodes
     config.addLiquidShortcode('download', downloadShortCode);

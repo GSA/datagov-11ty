@@ -1,4 +1,4 @@
-{% if url %}<a href="{% link url %}">{% endif %}
+{% if url %}<a href="{% link url %}" aria-label="{{ariaLabel}}">{% endif %}
     <div class="metrics__card">
         <canvas id="datagov-pie-chart" class="datagov-charts {{class}}" data-metric="{{metric}}"
             data-position="{{toolTipPosition | default: 'bottom'}}" title="{{toolTipText}}"></canvas>

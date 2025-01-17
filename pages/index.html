@@ -95,7 +95,8 @@ tagline: The home of the U.S. Government's open data
             href="https://digital.gov/resources/open-data-policy-m-13-13/" target="_blank">Open Data Policy</a>
           required agencies to create comprehensive data inventories and public data listings, the site grew to 115,000+
           datasets from 88 organizations by 2015. These requirements were enacted into the <a
-          href="https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf" target="_blank">Open Government Data Act</a> in
+            href="https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf" target="_blank">Open Government Data
+            Act</a> in
           2019. Today, Data.gov is nearing 300,000 datasets and dataset collections in the catalog, harvested from over
           100 organizations, and counts over a million monthly pageviews from people like you, looking to discover that
           information. In 2024, Data.gov continues its commitment to open government data and transparency. Thank you
@@ -134,7 +135,8 @@ tagline: The home of the U.S. Government's open data
             <!-- Dataset Distribution -->
             {% if catalog and catalog.metrics and catalog.metrics.pieMetric %}
             {% include "metrics_widgets/pie-chart.html" metric: catalog.metrics.pieMetric url:
-            'user-guide/#dataset-totals' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our
+            'user-guide/#dataset-totals' ariaLabel: 'Click to learn more about collections in our
+            user guide' class: 'usa-tooltip' toolTipText: 'Click to learn more about collections in our
             user guide' %}
             {% endif %}
           </div>
