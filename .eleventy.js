@@ -63,6 +63,11 @@ module.exports = function (config) {
         return string.toLocaleString('en', { useGrouping: true });
     });
 
+    // absolute URL filter for robots.txt
+    config.addFilter("absoluteUrl", function(url) {
+        return process.env.SITE_ROOT_URL ? process.env.SITE_ROOT_URL + url : url;
+    });
+
     // Add plugins
     config.addPlugin(EleventyRenderPlugin);
 

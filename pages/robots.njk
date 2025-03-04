@@ -5,4 +5,4 @@ permalink: /robots.txt
 ---
 User-agent: *
 Allow: /
-Sitemap: {{ helpers.baseUrl }}/sitemap.xml
+Sitemap: {{ [ helpers.baseUrl, '/sitemap.xml' ] | join | absoluteUrl }}
