@@ -17,6 +17,8 @@ const {
 } = require('./config/shortCodes');
 
 const isFederalShutdownMode = false;
+require('dotenv').config();
+
 
 module.exports = function (config) {
     if (isFederalShutdownMode) {
