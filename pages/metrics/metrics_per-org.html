@@ -26,63 +26,68 @@ eleventyComputed:
       <div class="grid-col-12">
         <h4>{{block.meta.title}}</h4>
         <p>{{block.meta.description}}</p>
-        {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
-          <table class="usa-table usa-table--borderless usa-table--stacked full-width">
-        {%- else -%}
-          <table class="usa-table usa-table--borderless usa-table--stacked"> 
-        {%- endif -%}
-          <caption>
-            <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
-              {{block.meta.title}}</a>
-          </caption>
-          <thead>
+        {% # The first row is headers, we need more than one row to have actual data %}
+        {% if block.data.length > 1 %}
+          {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
+            <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+          {%- else -%}
+            <table class="usa-table usa-table--borderless usa-table--stacked"> 
+          {%- endif -%}
+            <caption>
+              <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
+                {{block.meta.title}}</a>
+            </caption>
+            <thead>
+              <tr>
+                {% for data in block.data[0] %}
+                {% if block.meta.columnKeys contains data %}
+                <th scope="col">
+                  {% if metrics.enums.OVERRIDES[cacheKey] and metrics.enums.OVERRIDES[cacheKey][data] %}
+                  {{metrics.enums.OVERRIDES[cacheKey][data]}}
+                  {% elsif metrics.enums[data] %}
+                  {{metrics.enums[data]}}
+                  {% else %}
+                  {{data}}
+                  {% endif %}
+                </th>
+                {%- endif -%}
+                {% endfor %}
+              </tr>
+            </thead>
+            {% for row in block.data offset:1 %}
             <tr>
-              {% for data in block.data[0] %}
-              {% if block.meta.columnKeys contains data %}
-              <th scope="col">
-                {% if metrics.enums.OVERRIDES[cacheKey] and metrics.enums.OVERRIDES[cacheKey][data] %}
-                {{metrics.enums.OVERRIDES[cacheKey][data]}}
-                {% elsif metrics.enums[data] %}
-                {{metrics.enums[data]}}
-                {% else %}
-                {{data}}
-                {% endif %}
-              </th>
+              {% for column in row %}
+              {%- if block.meta.columnKeys contains block.data[0][forloop.index0] -%}
+              {%- if forloop.first -%}
+              {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
+              <td><a href="https://catalog.data.gov{{column}}">{{column}}</a></td>
+              {%- else -%}
+              <td><a href="{{column}}">{{column}}</a></td>
+              {%- endif -%}
+
+              {%- else -%}
+              {%- if cacheKey == "MOST_DOWNLOADED_DATASETS" -%}
+                {%- assign pageURL = 5 -%}
+              {%- else -%}
+                {%- assign pageURL = 4 -%}
+              {%- endif -%}
+              {%- if block.data[0][forloop.index0] == "pageTitle" -%}
+                <td>
+                <a href="{{row[pageURL]}}" target="_blank">{{column | toLocaleString | replace: " - Catalog", ""}}</a>
+              </td>
+              {%- else -%}
+              <td>{{column | toLocaleString}}</td>
+              {%- endif -%}
+              {%- endif -%}
               {%- endif -%}
               {% endfor %}
             </tr>
-          </thead>
-          {% for row in block.data offset:1 %}
-          <tr>
-            {% for column in row %}
-            {%- if block.meta.columnKeys contains block.data[0][forloop.index0] -%}
-            {%- if forloop.first -%}
-            {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
-            <td><a href="https://catalog.data.gov{{column}}">{{column}}</a></td>
-            {%- else -%}
-            <td><a href="{{column}}">{{column}}</a></td>
-            {%- endif -%}
-
-            {%- else -%}
-            {%- if cacheKey == "MOST_DOWNLOADED_DATASETS" -%}
-              {%- assign pageURL = 5 -%}
-            {%- else -%}
-              {%- assign pageURL = 4 -%}
-            {%- endif -%}
-            {%- if block.data[0][forloop.index0] == "pageTitle" -%}
-              <td>
-              <a href="{{row[pageURL]}}" target="_blank">{{column | toLocaleString | replace: " - Catalog", ""}}</a>
-            </td>
-            {%- else -%}
-            <td>{{column | toLocaleString}}</td>
-            {%- endif -%}
-            {%- endif -%}
-            {%- endif -%}
             {% endfor %}
-          </tr>
-          {% endfor %}
-        </table>
-        <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+          </table>
+          <div class="usa-sr-only usa-table__announcement-region" aria-live="polite"></div>
+        {% else %}
+          <p>No data is available for this month.</p>
+        {% endif %}
       </div>
     </div>
     {% endfor %}
