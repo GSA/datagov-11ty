@@ -17,6 +17,8 @@ const {
 } = require('./config/shortCodes');
 
 const isFederalShutdownMode = false;
+require('dotenv').config();
+
 
 module.exports = function (config) {
     if (isFederalShutdownMode) {
@@ -59,6 +61,11 @@ module.exports = function (config) {
     // Add String filter to put commas in numbers
     config.addFilter('toLocaleString', (string) => {
         return string.toLocaleString('en', { useGrouping: true });
+    });
+
+    // absolute URL filter for robots.txt
+    config.addFilter("absoluteUrl", function(url) {
+        return process.env.SITE_ROOT_URL ? process.env.SITE_ROOT_URL + url : url;
     });
 
     // Add plugins
