@@ -47,7 +47,7 @@
     "cypress": "^14.3.0",
     "dotenv": "^16.5.0",
     "eleventy-plugin-svg-sprite": "^2.4.3",
-    "esbuild": "^0.25.2",
+    "esbuild": "^0.25.3",
     "esbuild-sass-plugin": "^3.3.1",
     "js-yaml": "^4.1.0",
     "luxon": "^3.6.1",
