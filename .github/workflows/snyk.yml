@@ -4,7 +4,7 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-    - cron: '0 5 * * *'  # Run at midnight Eastern Time every day (midnight EST/1 AM EDT)
+    - cron: '0 5 * * 1-5'  # Run at midnight EST/1 AM EDT on weekdays (Mon-Fri)
   workflow_dispatch:  # Allow manual triggering
 
 jobs:
@@ -32,5 +32,16 @@ jobs:
         run: snyk auth ${{ secrets.SNYK_TOKEN }}
 
       - name: Run Snyk test for vulnerabilities
-        run: snyk test --severity-threshold=high
-        continue-on-error: true
+        run: snyk test --severity-threshold=medium
+
+      - name: Create Issue for failure 😢
+        if: ${{ failure() }}
+        uses: JasonEtco/create-an-issue@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_JOB: ${{ toJson(github)['job'] }}
+          GITHUB_ATTEMPTS: ${{ github.run_attempt }}
+          RUN_ID: ${{ github.run_id }}
+        with:
+          filename: .github/snyk_failure.md
+          update_existing: true
