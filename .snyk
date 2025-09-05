@@ -1,0 +1,9 @@
+version: v1.28.0
+ignore:
+  SNYK-JS-TURNDOWN-12304081:
+    - '*':
+        reason: |
+          Temporary ignore: turndown ReDoS until upstream fix is published.
+          GH issue created https://github.com/GSA/data.gov/issues/5441
+        expires: '2025-12-02T00:00:00.000Z'
+
