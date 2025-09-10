@@ -15,6 +15,14 @@ describe('The Home Page', () => {
         });
     });
 
+    describe('Anniversary', () => {
+        it('doesn\'t have the 15 year anniversary banner', () => {
+            cy.get('div.banner.padding-2.text-center').should('not.exist');
+        })
+        it('doesn\'t have the anniversary section', ()=> {
+            cy.get('section.usa-section.anniversary').should('not.exist');
+        })
+    })
     describe('Hero', () => {
         it('has the expected title', () => {
             cy.get('h1').contains("The Home of the U.S. Government's Open Data");
@@ -26,6 +34,15 @@ describe('The Home Page', () => {
     });
 
     describe('The Metrics Widgets', () => {
+        it('has the metrics section', ()=> {
+            cy.get('section.usa-section.metrics').should('exist');
+        })
+        it('has a title', () => {
+            cy.get('section.usa-section.metrics').find('h1').contains('Metrics')
+        })
+        it('has a description', () => {
+            cy.get('section.usa-section.metrics').find('div:not([class])').contains(' Below')
+        })
         it('has a bar chart by org type', () => {
             cy.get('#datagov-bar-chart-org').should('be.visible').should('have.data', 'metric');
         });

@@ -11,8 +11,6 @@ $s3_image_about_us_card_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-
 $s3_image_mission_graphic: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-graphic.svg';
 $s3_image_mission_section_bg: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/mission-section-bg.png';
 
-$s3_anniversary_banner: 'https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/15-years-anniversary-banner-2912px.jpg';
-
 a {
     color: color('blue-warm-60v');
 
@@ -114,26 +112,6 @@ html.datagov {
     }
 }
 
-.banner {
-    background-image: url($s3_anniversary_banner);
-    background-size: cover;
-    // background-color: color('primary-vivid');
-    color: white;
-    
-    @include at-media('mobile') {
-        background-position-x: 35%;
-    }
-
-    @include at-media('tablet') {
-        background-position-x: 0%;
-    }
-
-    a {
-        color: white;
-        text-decoration: underline;
-    }
-}
-
 .hero {
     background-image: url($s3_image_hero_image_bg);
     background-repeat: no-repeat;
@@ -204,18 +182,17 @@ html.datagov {
         }
     }
 
+    .buttons {
+        display: flex; 
+        justify-content: space-evenly;
+    }
+
     position: relative;
     border-bottom: 1px solid color('gray-10');
     margin: auto;
     text-align: center;
 }
 
-.anniversary {
-    text-align: center;
-    @include at-media('desktop') {
-        text-align: left;
-    }
-}
 .mediabox {
     border: 2px solid color('gray-10');
     padding: 20px;
