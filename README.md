@@ -9,7 +9,6 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 -   is accessible to individuals with disabilities;
 -   has a consistent appearance;
 -   does not duplicate any legacy websites (the legislation also requires agencies to ensure that legacy websites are regularly reviewed, removed, and consolidated);
--   has a search function;
 -   uses an industry standard secure connection;
 -   “is designed around user needs with data-driven analysis influencing management and development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed;”
 -   allows for user customization; and
