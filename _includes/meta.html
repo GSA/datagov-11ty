@@ -9,6 +9,19 @@ to modify some of the meta-data for the site, this is the place to do it.
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none';
+    script-src 'self' https://cdn.jsdelivr.net https://dap.digitalgov.gov https://www.googletagmanager.com 'sha256-98b/iYhQMSzSZJXsnqTOvvzmxkegFXi1ubN48FKUsiU=';
+    connect-src 'self';
+    font-src data:;
+    img-src 'self' https://s3-us-gov-west-1.amazonaws.com data:;
+    style-src-elem 'self' https://cdn.jsdelivr.net 'unsafe-hashes'
+      'sha256-74E3cHNCMuZ9EOSSw4ohHj0hjO/H3aFE0tm2I6l/5dU='
+      'sha256-Sm+ycShf1F0SSzKygHjO8tJtDOkALayENWsEJUn7ZDM='
+      'sha256-jmUW3eIwC8PWGBYsFDrN0qs3okYbPueSlNmL1q84tkI='
+      'sha256-KF1X26yd34rSbs1hQ1VDkK4nCSlNV3MZ3o5Kev+njwI=';
+    style-src-attr 'unsafe-hashes' 'sha256-fZxSEZjs2c12FhIg0b18CIN91VStl3t25a7+Pid7E7U=';
+    base-uri 'self';form-action 'self'">
+
   <!-- Mobile Specific Metas
     ================================================== -->
   <meta name="HandheldFriendly" content="True" />
@@ -47,6 +60,7 @@ to modify some of the meta-data for the site, this is the place to do it.
 
 {% if site.ga.gtm %}
 <!-- Google Tag Manager -->
+<!-- Inline script is allowed via Content-SecurityPolicy by hash, if you change anything here, you need to check the Content-Security-Policy above -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=

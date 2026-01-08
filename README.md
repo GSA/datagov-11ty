@@ -34,32 +34,6 @@ permalink: /document-with-sidenav
 ---
 ```
 
-✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_data/site.yml`. Ex.
-
-```
-searchgov:
-
-  # You should not change this.
-  endpoint: https://search.usa.gov
-
-  # replace this with your search.gov account
-  affiliate: federalist-uswds-example
-
-  # replace with your access key
-  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
-
-  # this renders the results within the page instead of sending to user to search.gov
-  inline: true
-```
-
-The logic for using Search.gov can be found in `_includes/searchgov/form.html` and supports displaying the results inline or sending the user to Search.gov the view the results. This setting defaults to "inline" but can be changed by setting
-
-```
-searchgov:
-  inline: false
-```
-
-in `_data/site.yml`.
 
 ✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration - Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_data/site.yml` and uncomment the appropriate lines. Ex.
 
