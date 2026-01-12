@@ -204,6 +204,19 @@ Javascript can be added to the admin UI or site UI by adding or importing code i
 
 TODO
 
+### Broken Links
+
+We run a [weekly QA cron job](https://https://github.com/GSA/datagov-11ty/actions/workflows/qa.yml) to test for broken links.
+
+Any errors the QA job finds will be added to the [📌 Link Checker Report](https://github.com/GSA/datagov-11ty/issues/423).
+
+False positives, or URLs you wish to ignore can be put in the `.lycheeignore` file. This supports regex matching as well.
+
+This job can also be run locally. Install instructions here: https://lychee.cli.rs/installation/
+
+Then run with args: `lychee --base=https://data.gov .`
+
+
 ## Contributing
 
 See [CONTRIBUTING](CONTRIBUTING.md) for additional information.
