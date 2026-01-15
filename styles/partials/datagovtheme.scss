@@ -183,7 +183,7 @@ html.datagov {
     }
 
     .buttons {
-        display: flex; 
+        display: flex;
         justify-content: space-evenly;
     }
 
@@ -341,32 +341,6 @@ html.datagov {
                 a {
                     padding-left: 1em;
                 }
-            }
-        }
-    }
-}
-
-/*
-  ************************
-  ****** BETA BANNER ******
-  ************************
-*/
-/* Ensure beta banner shows info icon consistently */
-.beta-banner {
-    .usa-alert {
-        &::before {
-            background: url('../../_img/datagov-icons/info.svg') no-repeat center/contain;
-        }
-    }
-}
-
-@supports ((-webkit-mask: url("")) or (mask: url(""))) {
-    .beta-banner {
-        .usa-alert {
-            &::before {
-                -webkit-mask: none;
-                mask: none;
-                background: url('../../_img/datagov-icons/info.svg') no-repeat center/contain;
             }
         }
     }
