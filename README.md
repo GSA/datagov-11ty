@@ -9,6 +9,7 @@ This project strives to be compliant with requirements set by [21st Century IDEA
 -   is accessible to individuals with disabilities;
 -   has a consistent appearance;
 -   does not duplicate any legacy websites (the legislation also requires agencies to ensure that legacy websites are regularly reviewed, removed, and consolidated);
+-   has a search function;
 -   uses an industry standard secure connection;
 -   “is designed around user needs with data-driven analysis influencing management and development decisions, using qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test the website, web-based form, web-based application, or digital service to ensure that user needs are addressed;”
 -   allows for user customization; and
@@ -33,6 +34,32 @@ permalink: /document-with-sidenav
 ---
 ```
 
+✅ [Search.gov](https://search.gov) integration - Once you have registered and configured Search.gov for your site by following [these instructions](https://federalist.18f.gov/documentation/search/), add your "affiliate" and "access key" to `_data/site.yml`. Ex.
+
+```
+searchgov:
+
+  # You should not change this.
+  endpoint: https://search.usa.gov
+
+  # replace this with your search.gov account
+  affiliate: federalist-uswds-example
+
+  # replace with your access key
+  access_key: xX1gtb2RcnLbIYkHAcB6IaTRr4ZfN-p16ofcyUebeko=
+
+  # this renders the results within the page instead of sending to user to search.gov
+  inline: true
+```
+
+The logic for using Search.gov can be found in `_includes/searchgov/form.html` and supports displaying the results inline or sending the user to Search.gov the view the results. This setting defaults to "inline" but can be changed by setting
+
+```
+searchgov:
+  inline: false
+```
+
+in `_data/site.yml`.
 
 ✅ [Digital Analytics Program (DAP)](https://digital.gov/services/dap/) integration - Once you have registered your site with DAP add your "agency" and optionally, `subagency` to `_data/site.yml` and uncomment the appropriate lines. Ex.
 
