@@ -52,6 +52,29 @@
     padding-left: 0;
 }
 
+.beta-banner {
+    .usa-alert {
+        .usa-alert__body {
+            max-width: 75rem;
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            &::before {
+                left: 1rem;
+            }
+
+            @include at-media('desktop') {
+                padding-left: 2rem;
+                padding-right: 2rem;
+
+                &::before {
+                    left: 2rem;
+                }
+            }
+        }
+    }
+}
+
 .usa-prose {
     margin: 0 auto;
 
