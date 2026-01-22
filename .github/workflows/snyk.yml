@@ -3,6 +3,8 @@ name: Snyk Scan
 on:
   pull_request:
     branches: [ main ]
+  pull_request_target:
+    branches: [ main ]
   schedule:
     - cron: '0 5 * * 1-5'  # Run at midnight EST/1 AM EDT on weekdays (Mon-Fri)
   workflow_dispatch:  # Allow manual triggering
@@ -11,9 +13,20 @@ jobs:
   snyk:
     name: Snyk Scan
     runs-on: ubuntu-latest
+    if: >-
+      (github.event_name == 'pull_request' && github.actor != 'dependabot[bot]') ||
+      (github.event_name == 'pull_request_target' && github.actor == 'dependabot[bot]') ||
+      (github.event_name != 'pull_request' && github.event_name != 'pull_request_target')
 
     steps:
+      - name: Checkout source (Dependabot PR)
+        if: ${{ github.event_name == 'pull_request_target' }}
+        uses: actions/checkout@v5
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
       - name: Checkout source
+        if: ${{ github.event_name != 'pull_request_target' }}
         uses: actions/checkout@v5
 
       - name: Setup Node.js
