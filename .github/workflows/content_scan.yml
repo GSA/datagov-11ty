@@ -14,7 +14,7 @@ jobs:
 
     steps:
       - name: Checkout source
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
 
       - name: Install node.js.
         uses: actions/setup-node@v6
@@ -32,7 +32,7 @@ jobs:
         run: npm run cypress:gh
 
       - name: cypress-artifacs
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         if: failure()
         with:
           name: cypress-artifacts
