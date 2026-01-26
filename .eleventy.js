@@ -36,6 +36,7 @@ module.exports = function (config) {
 
     config.addPassthroughCopy({ 'js/vendor/*.js': 'assets/js' });
     config.addPassthroughCopy({ 'styles/vendor/*.css': 'assets/css' });
+    config.addPassthroughCopy('_img');
 
     // Copy Netlify config straight through
     config.addPassthroughCopy({
