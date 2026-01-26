@@ -13,7 +13,7 @@ to modify some of the meta-data for the site, this is the place to do it.
     script-src 'self' https://cdn.jsdelivr.net https://dap.digitalgov.gov https://www.googletagmanager.com https://touchpoints.app.cloud.gov
       'sha256-98b/iYhQMSzSZJXsnqTOvvzmxkegFXi1ubN48FKUsiU='
       'sha256-IpCaMJDAbj63N4cmwJsm0tW8cGraT9rCH5NY8nW39Gs=';
-    connect-src 'self';
+    connect-src 'self' https://touchpoints.app.cloud.gov;
     form-action 'self' https://catalog.data.gov;
     font-src data:;
     img-src 'self' https://s3-us-gov-west-1.amazonaws.com https://touchpoints.app.cloud.gov data:;
