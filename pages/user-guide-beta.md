@@ -75,6 +75,16 @@ The Access & Use section shows the license and access level when provided. Conta
 Many datasets in the Data.gov are geospatial datasets, with a tie to a specific geographic location. Geospatial datasets are also covered by a separate statute, the [Geospatial Data Act](https://www.fgdc.gov/gda) (GDA), which requires that the [Federal Geographic Data Committee](https://fgdc.gov/) maintain a site called [geoplatform.gov](https://www.geoplatform.gov/). Federal agencies make all their data assets available for harvesting by the Data.gov catalog, and the geoplatform.gov site pulls geospatial datasets into geoplatform.gov. Geospatial datasets are described by different metadata schemas specific to geospatial data.
 
 
+## Data.gov catalog API
+
+The catalog application provides a public JSON API; authentication is not required. The current API documentation is available at [resources.data.gov/catalog-api](https://resources.data.gov/catalog-api/).
+
+All endpoints are RESTful and use query string parameters. Key endpoints include:
+- `GET /search` to search datasets, with parameters like `q`, `per_page`, `org_id`, `org_type`, `keyword`, `after`, `spatial_filter`, and `sort`.
+- `GET /harvest_record/<record_id>` to retrieve a harvest record by UUID4, plus `/raw` for the source payload and `/transformed` for the transformed DCAT JSON (recommended for the latest transformed DCAT data).
+- `GET /api/keywords` to return unique keywords with document counts, with `size` (1-1000) and `min_count` query parameters.
+
+
 ## Contact Data.gov
 
 If you have questions about a particular dataset, the contact responsible for the dataset is listed as "Contact" on the sidebar. If you are not able to reach the Contact, or have additional questions, click on “Contact” on the upper right of Data.gov. You will be directed to a [form]({% page '/contact/' %}) where you can ask your question or leave a comment. For fixing a broken link or requests for additional datasets, the Data.gov team will contact our liaison at the relevant agency, since changes to the metadata or adding new datasets in the catalog are actions taken at the agency level.
