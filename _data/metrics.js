@@ -151,6 +151,18 @@ const normalizeOrganizations = (organizations = []) => {
     }));
 }
 
+const filterOrgReportRows = (reportData = [], validOrgSlugs = new Set()) => {
+  if (reportData.length <= 1) {
+    return reportData;
+  }
+
+  const [header, ...rows] = reportData;
+  return [
+    header,
+    ...rows.filter((row) => validOrgSlugs.has(row[0]))
+  ];
+}
+
 // calculate device type percentages 
 const calculateDeviceTypePercentages = (reportData = []) => {
   const total = reportData.slice(1, reportData.length).reduce((accum, val) => accum += parseInt(val[1]), 0)
@@ -169,6 +181,7 @@ module.exports = async function () {
   // get org infos
   let { organizations } = await downloadJSON(GET_ORG_LIST_URL);
   let orgList = sortByName(normalizeOrganizations(organizations));
+  const validOrgSlugs = new Set(orgList.map((org) => org.name));
 
   let end_date = await EleventyFetch(`${S3_BASE_URL}${END_DATE_FILE}`, {type: "text"});
 
@@ -196,6 +209,8 @@ module.exports = async function () {
   // interpret that data
   //calculate devicetype percentages
   data.GLOBAL.DEVICE_TYPE = calculateDeviceTypePercentages(data.GLOBAL.DEVICE_TYPE)
+  data.GLOBAL.DATASETS_PER_ORG = filterOrgReportRows(data.GLOBAL.DATASETS_PER_ORG, validOrgSlugs)
+  data.GLOBAL.HARVEST_SOURCES_PER_ORG = filterOrgReportRows(data.GLOBAL.HARVEST_SOURCES_PER_ORG, validOrgSlugs)
 
   // structure that data for templating
   const shapedData = {}
