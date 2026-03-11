@@ -5,7 +5,7 @@ const csv = require("csvtojson/v2");
 const S3_BASE_URL = 'https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/'
 const END_DATE_FILE = 'report-end-date.txt'
 
-const GET_ORG_LIST_URL = 'https://catalog.data.gov/api/action/package_search?q=*:*&facet.field=["organization"]&facet.limit=200&rows=0'
+const GET_ORG_LIST_URL = 'https://catalog-beta.data.gov/api/organizations'
 
 const CACHE_DURATION = '22h'
 const TRUNCATED_COUNT = 10
@@ -141,6 +141,16 @@ const sortByName = (items) => {
   });
 }
 
+const normalizeOrganizations = (organizations = []) => {
+  return organizations
+    .filter((org) => org && org.slug && org.name)
+    .map((org) => ({
+      // Preserve the existing shape expected by metrics templates and report keys.
+      name: org.slug,
+      display_name: org.name
+    }));
+}
+
 // calculate device type percentages 
 const calculateDeviceTypePercentages = (reportData = []) => {
   const total = reportData.slice(1, reportData.length).reduce((accum, val) => accum += parseInt(val[1]), 0)
@@ -157,8 +167,8 @@ const calculateDeviceTypePercentages = (reportData = []) => {
 
 module.exports = async function () {
   // get org infos
-  let { result: { search_facets: { organization: { items } } } } = await downloadJSON(GET_ORG_LIST_URL);
-  let orgList = sortByName(items);
+  let { organizations } = await downloadJSON(GET_ORG_LIST_URL);
+  let orgList = sortByName(normalizeOrganizations(organizations));
 
   let end_date = await EleventyFetch(`${S3_BASE_URL}${END_DATE_FILE}`, {type: "text"});
 
