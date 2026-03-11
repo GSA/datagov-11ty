@@ -128,8 +128,8 @@ const downloadJSON = async (url) => {
 // sort list of strings by name
 const sortByName = (items) => {
   return items.sort((a, b) => {
-    const nameA = a.name.toUpperCase(); // ignore upper and lowercase
-    const nameB = b.name.toUpperCase(); // ignore upper and lowercase
+    const nameA = (a.display_name).toUpperCase(); // ignore upper and lowercase
+    const nameB = (b.display_name).toUpperCase(); // ignore upper and lowercase
     if (nameA < nameB) {
       return -1;
     }
