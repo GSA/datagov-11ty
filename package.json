@@ -63,10 +63,6 @@
     "sass": "^1.97.3",
     "start-server-and-test": "^2.1.5"
   },
-  "_comment": "Override introduced since csvtojson hasn't updated with a fix. Remove after update.",
-  "overrides": {
-    "lodash": ">=4.18.1"
-  },
   "dependencies": {
     "@uswds/uswds": "3.13.0",
     "chart.js": "^4.5.1",
