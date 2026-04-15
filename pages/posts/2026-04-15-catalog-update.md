@@ -9,7 +9,7 @@ modified: '2026-04-15T12:00:00'
 permalink: "blog/catalog-update/"
 slug: catalog-update
 
-title: Notice: catalog.data.gov is being updated
+title: "Notice: catalog.data.gov is being updated"
 ---
 
 Notice: catalog.data.gov is being updated
