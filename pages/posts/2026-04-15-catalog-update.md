@@ -12,8 +12,6 @@ slug: catalog-update
 title: "Notice: catalog.data.gov is being updated"
 ---
 
-Notice: catalog.data.gov is being updated
-
 The Data.gov team is launching a new version of the Data.gov catalog. This update replaces an aging system with a modern, maintainable platform built to support the long-term reliability of federal open data access.
 
 The new system delivers improved search performance and a more stable foundation for ongoing development. During this transition, the previous catalog remains available at catalog-old.data.gov.
