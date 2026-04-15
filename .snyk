@@ -1,9 +1,16 @@
 version: v1.28.0
 ignore:
-  SNYK-JS-TURNDOWN-12304081:
+  SNYK-JS-LODASH-15869619:
     - '*':
         reason: |
-          Temporary ignore: turndown ReDoS until upstream fix is published.
-          GH issue created https://github.com/GSA/data.gov/issues/5441
-        expires: '2025-12-02T00:00:00.000Z'
-
+          Temporary ignore: lodash Prototype Pollution until dependency tree can move to lodash 4.18.1.
+          Snyk advisory: https://security.snyk.io/vuln/SNYK-JS-LODASH-15869619
+          GH issue created: https://github.com/GSA/data.gov/issues/5856
+        expires: '2026-07-14T00:00:00.000Z'
+  SNYK-JS-LODASH-15869625:
+    - '*':
+        reason: |
+          Temporary ignore: lodash Arbitrary Code Injection until dependency tree can move to lodash 4.18.1.
+          Snyk advisory: https://security.snyk.io/vuln/SNYK-JS-LODASH-15869625
+          GH issue created: https://github.com/GSA/data.gov/issues/5857
+        expires: '2026-05-14T00:00:00.000Z'
