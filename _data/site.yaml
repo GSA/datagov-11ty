@@ -73,16 +73,16 @@ links:
 
 catalog_filters:
   - name: Most Viewed Datasets
-    url: https://catalog-beta.data.gov/?sort=popularity
+    url: https://catalog.data.gov/?sort=popularity
     iconName: most-viewed-datasets-icon
   - name: Recently Added Datasets
-    url: https://catalog-beta.data.gov/?sort=last_harvested_date
+    url: https://catalog.data.gov/?sort=last_harvested_date
     iconName: recently-added-datasets-icon
   - name: Datasets by Organization
-    url: https://catalog-beta.data.gov/organization
+    url: https://catalog.data.gov/organization
     iconName: organizations-datasets-icon
   - name: Geospatial
-    url: https://catalog-beta.data.gov/?spatial_filter=geospatial
+    url: https://catalog.data.gov/?spatial_filter=geospatial
     iconName: geospatial-icon
 
 resource_quick_links:
