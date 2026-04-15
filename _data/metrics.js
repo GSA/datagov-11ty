@@ -5,7 +5,7 @@ const csv = require("csvtojson/v2");
 const S3_BASE_URL = 'https://s3-us-gov-west-1.amazonaws.com/cg-baa85e06-1bdd-4672-9e3a-36333c05c6ce/'
 const END_DATE_FILE = 'report-end-date.txt'
 
-const GET_ORG_LIST_URL = 'https://catalog-beta.data.gov/api/organizations'
+const GET_ORG_LIST_URL = 'https://catalog.data.gov/api/organizations'
 
 const CACHE_DURATION = '22h'
 const TRUNCATED_COUNT = 10
@@ -23,7 +23,7 @@ const REPORTS = {
       description: "",
       url: "global__device_category__last30.[end_date].csv",
       columnKeys: ["deviceCategory", "activeUsers", "percentage"]
-    }, 
+    },
     MOST_DOWNLOADED_DATASETS: {
       title: "Most Downloaded Dataset Files",
       description: "Top 10 downloaded files",
@@ -163,7 +163,7 @@ const filterOrgReportRows = (reportData = [], validOrgSlugs = new Set()) => {
   ];
 }
 
-// calculate device type percentages 
+// calculate device type percentages
 const calculateDeviceTypePercentages = (reportData = []) => {
   const total = reportData.slice(1, reportData.length).reduce((accum, val) => accum += parseInt(val[1]), 0)
   return reportData.map((val, index) => {

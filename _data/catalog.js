@@ -1,7 +1,7 @@
 require('dotenv').config();
 const EleventyFetch = require('@11ty/eleventy-fetch');
 
-const CATALOG_STATS_URL = 'https://catalog-beta.data.gov/api/stats';
+const CATALOG_STATS_URL = 'https://catalog.data.gov/api/stats';
 
 const CACHE_CONFIG = {
     duration: '1d',

@@ -23,7 +23,7 @@ While the OPEN Government Data Act is a requirement for federal agencies, many s
 
 ## Finding Datasets
 
-When you navigate to https://catalog-beta.data.gov/, you will see the first page of the entire catalog. By default, datasets are sorted first by relevance and then by popularity, based on OpenSearch scores and page views from the past month. These numbers are displayed at the bottom of each dataset card.
+When you navigate to https://catalog.data.gov/, you will see the first page of the entire catalog. By default, datasets are sorted first by relevance and then by popularity, based on OpenSearch scores and page views from the past month. These numbers are displayed at the bottom of each dataset card.
 
 ![Data.gov catalog landing page]({{ "/_img/dg-user-guide_dataset-listing.png" | url }} "Data.gov catalog landing page")
 
