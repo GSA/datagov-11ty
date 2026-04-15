@@ -9,7 +9,7 @@ modified: '2026-04-15T12:00:00'
 permalink: "blog/catalog-update/"
 slug: catalog-update
 
-title: "Notice: catalog.data.gov is being updated"
+title: "Notice: catalog.data.gov Is Being Updated"
 ---
 
 The Data.gov team is launching a new version of the Data.gov catalog. This update replaces an aging system with a modern, maintainable platform built to support the long-term reliability of federal open data access.
