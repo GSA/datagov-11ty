@@ -17,14 +17,8 @@ Data.gov is the federal government's open data site, and aims to make government
 
 Data.gov implements The OPEN Government Data Act ([Title II of the Foundations for Evidence-Based Policymaking Act of 2018, Public Law 115-435](https://www.congress.gov/bill/115th-congress/house-bill/4174)). The OPEN Government Data Act makes Data.gov a requirement in statute, rather than a policy. It requires federal agencies to publish their information online as open data, using standardized, machine-readable data formats, with their metadata included in the Data.gov catalog.
 
-Data.gov is working with an expanded group of federal agencies to include their datasets in Data.gov as they implement the law. In addition, the law requires that GSA work with the Office of Management and Budget and the Office of Government Information Services to establish an "online repository of tools, best practices, and schema standards to facilitate the adoption of open data practices across the Federal Government." That repository can be found at [resources.data.gov](https://resources.data.gov).
-
-Data.gov was built with open source software. Anyone, especially local, state, and foreign governments are welcome to borrow the code behind Data.gov.
+Data.gov is working with all federal agencies to include their datasets in Data.gov as they implement the law. In addition, the law requires that GSA work with the Office of Management and Budget and the Office of Government Information Services to establish an "online repository of tools, best practices, and schema standards to facilitate the adoption of open data practices across the Federal Government." That repository can be found at [resources.data.gov](https://resources.data.gov).
 
 # Open Data in the United States and Internationally
 
 Numerous states, cities, and counties have launched open data sites. By collaborating with these non-federal data sources, Data.gov is able to include this data in the catalog. Searches on the Data.gov catalog will return relevant datasets from both federal and non-federal sources.
-
-Download the full list of current international open data sites: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_intl.csv).
-
-Download the full list of current open data sites in the United States: [CSV](https://s3-us-gov-west-1.amazonaws.com/cg-0817d6e3-93c4-4de8-8b32-da6919464e61/open_data_us.csv).
