@@ -1,6 +1,6 @@
 ---
 date: '2009-10-01T17:15:15'
-excerpt: 'Thank you for your feedback. To protect your privacy, please do not include
+excerpt: 'Thank you for your feedback. To protect your privacy, NEVER include any attachments or 
     personal information (such as a social security number), other than your email address.'
 link: https://www.data.gov/contact
 permalink: 'contact/'
@@ -35,12 +35,9 @@ redirect_from:
     - /water/feedback/
 
 slug: contact
-title: For all your Open Data needs...
+title: Contact Us
 ---
 
-{% comment %}
-Update the touchpoints form at https://touchpoints.app.cloud.gov/admin/forms/1327b00b
-{% endcomment %}
+Contact us at [datagovhelp@gsa.gov](mailto:datagovhelp@gsa.gov).
 
-<div id="touchpoint-form"></div>
-<script type="text/javascript" src="https://touchpoints.app.cloud.gov/touchpoints/1327b00b.js"></script>
+
