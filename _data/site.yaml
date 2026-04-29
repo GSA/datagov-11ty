@@ -1,8 +1,8 @@
 title: Data.gov
 description: >- # this means to ignore newlines
-  The home of the U.S. Government&#8217;s open data. 
-  Here you will find data, tools, and resources to conduct research, develop web and 
-  mobile applications, design data visualizations, and more. For information regarding the 
+  The home of the U.S. Government&#8217;s open data.
+  Here you will find data, tools, and resources to conduct research, develop web and
+  mobile applications, design data visualizations, and more. For information regarding the
   Coronavirus/COVID-19, please visit Coronavirus.gov
 locale: en_US
 # Social media handles. Only the handle, not the URL.
@@ -73,16 +73,16 @@ links:
 
 catalog_filters:
   - name: Most Viewed Datasets
-    url: https://catalog.data.gov/dataset?q=&sort=views_recent+desc
+    url: https://catalog.data.gov/?sort=popularity
     iconName: most-viewed-datasets-icon
   - name: Recently Added Datasets
-    url: https://catalog.data.gov/dataset?q=&sort=metadata_created+desc
+    url: https://catalog.data.gov/?sort=last_harvested_date
     iconName: recently-added-datasets-icon
   - name: Datasets by Organization
-    url: https://catalog.data.gov/organization/
+    url: https://catalog.data.gov/organization
     iconName: organizations-datasets-icon
   - name: Geospatial
-    url: https://catalog.data.gov/dataset/?metadata_type=geospatial
+    url: https://catalog.data.gov/?spatial_filter=geospatial
     iconName: geospatial-icon
 
 resource_quick_links:
