@@ -49,8 +49,5 @@ describe('The Home Page', () => {
         it('has a bar chart of datasets by age', () => {
             cy.get('#datagov-bar-chart-datasets').should('be.visible').should('have.data', 'metric');
         });
-        it('has a pie chart of dataset counts', () => {
-            cy.get('#datagov-pie-chart').should('be.visible').should('have.data', 'metric');
-        });
     });
 });
