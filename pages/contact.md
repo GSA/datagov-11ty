@@ -91,12 +91,3 @@ See the links below for answers to common questions before reaching out.
 Still have questions? Email [DataGovHelp@gsa.gov](mailto:DataGovHelp@gsa.gov).
 
 For questions about specific datasets, please contact the publishing agency directly. Their contact information is listed on the dataset page.
-
-
-
-{% comment %}
-Update the touchpoints form at https://touchpoints.app.cloud.gov/admin/forms/1327b00b
-{% endcomment %}
-
-<div id="touchpoint-form"></div>
-<script type="text/javascript" src="https://touchpoints.app.cloud.gov/touchpoints/1327b00b.js"></script>
