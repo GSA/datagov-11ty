@@ -1,5 +1,5 @@
 ---
-date: '2022-11-21T11:55:00'
+date: '2026-04-16T11:55:00'
 excerpt: 'Data.gov is leading the way in democratizing public sector data and driving
 innovation. This movement has spread throughout cities, states, and countries. We
 are encouraging and working with countries, cities, and organizations internationally,
