@@ -11,9 +11,18 @@ title: User Guide
 
 Data.gov is the United States government’s open data website. It provides access to datasets published by agencies across the federal government. Data.gov is intended to provide access to government open data to the public, achieve agency missions, drive innovation, fuel economic activity, and uphold the ideals of an open and transparent government.
 
-The impetus for the creation of Data.gov was the January 2009 [Presidential Memorandum on Transparency and Open Government](https://www.govinfo.gov/app/details/DCPD-200900010). The U.S. [General Services Administration](https://www.gsa.gov/) (GSA), working with the [Office of Management and Budget (OMB)](https://www.whitehouse.gov/omb/) and other agency partners, launched Data.gov on May 21, 2009. In 2014, the current version of the Data.gov [catalog](https://catalog.data.gov/dataset) was launched. Agencies compile metadata such as title, description, keywords, and links for accessing their datasets, and the Data.gov catalog automatically “harvests” that metadata to populate a continually updated catalog.
+The impetus for the creation of Data.gov was the January 2009 [Presidential Memorandum on Transparency and Open Government](https://www.govinfo.gov/app/details/DCPD-200900010). The U.S. [General Services Administration](https://www.gsa.gov/) (GSA), working with the [Office of Management and Budget (OMB)](https://www.whitehouse.gov/omb/) and other agency partners, launched Data.gov on May 21, 2009. Agencies compile metadata such as title, description, keywords, and links for accessing their datasets, and the Data.gov catalog automatically “harvests” that metadata to populate a continually updated catalog.
 
 In 2019, the process of maintaining a central catalog of federal agency datasets was made a statutory mandate under the [OPEN Government Data Act](https://www.congress.gov/115/plaws/publ435/PLAW-115publ435.pdf). Federal agencies are required by statute to create and maintain comprehensive metadata inventories to be harvested by a central federal catalog operated by GSA.
+
+## Data Quality and Broken Links
+Data.gov is a metadata catalog.  It displays information about datasets published and maintained by individual agencies. Data.gov does not:
+- Host or store the underlying data
+- Create, modify, or delete agency datasets
+- Control the quality, accuracy, or availability of the data itself
+- Fix broken links directly
+
+If you encounter a broken link, incorrect metadata, or data quality issues, please reach out to the dataset point of contact listed in the sidebar of the dataset page. If no contact is listed, contact us at [DataGovHelp@gsa.gov](mailto:DataGovHelp@gsa.gov). Please include the dataset title and a description of the issue.
 
 ## Data.gov Catalog Harvesting
 
@@ -21,9 +30,13 @@ In accordance with the requirements of the OPEN Government Data Act, the Data.go
 
 While the OPEN Government Data Act is a requirement for federal agencies, many states, counties and cities have open datasets and maintain open data websites. If these non-federal entities choose to make their metadata available in a similar fashion to the federal agencies, Data.gov adds the harvest source so that the non-federal datasets can also be included in the catalog. Users accessing non-federal datasets through Data.gov should keep in mind that non-federal datasets have different terms of service and licenses than federal data. Specific terms should be available in the “Access and Use” section of the catalog entry for the non-federal datasets.
 
+## For Agency Data Publishers
+
+If you are a federal agency looking to add or manage your data on Data.gov, visit [harvest.data.gov](https://harvest.data.gov) to check the status of your harvest sources. For questions about getting your data on Data.gov, see the detailed guide [How to get your open data on Data.gov](https://resources.data.gov/tools/how-to-get-your-open-data-on-datagov/). For additional assistance, contact the Data.gov team at [DataGovHelp@gsa.gov](mailto:DataGovHelp@gsa.gov).
+
 ## Finding Datasets
 
-When you navigate to https://catalog-beta.data.gov/, you will see the first page of the entire catalog. By default, datasets are sorted first by relevance and then by popularity, based on OpenSearch scores and page views from the past month. These numbers are displayed at the bottom of each dataset card.
+When you navigate to https://catalog.data.gov/, you will see the first page of the entire catalog. By default, datasets are sorted first by relevance and then by popularity, based on OpenSearch scores and page views from the past month. These numbers are displayed at the bottom of each dataset card.
 
 ![Data.gov catalog landing page]({{ "/_img/dg-user-guide_dataset-listing.png" | url }} "Data.gov catalog landing page")
 
