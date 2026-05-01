@@ -60,7 +60,7 @@ See the links below for answers to common questions before reaching out.
 
 ## API access
 
-- To access the catalog.data.gov and harvest.data.gov APIs, register at [open.gsa.gov/api/datadotgov](https://open.gsa.gov/api/datadotgov/). Full API documentation is available at [resources.data.gov/catalog-api](https://resources.data.gov/catalog-api).
+- No API key is required for access to either the Catalog API nor Harvester API. Full API documentation is available at [resources.data.gov/catalog-api](https://resources.data.gov/catalog-api) and [resources.data.gov/harvester-api](https://resources.data.gov/harvester-api).
 - The catalog API provides metadata about datasets (titles, descriptions, access URLs); it does not serve data files.
 - To access APIs from other federal agencies, visit [api.data.gov](https://api.data.gov/).
 
