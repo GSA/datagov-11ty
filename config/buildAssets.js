@@ -49,7 +49,8 @@ const main = async () => {
             },
             minify: process.env.ELEVENTY_ENV === 'production',
             sourcemap: process.env.ELEVENTY_ENV !== 'production',
-            target: ['chrome58', 'firefox57', 'safari11', 'edge18'],
+            // give a modern browser baseline that the current USWDS bundle supports.
+            target: ['chrome90', 'firefox90', 'safari15', 'edge90'],
             plugins: [
                 sassPlugin({
                     loadPaths: ['./node_modules/@uswds', './node_modules/@uswds/uswds/packages'],
