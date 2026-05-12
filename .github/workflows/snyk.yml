@@ -7,6 +7,10 @@ on:
     - cron: '0 5 * * 1-5'  # Run at midnight EST/1 AM EDT on weekdays (Mon-Fri)
   workflow_dispatch:  # Allow manual triggering
 
+permissions:
+  contents: read
+  issues: write
+
 jobs:
   snyk:
     name: Snyk Scan
