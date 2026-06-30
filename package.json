@@ -41,33 +41,38 @@
     "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^2.0.4",
     "@quasibit/eleventy-plugin-sitemap": "^2.2.0",
-    "@types/node": "^25.6.2",
-    "autoprefixer": "^10.5.0",
+    "@types/node": "^26.0.1",
+    "autoprefixer": "^10.5.2",
     "chokidar-cli": "^3.0.0",
-    "cypress": "^15.14.2",
+    "cypress": "^15.18.0",
     "dotenv": "^17.4.2",
     "eleventy-plugin-svg-sprite": "^2.4.6",
-    "esbuild": "^0.28.0",
+    "esbuild": "^0.28.1",
     "esbuild-sass-plugin": "^3.7.0",
-    "js-yaml": "^4.1.1",
+    "js-yaml": "^5.2.0",
     "luxon": "^3.7.2",
-    "markdown-it": "^14.1.1",
+    "markdown-it": "^14.2.0",
     "markdown-it-anchor": "^9.2.0",
     "netlify-cms-proxy-server": "^1.3.24",
     "npm-run-all": "^4.1.5",
-    "pa11y-ci": "^4.1.0",
-    "postcss": "^8.5.14",
+    "pa11y-ci": "^4.1.1",
+    "postcss": "^8.5.15",
     "postcss-cli": "^11.0.1",
     "pug": "^3.0.4",
     "rimraf": "^6.1.3",
-    "sass": "^1.99.0",
-    "start-server-and-test": "^3.0.2"
+    "sass": "^1.101.0",
+    "start-server-and-test": "^3.0.11"
   },
   "dependencies": {
     "@uswds/uswds": "3.13.0",
     "chart.js": "^4.5.1",
     "csvtojson": "^2.0.14",
-    "markdown-it-attrs": "^4.3.1",
+    "markdown-it-attrs": "^5.0.0",
     "turndown": "^7.2.4"
+  },
+  "overrides": {
+    "csvtojson": {
+      "lodash": "^4.18.1"
+    }
   }
 }
