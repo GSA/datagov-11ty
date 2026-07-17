@@ -24,19 +24,19 @@ eleventyComputed:
     {% assign cacheKey = block.meta.key %}
     <div class="grid-row grid-gap-lg {{cacheKey}}">
       <div class="grid-col-12">
-        <h4>{{block.meta.title}}</h4>
+        <h4 id="metrics-{{org.name}}-{{cacheKey}}">{{block.meta.title}}</h4>
         <p>{{block.meta.description}}</p>
         {% # The first row is headers, we need more than one row to have actual data %}
         {% if block.data.length > 1 %}
+          <p>
+            <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
+              {{block.meta.title}}</a>
+          </p>
           {%- if cacheKey == "MOST_VIEWED_DATASETS" -%}
-            <table class="usa-table usa-table--borderless usa-table--stacked full-width">
+            <table class="usa-table usa-table--borderless usa-table--stacked full-width" aria-labelledby="metrics-{{org.name}}-{{cacheKey}}">
           {%- else -%}
-            <table class="usa-table usa-table--borderless usa-table--stacked"> 
+            <table class="usa-table usa-table--borderless usa-table--stacked" aria-labelledby="metrics-{{org.name}}-{{cacheKey}}">
           {%- endif -%}
-            <caption>
-              <a href="{{block.meta.reportLink}}">{% usa_icon 'file_download' %} Download Full Report -
-                {{block.meta.title}}</a>
-            </caption>
             <thead>
               <tr>
                 {% for data in block.data[0] %}

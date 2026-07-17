@@ -1,11 +1,13 @@
 name: Snyk Scan
 
 on:
-  pull_request:
-    branches: [ main ]
   schedule:
-    - cron: '0 5 * * 1-5'  # Run at midnight EST/1 AM EDT on weekdays (Mon-Fri)
-  workflow_dispatch:  # Allow manual triggering
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
 
 permissions:
   contents: read
@@ -13,39 +15,9 @@ permissions:
 
 jobs:
   snyk:
-    name: Snyk Scan
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout source
-        uses: actions/checkout@v6
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v6
-        with:
-          node-version-file: 'package.json'
-          cache: 'npm'
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Install Snyk CLI
-        run: npm install -g snyk
-
-      - name: Authenticate Snyk
-        run: snyk auth ${{ secrets.SNYK_TOKEN }}
-
-      - name: Run Snyk test for vulnerabilities
-        run: snyk test --severity-threshold=medium
-
-      - name: Create Issue for failure 😢
-        if: ${{ failure() }}
-        uses: JasonEtco/create-an-issue@v2
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GITHUB_JOB: ${{ toJson(github)['job'] }}
-          GITHUB_ATTEMPTS: ${{ github.run_attempt }}
-          RUN_ID: ${{ github.run_id }}
-        with:
-          filename: .github/snyk_failure.md
-          update_existing: true
+    uses: GSA/data.gov/.github/workflows/snyk-template.yml@main
+    with:
+      all_projects: true
+      severity_threshold: medium
+    secrets:
+      SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
