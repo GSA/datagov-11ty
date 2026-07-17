@@ -9,10 +9,6 @@ permissions:
   contents: read
   issues: write
 
-permissions:
-  contents: read
-  issues: write
-
 jobs:
   snyk:
     uses: GSA/data.gov/.github/workflows/snyk-template.yml@main
