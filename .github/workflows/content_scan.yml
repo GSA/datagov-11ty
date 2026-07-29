@@ -3,6 +3,9 @@ name: Content scan
 on:
   - pull_request
 
+permissions:
+  contents: read
+
 jobs:
   build:
     name: Content scan
