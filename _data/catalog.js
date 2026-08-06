@@ -23,13 +23,11 @@ const buildPieMetric = (results) => {
 module.exports = async function () {
     try {
         const stats = await EleventyFetch(CATALOG_STATS_URL, CACHE_CONFIG);
-        const totalDatasets = stats?.results?.datasets ?? 0;
+        const datasets = stats?.results?.datasets ?? 0;
         const datasetsInCollections = stats?.results?.datasetsWithIsPartOf ?? 0;
-        const datasets = Math.max(totalDatasets - datasetsInCollections, 0);
         const results = {
             ...(stats?.results || {}),
             datasets,
-            totalDatasets,
             datasetsInCollections,
         };
         const metrics = {
