@@ -4,7 +4,7 @@ const EleventyFetch = require('@11ty/eleventy-fetch');
 const CATALOG_STATS_URL = 'https://catalog.data.gov/api/stats';
 const PIE_CHART_LABELS = {
     datasetsInCollections: 'Datasets in Collections',
-    datasets: 'Datasets',
+    datasetsWithoutCollections: 'Datasets',
 };
 
 const CACHE_CONFIG = {
@@ -25,10 +25,12 @@ module.exports = async function () {
         const stats = await EleventyFetch(CATALOG_STATS_URL, CACHE_CONFIG);
         const datasets = stats?.results?.datasets ?? 0;
         const datasetsInCollections = stats?.results?.datasetsWithIsPartOf ?? 0;
+        const datasetsWithoutCollections = datasets - datasetsInCollections;
         const results = {
             ...(stats?.results || {}),
             datasets,
             datasetsInCollections,
+            datasetsWithoutCollections,
         };
         const metrics = {
             ...(stats?.metrics || {}),
