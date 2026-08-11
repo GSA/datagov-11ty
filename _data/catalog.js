@@ -25,7 +25,7 @@ module.exports = async function () {
         const stats = await EleventyFetch(CATALOG_STATS_URL, CACHE_CONFIG);
         const datasets = stats?.results?.datasets ?? 0;
         const datasetsInCollections = stats?.results?.datasetsWithIsPartOf ?? 0;
-        const datasetsWithoutCollections = datasets - datasetsInCollections;
+        const datasetsWithoutCollections = Math.max(datasets - datasetsInCollections, 0);
         const results = {
             ...(stats?.results || {}),
             datasets,
