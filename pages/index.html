@@ -157,20 +157,6 @@ excerpt: The home of the U.S. Government's open data
           {% endfor %}
         </ul>
       </div>
-      <div class="grid-col-12 desktop:grid-col-6">
-        <div class="logo">
-          <a href="{% link site.links.sites.strategy %}">
-            {% image "strategy-logo.svg" "Strategy Logo" false %}
-          </a>
-        </div>
-        <ul class="quick-links--strategy">
-          {% for link in site.strategy_quick_links %}
-          <li>
-            <a href="{% link link.url %}">{{ link.title }} {% usa_icon 'launch' %}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
     </div>
   </div>
 </section>
