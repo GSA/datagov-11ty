@@ -53,4 +53,18 @@ describe('The Home Page', () => {
             cy.get('#datagov-pie-chart').should('be.visible').should('have.data', 'metric');
         });
     });
+
+    describe('Code Repository Button', () => {
+        it('has the code repository button', () => {
+            cy.get('a[href*="catalog.data.gov/code"]').should('exist');
+        });
+
+        it('displays correct text for code repository button', () => {
+            cy.get('a[href*="catalog.data.gov/code"]').should('contain.text', 'Code');
+        });
+
+        it('code repository button is visible', () => {
+            cy.get('a[href*="catalog.data.gov/code"]').should('be.visible');
+        });
+    });
 });
