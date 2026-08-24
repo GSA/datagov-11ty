@@ -54,6 +54,20 @@ describe('The Home Page', () => {
         });
     });
 
+    describe('Code Repository Button', () => {
+        it('has the code repository button', () => {
+            cy.get('a[href*="catalog.data.gov/code"]').should('exist');
+        });
+
+        it('displays correct text for code repository button', () => {
+            cy.get('a[href*="catalog.data.gov/code"]').should('contain.text', 'Code');
+        });
+
+        it('code repository button is visible', () => {
+            cy.get('a[href*="catalog.data.gov/code"]').should('be.visible');
+        });
+    });
+
     describe('SHARE IT Act Section', () => {
         it('has the code repositories section', () => {
             cy.get('section.usa-section.code-repositories').should('exist');
