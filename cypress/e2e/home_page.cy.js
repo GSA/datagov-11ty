@@ -65,6 +65,9 @@ describe('The Home Page', () => {
 
         it('code repository button is visible', () => {
             cy.get('a[href*="catalog.data.gov/code"]').should('be.visible');
+        });
+    });
+
     describe('SHARE IT Act Section', () => {
         it('has the code repositories section', () => {
             cy.get('section.usa-section.code-repositories').should('exist');
