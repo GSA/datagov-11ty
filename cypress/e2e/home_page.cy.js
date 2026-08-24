@@ -65,6 +65,18 @@ describe('The Home Page', () => {
 
         it('code repository button is visible', () => {
             cy.get('a[href*="catalog.data.gov/code"]').should('be.visible');
+    describe('SHARE IT Act Section', () => {
+        it('has the code repositories section', () => {
+            cy.get('section.usa-section.code-repositories').should('exist');
+        });
+        it('has a title mentioning source code or repositories', () => {
+            cy.get('section.usa-section.code-repositories').find('h2').should('contain.text', 'Source Code');
+        });
+        it('has a link to the /code page', () => {
+            cy.get('section.usa-section.code-repositories').find('a[href*="/code"]').should('exist');
+        });
+        it('does not display Federal Data Strategy section', () => {
+            cy.get('section.usa-section.sibling-sites').should('not.contain.text', 'Strategy');
         });
     });
 });
