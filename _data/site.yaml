@@ -84,6 +84,9 @@ catalog_filters:
   - name: Geospatial
     url: https://catalog.data.gov/?spatial_filter=geospatial
     iconName: geospatial-icon
+  - name: Code Repository
+    url: https://catalog.data.gov/code
+    iconName: code-repository-icon
 
 resource_quick_links:
   - title: Data Management & Governance
