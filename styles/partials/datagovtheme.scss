@@ -157,6 +157,11 @@ html.datagov {
         background-color: #FCFCFB;
         margin: 1rem 0;
         padding: 1rem;
+        height: 90px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 
     }
 }
