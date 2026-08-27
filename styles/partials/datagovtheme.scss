@@ -293,12 +293,6 @@ html.datagov {
         }
     }
 
-    @include at-media('desktop') {
-        .grid-col-12:nth-child(2) {
-            @include border-span($color: 'gray-10');
-        }
-
-    }
 }
 
 .site-footer {
