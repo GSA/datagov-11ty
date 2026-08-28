@@ -70,13 +70,13 @@ describe('The Home Page', () => {
 
     describe('SHARE IT Act Section', () => {
         it('has the code repositories section', () => {
-            cy.get('section.usa-section.code-repositories').should('exist');
+            cy.get('section.usa-section.sibling-sites').should('contain.text', 'Federal Source Code Repositories');
         });
         it('has a title mentioning source code or repositories', () => {
-            cy.get('section.usa-section.code-repositories').find('h2').should('contain.text', 'Source Code');
+            cy.get('section.usa-section.sibling-sites').find('h2').should('contain.text', 'Source Code');
         });
         it('has a link to the /code page', () => {
-            cy.get('section.usa-section.code-repositories').find('a[href*="/code"]').should('exist');
+            cy.get('section.usa-section.sibling-sites').find('a[href*="/code"]').should('exist');
         });
         it('does not display Federal Data Strategy section', () => {
             cy.get('section.usa-section.sibling-sites').should('not.contain.text', 'Strategy');
