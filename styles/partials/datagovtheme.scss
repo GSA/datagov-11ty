@@ -157,11 +157,7 @@ html.datagov {
         background-color: #FCFCFB;
         margin: 1rem 0;
         padding: 1rem;
-        height: 90px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        min-height: 120px;
 
     }
 }
@@ -264,6 +260,12 @@ html.datagov {
 
 .sibling-sites {
     border-top: 1px solid color('gray-10');
+
+    .grid-row {
+        @include at-media('desktop') {
+            align-items: flex-start;
+        }
+    }
 
     .logo {
         padding: 2rem 0;
