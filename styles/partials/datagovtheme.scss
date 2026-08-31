@@ -157,6 +157,7 @@ html.datagov {
         background-color: #FCFCFB;
         margin: 1rem 0;
         padding: 1rem;
+        min-height: 120px;
 
     }
 }
@@ -260,6 +261,12 @@ html.datagov {
 .sibling-sites {
     border-top: 1px solid color('gray-10');
 
+    .grid-row {
+        @include at-media('desktop') {
+            align-items: flex-start;
+        }
+    }
+
     .logo {
         padding: 2rem 0;
 
@@ -288,12 +295,6 @@ html.datagov {
         }
     }
 
-    @include at-media('desktop') {
-        .grid-col-12:nth-child(2) {
-            @include border-span($color: 'gray-10');
-        }
-
-    }
 }
 
 .site-footer {
