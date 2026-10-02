@@ -93,7 +93,11 @@ title: Datagov Metrics Dashboard
                   {%- if cacheKey == "DATASETS_PER_ORG" or cacheKey == "HARVEST_SOURCES_PER_ORG" -%}
                   <td><a href="{{helpers.baseUrl}}/metrics/organization/{{column}}/index.html">{{metrics.orgDict[column]}}</a></td>
                   {%- elsif cacheKey == "MOST_DOWNLOADED_DATASETS" or cacheKey == "MOST_CLICKED_OUTBOUND_LINKS" -%}
-                  <td><a href="{{column}}">{{column}}</a></td>
+                    {%- if column and column != "" -%}
+                    <td><a href="{{column}}">{{column}}</a></td>
+                    {%- else -%}
+                    <td>-</td>
+                    {%- endif -%}
                   {%- else -%}
                   <td>{{column}}</td>
                   {%- endif -%}
