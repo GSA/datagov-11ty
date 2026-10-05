@@ -46,6 +46,9 @@ To choose a different ordering, such as by Popularity, use the Sort by dropdown 
 
 Most users find datasets by entering search terms in the search box. If you cannot find what you are looking for, or if your search returns more than 10,000 results, you will see search tips to help refine your query.
 
+Search terms are matched across multiple dataset fields, including title, description, theme, identifier, and access level, with title and description given the most weight in ranking results. For example, typing "non-public" in the search box may surface datasets where that term appears in the title or description, as well as datasets whose access level is set to "non-public"
+> A note on access level: Users looking for a more precise way to filter by access level can also use the access_level parameter explained here:  https://data.gov/user-guide/#data-gov-catalog-api
+
 ![Data.gov catalog search tips]({{ "/_img/dg-user-guide_search-tips.png" | url }} "Data.gov catalog search tips")
 
 
@@ -93,7 +96,10 @@ Many datasets in the Data.gov are geospatial datasets, with a tie to a specific 
 The catalog application provides a public JSON API; authentication is not required. The current API documentation is available at [resources.data.gov/catalog-api](https://resources.data.gov/catalog-api/).
 
 All endpoints are RESTful and use query string parameters. Key endpoints include:
-- `GET /search` to search datasets, with parameters like `q`, `per_page`, `org_id`, `org_type`, `keyword`, `after`, `spatial_filter`, and `sort`.
+- `GET /search` to search datasets, with parameters like `q`, `per_page`, `org_id`, `org_type`, `keyword`, `after`, `spatial_filter`, `access_level` and `sort`.
+   - `access_level` - Filters results by data access level. Accepted canonical values: `public`, `restricted public`, `non-public`.
+      - For example: `https://catalog.data.gov/?access_level=non-public`
+      - Note on schema versions: Starting with DCAT-US v3.0, the accessLevel field is replaced by accessRights, which agencies may populate with free text rather than a controlled vocabulary. When possible, Data.gov normalizes accessRights text to one of the three canonical values above using keyword matching (e.g., text containing terms like "internal" or "confidential" may be mapped to non-public). However, if an agency's accessRights text doesn't match a recognized pattern, that dataset will not appear under access_level=public, restricted public, or non-public. It would remain indexed under its original free-text value instead. As a result, this filter provides strong but not guaranteed coverage across all harvested schema versions.
 - `GET /harvest_record/<record_id>` to retrieve a harvest record by UUID4, plus `/raw` for the source payload and `/transformed` for the transformed DCAT JSON (recommended for the latest transformed DCAT data).
 - `GET /api/keywords` to return unique keywords with document counts, with `size` (1-1000) and `min_count` query parameters.
 
