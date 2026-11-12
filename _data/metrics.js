@@ -65,7 +65,7 @@ const REPORTS = {
       columnKeys: ["linkUrl", "pageTitle", "eventCount"]
     },
     MOST_CLICKED_OUTBOUND_LINKS: {
-      title: "Most Clicked Outbound Links",
+      title: "Most Clicked Dataset Outbound Links",
       description: "Top 10 external link clicks from dataset pages",
       url: "link_requests__last30.[end_date].csv",
       columnKeys: ["linkUrl", "pageTitle", "eventCount"]
