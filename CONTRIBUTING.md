@@ -4,6 +4,8 @@ We're glad you're thinking about contributing to Data.gov! If you're unsure abou
 
 We want to ensure a welcoming environment for all contributors. Our staff follow the [GSA Code of Conduct](https://github.com/GSA/open-source-policy/blob/master/CODE_OF_CONDUCT.md) and all contributors should do the same.
 
+**Statement: By contributing to this repository, you agree to adhere to the [GSA Social Media Policy](https://www.gsa.gov/directives-library/gsa-social-media-policy-2). We expect all contributors, both internal and external, to engage respectfully and professionally in all project-related public communications.**
+
 For questions or issues, open a [GitHub issue](https://github.com/GSA/datagov-11ty/issues) or see the [Data.gov wiki](https://github.com/GSA/data.gov/wiki) for more information.
 
 ## Public domain
