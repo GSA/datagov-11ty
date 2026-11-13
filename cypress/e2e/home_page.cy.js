@@ -3,6 +3,29 @@ describe('The Home Page', () => {
         cy.visit('/');
     });
 
+    it('shows a focus outline on the dataset shortcut links', () => {
+        cy.visit('/');
+
+        cy.get('.catalog-filters a').first().focus().should(($link) => {
+            expect($link).to.have.css('outline-style', 'solid');
+            expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
+            expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
+        });
+    });
+
+    it('does not clip the desktop logo focus outline', () => {
+        cy.viewport(1280, 900);
+        cy.visit('/');
+
+        cy.get('.usa-logo__text a').focus().should(($link) => {
+            expect($link).to.have.css('outline-style', 'solid');
+            expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
+        });
+        cy.get('.usa-navbar').should(($navbar) => {
+            expect(getComputedStyle($navbar[0]).overflow).to.equal('visible');
+        });
+    });
+
     describe('Navigation', () => {
         it('has all the requisite nav elements', () => {
             cy.get('.usa-nav__inner')
@@ -51,6 +74,39 @@ describe('The Home Page', () => {
         });
         it('has a pie chart of dataset counts', () => {
             cy.get('#datagov-pie-chart').should('be.visible').should('have.data', 'metric');
+        });
+        it('preserves chart tooltip and pie link keyboard focus', () => {
+            cy.get('#datagov-bar-chart-org').should('have.prop', 'tabIndex', -1);
+            cy.get('#datagov-bar-chart-datasets')
+                .should('have.prop', 'tabIndex', 0)
+                .focus();
+            cy.get('#datagov-bar-chart-datasets')
+                .closest('.usa-tooltip')
+                .find('.usa-tooltip__body')
+                .should('contain.text', 'Datasets grouped by when metadata was last modified')
+                .and('have.attr', 'aria-hidden', 'false');
+            cy.get('#datagov-pie-chart').should('have.prop', 'tabIndex', -1);
+            cy.get('#datagov-pie-chart')
+                .closest('a')
+                .should('have.prop', 'tabIndex', 0)
+                .should('have.attr', 'href', '/user-guide/#dataset-totals')
+                .focus()
+                .should(($link) => {
+                    expect($link).to.have.class('metrics__card-link');
+                    expect($link).to.have.css('display', 'block');
+                    expect($link).to.have.css('outline-style', 'solid');
+                    expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
+                    expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
+                    expect($link.text()).not.to.include('class="usa-tooltip"');
+                });
+            cy.get('.usa-tooltip__body')
+                .last()
+                .should(($tooltip) => {
+                    expect($tooltip.attr('aria-hidden')).to.equal('false');
+                    expect($tooltip.text().replace(/\s+/g, ' ')).to.include(
+                        'Click to learn more about collections in our user guide'
+                    );
+                });
         });
     });
 
