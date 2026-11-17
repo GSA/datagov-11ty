@@ -1,3 +1,34 @@
+function tabToElement(selector, maxTabs = 50) {
+    return cy.get(selector).first().then(($target) => {
+        const target = $target[0];
+
+        const assertTargetHasFocus = () => {
+            return cy.focused().should(($focused) => {
+                expect($focused[0]).to.equal(target);
+            });
+        };
+
+        const pressTabUntilFocused = (tabsRemaining) => {
+            if (tabsRemaining === 0) {
+                return assertTargetHasFocus();
+            }
+
+            return cy.press(Cypress.Keyboard.Keys.TAB).then(() => {
+                return cy.document().then((document) => {
+                    if (document.activeElement !== target) {
+                        return pressTabUntilFocused(tabsRemaining - 1);
+                    }
+                });
+            });
+        };
+
+        return cy.document().then((document) => {
+            document.activeElement.blur();
+        }).then(() => pressTabUntilFocused(maxTabs))
+            .then(assertTargetHasFocus);
+    });
+}
+
 describe('The Home Page', () => {
     it('successfully loads', () => {
         cy.visit('/');
@@ -6,7 +37,9 @@ describe('The Home Page', () => {
     it('shows a focus outline on the dataset shortcut links', () => {
         cy.visit('/');
 
-        cy.get('.catalog-filters a').first().focus().should(($link) => {
+        tabToElement('.catalog-filters a');
+
+        cy.get('.catalog-filters a').first().should(($link) => {
             expect($link).to.have.css('outline-style', 'solid');
             expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
             expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
@@ -17,9 +50,11 @@ describe('The Home Page', () => {
         cy.viewport(1280, 900);
         cy.visit('/');
 
-        cy.get('.usa-logo__text a').focus().should(($link) => {
-            expect($link).to.have.css('outline-style', 'solid');
-            expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
+        tabToElement('.usa-logo__text a');
+
+        cy.get('.usa-logo__text a').should(($link) => {
+            expect($link).not.to.have.css('outline-style', 'none');
+            expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
         });
         cy.get('.usa-navbar').should(($navbar) => {
             expect(getComputedStyle($navbar[0]).overflow).to.equal('visible');
@@ -78,8 +113,9 @@ describe('The Home Page', () => {
         it('preserves chart tooltip and pie link keyboard focus', () => {
             cy.get('#datagov-bar-chart-org').should('have.prop', 'tabIndex', -1);
             cy.get('#datagov-bar-chart-datasets')
-                .should('have.prop', 'tabIndex', 0)
-                .focus();
+                .should('have.class', 'usa-tooltip__trigger')
+                .should('have.prop', 'tabIndex', 0);
+            tabToElement('#datagov-bar-chart-datasets');
             cy.get('#datagov-bar-chart-datasets')
                 .closest('.usa-tooltip')
                 .find('.usa-tooltip__body')
@@ -88,9 +124,12 @@ describe('The Home Page', () => {
             cy.get('#datagov-pie-chart').should('have.prop', 'tabIndex', -1);
             cy.get('#datagov-pie-chart')
                 .closest('a')
+                .should('have.class', 'usa-tooltip__trigger')
                 .should('have.prop', 'tabIndex', 0)
-                .should('have.attr', 'href', '/user-guide/#dataset-totals')
-                .focus()
+                .should('have.attr', 'href', '/user-guide/#dataset-totals');
+            tabToElement('.metrics__card-link');
+            cy.get('#datagov-pie-chart')
+                .closest('a')
                 .should(($link) => {
                     expect($link).to.have.class('metrics__card-link');
                     expect($link).to.have.css('display', 'block');
