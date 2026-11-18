@@ -50,6 +50,7 @@ provide an easy way to manage your navigation system {% endcomment %}
                                 <a class="usa-nav__link" href="{% page '/user-guide/' %}"><span class="text-uppercase">User Guide</span></a>
                             </li>
                         </ul>
+                        {% if secondary_navigation and secondary_navigation.size > 0 %}
                         <div class="usa-nav__secondary">
                             <ul class="usa-nav__secondary-links">
                                 {% for nav_item in secondary_navigation %}
@@ -59,6 +60,7 @@ provide an easy way to manage your navigation system {% endcomment %}
                                 {% endfor %}
                             </ul>
                         </div>
+                        {% endif %}
                     </div>
                 </nav>
             </div>
