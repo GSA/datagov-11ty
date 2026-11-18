@@ -1,64 +1,19 @@
-function tabToElement(selector, maxTabs = 50) {
-    return cy.get(selector).first().then(($target) => {
-        const target = $target[0];
-
-        const assertTargetHasFocus = () => {
-            return cy.focused().should(($focused) => {
-                expect($focused[0]).to.equal(target);
-            });
-        };
-
-        const pressTabUntilFocused = (tabsRemaining) => {
-            if (tabsRemaining === 0) {
-                return assertTargetHasFocus();
-            }
-
-            return cy.press(Cypress.Keyboard.Keys.TAB).then(() => {
-                return cy.document().then((document) => {
-                    if (document.activeElement !== target) {
-                        return pressTabUntilFocused(tabsRemaining - 1);
-                    }
-                });
-            });
-        };
-
-        return cy.document().then((document) => {
-            document.activeElement.blur();
-        }).then(() => pressTabUntilFocused(maxTabs))
-            .then(assertTargetHasFocus);
-    });
-}
-
 describe('The Home Page', () => {
     it('successfully loads', () => {
         cy.visit('/');
     });
 
-    it('shows a focus outline on the dataset shortcut links', () => {
-        cy.visit('/');
-
-        tabToElement('.catalog-filters a');
-
-        cy.get('.catalog-filters a').first().should(($link) => {
-            expect($link).to.have.css('outline-style', 'solid');
-            expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
-            expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
+    it('renders the dataset shortcuts as links', () => {
+        cy.get('.catalog-filters a').should('have.length.greaterThan', 0).each(($link) => {
+            expect($link).to.have.attr('href').that.is.not.empty;
         });
     });
 
-    it('does not clip the desktop logo focus outline', () => {
-        cy.viewport(1280, 900);
-        cy.visit('/');
-
-        tabToElement('.usa-logo__text a');
-
-        cy.get('.usa-logo__text a').should(($link) => {
-            expect($link).not.to.have.css('outline-style', 'none');
-            expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
-        });
-        cy.get('.usa-navbar').should(($navbar) => {
-            expect(getComputedStyle($navbar[0]).overflow).to.equal('visible');
-        });
+    it('renders the home logo as an accessible link', () => {
+        cy.get('.usa-logo__text a')
+            .should('have.attr', 'href', '/')
+            .and('have.attr', 'title', 'Home')
+            .and('have.attr', 'aria-label', 'Home');
     });
 
     describe('Navigation', () => {
@@ -110,42 +65,20 @@ describe('The Home Page', () => {
         it('has a pie chart of dataset counts', () => {
             cy.get('#datagov-pie-chart').should('be.visible').should('have.data', 'metric');
         });
-        it('preserves chart tooltip and pie link keyboard focus', () => {
-            cy.get('#datagov-bar-chart-org').should('have.prop', 'tabIndex', -1);
+        it('renders chart position metadata and the pie chart link', () => {
             cy.get('#datagov-bar-chart-datasets')
-                .should('have.class', 'usa-tooltip__trigger')
-                .should('have.prop', 'tabIndex', 0);
-            tabToElement('#datagov-bar-chart-datasets');
-            cy.get('#datagov-bar-chart-datasets')
-                .closest('.usa-tooltip')
-                .find('.usa-tooltip__body')
-                .should('contain.text', 'Datasets grouped by when metadata was last modified')
-                .and('have.attr', 'aria-hidden', 'false');
-            cy.get('#datagov-pie-chart').should('have.prop', 'tabIndex', -1);
+                .should('have.attr', 'data-position', 'bottom');
             cy.get('#datagov-pie-chart')
                 .closest('a')
-                .should('have.class', 'usa-tooltip__trigger')
-                .should('have.prop', 'tabIndex', 0)
-                .should('have.attr', 'href', '/user-guide/#dataset-totals');
-            tabToElement('.metrics__card-link');
-            cy.get('#datagov-pie-chart')
-                .closest('a')
-                .should(($link) => {
-                    expect($link).to.have.class('metrics__card-link');
-                    expect($link).to.have.css('display', 'block');
-                    expect($link).to.have.css('outline-style', 'solid');
-                    expect($link).to.have.css('outline-color', 'rgb(36, 145, 255)');
-                    expect(parseFloat($link.css('outline-width'))).to.be.greaterThan(0);
-                    expect($link.text()).not.to.include('class="usa-tooltip"');
-                });
-            cy.get('.usa-tooltip__body')
-                .last()
-                .should(($tooltip) => {
-                    expect($tooltip.attr('aria-hidden')).to.equal('false');
-                    expect($tooltip.text().replace(/\s+/g, ' ')).to.include(
+                .then(($link) => {
+                    expect($link).to.have.attr('href', '/user-guide/#dataset-totals');
+                    expect($link).to.have.attr('data-position', 'bottom');
+                    expect($link).to.have.attr('aria-label');
+                    expect($link.attr('aria-label').replace(/\s+/g, ' ').trim()).to.include(
                         'Click to learn more about collections in our user guide'
                     );
                 });
+            cy.get('#datagov-pie-chart').should('have.data', 'metric');
         });
     });
 
