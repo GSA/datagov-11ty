@@ -34,6 +34,10 @@
         .usa-navbar {
             max-width: none;
             padding-left: 0;
+
+            @include at-media('desktop') {
+                overflow: visible;
+            }
         }
 
         .usa-nav__inner {

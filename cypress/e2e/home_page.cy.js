@@ -3,6 +3,19 @@ describe('The Home Page', () => {
         cy.visit('/');
     });
 
+    it('renders the dataset shortcuts as links', () => {
+        cy.get('.catalog-filters a').should('have.length.greaterThan', 0).each(($link) => {
+            expect($link).to.have.attr('href').that.is.not.empty;
+        });
+    });
+
+    it('renders the home logo as an accessible link', () => {
+        cy.get('.usa-logo__text a')
+            .should('have.attr', 'href', '/')
+            .and('have.attr', 'title', 'Home')
+            .and('have.attr', 'aria-label', 'Home');
+    });
+
     describe('Navigation', () => {
         it('has all the requisite nav elements', () => {
             cy.get('.usa-nav__inner')
@@ -51,6 +64,21 @@ describe('The Home Page', () => {
         });
         it('has a pie chart of dataset counts', () => {
             cy.get('#datagov-pie-chart').should('be.visible').should('have.data', 'metric');
+        });
+        it('renders chart position metadata and the pie chart link', () => {
+            cy.get('#datagov-bar-chart-datasets')
+                .should('have.attr', 'data-position', 'bottom');
+            cy.get('#datagov-pie-chart')
+                .closest('a')
+                .then(($link) => {
+                    expect($link).to.have.attr('href', '/user-guide/#dataset-totals');
+                    expect($link).to.have.attr('data-position', 'bottom');
+                    expect($link).to.have.attr('aria-label');
+                    expect($link.attr('aria-label').replace(/\s+/g, ' ').trim()).to.include(
+                        'Click to learn more about collections in our user guide'
+                    );
+                });
+            cy.get('#datagov-pie-chart').should('have.data', 'metric');
         });
     });
 

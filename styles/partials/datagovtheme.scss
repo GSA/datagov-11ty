@@ -148,7 +148,13 @@ html.datagov {
     background-size: cover;
 
     a {
-        color: color('ink');
+      display: block;
+      color: color('ink');
+
+       &:focus-visible {
+        outline: 0.25rem solid color('blue-40v');
+        outline-offset: 0.25rem;
+      }
     }
 
     .icon-container {
@@ -241,6 +247,15 @@ html.datagov {
         border: 1px solid color('base-lighter');
         border-radius: 4px;
         background-color: white;
+
+        &-link {
+            display: block;
+
+            &:focus-visible {
+                outline: 0.25rem solid color('blue-40v');
+                outline-offset: 0.25rem;
+            }
+        }
 
         &--image {
             @extend .metrics__card;

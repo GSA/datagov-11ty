@@ -59,12 +59,12 @@ async function imageShortcode(src, alt, uswdsInherited) {
 }
 
 const usaIconShortcode = (name, className = '') =>
-    `<svg class="usa-icon ${className}" aria-hidden="true" role="img">
+    `<svg class="usa-icon ${className}" aria-hidden="true">
     <use xlink:href="#svg-${name}"></use>
   </svg>`;
 
 const datagovIconShortcode = (name, className = '') =>
-    `<svg class="usa-icon datagov-icon ${className}" aria-hidden="true" role="img">
+    `<svg class="usa-icon datagov-icon ${className}" aria-hidden="true">
         <use xlink:href="#svg-${name}"></use>
     </svg>`;
 
